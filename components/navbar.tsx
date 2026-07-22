@@ -8,6 +8,8 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
+import Link from "next/link"
+
 export function NavBar() {
   return (
     <div className="flex left">
@@ -15,91 +17,69 @@ export function NavBar() {
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/" />}
+              render={<Link href="/">Home</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Home
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/schedule" />}
+              render={<Link href="/schedule">Game Schedule</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Game Schedule
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/standings" />}
+              render={<Link href="/standings">Season Standings and Team Records</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Season Standings and Team Records
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/results" />}
+              render={<Link href="/results">Game Results</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Game Results
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/fieldinfo" />}
+              render={<Link href="/fieldinfo">Field Information</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Field Information
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/forms" />}
+              render={<Link href="/forms">Forms</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Forms
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/rules" />}
+              render={<Link href="/rules">Rules of the Game</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Rules of the Game
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/leaguehistory" />}
+              render={<Link href="/leaguehistory">League History</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              League History
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/teamregistration" />}
+              render={<Link href="/teamregistration">Team Registration</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Team Registration
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/lostandfound" />}
+              render={<Link href="/lostandfound">Lost and Found</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Lost and Found
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<a href="/contact" />}
+              render={<Link href="/contact">Contact Us</Link>}
               className={navigationMenuTriggerStyle()}
-            >
-              Contact Us
-            </NavigationMenuLink>
+            />
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
