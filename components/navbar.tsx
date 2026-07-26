@@ -18,7 +18,7 @@ type NavBarProps = {
 
 export function NavBar({ activeSection, setActiveSection }: NavBarProps) {
   return (
-    <div className="flex left">
+    <div className="flex left w-1/5 mx-5">
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -37,7 +37,7 @@ export function NavBar({ activeSection, setActiveSection }: NavBarProps) {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              render={<p>Season Standings and Team Records</p>}
+              render={<p>Season Standings <br/> and Team Records</p>}
               className={navigationMenuTriggerStyle()}
               onClick={() => setActiveSection?.("standings")}
             />

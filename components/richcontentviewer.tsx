@@ -3,7 +3,11 @@ import "@wix/ricos/css/all-plugins-viewer.css";
 
 const plugins = quickStartViewerPlugins();
 
-const RichContentViewer = ({ content }) => {
+type RichContentViewerProps = {
+  content: any;
+};
+
+const RichContentViewer: React.FC<RichContentViewerProps> = ({ content }) => {
   return <RicosViewer content={content} plugins={plugins} />;
 };
 export default RichContentViewer;

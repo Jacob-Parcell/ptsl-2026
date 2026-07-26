@@ -2,6 +2,10 @@
 
 import { useState } from "react"
 import { NavBar } from "@/components/navbar"
+import RichContentViewer from "@/components/richcontentviewer"
+
+import Schedule from "@/app/schedule/page"
+import Results from "@/app/results/page"
 
 
 export type SectionKey =
@@ -39,26 +43,29 @@ function getSectionContent(
 ) {
   const headline = sectionTitles[section]
 
-  let testContent = siteContents.find(item => item.title == "Announcements");
-  console.log(testContent);
+  let announcementsContent = siteContents.find(item => item.title == "Announcements");
+  let fieldInfoContent = siteContents.find(item => item.title == "FieldInfo");
+  let formsContent = siteContents.find(item => item.title == "Forms");
+  let rulesContent = siteContents.find(item => item.title == "Rules");
+  let leagueHistoryContent = siteContents.find(item => item.title == "LeagueHistory");
 
   switch(section)
   {
     case "home":
       return(
-      <div>
-        <div>test home</div>
+      <div className="w-full min-w-60">
+        <div><RichContentViewer content={announcementsContent.content}/></div>
       </div>
       );
 
     case "schedule":
-      return(<div>test schedule</div>);
+      return(<Schedule masterSheet={masterSheet}/>);
       
     case "standings":
       return(<div>test standings</div>);
 
     case "results":
-      return(<div>test results</div>);
+      return(<Results masterSheet={masterSheet}/>);
 
     case "fieldinfo":
       return(<div>test fieldinfo</div>);
@@ -89,23 +96,22 @@ function getSectionContent(
 export function SpaApp({
   teamList,
   masterSheet,
-  siteContents
+  siteContents,
 }: {
   teamList: any[]
   masterSheet: any[]
   siteContents: any[]
-
 }) {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-950">
       <div className="flex justify-center">
-        <h1 className="text-3xl/30">Welcome to Prime Time Softball League</h1>
+        <h1 className="text-3xl/30 min-w-xl mx-auto text-center">Welcome to Prime Time Softball League</h1>
       </div>
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <div className="mx-auto">
+        <div className="mx-auto w-full px-25">
           {getSectionContent(activeSection, teamList, masterSheet, siteContents)}
         </div>
       </main>

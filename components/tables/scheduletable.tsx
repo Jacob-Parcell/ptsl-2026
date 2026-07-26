@@ -8,23 +8,11 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-import { items } from '@wix/data';
-import { createClient, OAuthStrategy, WixClient } from "@wix/sdk";
-
-// const myWixClient = createClient({
-//   modules: { items },
-//   auth: OAuthStrategy({
-//     clientId: process.env.WIX_STUDIO_HEADLESS_CMS_CLIENT_ID!
-//   })
-// })
-
-// const masterList = await myWixClient.items.query("MasterSheet").find();
-
 type Props = {
-  masterList: any
+  masterSheet: any
 }
 
-export function ScheduleTable({masterList}: Props) {
+export function ScheduleTable({masterSheet}: Props) {
   const formatDate = (value: string | Date) => {
     if (!value) return "";
     const date = new Date(value);
@@ -62,7 +50,7 @@ export function ScheduleTable({masterList}: Props) {
             </TableRow>
         </TableHeader>
         <TableBody>
-            {masterList.items.map((item: any) => (
+            {masterSheet.map((item: any) => (
                 <TableRow key={item._id}>
                     <TableCell>{item.title}</TableCell>
                     <TableCell>{formatDate(item.date)}</TableCell>
@@ -78,16 +66,3 @@ export function ScheduleTable({masterList}: Props) {
     </Table>
   );
 }
-
-// {dataItemsList.items.map((item: any) => (
-//     <div key={item._id}>
-//     <h2>{item.title}</h2>
-//     </div>
-// ))}
-
-//             <TableRow>
-//                 <TableCell>INV001</TableCell>
-//                 <TableCell>Paid</TableCell>
-//                 <TableCell>Credit Card</TableCell>
-//                 <TableCell>$250.00</TableCell>
-//             </TableRow>
