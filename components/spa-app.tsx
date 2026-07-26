@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { NavBar } from "@/components/navbar"
 
+
 export type SectionKey =
   | "home"
   | "schedule"
@@ -33,14 +34,22 @@ const sectionTitles: Record<SectionKey, string> = {
 function getSectionContent(
   section: SectionKey,
   teamList: any[],
-  masterSheet: any[]
+  masterSheet: any[],
+  siteContents: any[]
 ) {
   const headline = sectionTitles[section]
+
+  let testContent = siteContents.find(item => item.title == "Announcements");
+  console.log(testContent);
 
   switch(section)
   {
     case "home":
-      return(<div>test home</div>);
+      return(
+      <div>
+        <div>test home</div>
+      </div>
+      );
 
     case "schedule":
       return(<div>test schedule</div>);
@@ -80,9 +89,12 @@ function getSectionContent(
 export function SpaApp({
   teamList,
   masterSheet,
+  siteContents
 }: {
   teamList: any[]
   masterSheet: any[]
+  siteContents: any[]
+
 }) {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
 
@@ -94,7 +106,7 @@ export function SpaApp({
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto">
-          {getSectionContent(activeSection, teamList, masterSheet)}
+          {getSectionContent(activeSection, teamList, masterSheet, siteContents)}
         </div>
       </main>
     </div>
