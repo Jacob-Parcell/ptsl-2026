@@ -10,10 +10,10 @@ const myWixClient = createClient({
 })
 
 const teamList = await myWixClient.items.query("TeamList").find()
-const masterList = await myWixClient.items.query("MasterSheet").find()
+const masterSheet = await myWixClient.items.query("MasterSheet").find()
 
 export default function Home() {
-  return <SpaApp teamList={teamList.items} masterList={masterList.items} />
+  return <SpaApp teamList={teamList.items} masterSheet={masterSheet.items} />
 }
 
 // export default function Home() {

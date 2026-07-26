@@ -33,7 +33,7 @@ const sectionTitles: Record<SectionKey, string> = {
 function getSectionContent(
   section: SectionKey,
   teamList: any[],
-  masterList: any[]
+  masterSheet: any[]
 ) {
   const headline = sectionTitles[section]
 
@@ -79,20 +79,23 @@ function getSectionContent(
 
 export function SpaApp({
   teamList,
-  masterList,
+  masterSheet,
 }: {
   teamList: any[]
-  masterList: any[]
+  masterSheet: any[]
 }) {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-950">
-      <div className="sticky top-0 z-20 border-b border-slate-200 bg-slate-50/95 backdrop-blur">
-        <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
+      <div className="flex justify-center">
+        <h1 className="text-3xl/30">Welcome to Prime Time Softball League</h1>
       </div>
-      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        {getSectionContent(activeSection, teamList, masterList)}
+      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
+        <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
+        <div className="mx-auto">
+          {getSectionContent(activeSection, teamList, masterSheet)}
+        </div>
       </main>
     </div>
   )
