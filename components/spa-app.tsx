@@ -105,13 +105,13 @@ export function SpaApp({
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-950">
+    <div className="min-h-screen bg-background text-foreground">
       <div className="flex justify-center">
-        <h1 className="text-3xl/30 min-w-xl mx-auto text-center">Welcome to Prime Time Softball League</h1>
+        <h1 className="site-title">Welcome to <br/> Prime Time Softball League</h1>
       </div>
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <div className="mx-auto w-full px-25">
+        <div className="mx-auto w-full px-10">
           {getSectionContent(activeSection, teamList, masterSheet, siteContents)}
         </div>
       </main>

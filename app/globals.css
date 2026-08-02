@@ -127,3 +127,19 @@
     @apply font-sans;
     }
 }
+
+.rich-content {
+  color: var(--foreground);
+}
+
+.rich-content * {
+  color: inherit !important;
+}
+
+h1 {
+  @apply mb-4 text-center text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl;
+}
+
+.site-title {
+  @apply text-3xl min-w-xl mx-auto text-center leading-tight mb-4 font-bold tracking-tight md:text-5xl lg:text-6xl;
+}

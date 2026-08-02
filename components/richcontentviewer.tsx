@@ -8,6 +8,10 @@ type RichContentViewerProps = {
 };
 
 const RichContentViewer: React.FC<RichContentViewerProps> = ({ content }) => {
-  return <RicosViewer content={content} plugins={plugins} />;
+  return (
+    <div className="rich-content text-foreground">
+      <RicosViewer content={content} plugins={plugins} />
+    </div>
+  )
 };
 export default RichContentViewer;
