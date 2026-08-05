@@ -55,19 +55,22 @@ function getSectionContent(
     case "home":
       return(
       <div className="w-full min-w-60">
-        <div><RichContentViewer content={announcementsContent.content}/></div>
+        <RichContentViewer content={announcementsContent.content}/>
       </div>
       );
 
     case "schedule":
-      return(<Schedule masterSheet={masterSheet}/>);
+      return(<div className="w-full min-w-60">
+        <Schedule masterSheet={masterSheet}/>
+        </div>);
       
     case "standings":
       return(<div>test standings</div>);
 
     case "results":
-      return(<Results masterSheet={masterSheet}/>);
-
+      return(<div className="w-full min-w-60">
+        <Results masterSheet={masterSheet}/>
+        </div>);
     case "fieldinfo":
       return(<div>test fieldinfo</div>);
 
@@ -81,7 +84,9 @@ function getSectionContent(
       return(<div>test leaguehistory</div>);
 
     case "teamregistration":
-      return(<TeamRegistration/>);
+      return (<div className="w-full min-w-60 flex justify-center">
+        <TeamRegistration />
+      </div>);
 
     case "lostandfound":
       return(<div>test lostandfound</div>);
