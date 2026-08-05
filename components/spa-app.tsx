@@ -6,6 +6,7 @@ import RichContentViewer from "@/components/richcontentviewer"
 
 import Schedule from "@/app/schedule/page"
 import Results from "@/app/results/page"
+import TeamRegistration from "@/app/teamregistration/page"
 
 
 export type SectionKey =
@@ -80,7 +81,7 @@ function getSectionContent(
       return(<div>test leaguehistory</div>);
 
     case "teamregistration":
-      return(<div>test teamregistration</div>);
+      return(<TeamRegistration/>);
 
     case "lostandfound":
       return(<div>test lostandfound</div>);
@@ -111,7 +112,7 @@ export function SpaApp({
       </div>
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <div className="mx-auto w-full px-10">
+        <div className="mx-auto w-full px-10 flex justify-center">
           {getSectionContent(activeSection, teamList, masterSheet, siteContents)}
         </div>
       </main>

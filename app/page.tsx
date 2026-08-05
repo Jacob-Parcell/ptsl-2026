@@ -16,11 +16,3 @@ const siteContents = await myWixClient.items.query("SiteContents").find()
 export default function Home() {
   return <SpaApp teamList={teamList.items} masterSheet={masterSheet.items} siteContents={siteContents.items} />
 }
-
-// export default function Home() {
-//   return (
-//       <div className='flex left' >
-//           <NavBar></NavBar>
-//       </div>
-//   );
-// }
