@@ -36,8 +36,11 @@ const formSchema = z.object({
   managerName: z.string(),
   email: z.email(),
   phoneNumber: phoneSchema
-})
+});
+
 export default function TeamRegistration() {
+  const [isSubmitted, setIsSubmitted] = React.useState(false)
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -63,6 +66,7 @@ export default function TeamRegistration() {
         //throw new Error(body?.error || "Submission failed")
       }
 
+      setIsSubmitted(true)
       toast.success("Registration submitted successfully")
 
     } catch(error) {
@@ -81,8 +85,14 @@ export default function TeamRegistration() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <form id="team-registration" onSubmit={form.handleSubmit(onSubmit)}>
-          <FieldGroup>
+        {isSubmitted ? (
+          <div className="space-y-4">
+            <p className="text-lg font-semibold">Registration complete!</p>
+            <p>Your team registration was submitted successfully.</p>
+          </div>
+        ) : (
+          <form id="team-registration" onSubmit={form.handleSubmit(onSubmit)}>
+            <FieldGroup>
             <Controller
               name="teamName"
               control={form.control}
@@ -179,6 +189,7 @@ export default function TeamRegistration() {
             </Field>
           </CardFooter>
         </form>
+      )}
       </CardContent>
     </Card>
   )
