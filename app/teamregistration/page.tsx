@@ -29,20 +29,13 @@ import {
   InputGroupText,
   InputGroupTextarea,
 } from "@/components/ui/input-group"
+import { phoneSchema, PhoneInput } from "@/components/ui/phone-input"
 
 const formSchema = z.object({
-  teamName: z
-    .string(),
-
-  managerName: z
-    .string(),
-  
-  email: z
-    .string(),
-
-  phoneNumber: z
-    .string()
-
+  teamName: z.string(),
+  managerName: z.string(),
+  email: z.email(),
+  phoneNumber: phoneSchema
 })
 
 export default function TeamRegistration() {
@@ -96,7 +89,7 @@ export default function TeamRegistration() {
                     {...field}
                     id="team-registration-teamName"
                     aria-invalid={fieldState.invalid}
-                    
+                    required
                     autoComplete="off"
                   />
                   {fieldState.invalid && (
@@ -117,7 +110,7 @@ export default function TeamRegistration() {
                     {...field}
                     id="team-registration-managerName"
                     aria-invalid={fieldState.invalid}
-                    
+                    required
                     autoComplete="off"
                   />
                   {fieldState.invalid && (
@@ -138,7 +131,7 @@ export default function TeamRegistration() {
                     {...field}
                     id="team-registration-email"
                     aria-invalid={fieldState.invalid}
-                    
+                    required
                     autoComplete="off"
                   />
                   {fieldState.invalid && (
@@ -155,11 +148,11 @@ export default function TeamRegistration() {
                   <FieldLabel htmlFor="team-registration-phoneNumber">
                     Phone Number
                   </FieldLabel>
-                  <Input
+                  <PhoneInput
                     {...field}
                     id="team-registration-phoneNumber"
                     aria-invalid={fieldState.invalid}
-                    
+                    required
                     autoComplete="off"
                   />
                   {fieldState.invalid && (
