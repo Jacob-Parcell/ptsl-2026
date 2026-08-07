@@ -18,8 +18,8 @@ type NavBarProps = {
 
 export function NavBar({ activeSection, setActiveSection }: NavBarProps) {
   return (
-    <div className="flex left w-1/5 mx-5">
-      <NavigationMenu>
+    <div className="flex w-1/5 mx-5">
+      <NavigationMenu className="items-start">
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuLink

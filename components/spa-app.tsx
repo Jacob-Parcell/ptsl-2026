@@ -7,6 +7,7 @@ import RichContentViewer from "@/components/richcontentviewer"
 import Schedule from "@/app/schedule/page"
 import Results from "@/app/results/page"
 import TeamRegistration from "@/app/teamregistration/page"
+import Contact from "@/app/contact/page"
 
 
 export type SectionKey =
@@ -45,10 +46,10 @@ function getSectionContent(
   const headline = sectionTitles[section]
 
   let announcementsContent = siteContents.find(item => item.title == "Announcements");
-  let fieldInfoContent = siteContents.find(item => item.title == "FieldInfo");
+  let fieldInfoContent = siteContents.find(item => item.title == "Field Info");
   let formsContent = siteContents.find(item => item.title == "Forms");
-  let rulesContent = siteContents.find(item => item.title == "Rules");
-  let leagueHistoryContent = siteContents.find(item => item.title == "LeagueHistory");
+  let rulesContent = siteContents.find(item => item.title == "Rules of the Game");
+  let leagueHistoryContent = siteContents.find(item => item.title == "League History");
 
   switch(section)
   {
@@ -71,18 +72,27 @@ function getSectionContent(
       return(<div className="w-full min-w-60">
         <Results masterSheet={masterSheet}/>
         </div>);
-    case "fieldinfo":
-      return(<div>test fieldinfo</div>);
-
+    /*case "fieldinfo":
+      return(
+      <div className="w-full min-w-60">
+        <RichContentViewer content={fieldInfoContent.content}/>
+      </div>
+      );*/
     case "forms":
       return(<div>test forms</div>);
 
     case "rules":
-      return(<div>test rules</div>);
-
+      return(
+      <div className="w-full min-w-60">
+        <RichContentViewer content={rulesContent.content}/>
+      </div>
+      );
     case "leaguehistory":
-      return(<div>test leaguehistory</div>);
-
+      return(
+      <div className="w-full min-w-60">
+        <RichContentViewer content={leagueHistoryContent.content}/>
+      </div>
+      );
     case "teamregistration":
       return (<div className="w-full min-w-60 flex justify-center">
         <TeamRegistration />
@@ -92,8 +102,9 @@ function getSectionContent(
       return(<div>test lostandfound</div>);
 
     case "contact":
-      return(<div>test contact</div>);
-
+      return (<div className="w-full min-w-60 flex justify-center">
+        <Contact />
+      </div>);
     default:
       return(<div>test default</div>);
   }
@@ -115,7 +126,7 @@ export function SpaApp({
       <div className="flex justify-center">
         <h1 className="site-title">Welcome to <br/> Prime Time Softball League</h1>
       </div>
-      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex align-center">
+      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto w-full px-10 flex justify-center">
           {getSectionContent(activeSection, teamList, masterSheet, siteContents)}

@@ -143,3 +143,9 @@ h1 {
 .site-title {
   @apply text-3xl min-w-xl mx-auto text-center leading-tight mb-4 font-bold tracking-tight md:text-5xl lg:text-6xl;
 }
+
+.winner {
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+}

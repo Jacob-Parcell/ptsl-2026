@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
+    "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^5.7.1",
     "@wix/data": "^1.0.486",
     "@wix/ricos": "^11.6.6",

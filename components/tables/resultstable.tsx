@@ -52,10 +52,10 @@ export function ResultsTable({masterSheet}: Props) {
                 <TableRow key={item._id}>
                     <TableCell>{item.title}</TableCell>
                     <TableCell>{formatDate(item.date)}</TableCell>
-                    <TableCell>{item.visitor?.title}</TableCell>
-                    <TableCell>{item.visitorScore}</TableCell>
-                    <TableCell>{item.home?.title}</TableCell>
-                    <TableCell>{item.homeScore}</TableCell>
+                    <TableCell className={item.visitorScore > item.homeScore ? "winner" : ""}>{item.visitor?.title}</TableCell>
+                    <TableCell className={item.visitorScore > item.homeScore ? "winner" : ""}>{item.visitorScore}</TableCell>
+                    <TableCell className={item.homeScore > item.visitorScore ? "winner" : ""}>{item.home?.title}</TableCell>
+                    <TableCell className={item.homeScore > item.visitorScore ? "winner" : ""}>{item.homeScore}</TableCell>
                 </TableRow>
             ))}
         </TableBody>
