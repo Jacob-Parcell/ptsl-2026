@@ -34,6 +34,32 @@ export function ResultsTable({masterSheet}: Props) {
       minute: "2-digit",
     }).format(date);
   };
+
+  let tableWithGaps = [];
+  tableWithGaps.push(masterSheet[0]);
+
+  for(let i = 1; i < masterSheet.length; i++)
+  {
+      if(masterSheet[i - 1].title == masterSheet[i].title)
+      {
+        tableWithGaps.push(masterSheet[i]);
+      }
+      else
+      {
+        const gap = {
+          _id: "gap before " + masterSheet[i]._id,
+          title: "",
+          date: "",
+          visitor: {title: ""},
+          home: {title: ""},
+          visitorScore: "",
+          homeScore: ""
+        };
+
+        tableWithGaps.push(gap);
+        tableWithGaps.push(masterSheet[i]);
+      }
+  }
   
   return (
     <Table>
@@ -48,7 +74,7 @@ export function ResultsTable({masterSheet}: Props) {
             </TableRow>
         </TableHeader>
         <TableBody>
-            {masterSheet.map((item: any) => (
+            {tableWithGaps.map((item: any) => (
                 <TableRow key={item._id}>
                     <TableCell>{item.title}</TableCell>
                     <TableCell>{formatDate(item.date)}</TableCell>

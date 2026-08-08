@@ -73,7 +73,7 @@ export default function Contact() {
   }
 
   return (
-    <Card className="w-full sm:max-w-md">
+    <Card className="w-full sm:max-w-md align-middle">
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
       </CardHeader>
@@ -150,7 +150,7 @@ export default function Contact() {
             />
           </FieldGroup>
           <CardFooter>
-            <Field orientation="horizontal">
+            <Field orientation="horizontal" className="flex justify-center">
               <Button type="button" variant="outline" onClick={() => form.reset()}>
                 Reset
               </Button>
