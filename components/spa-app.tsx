@@ -8,6 +8,7 @@ import Schedule from "@/app/schedule/page"
 import Results from "@/app/results/page"
 import TeamRegistration from "@/app/teamregistration/page"
 import Contact from "@/app/contact/page"
+import Standings from "@/app/standings/page"
 
 
 export type SectionKey =
@@ -66,8 +67,9 @@ function getSectionContent(
         </div>);
       
     case "standings":
-      return(<div>test standings</div>);
-
+      return(<div className="w-full min-w-60">
+        <Standings masterSheet={masterSheet} teamList={teamList}/>
+        </div>);
     case "results":
       return(<div className="w-full min-w-60">
         <Results masterSheet={masterSheet}/>
