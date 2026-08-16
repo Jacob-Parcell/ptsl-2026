@@ -1,6 +1,6 @@
 <h1>Functional TODO</h1>
 
-- [ ] add season standings and team records tables
+- [x] add season standings and team records tables
 - [ ] add field info page
 - [ ] add forms page
 - [ ] update links in game rules page
@@ -10,10 +10,8 @@
 <h1>Aesthetic TODO</h1>
 
 - [ ] add a gap row between week numbers on schedule and results pages
-- [ ] check winner highlighting in light mode
-- [ ] add dark/light toggle button?
+- [ ] Set website default styling to light mode
 - [ ] add pictures
 - [ ] make form card wider in desktop mode
-- [ ] make adjustments for mobil
+- [ ] make adjustments for mobile
   - [ ] hamburger menu instead of sidebar nav?
-     
