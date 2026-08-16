@@ -1,6 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { items } from "@wix/data"
+import { createClient, OAuthStrategy } from "@wix/sdk"
 import { NavBar } from "@/components/navbar"
 import RichContentViewer from "@/components/richcontentviewer"
 
@@ -10,6 +12,12 @@ import TeamRegistration from "@/app/teamregistration/page"
 import Contact from "@/app/contact/page"
 import Standings from "@/app/standings/page"
 
+const myWixClient = createClient({
+  modules: { items },
+  auth: OAuthStrategy({
+    clientId: process.env.NEXT_PUBLIC_WIX_STUDIO_HEADLESS_CMS_CLIENT_ID!,
+  }),
+})
 
 export type SectionKey =
   | "home"
@@ -38,6 +46,24 @@ const sectionTitles: Record<SectionKey, string> = {
   contact: "Contact Us",
 }
 
+async function fetchWixData() {
+  const [teamList, masterSheet, siteContents] = await Promise.all([
+    myWixClient.items.query("TeamList").find(),
+    myWixClient.items
+      .query("MasterSheet")
+      .ascending("title", "startTime")
+      .include("visitor", "home", "field", "umpire")
+      .find(),
+    myWixClient.items.query("SiteContents").find(),
+  ])
+
+  return {
+    teamList: teamList.items,
+    masterSheet: masterSheet.items,
+    siteContents: siteContents.items,
+  }
+}
+
 function getSectionContent(
   section: SectionKey,
   teamList: any[],
@@ -46,92 +72,127 @@ function getSectionContent(
 ) {
   const headline = sectionTitles[section]
 
-  let announcementsContent = siteContents.find(item => item.title == "Announcements");
-  let fieldInfoContent = siteContents.find(item => item.title == "Field Info");
-  let formsContent = siteContents.find(item => item.title == "Forms");
-  let rulesContent = siteContents.find(item => item.title == "Rules of the Game");
-  let leagueHistoryContent = siteContents.find(item => item.title == "League History");
+  const announcementsContent = siteContents.find((item) => item.title === "Announcements")
+  const fieldInfoContent = siteContents.find((item) => item.title === "Field Info")
+  const formsContent = siteContents.find((item) => item.title === "Forms")
+  const rulesContent = siteContents.find((item) => item.title === "Rules of the Game")
+  const leagueHistoryContent = siteContents.find((item) => item.title === "League History")
 
-  switch(section)
-  {
+  switch (section) {
     case "home":
-      return(
-      <div className="w-full min-w-60">
-        <RichContentViewer content={announcementsContent.content}/>
-      </div>
-      );
+      return (
+        <div className="w-full min-w-60">
+          <RichContentViewer content={announcementsContent?.content} />
+        </div>
+      )
 
     case "schedule":
-      return(<div className="w-full min-w-60">
-        <Schedule masterSheet={masterSheet}/>
-        </div>);
-      
+      return (
+        <div className="w-full min-w-60">
+          <Schedule masterSheet={masterSheet} />
+        </div>
+      )
+
     case "standings":
-      return(<div className="w-full min-w-60">
-        <Standings masterSheet={masterSheet} teamList={teamList}/>
-        </div>);
+      return (
+        <div className="w-full min-w-60">
+          <Standings masterSheet={masterSheet} teamList={teamList} />
+        </div>
+      )
     case "results":
-      return(<div className="w-full min-w-60">
-        <Results masterSheet={masterSheet}/>
-        </div>);
+      return (
+        <div className="w-full min-w-60">
+          <Results masterSheet={masterSheet} />
+        </div>
+      )
     /*case "fieldinfo":
-      return(
+      return (
       <div className="w-full min-w-60">
         <RichContentViewer content={fieldInfoContent.content}/>
       </div>
       );*/
     case "forms":
-      return(<div>test forms</div>);
+      return <div>test forms</div>
 
     case "rules":
-      return(
-      <div className="w-full min-w-60">
-        <RichContentViewer content={rulesContent.content}/>
-      </div>
-      );
+      return (
+        <div className="w-full min-w-60">
+          <RichContentViewer content={rulesContent?.content} />
+        </div>
+      )
     case "leaguehistory":
-      return(
-      <div className="w-full min-w-60">
-        <RichContentViewer content={leagueHistoryContent.content}/>
-      </div>
-      );
+      return (
+        <div className="w-full min-w-60">
+          <RichContentViewer content={leagueHistoryContent?.content} />
+        </div>
+      )
     case "teamregistration":
-      return (<div className="w-full min-w-60 flex justify-center">
-        <TeamRegistration />
-      </div>);
+      return (
+        <div className="w-full min-w-60 flex justify-center">
+          <TeamRegistration />
+        </div>
+      )
 
     case "lostandfound":
-      return(<div>test lostandfound</div>);
+      return <div>test lostandfound</div>
 
     case "contact":
-      return (<div className="w-full min-w-60 flex justify-center">
-        <Contact />
-      </div>);
+      return (
+        <div className="w-full min-w-60 flex justify-center">
+          <Contact />
+        </div>
+      )
     default:
-      return(<div>test default</div>);
+      return <div>test default</div>
   }
 }
 
-export function SpaApp({
-  teamList,
-  masterSheet,
-  siteContents,
-}: {
-  teamList: any[]
-  masterSheet: any[]
-  siteContents: any[]
-}) {
+export function SpaApp() {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
+  const [teamList, setTeamList] = useState<any[]>([])
+  const [masterSheet, setMasterSheet] = useState<any[]>([])
+  const [siteContents, setSiteContents] = useState<any[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    let ignore = false
+
+    async function load() {
+      setIsLoading(true)
+
+      try {
+        const data = await fetchWixData()
+
+        if (!ignore) {
+          setTeamList(data.teamList)
+          setMasterSheet(data.masterSheet)
+          setSiteContents(data.siteContents)
+        }
+      } finally {
+        if (!ignore) {
+          setIsLoading(false)
+        }
+      }
+    }
+
+    load()
+
+    return () => {
+      ignore = true
+    }
+  }, [])
 
   return (
     <div className="min-h-screen bg-background text-foreground">
       <div className="flex justify-center">
-        <h1 className="site-title">Welcome to <br/> Prime Time Softball League</h1>
+        <h1 className="site-title">
+          Welcome to <br /> Prime Time Softball League
+        </h1>
       </div>
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto w-full px-10 flex justify-center">
-          {getSectionContent(activeSection, teamList, masterSheet, siteContents)}
+          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents)}
         </div>
       </main>
     </div>
