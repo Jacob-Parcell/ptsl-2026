@@ -115,6 +115,12 @@ export function StandingsTable({masterSheet, teamList}: Props) {
       <div className="ptsl-results-card__table-wrap" role="region" aria-label="Season Standings table">
         <Table className="ptsl-results-card__table">
           <caption>Prime Time Softball League Season Standings</caption>
+          <colgroup>
+            <col style={{ width: "40%" }} />
+            <col style={{ width: "20%" }} />
+            <col style={{ width: "20%" }} />
+            <col style={{ width: "20%" }} />
+          </colgroup>
           <TableHeader>
             <TableRow>
                 <TableHead>Team</TableHead>

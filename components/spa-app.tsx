@@ -11,6 +11,8 @@ import Results from "@/app/results/page"
 import TeamRegistration from "@/app/teamregistration/page"
 import Contact from "@/app/contact/page"
 import Standings from "@/app/standings/page"
+import Forms from "@/app/forms/page"
+import FieldInfo from "@/app/fieldinfo/page"
 
 const myWixClient = createClient({
   modules: { items },
@@ -47,7 +49,7 @@ const sectionTitles: Record<SectionKey, string> = {
 }
 
 async function fetchWixData() {
-  const [teamList, masterSheet, siteContents] = await Promise.all([
+  const [teamList, masterSheet, siteContents, fieldList] = await Promise.all([
     myWixClient.items.query("TeamList").find(),
     myWixClient.items
       .query("MasterSheet")
@@ -55,12 +57,14 @@ async function fetchWixData() {
       .include("visitor", "home", "field", "umpire")
       .find(),
     myWixClient.items.query("SiteContents").find(),
+    myWixClient.items.query("FieldList").find(),
   ])
 
   return {
     teamList: teamList.items,
     masterSheet: masterSheet.items,
     siteContents: siteContents.items,
+    fieldList: fieldList.items
   }
 }
 
@@ -68,13 +72,13 @@ function getSectionContent(
   section: SectionKey,
   teamList: any[],
   masterSheet: any[],
-  siteContents: any[]
+  siteContents: any[],
+  fieldList: any[]
 ) {
   const headline = sectionTitles[section]
 
   const announcementsContent = siteContents.find((item) => item.title === "Announcements")
-  const fieldInfoContent = siteContents.find((item) => item.title === "Field Info")
-  const formsContent = siteContents.find((item) => item.title === "Forms")
+  const formsList = siteContents.find((item) => item.title === "Forms")
   const rulesContent = siteContents.find((item) => item.title === "Rules of the Game")
   const leagueHistoryContent = siteContents.find((item) => item.title === "League History")
 
@@ -105,15 +109,18 @@ function getSectionContent(
           <Results masterSheet={masterSheet} />
         </div>
       )
-    /*case "fieldinfo":
+    case "fieldinfo":
       return (
       <div className="w-full min-w-60">
-        <RichContentViewer content={fieldInfoContent.content}/>
+          <FieldInfo fieldList={fieldList} />
       </div>
-      );*/
+      );
     case "forms":
-      return <div>test forms</div>
-
+      return (
+        <div className="w-full min-w-60">
+          <Forms formsList={formsList} />
+        </div>
+      )
     case "rules":
       return (
         <div className="w-full min-w-60">
@@ -151,6 +158,7 @@ export function SpaApp() {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
   const [teamList, setTeamList] = useState<any[]>([])
   const [masterSheet, setMasterSheet] = useState<any[]>([])
+  const [fieldList, setFieldList] = useState<any[]>([])
   const [siteContents, setSiteContents] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -167,6 +175,7 @@ export function SpaApp() {
           setTeamList(data.teamList)
           setMasterSheet(data.masterSheet)
           setSiteContents(data.siteContents)
+          setFieldList(data.fieldList)
         }
       } finally {
         if (!ignore) {
@@ -192,7 +201,7 @@ export function SpaApp() {
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto w-full px-10 flex justify-center">
-          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents)}
+          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList)}
         </div>
       </main>
     </div>

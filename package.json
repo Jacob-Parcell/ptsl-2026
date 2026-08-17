@@ -16,7 +16,7 @@
     "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^5.7.1",
     "@wix/data": "^1.0.486",
-    "@wix/ricos": "^11.6.6",
+    "@wix/ricos": "^11.10.1",
     "@wix/sdk": "^1.21.12",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

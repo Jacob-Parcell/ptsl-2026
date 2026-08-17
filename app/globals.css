@@ -270,22 +270,21 @@ h1 {
 .ptsl-results-card__stitches {
   position: absolute;
   z-index: 1;
-  top: -14px;
-  width: 180px;
-  height: 150px;
+  top: -2px;
+  width: 216px;
+  height: 180px;
   opacity: 0.52;
   pointer-events: none;
   user-select: none;
 }
 
 .ptsl-results-card__stitches--left {
-  left: 21%;
-  transform: rotate(-7deg);
+  left: 4%;
 }
 
 .ptsl-results-card__stitches--right {
   right: 4%;
-  transform: scaleX(-1) rotate(-5deg);
+  transform: scaleX(-1);
 }
 
 .ptsl-results-card__table-wrap {
@@ -301,14 +300,6 @@ h1 {
   outline-offset: -3px;
 }
 
-.ptsl-results-card__table {
-  width: 100%;
-  min-width: 720px;
-  border-collapse: collapse;
-  table-layout: fixed;
-  font-variant-numeric: tabular-nums;
-}
-
 .ptsl-results-card__table caption {
   position: absolute;
   width: 1px;
@@ -321,29 +312,39 @@ h1 {
   border: 0;
 }
 
-.ptsl-results-card__table col:nth-child(1) { width: 17%; }
-.ptsl-results-card__table col:nth-child(2) { width: 33%; }
-.ptsl-results-card__table col:nth-child(3) { width: 18%; }
-.ptsl-results-card__table col:nth-child(4) { width: 15%; }
-.ptsl-results-card__table col:nth-child(5) { width: 17%; }
+.ptsl-results-card__table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  table-layout: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+
 
 .ptsl-results-card__table thead th {
-  padding: 13px 18px 12px;
+  padding: 10px 12px 9px;
   color: var(--ptsl-purple);
   background: #fff;
   border-bottom: 1.5px solid var(--ptsl-line-strong);
-  font-size: 0.79rem;
+  font-size: 0.75rem;
   font-weight: 850;
   letter-spacing: 0.075em;
-  line-height: 1.15;
+  line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: normal;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.do-not-wrap {
+  text-wrap: nowrap !important;
 }
 
 .ptsl-results-card__table tbody th,
 .ptsl-results-card__table tbody td {
-  padding: 15px 18px;
+  padding: 12px 10px;
   background: #fff;
   border-bottom: 1px solid var(--ptsl-line);
   font-size: clamp(0.92rem, 1.55vw, 1.06rem);
@@ -351,6 +352,9 @@ h1 {
   line-height: 1.25;
   text-align: center;
   transition: background-color 160ms ease, color 160ms ease;
+  white-space: normal;
+  overflow: hidden;
+  word-break: normal;
 }
 
 .ptsl-results-card__table thead th:not(:last-child),
@@ -498,4 +502,9 @@ h1 {
   .ptsl-results-card__table tbody td {
     transition: none;
   }
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  padding-bottom: 20px;
 }

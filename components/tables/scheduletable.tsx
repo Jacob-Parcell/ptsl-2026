@@ -20,9 +20,9 @@ export function ScheduleTable({masterSheet}: Props) {
     if (!value) return "";
     const date = new Date(value);
     return new Intl.DateTimeFormat("en-US", {
-      month: "2-digit",
-      day: "2-digit",
-      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      year: "2-digit",
     }).format(date);
   };
 
@@ -65,35 +65,66 @@ export function ScheduleTable({masterSheet}: Props) {
         tableWithGaps.push(masterSheet[i]);
       }
   }
-  
+
   return (
-    <Table>
-        <TableHeader>
+    <section className="ptsl-results-card" aria-labelledby="ptsl-game-results-title">
+      <header className="ptsl-results-card__header">
+        <div className="ptsl-results-card__logo-badge">
+          <img
+            className="ptsl-results-card__logo"
+            src="/ptsl-monogram.png"
+            alt="Prime Time Softball League"
+          />
+        </div>
+
+        <img
+          className="ptsl-results-card__stitches ptsl-results-card__stitches--left"
+          src="/softball-stitches.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <h1 className="ptsl-results-card__title" id="ptsl-game-results-title">Game Schedule</h1>
+
+        <img
+          className="ptsl-results-card__stitches ptsl-results-card__stitches--right"
+          src="/softball-stitches.svg"
+          alt=""
+          aria-hidden="true"
+        />
+      </header>
+
+      <div className="ptsl-results-card__table-wrap" role="region" aria-label="Season Standings table">
+        <Table className="ptsl-results-card__table">
+          <caption>Prime Time Softball League Season Standings</caption>
+          <TableHeader>
             <TableRow>
-                <TableHead>Week</TableHead>
-                <TableHead>Date</TableHead>
-                <TableHead>Visitor</TableHead>
-                <TableHead>Home</TableHead>
-                <TableHead>Field</TableHead>
-                <TableHead>Field #</TableHead>
-                <TableHead>Start Time</TableHead>
-                <TableHead>Umpire/s</TableHead>
+              <TableHead>Week</TableHead>
+              <TableHead>Date</TableHead>
+              <TableHead>Visitor</TableHead>
+              <TableHead>Home</TableHead>
+              <TableHead>Field</TableHead>
+              <TableHead className="do-not-wrap">Field #</TableHead>
+              <TableHead>Start Time</TableHead>
+              <TableHead>Umpire/s</TableHead>
             </TableRow>
-        </TableHeader>
-        <TableBody>
-            {tableWithGaps.map((item: any) => (
-                <TableRow key={item._id}>
-                    <TableCell>{item.title}</TableCell>
-                    <TableCell>{formatDate(item.date)}</TableCell>
-                    <TableCell>{item.visitor?.title}</TableCell>
-                    <TableCell>{item.home?.title}</TableCell>
-                    <TableCell>{item.field?.title}</TableCell>
-                    <TableCell>{item.fieldNumber}</TableCell>
-                    <TableCell>{formatTime(item.startTime)}</TableCell>
-                    <TableCell>{Array.isArray(item.umpire) ? item.umpire.map((u: any) => u?.title ?? "").filter(Boolean).join(", ") : item.umpire?.title ?? ""}</TableCell>
-                </TableRow>
-            ))}
-        </TableBody>
-    </Table>
+          </TableHeader>
+          <TableBody>
+              {tableWithGaps.map((item: any) => (
+                  <TableRow key={item._id}>
+                      <TableCell>{item.title}</TableCell>
+                      <TableCell>{formatDate(item.date)}</TableCell>
+                      <TableCell>{item.visitor?.title}</TableCell>
+                      <TableCell>{item.home?.title}</TableCell>
+                      <TableCell>{item.field?.title}</TableCell>
+                      <TableCell>{item.fieldNumber}</TableCell>
+                      <TableCell className="do-not-wrap">{formatTime(item.startTime)}</TableCell>
+                      <TableCell>{Array.isArray(item.umpire) ? item.umpire.map((u: any) => u?.title ?? "").filter(Boolean).join(", ") : item.umpire?.title ?? ""}</TableCell>
+                  </TableRow>
+              ))}
+          </TableBody>
+        </Table>
+      </div>
+    </section>
   );
 }

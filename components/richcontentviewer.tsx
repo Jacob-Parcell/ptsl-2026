@@ -8,6 +8,15 @@ type RichContentViewerProps = {
 };
 
 const RichContentViewer: React.FC<RichContentViewerProps> = ({ content }) => {
+  // Suppress the fetchpriority warning from Wix Ricos
+  const originalConsoleError = console.error;
+  console.error = (...args: any[]) => {
+    if (args[0]?.toString().includes('fetchpriority')) {
+      return;
+    }
+    originalConsoleError(...args);
+  };
+  
   return (
     <div className="rich-content text-foreground">
       <RicosViewer content={content} plugins={plugins} />

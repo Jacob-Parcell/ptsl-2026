@@ -9,11 +9,7 @@ type Props = {
 export default function Standings({masterSheet, teamList}: Props) {
   return (
     <div>
-      <div>
-        <h1>Season Standings</h1>
-        <StandingsTable masterSheet={masterSheet} teamList={teamList}></StandingsTable>
-      </div>
-
+      <StandingsTable masterSheet={masterSheet} teamList={teamList}></StandingsTable>
       <div>
         <h1>Team Results</h1>
         {teamList.map((teamName: any) => {

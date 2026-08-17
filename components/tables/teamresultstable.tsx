@@ -18,9 +18,9 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
     if (!value) return "";
     const date = new Date(value);
     return new Intl.DateTimeFormat("en-US", {
-      month: "2-digit",
-      day: "2-digit",
-      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      year: "2-digit",
     }).format(date);
   };
 
@@ -65,6 +65,17 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
       return false;
     }
   };  
+
+  const isTie = (game: any) => {
+    if(game.homeScore == game.visitorScore)
+    {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  };
 
   return (
     <section className="ptsl-results-card" aria-labelledby="ptsl-game-results-title">
@@ -114,7 +125,10 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
                     <TableCell>{formatDate(item.date)}</TableCell>
                     <TableCell className="ptsl-results-card__opponent"><span className="ptsl-results-card__venue">{isHomeTeam(teamName, item) ? "vs" : "@"}</span> {isHomeTeam(teamName, item) ? item.visitor.title : item.home.title}</TableCell>
                     <TableCell><span className="ptsl-results-card__score"><span>{isHomeTeam(teamName, item) ? item.homeScore : item.visitorScore}</span><span className="ptsl-results-card__score-separator">&ndash;</span><span>{isHomeTeam(teamName, item) ? item.visitorScore : item.homeScore}</span></span></TableCell>
-                    <TableCell><abbr className={isWinner(teamName, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : "ptsl-results-card__result"} title={isWinner(teamName, item) ? "Win" : "Loss"}>{isWinner(teamName, item) ? "W" : "L"}</abbr></TableCell>
+                    {isTie(item) ? <TableCell><abbr className="ptsl-results-card__result" title="Tie">T</abbr></TableCell>
+                    
+                    : <TableCell><abbr className={isWinner(teamName, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : "ptsl-results-card__result"} title={isWinner(teamName, item) ? "Win" : "Loss"}>{isWinner(teamName, item) ? "W" : "L"}</abbr></TableCell>}
+                    
                     <TableCell>SEASON RECORD</TableCell>
                 </TableRow>
             ))}
