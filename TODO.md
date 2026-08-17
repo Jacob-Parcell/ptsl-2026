@@ -1,7 +1,7 @@
 <h1>Functional TODO</h1>
 
 - [x] add season standings and team records tables
-- [ ] add field info page
+- [x] add field info page
 - [ ] add forms page
 - [ ] update links in game rules page
 - [ ] implement lost and found

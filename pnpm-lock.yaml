@@ -20,6 +20,9 @@ importers:
       '@wix/data':
         specifier: ^1.0.486
         version: 1.0.486(@types/react@19.2.17)(@wix/headless-components@0.0.0(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@wix/services-manager@1.0.7)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(use-sync-external-store@1.6.0(react@19.2.4))
+      '@wix/media_files':
+        specifier: ^1.0.76
+        version: 1.0.76
       '@wix/ricos':
         specifier: ^11.10.1
         version: 11.10.1(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@babel/template@7.29.7)(@codemirror/autocomplete@6.20.3)(@codemirror/language@6.12.4)(@codemirror/search@6.7.1)(@codemirror/state@6.7.1)(@codemirror/theme-one-dark@6.1.3)(@codemirror/view@6.43.6)(@testing-library/react@16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(codemirror@6.0.2)(embla-carousel@8.6.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -77,6 +80,9 @@ importers:
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
+      wixmedia:
+        specifier: ^2.0.2
+        version: 2.0.2
       zod:
         specifier: ^4.4.3
         version: 4.4.3
@@ -1820,6 +1826,9 @@ packages:
   '@wix/image-kit@1.123.0':
     resolution: {integrity: sha512-3Nhf6LT4Iaktr6Lj2XqQXll8kdTb/NywiO5hB9VChg2a5y1Nw437lG9/1VZUbmAluik3HP03L9HMl7t4Ow2VsQ==}
 
+  '@wix/media_files@1.0.76':
+    resolution: {integrity: sha512-yBwE8ewwlzaCZpOOBXTQ0iD5x4YfazNkuFl2UHHs/oHs5ejAmoz13lzyWlKM5UPiq2az6Z/7sBWSQ9LhRJOrFw==}
+
   '@wix/members@1.0.492':
     resolution: {integrity: sha512-qeirQZ4b2cwKZiciMJLeGVxfIXKb44lxJgYI4AE9GerhYTu7ir/5Fx88mMzwXOgHYd6L7ei4EAkD0EpDzsOr2g==}
 
@@ -1851,6 +1860,9 @@ packages:
     resolution: {integrity: sha512-dX1A+IlLVzsW0pE7ZyhtJHNEeeCYnu/suELnHm4FrxX5alJl1JaEpHbvjuaCt6kD/kDP1iIu9Pu6AvyJUCtYrg==}
     peerDependencies:
       react: '*'
+
+  '@wix/sdk-runtime@0.3.62':
+    resolution: {integrity: sha512-5imt9mSEaceX365iLGzMJ7jS4qr4lJj+2DZox86Ge8P7V9IeuPYLsQ+0PN9wN6XgMfjNLHt4G6hJUIi3bdglGA==}
 
   '@wix/sdk-runtime@0.7.0':
     resolution: {integrity: sha512-wqLo26ZkMDoyMqVMC7H0lG5qYmGbCk7m3443XJB/cw0MrYl4o4Eermc+LPDf6vsaGKgiVSQ+6OY6G2SZ6RPnSg==}
@@ -2086,6 +2098,9 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  bluebird@3.7.2:
+    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
+
   body-parser@2.3.0:
     resolution: {integrity: sha512-2cGmJupaNgg+QUwVLAucDuWuoMZ6EX9iHDRswZ5lsNYEmwPaRknMPCLZz07yTzVq/83p4o/wzbDZbBrTvGGTIw==}
     engines: {node: '>=18'}
@@ -2286,6 +2301,10 @@ packages:
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
+
+  crypto-js@3.1.2-2:
+    resolution: {integrity: sha512-K9dzJnk9aLRPrbl7A6wjOTObTmCZJjKmPbPQZ9dNC+FbKpE73qO8U5ADkV5PbtysW2qdSZVy950ZnNBT85PxeQ==}
+    deprecated: Active development of CryptoJS has been discontinued. This library is no longer maintained.
 
   css-element-queries@1.2.3:
     resolution: {integrity: sha512-QK9uovYmKTsV2GXWQiMOByVNrLn2qz6m3P7vWpOR4IdD6I3iXoDw5qtgJEN3Xq7gIbdHVKvzHjdAtcl+4Arc4Q==}
@@ -3046,6 +3065,10 @@ packages:
   i18next@19.9.2:
     resolution: {integrity: sha512-0i6cuo6ER6usEOtKajUUDj92zlG+KArFia0857xxiEHAQcUwh/RtOQocui1LPJwunSYT574Pk64aNva1kwtxZg==}
 
+  iconv-lite@0.2.11:
+    resolution: {integrity: sha512-KhmFWgaQZY83Cbhi+ADInoUQ8Etn6BG5fikM9syeOjQltvR45h7cRKJ/9uvQEuD61I3Uju77yYce0/LhKVClQw==}
+    engines: {node: '>=0.4.0'}
+
   iconv-lite@0.7.3:
     resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
     engines: {node: '>=0.10.0'}
@@ -3548,6 +3571,10 @@ packages:
 
   lodash-es@4.18.1:
     resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
+
+  lodash-node@2.4.1:
+    resolution: {integrity: sha512-egEt8eNQp2kZWRmngahiqMoDCDCENv3uM188S7Ed5t4k3v6RrLELXC+FqLNMUnhCo7gvQX3G1V8opK/Lcslahg==}
+    deprecated: This package is discontinued. Use lodash@^4.0.0.
 
   lodash.curry@4.1.1:
     resolution: {integrity: sha512-/u14pXGviLaweY5JI0IUzgzF2J6Ne8INyzAZjImcryjgkZ+ebruBxy2/JaOOkTqScddcYtakjhSaeemV8lR0tA==}
@@ -4072,6 +4099,17 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
+  q@1.0.1:
+    resolution: {integrity: sha512-18MnBaCeBX9sLRUdtxz/6onlb7wLzFxCylklyO8n27y5JxJYaGLPu4ccyc5zih58SpEzY8QmfwaWqguqXU6Y+A==}
+    engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+  qs@0.6.6:
+    resolution: {integrity: sha512-kN+yNdAf29Jgp+AYHUmC7X4QdJPR8czuMWLNLc0aRxkQ7tB3vJQEONKKT9ou/rW7EbqVec11srC9q9BiVbcnHA==}
+
   qs@6.15.3:
     resolution: {integrity: sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==}
     engines: {node: '>=0.6'}
@@ -4375,6 +4413,10 @@ packages:
     engines: {node: '>= 0.4'}
     hasBin: true
 
+  restler@3.2.2:
+    resolution: {integrity: sha512-z8pYTB+zPjlVNFY/bxixaT9J9OVRnYiilA4LU2VPq6YuvsYRWK6XZz/8Qb4yDlY83Q01NPvl/8ECFvXm8K0jaQ==}
+    engines: {node: '>= 0.10.x'}
+
   restore-cursor@5.1.0:
     resolution: {integrity: sha512-oMA2dcrw6u0YfxJQXm342bFKX/E4sG9rbTzO9ptUcR/e8A33cHuvStiYOwH7fszkZlZ1z/ta9AAoPk2F4qIOHA==}
     engines: {node: '>=18'}
@@ -4422,8 +4464,14 @@ packages:
     resolution: {integrity: sha512-1HwIYD/8UlOtFS3QO3w7ey+SdSDFE4HRNLZoZRYVQefrOY3l17epswImeB1ijgJFQJodIaHcwkp3r/myBjFVbg==}
     deprecated: This package has been deprecated in favour of @sinonjs/samsam
 
+  sax@0.5.8:
+    resolution: {integrity: sha512-c0YL9VcSfcdH3F1Qij9qpYJFpKFKMXNOkLWFssBL3RuF7ZS8oZhllR2rWlCRjDTJsfq3R6wbSsaRU6o0rkEdNw==}
+
   scheduler@0.27.0:
     resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+
+  secure-random@1.1.1:
+    resolution: {integrity: sha512-dJKPuNsv2fAl8JmYiGX5jbMBnga+m6UdirQmwKPLHSj5YRyqxmfqckgD+s1NsVhQJg2JXM05MptWcKnnu1h9YQ==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -4877,6 +4925,14 @@ packages:
     engines: {node: ^16.13.0 || >=18.0.0}
     hasBin: true
 
+  wix-auth-hmac@1.0.0:
+    resolution: {integrity: sha512-HmVSuag8dvkYcY/H3DGVk78SCfrj0WD4SHDG/r0+HU7n2Wb1gAFO/6qOj2KBZm2lYbUxsVHyesUvFLEIroAT7g==}
+    engines: {node: '>= 0.10.20'}
+
+  wixmedia@2.0.2:
+    resolution: {integrity: sha512-Fqg9ZXYmovafHCZQibCI/WPnS6111eYJWSf756VW0+soN0JTNNlgbaC+yOxfdbDD0WbDTzny9AksNsKMNmOpVg==}
+    engines: {node: '>= 0.10.20'}
+
   word-wrap@1.2.5:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
@@ -4893,6 +4949,13 @@ packages:
 
   xml-reader@2.4.3:
     resolution: {integrity: sha512-xWldrIxjeAMAu6+HSf9t50ot1uL5M+BtOidRCWHXIeewvSeIpscWCsp4Zxjk8kHHhdqFBrfK8U0EJeCcnyQ/gA==}
+
+  xml2js@0.4.0:
+    resolution: {integrity: sha512-Uo9irqHi4waSloqTJ37nHn/XzbYi8JL/TYzMb+pq8xkINNayVhPTGOh8XWhZTP2WD3dX8Ngm5bGc+7YDnIoYIw==}
+
+  xmlbuilder@15.1.1:
+    resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
+    engines: {node: '>=8.0'}
 
   y-prosemirror@1.3.7:
     resolution: {integrity: sha512-NpM99WSdD4Fx4if5xOMDpPtU3oAmTSjlzh5U4353ABbRHl1HtAFUx6HlebLZfyFxXN9jzKMDkVbcRjqOZVkYQg==}
@@ -4912,6 +4975,9 @@ packages:
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
+
+  yaml@0.2.3:
+    resolution: {integrity: sha512-LzdhmhritYCRww8GLH95Sk5A2c18ddRQMeooOUnqWkDUnBbmVfqgg2fXH2MxAHYHCVTHDK1EEbmgItQ8kOpM0Q==}
 
   yjs@13.6.31:
     resolution: {integrity: sha512-Eq+5BRfbeGyqGVrTJL3bEcr8gKkxPuyuoHmAwpk52fDb8kOVMrfVSTRPd6yiGgX5Fskb96qCRjzjbRjrL4YEnw==}
@@ -6788,6 +6854,11 @@ snapshots:
       '@babel/runtime': 7.29.7
       tslib: 2.8.1
 
+  '@wix/media_files@1.0.76':
+    dependencies:
+      '@wix/sdk-runtime': 0.3.62
+      '@wix/sdk-types': 1.17.8
+
   '@wix/members@1.0.492':
     dependencies:
       '@wix/auto_sdk_members_authentication': 1.0.44
@@ -6915,6 +6986,11 @@ snapshots:
   '@wix/sdk-react-context@1.0.2(react@19.2.4)':
     dependencies:
       react: 19.2.4
+
+  '@wix/sdk-runtime@0.3.62':
+    dependencies:
+      '@wix/sdk-context': 0.0.1
+      '@wix/sdk-types': 1.17.8
 
   '@wix/sdk-runtime@0.7.0':
     dependencies:
@@ -7202,6 +7278,8 @@ snapshots:
 
   baseline-browser-mapping@2.10.42: {}
 
+  bluebird@3.7.2: {}
+
   body-parser@2.3.0:
     dependencies:
       bytes: 3.1.2
@@ -7422,6 +7500,8 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  crypto-js@3.1.2-2: {}
 
   css-element-queries@1.2.3: {}
 
@@ -8356,6 +8436,8 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.29.7
 
+  iconv-lite@0.2.11: {}
+
   iconv-lite@0.7.3:
     dependencies:
       safer-buffer: 2.1.2
@@ -8761,6 +8843,8 @@ snapshots:
       p-locate: 5.0.0
 
   lodash-es@4.18.1: {}
+
+  lodash-node@2.4.1: {}
 
   lodash.curry@4.1.1: {}
 
@@ -9243,6 +9327,10 @@ snapshots:
 
   punycode@2.3.1: {}
 
+  q@1.0.1: {}
+
+  qs@0.6.6: {}
+
   qs@6.15.3:
     dependencies:
       es-define-property: 1.0.1
@@ -9622,6 +9710,13 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
+  restler@3.2.2:
+    dependencies:
+      iconv-lite: 0.2.11
+      qs: 0.6.6
+      xml2js: 0.4.0
+      yaml: 0.2.3
+
   restore-cursor@5.1.0:
     dependencies:
       onetime: 7.0.0
@@ -9679,7 +9774,11 @@ snapshots:
 
   samsam@1.3.0: {}
 
+  sax@0.5.8: {}
+
   scheduler@0.27.0: {}
+
+  secure-random@1.1.1: {}
 
   semver@6.3.1: {}
 
@@ -10269,6 +10368,19 @@ snapshots:
     dependencies:
       isexe: 3.1.5
 
+  wix-auth-hmac@1.0.0:
+    dependencies:
+      crypto-js: 3.1.2-2
+      lodash-node: 2.4.1
+
+  wixmedia@2.0.2:
+    dependencies:
+      bluebird: 3.7.2
+      q: 1.0.1
+      restler: 3.2.2
+      secure-random: 1.1.1
+      wix-auth-hmac: 1.0.0
+
   word-wrap@1.2.5: {}
 
   wrappy@1.0.2: {}
@@ -10287,6 +10399,13 @@ snapshots:
       eventemitter3: 2.0.3
       xml-lexer: 0.2.2
 
+  xml2js@0.4.0:
+    dependencies:
+      sax: 0.5.8
+      xmlbuilder: 15.1.1
+
+  xmlbuilder@15.1.1: {}
+
   y-prosemirror@1.3.7(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.2)(y-protocols@1.0.7(yjs@13.6.31))(yjs@13.6.31):
     dependencies:
       lib0: 0.2.117
@@ -10302,6 +10421,8 @@ snapshots:
       yjs: 13.6.31
 
   yallist@3.1.1: {}
+
+  yaml@0.2.3: {}
 
   yjs@13.6.31:
     dependencies:

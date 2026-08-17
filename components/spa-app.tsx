@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { items } from "@wix/data"
-import { createClient, OAuthStrategy } from "@wix/sdk"
+import { createClient, OAuthStrategy, media } from "@wix/sdk"
 import { NavBar } from "@/components/navbar"
 import RichContentViewer from "@/components/richcontentviewer"
 
@@ -49,7 +49,7 @@ const sectionTitles: Record<SectionKey, string> = {
 }
 
 async function fetchWixData() {
-  const [teamList, masterSheet, siteContents, fieldList] = await Promise.all([
+  const [teamList, masterSheet, siteContents, fieldList, formList] = await Promise.all([
     myWixClient.items.query("TeamList").find(),
     myWixClient.items
       .query("MasterSheet")
@@ -58,13 +58,15 @@ async function fetchWixData() {
       .find(),
     myWixClient.items.query("SiteContents").find(),
     myWixClient.items.query("FieldList").find(),
+    myWixClient.items.query("Forms").find(),
   ])
 
   return {
     teamList: teamList.items,
     masterSheet: masterSheet.items,
     siteContents: siteContents.items,
-    fieldList: fieldList.items
+    fieldList: fieldList.items,
+    formList: formList.items
   }
 }
 
@@ -73,14 +75,24 @@ function getSectionContent(
   teamList: any[],
   masterSheet: any[],
   siteContents: any[],
-  fieldList: any[]
+  fieldList: any[],
+  formList: any[]
 ) {
   const headline = sectionTitles[section]
 
   const announcementsContent = siteContents.find((item) => item.title === "Announcements")
-  const formsList = siteContents.find((item) => item.title === "Forms")
   const rulesContent = siteContents.find((item) => item.title === "Rules of the Game")
   const leagueHistoryContent = siteContents.find((item) => item.title === "League History")
+
+  let formLinks: any = [];
+
+  formList.map((form: any) => {
+    formLinks.push({
+      _id: form._id,
+      title: form.title,
+      url: media.getDocumentUrl(form.formFile).url
+    })
+  })
 
   switch (section) {
     case "home":
@@ -118,7 +130,7 @@ function getSectionContent(
     case "forms":
       return (
         <div className="w-full min-w-60">
-          <Forms formsList={formsList} />
+          <Forms formList={formLinks} />
         </div>
       )
     case "rules":
@@ -159,6 +171,7 @@ export function SpaApp() {
   const [teamList, setTeamList] = useState<any[]>([])
   const [masterSheet, setMasterSheet] = useState<any[]>([])
   const [fieldList, setFieldList] = useState<any[]>([])
+  const [formList, setFormList] = useState<any[]>([])
   const [siteContents, setSiteContents] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -176,6 +189,7 @@ export function SpaApp() {
           setMasterSheet(data.masterSheet)
           setSiteContents(data.siteContents)
           setFieldList(data.fieldList)
+          setFormList(data.formList)
         }
       } finally {
         if (!ignore) {
@@ -201,7 +215,7 @@ export function SpaApp() {
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto w-full px-10 flex justify-center">
-          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList)}
+          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList)}
         </div>
       </main>
     </div>
