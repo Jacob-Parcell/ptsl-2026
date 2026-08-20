@@ -13,6 +13,7 @@ import Contact from "@/app/contact/page"
 import Standings from "@/app/standings/page"
 import Forms from "@/app/forms/page"
 import FieldInfo from "@/app/fieldinfo/page"
+import LostAndFound from "@/app/lostandfound/page"
 
 const myWixClient = createClient({
   modules: { items },
@@ -49,7 +50,7 @@ const sectionTitles: Record<SectionKey, string> = {
 }
 
 async function fetchWixData() {
-  const [teamList, masterSheet, siteContents, fieldList, formList] = await Promise.all([
+  const [teamList, masterSheet, siteContents, fieldList, formList, lostAndFound] = await Promise.all([
     myWixClient.items.query("TeamList").find(),
     myWixClient.items
       .query("MasterSheet")
@@ -59,6 +60,7 @@ async function fetchWixData() {
     myWixClient.items.query("SiteContents").find(),
     myWixClient.items.query("FieldList").find(),
     myWixClient.items.query("Forms").find(),
+    myWixClient.items.query("LostAndFound").include("replies").find()
   ])
 
   return {
@@ -66,7 +68,8 @@ async function fetchWixData() {
     masterSheet: masterSheet.items,
     siteContents: siteContents.items,
     fieldList: fieldList.items,
-    formList: formList.items
+    formList: formList.items,
+    lostAndFound: lostAndFound.items
   }
 }
 
@@ -76,7 +79,8 @@ function getSectionContent(
   masterSheet: any[],
   siteContents: any[],
   fieldList: any[],
-  formList: any[]
+  formList: any[],
+  lostAndFound: any[]
 ) {
   const headline = sectionTitles[section]
 
@@ -153,8 +157,11 @@ function getSectionContent(
       )
 
     case "lostandfound":
-      return <div>test lostandfound</div>
-
+      return (
+        <div className="w-full min-w-60 flex justify-center">
+          <LostAndFound lostAndFound={lostAndFound} />
+        </div>
+      )
     case "contact":
       return (
         <div className="w-full min-w-60 flex justify-center">
@@ -172,6 +179,7 @@ export function SpaApp() {
   const [masterSheet, setMasterSheet] = useState<any[]>([])
   const [fieldList, setFieldList] = useState<any[]>([])
   const [formList, setFormList] = useState<any[]>([])
+  const [lostAndFound, setLostAndFound] = useState<any[]>([])
   const [siteContents, setSiteContents] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -190,6 +198,7 @@ export function SpaApp() {
           setSiteContents(data.siteContents)
           setFieldList(data.fieldList)
           setFormList(data.formList)
+          setLostAndFound(data.lostAndFound)
         }
       } finally {
         if (!ignore) {
@@ -215,7 +224,7 @@ export function SpaApp() {
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div className="mx-auto w-full px-10 flex justify-center">
-          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList)}
+          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList, lostAndFound)}
         </div>
       </main>
     </div>

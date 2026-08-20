@@ -168,6 +168,14 @@ h1 {
   @apply mb-4 text-center text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl;
 }
 
+h2 {
+  @apply text-xl font-bold  md:text-2xl lg:text-3xl;
+}
+
+h3 {
+  @apply text-lg font-medium md:text-xl lg:text-2xl;
+}
+
 .site-title {
   @apply text-3xl min-w-xl mx-auto text-center leading-tight mb-4 font-bold tracking-tight md:text-5xl lg:text-6xl;
 }
@@ -508,4 +516,69 @@ hr.solid {
   border-top: 3px solid #bbb;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.lostAndFoundWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.lostAndFoundPost {
+  display: flex;
+  flex-direction: row;
+}
+
+.lostAndFoundPost--left {
+  flex: 0.3;
+  margin-right: 20px;
+}
+
+.lostAndFoundImage {
+  padding: 25px;
+  border: black;
+  border-style: solid;
+}
+
+.lostAndFoundPost--right {
+  flex: 0.7;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.lostAndFoundReply {
+  display: flex;
+  flex-direction: row;
+}
+
+.lostAndFoundReplies {
+  display: flex;
+  flex-direction: column;
+}
+
+.lostAndFoundReply_details {
+  display: flex;
+  align-items: baseline;
+  gap: 10px
+}
+
+.lostAndFoundReply_image {
+  width: 66px;
+  height: 66px;
+  object-fit: contain;
+  display: block;
+  justify-self: right;
+}
+
+.lostAndFoundReply--left {
+  flex: 0.2; 
+  align-content: center;
+    vertical-align: middle;
+
+  margin-right: 10px;
+}
+
+.lostAndFoundReply--right {
+  flex: 0.8;
+  vertical-align: middle;
+  align-content: center;
 }
