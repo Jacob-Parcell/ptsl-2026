@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { items } from "@wix/data"
 import { createClient, OAuthStrategy, media } from "@wix/sdk"
 import { NavBar } from "@/components/navbar"
@@ -50,7 +50,7 @@ const sectionTitles: Record<SectionKey, string> = {
 }
 
 async function fetchWixData() {
-  const [teamList, masterSheet, siteContents, fieldList, formList, lostAndFound] = await Promise.all([
+  const [teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies] = await Promise.all([
     myWixClient.items.query("TeamList").find(),
     myWixClient.items
       .query("MasterSheet")
@@ -60,8 +60,12 @@ async function fetchWixData() {
     myWixClient.items.query("SiteContents").find(),
     myWixClient.items.query("FieldList").find(),
     myWixClient.items.query("Forms").find(),
-    myWixClient.items.query("LostAndFound").include("replies").find()
+    myWixClient.items.query("LostAndFound").include("image", "resolved").find(),
+    myWixClient.items.query("LostAndFoundReplies").include("LostAndFound_replies").find(),
   ])
+  console.log(lostAndFound.items)
+
+  console.log(lostAndFoundReplies.items)
 
   return {
     teamList: teamList.items,
@@ -69,7 +73,8 @@ async function fetchWixData() {
     siteContents: siteContents.items,
     fieldList: fieldList.items,
     formList: formList.items,
-    lostAndFound: lostAndFound.items
+    lostAndFound: lostAndFound.items,
+    lostAndFoundReplies: lostAndFoundReplies.items
   }
 }
 
@@ -80,7 +85,8 @@ function getSectionContent(
   siteContents: any[],
   fieldList: any[],
   formList: any[],
-  lostAndFound: any[]
+  lostAndFound: any[],
+  lostAndFoundReplies: any[]
 ) {
   const headline = sectionTitles[section]
 
@@ -96,6 +102,13 @@ function getSectionContent(
       title: form.title,
       url: media.getDocumentUrl(form.formFile).url
     })
+  })
+
+  lostAndFound.map((item: any) => {
+    if(item.image)
+    {
+      item.image = media.getImageUrl(item.image).url
+    }
   })
 
   switch (section) {
@@ -159,7 +172,7 @@ function getSectionContent(
     case "lostandfound":
       return (
         <div className="w-full min-w-60 flex justify-center">
-          <LostAndFound lostAndFound={lostAndFound} />
+          <LostAndFound lostAndFound={lostAndFound} lostAndFoundReplies={lostAndFoundReplies} />
         </div>
       )
     case "contact":
@@ -175,11 +188,13 @@ function getSectionContent(
 
 export function SpaApp() {
   const [activeSection, setActiveSection] = useState<SectionKey>("home")
+  const sectionContentRef = useRef<HTMLDivElement>(null)
   const [teamList, setTeamList] = useState<any[]>([])
   const [masterSheet, setMasterSheet] = useState<any[]>([])
   const [fieldList, setFieldList] = useState<any[]>([])
   const [formList, setFormList] = useState<any[]>([])
   const [lostAndFound, setLostAndFound] = useState<any[]>([])
+  const [lostAndFoundReplies, setLostAndFoundReplies] = useState<any[]>([])
   const [siteContents, setSiteContents] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -199,6 +214,7 @@ export function SpaApp() {
           setFieldList(data.fieldList)
           setFormList(data.formList)
           setLostAndFound(data.lostAndFound)
+          setLostAndFoundReplies(data.lostAndFoundReplies)
         }
       } finally {
         if (!ignore) {
@@ -214,17 +230,21 @@ export function SpaApp() {
     }
   }, [])
 
+  useEffect(() => {
+    sectionContentRef.current?.scrollTo({ top: 0, left: 0 })
+  }, [activeSection])
+
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <div className="flex justify-center">
+    <div className="flex h-screen flex-col overflow-hidden bg-background text-foreground">
+      <div className="shrink-0 flex justify-center">
         <h1 className="site-title">
           Welcome to <br /> Prime Time Softball League
         </h1>
       </div>
-      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 flex justify-center">
+      <main className="mx-auto flex min-h-0 w-full max-w-7xl flex-1 justify-center overflow-hidden px-4 py-8 sm:px-6 lg:px-8">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <div className="mx-auto w-full px-10 flex justify-center">
-          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList, lostAndFound)}
+        <div ref={sectionContentRef} className="mx-auto min-h-0 w-full flex-1 justify-center overflow-auto px-10">
+          {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies)}
         </div>
       </main>
     </div>

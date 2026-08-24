@@ -1,4 +1,14 @@
 import LostAndFoundReply from "./lostandfoundreply";
+import {   
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+ } from "./ui/dialog";
 
 type Props = {
   initialPost: any
@@ -24,11 +34,27 @@ export default function LostAndFoundPost({initialPost}: Props) {
         return formattedDate + " at " + formattedTime;
     };
 
+    console.log(initialPost)
+    console.log(initialPost.image)
+
     return(
         <div>
             <div className="lostAndFoundPost">
                 <div className="lostAndFoundPost--left">
-                    <p className="lostAndFoundImage">image placeholder</p>
+                    {initialPost.image ? 
+                        <Dialog>
+                            <DialogTrigger className="lostAndFoundPostImage" nativeButton={false} render={<img
+                                        className="lostAndFoundPostImage cursor-zoom-in"
+                                        src={initialPost.image}
+                                        alt="Prime Time Softball League"/>} />
+                            <DialogContent className="w-50%" showCloseButton={false}>
+                                <img
+                                className="lostAndFoundPostImage"
+                                src={initialPost.image}
+                                alt="Prime Time Softball League"/>
+                            </DialogContent>
+                        </Dialog>
+                        : <div className="lostAndFoundImagePlaceholder">No Image Provided</div>}
                 </div>
                 <div className="lostAndFoundPost--right">
                     <span className="lostAndFoundReply_details">
@@ -42,7 +68,7 @@ export default function LostAndFoundPost({initialPost}: Props) {
             <div className="lostAndFoundReplies">
                 {initialPost.replies.length > 0 ?  initialPost.replies.map((reply: any) => {
                     return <LostAndFoundReply reply={reply}/>
-                }) : <></>}
+                }) : ""}
             </div>
         </div>
     );

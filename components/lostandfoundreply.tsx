@@ -35,8 +35,8 @@ export default function LostAndFoundReply({reply}: Props) {
                 </div>
                 <div className="lostAndFoundReply--right">
                     <span className="lostAndFoundReply_details">
-                        <h3 className="italic opacity-85 font-normal">{reply.author} &#183; </h3>
-                        <p>{formatDate(reply._createdDate)}</p>
+                        <h3 className="italic opacity-85 font-normal">{reply.author} </h3>
+                        <p>&#183; {formatDate(reply._createdDate)}</p>
                     </span>
                     <p>{reply.message}</p>
                 </div>
