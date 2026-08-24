@@ -49,6 +49,7 @@ import { cn } from "@/lib/utils"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Field, FieldLabel } from "@/components/ui/field"
 import { toast } from "sonner"
+import LostAndFoundForm from "@/components/lostandfoundform"
 
 type Props = {
   lostAndFound: any,
@@ -172,6 +173,7 @@ export default function LostAndFound({lostAndFound, lostAndFoundReplies}: Props)
       </h1>
 
       <div className="space-y-7">
+        <LostAndFoundForm setThreads={setThreads}/>
         {threads.map((thread: any) => {
           
           const threadReplies = replies.filter((reply: any) => {

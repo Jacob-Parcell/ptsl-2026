@@ -14,6 +14,7 @@ import Standings from "@/app/standings/page"
 import Forms from "@/app/forms/page"
 import FieldInfo from "@/app/fieldinfo/page"
 import LostAndFound from "@/app/lostandfound/page"
+import LostAndFoundForm from "./lostandfoundform"
 
 const myWixClient = createClient({
   modules: { items },
@@ -105,7 +106,7 @@ function getSectionContent(
   })
 
   lostAndFound.map((item: any) => {
-    if(item.image)
+    if(item.image && !item.image.includes("base64"))
     {
       item.image = media.getImageUrl(item.image).url
     }
@@ -171,7 +172,7 @@ function getSectionContent(
 
     case "lostandfound":
       return (
-        <div className="w-full min-w-60 flex justify-center">
+        <div className="w-full min-w-60 flex-col justify-center">
           <LostAndFound lostAndFound={lostAndFound} lostAndFoundReplies={lostAndFoundReplies} />
         </div>
       )

@@ -11,22 +11,36 @@ const myWixClient = createClient({
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json()
+    const body = await req.formData()
 
     // Basic validation
     if (!body || typeof body !== "object") {
       return NextResponse.json({ error: "Invalid payload" }, { status: 400 })
     }
 
-    const { title, author, description, image } = body as any
-    if (!title || !author) {
+    const title = body.get("title")
+    const author = body.get("author")
+    const description = body.get("description")
+    const imageFile = body.get("image")
+
+    if (typeof title !== "string" || typeof author !== "string" || !title || !author) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 })
+    }
+
+    let image = ""
+    if (imageFile instanceof File && imageFile.size > 0) {
+      if (!imageFile.type.startsWith("image/")) {
+        return NextResponse.json({ error: "Image must be an image file" }, { status: 400 })
+      }
+
+      const imageBuffer = Buffer.from(await imageFile.arrayBuffer())
+      image = `data:${imageFile.type};base64,${imageBuffer.toString("base64")}`
     }
 
     // Insert into Wix collection (server-side)
     const newPost = await (myWixClient as any).items.insert(
       "LostAndFound",
-      { title: title, author: author, description: description, image: image },
+      { title, author, description: typeof description === "string" ? description : "", image, resolved: false },
     )
 
     return NextResponse.json({ ok: true , post: newPost})
