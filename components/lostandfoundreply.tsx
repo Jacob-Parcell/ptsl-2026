@@ -29,7 +29,7 @@ export default function LostAndFoundReply({reply}: Props) {
                 <div className="lostAndFoundReply--left">
                     <img
                         className="lostAndFoundReply_image"
-                        src="/ptsl-monogram.png"
+                        src="./ptsl-monogram.png"
                         alt="Prime Time Softball League"
                     />
                 </div>

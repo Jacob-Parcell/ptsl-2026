@@ -101,14 +101,14 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
         <div className="ptsl-results-card__logo-badge">
           <img
             className="ptsl-results-card__logo"
-            src="/ptsl-monogram.png"
+            src="./ptsl-monogram.png"
             alt="Prime Time Softball League"
           />
         </div>
 
         <img
           className="ptsl-results-card__stitches ptsl-results-card__stitches--left"
-          src="/softball-stitches.svg"
+          src="./softball-stitches.svg"
           alt=""
           aria-hidden="true"
         />
@@ -117,7 +117,7 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
 
         <img
           className="ptsl-results-card__stitches ptsl-results-card__stitches--right"
-          src="/softball-stitches.svg"
+          src="./softball-stitches.svg"
           alt=""
           aria-hidden="true"
         />
