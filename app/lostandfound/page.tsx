@@ -52,15 +52,20 @@ import { toast } from "sonner"
 import LostAndFoundForm from "@/components/lostandfoundform"
 
 type Props = {
-  lostAndFound: any,
-  lostAndFoundReplies: any
+  lostAndFound?: any[],
+  lostAndFoundReplies?: any[]
 }
 
 const defaultAvatar = "/lost-found/ptsl-avatar.png"
 
 //bool open/close for replies
-function makeOpenState(lostAndFound: any[], lostAndFoundReplies: any[]) {
-  return Object.fromEntries(lostAndFound.map((item) => [item._id, lostAndFoundReplies.filter((reply) => reply.LostAndFound_replies._id == item._id).length > 0]))
+function makeOpenState(lostAndFound: any[] = [], lostAndFoundReplies: any[] = []) {
+  return Object.fromEntries(
+    (lostAndFound ?? []).map((item) => [
+      item._id,
+      (lostAndFoundReplies ?? []).filter((reply) => reply.LostAndFound_replies._id == item._id).length > 0,
+    ])
+  )
 }
 
 type DraftReply = {
@@ -69,8 +74,8 @@ type DraftReply = {
 };
 
 //assign a reply string value to each thread instead of having a global reply
-function makeDraftState(lostAndFound: any[]): Record<string, DraftReply>{
-  return Object.fromEntries(lostAndFound.map((item) => [item._id, {author: "", message: "" }]))
+function makeDraftState(lostAndFound: any[] = []): Record<string, DraftReply>{
+  return Object.fromEntries((lostAndFound ?? []).map((item) => [item._id, {author: "", message: "" }]))
 }
 
 //initials for users
@@ -84,9 +89,9 @@ function initials(name: string) {
     .toUpperCase()
 }
 
-export default function LostAndFound({lostAndFound, lostAndFoundReplies}: Props) {
-  const [threads, setThreads] = React.useState(lostAndFound)
-  const [replies, setReplies] = React.useState(lostAndFoundReplies)
+export default function LostAndFound({ lostAndFound = [], lostAndFoundReplies = [] }: Props) {
+  const [threads, setThreads] = React.useState<any[]>(lostAndFound ?? [])
+  const [replies, setReplies] = React.useState<any[]>(lostAndFoundReplies ?? [])
 
   const [openById, setOpenById] = React.useState<Record<string, boolean>>(() =>
     makeOpenState(lostAndFound, lostAndFoundReplies)
@@ -98,11 +103,11 @@ export default function LostAndFound({lostAndFound, lostAndFoundReplies}: Props)
   const [errorById, setErrorById] = React.useState<Record<string, string>>({})
 
   React.useEffect(() => {
-    setThreads(lostAndFound)
-    setReplies(lostAndFoundReplies)
-    setOpenById((previous) => ({ ...makeOpenState(lostAndFound, lostAndFoundReplies), ...previous }))
-    setDraftById((previous) => ({ ...makeDraftState(lostAndFound), ...previous }))
-  }, [lostAndFound])
+    setThreads(lostAndFound ?? [])
+    setReplies(lostAndFoundReplies ?? [])
+    setOpenById((previous) => ({ ...makeOpenState(lostAndFound ?? [], lostAndFoundReplies ?? []), ...previous }))
+    setDraftById((previous) => ({ ...makeDraftState(lostAndFound ?? []), ...previous }))
+  }, [lostAndFound, lostAndFoundReplies])
 
   const formatDate = (value: string | Date) => {
       if (!value) return "";

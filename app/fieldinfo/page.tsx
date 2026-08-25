@@ -1,31 +1,23 @@
 import RichContentViewer from "@/components/richcontentviewer";
 
 type Props = {
-  fieldList: any
+  fieldList?: any[]
 }
 
-export default function FieldInfo({fieldList}: Props) {
+export default function FieldInfo({ fieldList = [] }: Props) {
   return(
     <div>
       <h1>Field Information</h1>
 
-      {fieldList.map((item: any) => {
-        if(item.title != fieldList[fieldList.length - 1].title)
-        {
-          return(
-            <div key={item._id}>
-              <RichContentViewer content={item.fieldInfo}/>
-              <hr className="solid"/>
-            </div>
-          );
-        }
-        else{
-          return(
-            <div key={item._id}>
-              <RichContentViewer content={item.fieldInfo}/>
-            </div>
-          );        
-        }
+      {(fieldList ?? []).map((item: any, index: number) => {
+        const isLast = index === fieldList.length - 1;
+
+        return (
+          <div key={item._id ?? index}>
+            <RichContentViewer content={item.fieldInfo} />
+            {!isLast && <hr className="solid" />}
+          </div>
+        );
       })}
     </div>
   );

@@ -9,11 +9,11 @@ import {
 } from "@/components/ui/table"
 
 type Props = {
-  masterSheet: any,
-  teamList: any
+  masterSheet?: any[],
+  teamList?: any[]
 }
 
-export function StandingsTable({masterSheet, teamList}: Props) {
+export function StandingsTable({ masterSheet = [], teamList = [] }: Props) {
 
   const calculateWins = (teamName: any) => {
     return masterSheet.filter((game: any) => {
@@ -36,6 +36,24 @@ export function StandingsTable({masterSheet, teamList}: Props) {
     }).length
   }
   
+  if (!teamList.length) {
+    return (
+      <section className="ptsl-results-card" aria-labelledby="ptsl-game-results-title">
+        <header className="ptsl-results-card__header">
+          <div className="ptsl-results-card__logo-badge">
+            <img className="ptsl-results-card__logo" src="/ptsl-monogram.png" alt="Prime Time Softball League" />
+          </div>
+          <img className="ptsl-results-card__stitches ptsl-results-card__stitches--left" src="/softball-stitches.svg" alt="" aria-hidden="true" />
+          <h1 className="ptsl-results-card__title" id="ptsl-game-results-title">Season Standings</h1>
+          <img className="ptsl-results-card__stitches ptsl-results-card__stitches--right" src="/softball-stitches.svg" alt="" aria-hidden="true" />
+        </header>
+        <div className="ptsl-results-card__table-wrap">
+          <p className="p-4 text-slate-500">Standings will appear once team data is available.</p>
+        </div>
+      </section>
+    );
+  }
+
   let teamRecords: any = [];
 
   teamList.map((teamName: any) => {

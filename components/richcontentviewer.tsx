@@ -1,7 +1,24 @@
-import { quickStartViewerPlugins, RicosViewer } from "@wix/ricos";
+"use client";
+
+import dynamic from "next/dynamic";
 import "@wix/ricos/css/all-plugins-viewer.css";
 
-const plugins = quickStartViewerPlugins();
+const RicosViewerClient = dynamic(
+  async () => {
+    const { quickStartViewerPlugins, RicosViewer } = await import("@wix/ricos");
+    const plugins = quickStartViewerPlugins();
+
+    return function WixViewer({ content }: { content: any }) {
+      return <RicosViewer content={content} plugins={plugins} />;
+    };
+  },
+  {
+    ssr: false,
+    loading: () => (
+      <div className="rich-content text-foreground">Loading content...</div>
+    ),
+  }
+);
 
 type RichContentViewerProps = {
   content: any;
@@ -16,11 +33,12 @@ const RichContentViewer: React.FC<RichContentViewerProps> = ({ content }) => {
     }
     originalConsoleError(...args);
   };
-  
+
   return (
     <div className="rich-content text-foreground">
-      <RicosViewer content={content} plugins={plugins} />
+      <RicosViewerClient content={content} />
     </div>
-  )
+  );
 };
+
 export default RichContentViewer;

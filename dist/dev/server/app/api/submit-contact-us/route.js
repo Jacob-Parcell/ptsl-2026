@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/submit-contact-us/route.js")
+R.c("server/chunks/Documents_Github_ptsl-2026_app_api_submit-contact-us_route_ts_11bpdge._.js")
+R.c("server/chunks/0rhh_next_0gmg5iq._.js")
+R.c("server/chunks/0gz9_@wix_auto_sdk_data_collections_build_es_index_mjs_0q-jm27._.js")
+R.c("server/chunks/0ka3_@wix_wix-data-items-sdk_build_es_0l737kh._.js")
+R.c("server/chunks/13_d_@wix_wix-data-items-common_dist_esm_032_-n3._.js")
+R.c("server/chunks/0ov4__pnpm_01cqy92._.js")
+R.c("server/chunks/[root-of-the-server]__0ppgc1j._.js")
+R.c("server/chunks/0dw7_ptsl-2026__next-internal_server_app_api_submit-contact-us_route_actions_0_vs0yv.js")
+R.m("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Documents/Github/ptsl-2026/app/api/submit-contact-us/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_40a7effce8bcad24669d45809ebe449e/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Documents/Github/ptsl-2026/app/api/submit-contact-us/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

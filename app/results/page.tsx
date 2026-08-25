@@ -1,10 +1,10 @@
 import { ResultsTable } from "@/components/tables/resultstable";
 
 type Props = {
-  masterSheet: any
+  masterSheet?: any[]
 }
 
-export default function Results({masterSheet}: Props) {
+export default function Results({ masterSheet = [] }: Props) {
   return (
     <ResultsTable masterSheet={masterSheet}/>
   )
