@@ -1,5 +1,0 @@
-(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
-    script: typeof document === "object" ? document.currentScript : undefined,
-    chunks: ["static/chunks/0ov4__pnpm_0c-_w9-._.js","static/chunks/0-2q_@wix_wix-ui-icons-common_dist_esm_06gd_hy._.js","static/chunks/0uxm_@wix_ricos_dist_es__shared_0683b.u._.js","static/chunks/0uxm_@wix_ricos_dist_es_plugin-ai_0_qc_9d._.js","static/chunks/0uxm_@wix_ricos_dist_es_ricos-styles_04r6e5c._.js","static/chunks/0uxm_@wix_ricos_dist_es_ricos-viewer-next_0n7s_ct._.js","static/chunks/0uxm_@wix_ricos_dist_es_0oq3j4c._.js","static/chunks/0uxm_@wix_ricos_css_ricos-viewer_global_inject_mjs_0bfeses._.js","static/chunks/10c3_@wix_design-system_dist_esm_103gb22._.js","static/chunks/0rgn_fp-ts-esm_es6_0e-.83~._.js","static/chunks/0cxr_monocle-ts-esm_es6_0-12j.-._.js","static/chunks/0fgh_react-aria_dist_private_0x667c7._.js","static/chunks/0w42_@floating-ui_react_dist_0vthox~._.js","static/chunks/0ov4__pnpm_0ggo_70._.js"],
-    source: "dynamic"
-});

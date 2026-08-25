@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,477963,e=>{"use strict";var l=e.i(886956),t=e.i(467390);e.s(["pluginSmartBlock",()=>l.pluginSmartBlock,"resolveSmartBlockReferenceElement",()=>t.resolveSmartBlockReferenceElement])}]);

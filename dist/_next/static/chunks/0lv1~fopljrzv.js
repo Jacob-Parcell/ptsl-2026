@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,896165,i=>{"use strict";var r=i.i(898993),o=i.i(662419);i.s(["SpoilerEditorWrapper",()=>o.SpoilerEditorWrapper,"pluginSpoiler",()=>r.pluginSpoiler])}]);

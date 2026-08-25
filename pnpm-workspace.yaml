@@ -4,3 +4,10 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   msw: false
+  core-js: false
+  sinon: false
+
+overrides:
+  caniuse-lite: 1.0.30001809
+  electron-to-chromium: 1.5.413
+  prosemirror-view: 1.42.2
