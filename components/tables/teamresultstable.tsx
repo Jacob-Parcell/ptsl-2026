@@ -77,6 +77,24 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
     }
   };
 
+  const seasonRecord = { wins: 0, losses: 0, ties: 0 }
+
+  const seasonRecordString: string[] = []
+
+  filteredByTeam.forEach((game: any) => {
+    if (isWinner(teamName, game)) {
+      seasonRecord.wins += 1
+    } else if (isTie(game)) {
+      seasonRecord.ties += 1
+    } else {
+      seasonRecord.losses += 1
+    }
+
+    seasonRecordString.push(
+      `${seasonRecord.wins} - ${seasonRecord.losses}${seasonRecord.ties ? ` - ${seasonRecord.ties}` : ""}`
+    )
+  })
+
   return (
     <section className="ptsl-results-card" aria-labelledby="ptsl-game-results-title">
       <header className="ptsl-results-card__header">
@@ -119,7 +137,7 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {filteredByTeam.map((item: any) => (
+            {filteredByTeam.map((item: any, index: number) => (
                 <TableRow key={item._id}>
                     <TableCell>{item.title}</TableCell>
                     <TableCell>{formatDate(item.date)}</TableCell>
@@ -129,7 +147,7 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
                     
                     : <TableCell><abbr className={isWinner(teamName, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : "ptsl-results-card__result"} title={isWinner(teamName, item) ? "Win" : "Loss"}>{isWinner(teamName, item) ? "W" : "L"}</abbr></TableCell>}
                     
-                    <TableCell>SEASON RECORD</TableCell>
+                    <TableCell>{seasonRecordString[index]}</TableCell>
                 </TableRow>
             ))}
           </TableBody>

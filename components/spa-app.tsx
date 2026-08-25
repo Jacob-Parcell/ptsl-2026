@@ -165,7 +165,7 @@ function getSectionContent(
       )
     case "teamregistration":
       return (
-        <div className="w-full min-w-60 flex justify-center">
+        <div className="w-full min-w-60 flex justify-center mt-5">
           <TeamRegistration />
         </div>
       )
@@ -178,7 +178,7 @@ function getSectionContent(
       )
     case "contact":
       return (
-        <div className="w-full min-w-60 flex justify-center">
+        <div className="w-full min-w-60 flex justify-center mt-5">
           <Contact />
         </div>
       )
@@ -239,7 +239,7 @@ export function SpaApp() {
     <div className="flex h-screen flex-col overflow-hidden bg-background text-foreground">
       <div className="shrink-0 flex justify-center">
         <h1 className="site-title">
-          Welcome to <br /> Prime Time Softball League
+           Prime Time Softball League
         </h1>
       </div>
       <main className="mx-auto flex min-h-0 w-full max-w-7xl flex-1 justify-center overflow-hidden px-4 py-8 sm:px-6 lg:px-8">

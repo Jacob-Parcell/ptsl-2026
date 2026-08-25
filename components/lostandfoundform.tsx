@@ -92,7 +92,7 @@ export default function LostAndFoundForm({ setThreads }: Props) {
   }
 
   return (
-    <Card className="w-full sm:max-w-md align-middle">
+    <Card className="w-full sm:max-w-lg align-middle flex justify-self-center">
       <CardHeader>
         <CardTitle>Submit Lost And Found Post</CardTitle>
       </CardHeader>
