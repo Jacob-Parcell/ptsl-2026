@@ -34,9 +34,6 @@ export default function LostAndFoundPost({initialPost}: Props) {
         return formattedDate + " at " + formattedTime;
     };
 
-    console.log(initialPost)
-    console.log(initialPost.image)
-
     return(
         <div>
             <div className="lostAndFoundPost">

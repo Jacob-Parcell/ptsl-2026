@@ -64,9 +64,6 @@ async function fetchWixData() {
     myWixClient.items.query("LostAndFound").include("image", "resolved").find(),
     myWixClient.items.query("LostAndFoundReplies").include("LostAndFound_replies").find(),
   ])
-  console.log(lostAndFound.items)
-
-  console.log(lostAndFoundReplies.items)
 
   return {
     teamList: teamList.items,
