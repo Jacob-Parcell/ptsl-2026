@@ -1,0 +1,23743 @@
+(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/rich_content.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Decoration_Type",
+    ()=>Decoration_Type,
+    "Node_Type",
+    ()=>Node_Type
+]);
+var Node_Type = /* @__PURE__ */ ((Node_Type2)=>{
+    Node_Type2["PARAGRAPH"] = "PARAGRAPH";
+    Node_Type2["TEXT"] = "TEXT";
+    Node_Type2["HEADING"] = "HEADING";
+    Node_Type2["BULLETED_LIST"] = "BULLETED_LIST";
+    Node_Type2["ORDERED_LIST"] = "ORDERED_LIST";
+    Node_Type2["LIST_ITEM"] = "LIST_ITEM";
+    Node_Type2["BLOCKQUOTE"] = "BLOCKQUOTE";
+    Node_Type2["CODE_BLOCK"] = "CODE_BLOCK";
+    Node_Type2["VIDEO"] = "VIDEO";
+    Node_Type2["DIVIDER"] = "DIVIDER";
+    Node_Type2["FILE"] = "FILE";
+    Node_Type2["GALLERY"] = "GALLERY";
+    Node_Type2["GIF"] = "GIF";
+    Node_Type2["HTML"] = "HTML";
+    Node_Type2["IMAGE"] = "IMAGE";
+    Node_Type2["LINK_PREVIEW"] = "LINK_PREVIEW";
+    Node_Type2["MAP"] = "MAP";
+    Node_Type2["POLL"] = "POLL";
+    Node_Type2["APP_EMBED"] = "APP_EMBED";
+    Node_Type2["BUTTON"] = "BUTTON";
+    Node_Type2["COLLAPSIBLE_LIST"] = "COLLAPSIBLE_LIST";
+    Node_Type2["TABLE"] = "TABLE";
+    Node_Type2["EMBED"] = "EMBED";
+    Node_Type2["COLLAPSIBLE_ITEM"] = "COLLAPSIBLE_ITEM";
+    Node_Type2["COLLAPSIBLE_ITEM_TITLE"] = "COLLAPSIBLE_ITEM_TITLE";
+    Node_Type2["COLLAPSIBLE_ITEM_BODY"] = "COLLAPSIBLE_ITEM_BODY";
+    Node_Type2["TABLE_CELL"] = "TABLE_CELL";
+    Node_Type2["TABLE_ROW"] = "TABLE_ROW";
+    Node_Type2["EXTERNAL"] = "EXTERNAL";
+    Node_Type2["AUDIO"] = "AUDIO";
+    Node_Type2["CAPTION"] = "CAPTION";
+    Node_Type2["LAYOUT"] = "LAYOUT";
+    Node_Type2["LAYOUT_CELL"] = "LAYOUT_CELL";
+    Node_Type2["SHAPE"] = "SHAPE";
+    Node_Type2["CARD"] = "CARD";
+    Node_Type2["TOC"] = "TOC";
+    Node_Type2["SMART_BLOCK"] = "SMART_BLOCK";
+    Node_Type2["SMART_BLOCK_CELL"] = "SMART_BLOCK_CELL";
+    Node_Type2["CHECKBOX_LIST"] = "CHECKBOX_LIST";
+    Node_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return Node_Type2;
+})(Node_Type || {});
+var Decoration_Type = /* @__PURE__ */ ((Decoration_Type2)=>{
+    Decoration_Type2["BOLD"] = "BOLD";
+    Decoration_Type2["ITALIC"] = "ITALIC";
+    Decoration_Type2["UNDERLINE"] = "UNDERLINE";
+    Decoration_Type2["SPOILER"] = "SPOILER";
+    Decoration_Type2["ANCHOR"] = "ANCHOR";
+    Decoration_Type2["MENTION"] = "MENTION";
+    Decoration_Type2["LINK"] = "LINK";
+    Decoration_Type2["COLOR"] = "COLOR";
+    Decoration_Type2["FONT_SIZE"] = "FONT_SIZE";
+    Decoration_Type2["EXTERNAL"] = "EXTERNAL";
+    Decoration_Type2["STRIKETHROUGH"] = "STRIKETHROUGH";
+    Decoration_Type2["SUPERSCRIPT"] = "SUPERSCRIPT";
+    Decoration_Type2["SUBSCRIPT"] = "SUBSCRIPT";
+    Decoration_Type2["FONT_FAMILY"] = "FONT_FAMILY";
+    Decoration_Type2["SKETCH"] = "SKETCH";
+    Decoration_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return Decoration_Type2;
+})(Decoration_Type || {});
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/generated/ricos_document.jtd.json.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+const __TURBOPACK__default__export__ = {
+    "metadata": {
+        "formats": {
+            "WEB_URL": {
+                "description": "A URL that starts with `http://` or `https://`.",
+                "validation": {
+                    "type": "web_url"
+                }
+            },
+            "COLOR_HEX": {
+                "description": "A color in hexadecimal RGB or RGBA format, for example `#FF0000` or `#FF000050`. `COLOR_HEX` accepts shorthand, for example #F00 or #F005.",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^#(?:[0-9A-Fa-f]{3,4}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$"
+                }
+            },
+            "COLOR_VALUE": {
+                "description": "A color value: either a hex color (`#FF0000`, `#F00`) or a theme color token (`$theme-color-1` through `$theme-color-9`), optionally with an opacity suffix such as `$theme-color-2-50`.",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^(#(?:[0-9A-Fa-f]{3,4}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})|\\$theme-color-[1-9](?:-(?:100|[1-9]\\d|[0-9]))?)$"
+                }
+            },
+            "NODE_ID": {
+                "description": "See [Node ID](#node-ids).",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^[-_\\w]*$"
+                }
+            },
+            "CURRENCY": {
+                "description": "Currency in ISO 4217 format, for example `USD`, `EUR`.",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^[A-Z]{3}$"
+                }
+            },
+            "GUID": {
+                "description": "Global unique identifier in format, for example `d35f5c5f-8391-4f43-b447-75e7b63076f9`",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+                }
+            },
+            "DECIMAL": {
+                "description": "A decimal with max_scale of 2 of format, for example `1.02`, `21.3`",
+                "validation": {
+                    "type": "regex",
+                    "regex": "^[-]?\\d+(?:\\.\\d{1,2})?$"
+                }
+            }
+        }
+    },
+    "properties": {
+        "nodes": {
+            "metadata": {
+                "tsRicosNodesChildren": true,
+                "description": "Array of nodes representing content elements, such as `ParagraphNode` or `HeadingNode`."
+            },
+            "elements": {
+                "ref": "RootNode"
+            }
+        }
+    },
+    "optionalProperties": {
+        "metadata": {
+            "ref": "Metadata",
+            "metadata": {
+                "description": "Information about the Ricos document itself, such as its version. Only relevant when building the Ricos document using the [Ricos playground](https:/ricos.dev), in which case it is auto-generated."
+            }
+        },
+        "documentStyle": {
+            "ref": "DocumentStyle",
+            "metadata": {
+                "description": "Includes styling to be applied throughout the Ricos document for the specified node types. For example, you can define general styling for `headerOne`, and then override some of the properties separately for a specific header."
+            }
+        }
+    },
+    "definitions": {
+        "NodeStyle": {
+            "metadata": {
+                "features": [
+                    "LINE_SPACING"
+                ]
+            },
+            "optionalProperties": {
+                "paddingTop": {
+                    "metadata": {
+                        "description": "The top padding value in pixels."
+                    },
+                    "type": "string"
+                },
+                "paddingBottom": {
+                    "metadata": {
+                        "description": "The bottom padding value in pixels."
+                    },
+                    "type": "string"
+                },
+                "backgroundColor": {
+                    "metadata": {
+                        "deprecated": true
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "DocumentStyle": {
+            "metadata": {
+                "description": "Sets a default styling for specific node types throughout the entire Ricos Document. For example, you can set the text color for all Heading 1 nodes.\nYou can override the styling of specific Text nodes separately using [decorations](#decorations).",
+                "examples": [
+                    "document-style"
+                ],
+                "section": "Document Styles"
+            },
+            "optionalProperties": {
+                "headerOne": {
+                    "metadata": {
+                        "description": "Style for the H1 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "headerTwo": {
+                    "metadata": {
+                        "description": "Style for the H2 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "headerThree": {
+                    "metadata": {
+                        "description": "Style for the H3 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "headerFour": {
+                    "metadata": {
+                        "description": "Style for the H4 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "headerFive": {
+                    "metadata": {
+                        "description": "Style for the H5 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "headerSix": {
+                    "metadata": {
+                        "description": "Style for the H6 nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "paragraph": {
+                    "metadata": {
+                        "description": "Style for the paragraph nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "blockquote": {
+                    "metadata": {
+                        "description": "Style for the block quote nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                },
+                "codeBlock": {
+                    "metadata": {
+                        "description": "Style for the codeblock nodes."
+                    },
+                    "ref": "TextNodeStyle"
+                }
+            }
+        },
+        "TextNodeStyle": {
+            "metadata": {
+                "section": "Document Styles"
+            },
+            "optionalProperties": {
+                "decorations": {
+                    "elements": {
+                        "ref": "Decoration"
+                    },
+                    "metadata": {
+                        "description": "Text node decorations."
+                    }
+                },
+                "nodeStyle": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Node style, such as padding. \n **Note:** This node requires the [lineSpacing](#plugins) plugin to be enabled."
+                    }
+                },
+                "lineHeight": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Text line height."
+                    }
+                }
+            }
+        },
+        "Metadata": {
+            "metadata": {
+                "section": "Metadata"
+            },
+            "optionalProperties": {
+                "version": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Ricos document version."
+                    }
+                },
+                "id": {
+                    "metadata": {
+                        "deprecated": true
+                    }
+                },
+                "createdTimestamp": {
+                    "metadata": {
+                        "deprecated": true
+                    }
+                },
+                "updatedTimestamp": {
+                    "metadata": {
+                        "deprecated": true
+                    }
+                }
+            }
+        },
+        "Animation": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Animation",
+                "features": [
+                    "ANIMATION"
+                ],
+                "description": "Node animation, discriminated by `type`. `VIEW` animations play while the node is in view; `POINTER` animations follow the visitor's mouse. The kinds are mutually exclusive by construction — additional kinds (scroll-driven) may be added in the future.",
+                "refUnion": {
+                    "VIEW": "Animation_View",
+                    "POINTER": "Animation_Pointer"
+                },
+                "emitEnum": "Animation_Type"
+            },
+            "mapping": {
+                "VIEW": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Animations that play while the node is in view. At least one of `entrance` or `loop` should be set — an empty `VIEW` is treated as no animation."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "entrance": {
+                            "ref": "EntranceAnimation",
+                            "metadata": {
+                                "description": "Entrance animation, played once when the node first enters the viewport."
+                            }
+                        },
+                        "loop": {
+                            "ref": "LoopAnimation",
+                            "metadata": {
+                                "description": "Looping animation, repeated indefinitely while the node is on the page. When combined with `entrance`, the loop starts after the entrance finishes."
+                            }
+                        }
+                    }
+                },
+                "POINTER": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Animations driven by the visitor's mouse position — the node continuously reacts as the pointer moves. Mutually exclusive with `VIEW` animations by construction."
+                    },
+                    "properties": {
+                        "effect": {
+                            "ref": "PointerEffect",
+                            "metadata": {
+                                "description": "The mouse effect, discriminated by `type`."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "transitionDuration": {
+                            "type": "uint32",
+                            "metadata": {
+                                "description": "How quickly the node settles toward the pointer, in milliseconds (the editor's velocity control). When omitted, the effect's own tuned default is used.",
+                                "validation": {
+                                    "max": 5000
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Animation_View": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Animations that play while the node is in view. At least one of `entrance` or `loop` should be set — an empty `VIEW` is treated as no animation."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "VIEW"
+                    ],
+                    "metadata": {
+                        "description": "Animation kind. \n Must be `VIEW`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "entrance": {
+                    "ref": "EntranceAnimation",
+                    "metadata": {
+                        "description": "Entrance animation, played once when the node first enters the viewport."
+                    }
+                },
+                "loop": {
+                    "ref": "LoopAnimation",
+                    "metadata": {
+                        "description": "Looping animation, repeated indefinitely while the node is on the page. When combined with `entrance`, the loop starts after the entrance finishes."
+                    }
+                }
+            }
+        },
+        "Animation_Pointer": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Animations driven by the visitor's mouse position — the node continuously reacts as the pointer moves. Mutually exclusive with `VIEW` animations by construction."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "POINTER"
+                    ],
+                    "metadata": {
+                        "description": "Animation kind. \n Must be `POINTER`."
+                    }
+                },
+                "effect": {
+                    "ref": "PointerEffect",
+                    "metadata": {
+                        "description": "The mouse effect, discriminated by `type`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "transitionDuration": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "How quickly the node settles toward the pointer, in milliseconds (the editor's velocity control). When omitted, the effect's own tuned default is used.",
+                        "validation": {
+                            "max": 5000
+                        }
+                    }
+                }
+            }
+        },
+        "EntranceAnimation": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Entrance animation configuration: the effect to play and its timing options."
+            },
+            "properties": {
+                "effect": {
+                    "ref": "EntranceEffect",
+                    "metadata": {
+                        "description": "The entrance effect, discriminated by `type`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "duration": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Effect duration in milliseconds. When omitted, the effect's own tuned default is used — each effect has a different one.",
+                        "validation": {
+                            "max": 5000
+                        }
+                    }
+                },
+                "delay": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Delay before the effect starts, in milliseconds.",
+                        "validation": {
+                            "max": 5000
+                        }
+                    }
+                }
+            }
+        },
+        "EntranceEffect": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Animation",
+                "description": "Entrance effect, discriminated by `type`. Each effect exposes only its own parameters; all parameters are optional and fall back to tuned defaults.",
+                "refUnion": {
+                    "FADE": "EntranceEffect_Fade",
+                    "ARC": "EntranceEffect_Arc",
+                    "BLUR": "EntranceEffect_Blur",
+                    "BOUNCE": "EntranceEffect_Bounce",
+                    "DROP": "EntranceEffect_Drop",
+                    "EXPAND": "EntranceEffect_Expand",
+                    "FLIP": "EntranceEffect_Flip",
+                    "FLOAT": "EntranceEffect_Float",
+                    "FOLD": "EntranceEffect_Fold",
+                    "GLIDE": "EntranceEffect_Glide",
+                    "REVEAL": "EntranceEffect_Reveal",
+                    "SHAPE": "EntranceEffect_Shape",
+                    "SHUTTERS": "EntranceEffect_Shutters",
+                    "SLIDE": "EntranceEffect_Slide",
+                    "SPIN": "EntranceEffect_Spin",
+                    "TILT": "EntranceEffect_Tilt",
+                    "TURN": "EntranceEffect_Turn",
+                    "WINK": "EntranceEffect_Wink"
+                },
+                "emitEnum": "EntranceEffect_Type"
+            },
+            "mapping": {
+                "FADE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Fades in smoothly from fully transparent to fully opaque."
+                    },
+                    "properties": {}
+                },
+                "ARC": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Enters along a 3D arc path, rotating into view with depth motion."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the element arcs in from. Defaults to `LEFT`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "BLUR": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Transitions from blurred to sharp while fading in."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "BOUNCE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Bounces into place from a direction with an elastic multi-step curve."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "enum": [
+                                "LEFT",
+                                "RIGHT",
+                                "TOP",
+                                "BOTTOM",
+                                "CENTER"
+                            ],
+                            "metadata": {
+                                "emitEnum": "EntranceEffect_Bounce_Direction",
+                                "description": "Direction the element bounces in from. `CENTER` bounces in place, with no travel. Defaults to `TOP`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "DROP": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Shrinks down from a larger size to its final scale."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "EXPAND": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Expands from a point in a given direction, scaling from small to full size with a fade-in."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_RadialDirection",
+                            "metadata": {
+                                "description": "Direction the element travels in from while expanding. `CENTER` expands in place, with no travel. Defaults to `CENTER`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "FLIP": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Flips into view with a 3D rotation around the X or Y axis."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the element flips in from. Defaults to `BOTTOM`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "FLOAT": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Drifts gently into place from a direction with a fade-in."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the element floats in from. Defaults to `BOTTOM`."
+                            }
+                        }
+                    }
+                },
+                "FOLD": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Unfolds from an edge, rotating around an axis at the edge as if hinged."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Edge the element unfolds from. Defaults to `TOP`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `INTENSE`."
+                            }
+                        }
+                    }
+                },
+                "GLIDE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Glides in smoothly from off-screen along a direction."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "enum": [
+                                "RIGHT",
+                                "TOP_RIGHT",
+                                "TOP",
+                                "TOP_LEFT",
+                                "LEFT",
+                                "BOTTOM_LEFT",
+                                "BOTTOM",
+                                "BOTTOM_RIGHT"
+                            ],
+                            "metadata": {
+                                "emitEnum": "EntranceEffect_Glide_Direction",
+                                "description": "Direction the element glides in from, including the diagonals. Defaults to `BOTTOM`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "REVEAL": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Progressively revealed by an expanding clip-path from one edge."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Edge the reveal starts from. Defaults to `BOTTOM`."
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Appears through an expanding geometric clip-path shape."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "shape": {
+                            "enum": [
+                                "ELLIPSE",
+                                "CIRCLE",
+                                "RECTANGLE",
+                                "DIAMOND"
+                            ],
+                            "metadata": {
+                                "emitEnum": "EntranceEffect_Shape_ClipShape",
+                                "description": "Clip-path shape. Defaults to `CIRCLE`."
+                            }
+                        }
+                    }
+                },
+                "SHUTTERS": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Revealed through multiple shutter-like strips that open in sequence."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the shutters open toward. Defaults to `RIGHT`."
+                            }
+                        }
+                    }
+                },
+                "SLIDE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Slides in from one side while being revealed with a clip-path mask."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the element slides in from. Defaults to `BOTTOM`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `INTENSE`."
+                            }
+                        }
+                    }
+                },
+                "SPIN": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Spins into view while scaling from small to full size."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_SpinDirection",
+                            "metadata": {
+                                "description": "Rotation direction. Defaults to `CLOCKWISE`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "TILT": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Tilts in from the side with 3D rotation and a clip-path reveal."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_SideDirection",
+                            "metadata": {
+                                "description": "Side the element tilts in from. Defaults to `LEFT`."
+                            }
+                        }
+                    }
+                },
+                "TURN": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Rotates into view around a corner pivot point."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_CornerDirection",
+                            "metadata": {
+                                "description": "Corner pivot the element turns around. Defaults to `BOTTOM_LEFT`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `INTENSE`."
+                            }
+                        }
+                    }
+                },
+                "WINK": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Winks into view by expanding from its horizontal or vertical center, while being revealed with a clip-path."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Orientation",
+                            "metadata": {
+                                "description": "Axis the wink expands along. Defaults to `VERTICAL`."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Fade": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Fades in smoothly from fully transparent to fully opaque."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FADE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FADE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Arc": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Enters along a 3D arc path, rotating into view with depth motion."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ARC"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `ARC`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the element arcs in from. Defaults to `LEFT`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Blur": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Transitions from blurred to sharp while fading in."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BLUR"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BLUR`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Bounce": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Bounces into place from a direction with an elastic multi-step curve."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BOUNCE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BOUNCE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "enum": [
+                        "LEFT",
+                        "RIGHT",
+                        "TOP",
+                        "BOTTOM",
+                        "CENTER"
+                    ],
+                    "metadata": {
+                        "emitEnum": "EntranceEffect_Bounce_Direction",
+                        "description": "Direction the element bounces in from. `CENTER` bounces in place, with no travel. Defaults to `TOP`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Drop": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Shrinks down from a larger size to its final scale."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "DROP"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `DROP`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Expand": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Expands from a point in a given direction, scaling from small to full size with a fade-in."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "EXPAND"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `EXPAND`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_RadialDirection",
+                    "metadata": {
+                        "description": "Direction the element travels in from while expanding. `CENTER` expands in place, with no travel. Defaults to `CENTER`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Flip": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Flips into view with a 3D rotation around the X or Y axis."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FLIP"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FLIP`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the element flips in from. Defaults to `BOTTOM`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Float": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Drifts gently into place from a direction with a fade-in."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FLOAT"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FLOAT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the element floats in from. Defaults to `BOTTOM`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Fold": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Unfolds from an edge, rotating around an axis at the edge as if hinged."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FOLD"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FOLD`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Edge the element unfolds from. Defaults to `TOP`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `INTENSE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Glide": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Glides in smoothly from off-screen along a direction."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "GLIDE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `GLIDE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "enum": [
+                        "RIGHT",
+                        "TOP_RIGHT",
+                        "TOP",
+                        "TOP_LEFT",
+                        "LEFT",
+                        "BOTTOM_LEFT",
+                        "BOTTOM",
+                        "BOTTOM_RIGHT"
+                    ],
+                    "metadata": {
+                        "emitEnum": "EntranceEffect_Glide_Direction",
+                        "description": "Direction the element glides in from, including the diagonals. Defaults to `BOTTOM`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Reveal": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Progressively revealed by an expanding clip-path from one edge."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "REVEAL"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `REVEAL`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Edge the reveal starts from. Defaults to `BOTTOM`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Shape": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Appears through an expanding geometric clip-path shape."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SHAPE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SHAPE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "shape": {
+                    "enum": [
+                        "ELLIPSE",
+                        "CIRCLE",
+                        "RECTANGLE",
+                        "DIAMOND"
+                    ],
+                    "metadata": {
+                        "emitEnum": "EntranceEffect_Shape_ClipShape",
+                        "description": "Clip-path shape. Defaults to `CIRCLE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Shutters": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Revealed through multiple shutter-like strips that open in sequence."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SHUTTERS"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SHUTTERS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the shutters open toward. Defaults to `RIGHT`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Slide": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Slides in from one side while being revealed with a clip-path mask."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SLIDE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SLIDE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the element slides in from. Defaults to `BOTTOM`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `INTENSE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Spin": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Spins into view while scaling from small to full size."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SPIN"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SPIN`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_SpinDirection",
+                    "metadata": {
+                        "description": "Rotation direction. Defaults to `CLOCKWISE`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Tilt": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Tilts in from the side with 3D rotation and a clip-path reveal."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TILT"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `TILT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_SideDirection",
+                    "metadata": {
+                        "description": "Side the element tilts in from. Defaults to `LEFT`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Turn": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Rotates into view around a corner pivot point."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TURN"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `TURN`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_CornerDirection",
+                    "metadata": {
+                        "description": "Corner pivot the element turns around. Defaults to `BOTTOM_LEFT`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `INTENSE`."
+                    }
+                }
+            }
+        },
+        "EntranceEffect_Wink": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Winks into view by expanding from its horizontal or vertical center, while being revealed with a clip-path."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "WINK"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `WINK`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Orientation",
+                    "metadata": {
+                        "description": "Axis the wink expands along. Defaults to `VERTICAL`."
+                    }
+                }
+            }
+        },
+        "LoopAnimation": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Looping animation configuration: the effect to repeat and its timing options. The effect repeats indefinitely while the node is on the page."
+            },
+            "properties": {
+                "effect": {
+                    "ref": "LoopEffect",
+                    "metadata": {
+                        "description": "The looping effect, discriminated by `type`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "duration": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Duration of a single iteration in milliseconds. When omitted, the effect's own tuned default is used — each effect has a different one.",
+                        "validation": {
+                            "max": 10000
+                        }
+                    }
+                },
+                "iterationDelay": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Pause between iterations in milliseconds.",
+                        "validation": {
+                            "max": 5000
+                        }
+                    }
+                }
+            }
+        },
+        "LoopEffect": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Animation",
+                "description": "Looping effect, discriminated by `type`. Each effect exposes only its own parameters; all parameters are optional and fall back to tuned defaults.",
+                "refUnion": {
+                    "BOUNCE": "LoopEffect_Bounce",
+                    "BREATHE": "LoopEffect_Breathe",
+                    "CROSS": "LoopEffect_Cross",
+                    "FLASH": "LoopEffect_Flash",
+                    "FLIP": "LoopEffect_Flip",
+                    "FOLD": "LoopEffect_Fold",
+                    "JELLO": "LoopEffect_Jello",
+                    "POKE": "LoopEffect_Poke",
+                    "PULSE": "LoopEffect_Pulse",
+                    "RUBBER": "LoopEffect_Rubber",
+                    "SPIN": "LoopEffect_Spin",
+                    "SWING": "LoopEffect_Swing",
+                    "WIGGLE": "LoopEffect_Wiggle"
+                },
+                "emitEnum": "LoopEffect_Type"
+            },
+            "mapping": {
+                "BOUNCE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Bounces up and down in place with an elastic multi-step curve."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "BREATHE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Scales gently in and out along an axis, as if breathing."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "enum": [
+                                "HORIZONTAL",
+                                "VERTICAL",
+                                "CENTER"
+                            ],
+                            "metadata": {
+                                "emitEnum": "LoopEffect_Breathe_Direction",
+                                "description": "Axis the breathing motion travels along. `CENTER` breathes in place with a 3D depth motion instead. Defaults to `VERTICAL`."
+                            }
+                        }
+                    }
+                },
+                "CROSS": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Drifts across its container toward one side, then re-enters from the opposite side."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_SideDirection",
+                            "metadata": {
+                                "description": "Side the element drifts toward. Defaults to `RIGHT`."
+                            }
+                        }
+                    }
+                },
+                "FLASH": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Fades out to fully transparent and back in."
+                    },
+                    "properties": {}
+                },
+                "FLIP": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Rotates a full turn around its horizontal or vertical axis in 3D."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Orientation",
+                            "metadata": {
+                                "description": "Axis the element flips around. Defaults to `HORIZONTAL`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "FOLD": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Folds back and forth around a hinged edge in 3D."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Edge the element is hinged on. Defaults to `TOP`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "JELLO": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Wobbles with a jelly-like skew that settles gradually."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "POKE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Nudges repeatedly toward a direction and springs back."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Direction the element pokes toward. Defaults to `RIGHT`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "PULSE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Scales up and back down rhythmically."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "RUBBER": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Stretches and squashes like a rubber band."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "SPIN": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Rotates continuously around its center."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_SpinDirection",
+                            "metadata": {
+                                "description": "Rotation direction. Defaults to `CLOCKWISE`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "SWING": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Swings back and forth around an edge pivot, like a hanging sign."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "direction": {
+                            "ref": "Animation_Direction",
+                            "metadata": {
+                                "description": "Edge the element swings from. Defaults to `TOP`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                },
+                "WIGGLE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Rocks side to side with a quick, accumulating rotation."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `GENTLE`."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "LoopEffect_Bounce": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Bounces up and down in place with an elastic multi-step curve."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BOUNCE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BOUNCE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Breathe": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Scales gently in and out along an axis, as if breathing."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BREATHE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BREATHE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "enum": [
+                        "HORIZONTAL",
+                        "VERTICAL",
+                        "CENTER"
+                    ],
+                    "metadata": {
+                        "emitEnum": "LoopEffect_Breathe_Direction",
+                        "description": "Axis the breathing motion travels along. `CENTER` breathes in place with a 3D depth motion instead. Defaults to `VERTICAL`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Cross": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Drifts across its container toward one side, then re-enters from the opposite side."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CROSS"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `CROSS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_SideDirection",
+                    "metadata": {
+                        "description": "Side the element drifts toward. Defaults to `RIGHT`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Flash": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Fades out to fully transparent and back in."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FLASH"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FLASH`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Flip": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Rotates a full turn around its horizontal or vertical axis in 3D."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FLIP"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FLIP`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Orientation",
+                    "metadata": {
+                        "description": "Axis the element flips around. Defaults to `HORIZONTAL`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Fold": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Folds back and forth around a hinged edge in 3D."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FOLD"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `FOLD`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Edge the element is hinged on. Defaults to `TOP`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Jello": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Wobbles with a jelly-like skew that settles gradually."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "JELLO"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `JELLO`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Poke": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Nudges repeatedly toward a direction and springs back."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "POKE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `POKE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Direction the element pokes toward. Defaults to `RIGHT`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Pulse": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Scales up and back down rhythmically."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PULSE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `PULSE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Rubber": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Stretches and squashes like a rubber band."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "RUBBER"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `RUBBER`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Spin": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Rotates continuously around its center."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SPIN"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SPIN`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_SpinDirection",
+                    "metadata": {
+                        "description": "Rotation direction. Defaults to `CLOCKWISE`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Swing": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Swings back and forth around an edge pivot, like a hanging sign."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SWING"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SWING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "direction": {
+                    "ref": "Animation_Direction",
+                    "metadata": {
+                        "description": "Edge the element swings from. Defaults to `TOP`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "LoopEffect_Wiggle": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Rocks side to side with a quick, accumulating rotation."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "WIGGLE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `WIGGLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `GENTLE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Animation",
+                "description": "Mouse effect, discriminated by `type`. Each effect exposes only its own parameters; all parameters are optional and fall back to tuned defaults.",
+                "refUnion": {
+                    "AIRY": "PointerEffect_Airy",
+                    "BLOB": "PointerEffect_Blob",
+                    "BLUR": "PointerEffect_Blur",
+                    "SCALE": "PointerEffect_Scale",
+                    "SKEW": "PointerEffect_Skew",
+                    "SWIVEL": "PointerEffect_Swivel",
+                    "TILT_3D": "PointerEffect_Tilt3d",
+                    "TRACK": "PointerEffect_Track",
+                    "TRACK_3D": "PointerEffect_Track3d"
+                },
+                "emitEnum": "PointerEffect_Type"
+            },
+            "mapping": {
+                "AIRY": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Drifts loosely after the pointer with a light, floating rotation."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "axis": {
+                            "ref": "Animation_Axis",
+                            "metadata": {
+                                "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "BLOB": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Squashes and stretches toward the pointer like a soft blob."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "BLUR": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Shifts after the pointer while blurring, like a motion trail."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "SCALE": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Scales as the pointer approaches, shrinking or growing around its center."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Reacts away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "axis": {
+                            "ref": "Animation_Axis",
+                            "metadata": {
+                                "description": "Axis the movement is constrained to. Defaults to `HORIZONTAL`."
+                            }
+                        },
+                        "direction": {
+                            "enum": [
+                                "UP",
+                                "DOWN"
+                            ],
+                            "metadata": {
+                                "emitEnum": "PointerEffect_Scale_Direction",
+                                "description": "Whether the node grows or shrinks as the pointer nears. Defaults to `DOWN`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "SKEW": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Skews toward the pointer, shearing the node as it moves."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Skews away from the pointer instead of toward it. Defaults to `true`."
+                            }
+                        },
+                        "axis": {
+                            "ref": "Animation_Axis",
+                            "metadata": {
+                                "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "SWIVEL": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Rotates around a pivot edge or axis, following the pointer like a hinged panel."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Swivels away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "axis": {
+                            "enum": [
+                                "TOP",
+                                "BOTTOM",
+                                "LEFT",
+                                "RIGHT",
+                                "CENTER_HORIZONTAL",
+                                "CENTER_VERTICAL"
+                            ],
+                            "metadata": {
+                                "emitEnum": "PointerEffect_Swivel_Axis",
+                                "description": "Pivot the node swivels around — an edge or a center axis. Defaults to `TOP`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "TILT_3D": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Tilts in 3D perspective toward the pointer, like a card catching the light."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Tilts away from the pointer instead of toward it. Defaults to `false`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "TRACK": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Follows the pointer's position with a smooth translation."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Moves away from the pointer instead of following it. Defaults to `false`."
+                            }
+                        },
+                        "axis": {
+                            "ref": "Animation_Axis",
+                            "metadata": {
+                                "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                },
+                "TRACK_3D": {
+                    "metadata": {
+                        "section": "Animation",
+                        "description": "Follows the pointer with a 3D depth motion, rotating slightly in perspective."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "inverted": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Moves away from the pointer instead of following it. Defaults to `true`."
+                            }
+                        },
+                        "axis": {
+                            "ref": "Animation_Axis",
+                            "metadata": {
+                                "description": "Axis the movement is constrained to. Defaults to `HORIZONTAL`."
+                            }
+                        },
+                        "easing": {
+                            "ref": "Animation_Easing",
+                            "metadata": {
+                                "description": "Motion style. Defaults to `MODERATE`."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PointerEffect_Airy": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Drifts loosely after the pointer with a light, floating rotation."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "AIRY"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `AIRY`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "axis": {
+                    "ref": "Animation_Axis",
+                    "metadata": {
+                        "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Blob": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Squashes and stretches toward the pointer like a soft blob."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BLOB"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BLOB`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Blur": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Shifts after the pointer while blurring, like a motion trail."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BLUR"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `BLUR`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Moves away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Scale": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Scales as the pointer approaches, shrinking or growing around its center."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SCALE"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SCALE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Reacts away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "axis": {
+                    "ref": "Animation_Axis",
+                    "metadata": {
+                        "description": "Axis the movement is constrained to. Defaults to `HORIZONTAL`."
+                    }
+                },
+                "direction": {
+                    "enum": [
+                        "UP",
+                        "DOWN"
+                    ],
+                    "metadata": {
+                        "emitEnum": "PointerEffect_Scale_Direction",
+                        "description": "Whether the node grows or shrinks as the pointer nears. Defaults to `DOWN`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Skew": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Skews toward the pointer, shearing the node as it moves."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SKEW"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SKEW`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Skews away from the pointer instead of toward it. Defaults to `true`."
+                    }
+                },
+                "axis": {
+                    "ref": "Animation_Axis",
+                    "metadata": {
+                        "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Swivel": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Rotates around a pivot edge or axis, following the pointer like a hinged panel."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SWIVEL"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `SWIVEL`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Swivels away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "axis": {
+                    "enum": [
+                        "TOP",
+                        "BOTTOM",
+                        "LEFT",
+                        "RIGHT",
+                        "CENTER_HORIZONTAL",
+                        "CENTER_VERTICAL"
+                    ],
+                    "metadata": {
+                        "emitEnum": "PointerEffect_Swivel_Axis",
+                        "description": "Pivot the node swivels around — an edge or a center axis. Defaults to `TOP`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Tilt3d": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Tilts in 3D perspective toward the pointer, like a card catching the light."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TILT_3D"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `TILT_3D`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Tilts away from the pointer instead of toward it. Defaults to `false`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Track": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Follows the pointer's position with a smooth translation."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TRACK"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `TRACK`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Moves away from the pointer instead of following it. Defaults to `false`."
+                    }
+                },
+                "axis": {
+                    "ref": "Animation_Axis",
+                    "metadata": {
+                        "description": "Axis the movement is constrained to. Defaults to `BOTH`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "PointerEffect_Track3d": {
+            "metadata": {
+                "section": "Animation",
+                "description": "Follows the pointer with a 3D depth motion, rotating slightly in perspective."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TRACK_3D"
+                    ],
+                    "metadata": {
+                        "description": "Effect type. \n Must be `TRACK_3D`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "inverted": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Moves away from the pointer instead of following it. Defaults to `true`."
+                    }
+                },
+                "axis": {
+                    "ref": "Animation_Axis",
+                    "metadata": {
+                        "description": "Axis the movement is constrained to. Defaults to `HORIZONTAL`."
+                    }
+                },
+                "easing": {
+                    "ref": "Animation_Easing",
+                    "metadata": {
+                        "description": "Motion style. Defaults to `MODERATE`."
+                    }
+                }
+            }
+        },
+        "Animation_Direction": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_Direction",
+                "description": "Cardinal direction of an animation — the side it enters from, is hinged on, or travels toward, depending on the effect."
+            },
+            "enum": [
+                "LEFT",
+                "RIGHT",
+                "TOP",
+                "BOTTOM"
+            ]
+        },
+        "Animation_Axis": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_Axis",
+                "description": "Axis a pointer-driven movement is constrained to."
+            },
+            "enum": [
+                "HORIZONTAL",
+                "VERTICAL",
+                "BOTH"
+            ]
+        },
+        "Animation_RadialDirection": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_RadialDirection",
+                "description": "Direction an animation enters from, including the diagonals and the element's own center."
+            },
+            "enum": [
+                "RIGHT",
+                "TOP_RIGHT",
+                "TOP",
+                "TOP_LEFT",
+                "LEFT",
+                "BOTTOM_LEFT",
+                "BOTTOM",
+                "BOTTOM_RIGHT",
+                "CENTER"
+            ]
+        },
+        "Animation_SideDirection": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_SideDirection",
+                "description": "Horizontal side of an animation — the side it enters from or travels toward, depending on the effect."
+            },
+            "enum": [
+                "LEFT",
+                "RIGHT"
+            ]
+        },
+        "Animation_CornerDirection": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_CornerDirection",
+                "description": "Corner an animation pivots around."
+            },
+            "enum": [
+                "TOP_LEFT",
+                "BOTTOM_LEFT",
+                "TOP_RIGHT",
+                "BOTTOM_RIGHT"
+            ]
+        },
+        "Animation_Orientation": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_Orientation",
+                "description": "Axis orientation of an animation."
+            },
+            "enum": [
+                "HORIZONTAL",
+                "VERTICAL"
+            ]
+        },
+        "Animation_SpinDirection": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_SpinDirection",
+                "description": "Rotation direction of a spinning animation."
+            },
+            "enum": [
+                "CLOCKWISE",
+                "COUNTER_CLOCKWISE"
+            ]
+        },
+        "Animation_Easing": {
+            "metadata": {
+                "section": "Animation",
+                "emitEnum": "Animation_Easing",
+                "description": "Motion style of an animation. `GENTLE` is the smoothest/softest curve, `MODERATE` is balanced, `INTENSE` overshoots slightly past the final state before settling. Only effects that expose a motion style declare this — the rest always play their own built-in curve."
+            },
+            "enum": [
+                "GENTLE",
+                "MODERATE",
+                "INTENSE"
+            ]
+        },
+        "TextStyle": {
+            "optionalProperties": {
+                "textAlignment": {
+                    "metadata": {
+                        "emitEnum": "TextStyle_TextAlignment",
+                        "description": "Text alignment. Supported values: <br> - `AUTO`: Text aligns itself automatically. <br> - `LEFT`: Text is aligned to the left. <br> - `RIGHT`: Text is aligned to the right. <br> - `CENTER`: Text is centered. <br> - `JUSTIFY`: Text is justified to both margins. <br> Default: `AUTO`."
+                    },
+                    "enum": [
+                        "AUTO",
+                        "LEFT",
+                        "RIGHT",
+                        "CENTER",
+                        "JUSTIFY"
+                    ]
+                },
+                "lineHeight": {
+                    "metadata": {
+                        "description": "Vertical spacing between lines of text in an element."
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Link": {
+            "metadata": {
+                "section": "Common objects",
+                "description": "Link object.",
+                "oneOf": {
+                    "strict": true,
+                    "properties": [
+                        "url",
+                        "anchor"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "url": {
+                    "metadata": {
+                        "description": "Absolute URL to link to."
+                    },
+                    "type": "string"
+                },
+                "anchor": {
+                    "metadata": {
+                        "description": "Target [Node ID](#node-ids) to link to."
+                    },
+                    "type": "string"
+                },
+                "target": {
+                    "metadata": {
+                        "emitEnum": "Link_Target",
+                        "description": "The HTML `target` attribute value for the link. This property defines where the link opens. <br> Supported values: <br> `SELF` - Opens the link in the same frame.<br> `BLANK` - Opens the link in a new browser tab or window.<br> `PARENT` - Opens the link in the parent frame.<br> `TOP` - Opens the link in the full body of the link's browser tab or window. <br> Default: `SELF`"
+                    },
+                    "enum": [
+                        "SELF",
+                        "BLANK",
+                        "PARENT",
+                        "TOP"
+                    ]
+                },
+                "rel": {
+                    "metadata": {
+                        "description": "Relationship between the current document and the linked document."
+                    },
+                    "ref": "Link_Rel"
+                },
+                "customData": {
+                    "type": "string",
+                    "metadata": {
+                        "deprecated": true,
+                        "internal": true,
+                        "description": "A serialized object used for a custom or external link panel."
+                    }
+                }
+            }
+        },
+        "Link_Rel": {
+            "optionalProperties": {
+                "nofollow": {
+                    "metadata": {
+                        "description": "Indicates to search engine crawlers not to follow the link. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "sponsored": {
+                    "metadata": {
+                        "description": "Indicates to search engine crawlers that the link is a paid placement such as sponsored content or an advertisement. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "ugc": {
+                    "metadata": {
+                        "description": "Indicates that this link is user-generated content and isn't necessarily trusted or endorsed by the page author. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "noreferrer": {
+                    "metadata": {
+                        "description": "Indicates that this link protects referral information from being passed to the target website."
+                    },
+                    "type": "boolean"
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "FileSource": {
+            "metadata": {
+                "section": "Common objects",
+                "description": "File source object.",
+                "oneOf": {
+                    "strict": true,
+                    "properties": [
+                        "url",
+                        "id"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "url": {
+                    "metadata": {
+                        "description": "File source URL."
+                    },
+                    "type": "string"
+                },
+                "id": {
+                    "metadata": {
+                        "description": "ID that's resolved to a URL by a resolver function."
+                    },
+                    "type": "string"
+                },
+                "private": {
+                    "metadata": {
+                        "description": "Whether the file's source is private. Learn more about [private files](https://dev.wix.com/docs/rest/assets/media/media-manager/files/private-files) in Wix. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                }
+            }
+        },
+        "Media": {
+            "properties": {
+                "src": {
+                    "metadata": {
+                        "description": "File source."
+                    },
+                    "ref": "FileSource"
+                }
+            },
+            "optionalProperties": {
+                "width": {
+                    "metadata": {
+                        "description": "Media width in pixels."
+                    },
+                    "type": "int32"
+                },
+                "height": {
+                    "metadata": {
+                        "description": "Media height in pixels."
+                    },
+                    "type": "int32"
+                },
+                "duration": {
+                    "metadata": {
+                        "description": "Media duration in seconds. Only relevant for audio and video files."
+                    },
+                    "type": "float64"
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Never": {
+            "metadata": {
+                "section": "Common objects",
+                "internal": true
+            },
+            "properties": {
+                "_neverCreatedElement": {}
+            }
+        },
+        "VerticalAlignment": {
+            "metadata": {
+                "section": "Common objects",
+                "emitEnum": "VerticalAlignment",
+                "description": "Vertical alignment."
+            },
+            "enum": [
+                "TOP",
+                "MIDDLE",
+                "BOTTOM"
+            ]
+        },
+        "BackgroundImage": {
+            "optionalProperties": {
+                "media": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Background image."
+                    }
+                },
+                "overlay": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Color or gradient drawn on top of the image. When present, this is the authoritative overlay and `opacity` is ignored. Its presence also marks content as authored under the new overlay model (vs. the legacy `opacity`-based dimming on `background`/`backdrop`)."
+                    }
+                },
+                "opacity": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Deprecated: use `overlay` instead. Legacy image opacity (0–100) that dimmed the image to reveal the `background`/`backdrop` color behind it.",
+                        "deprecated": true,
+                        "validation": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    }
+                },
+                "scaling": {
+                    "ref": "ImageScaling",
+                    "metadata": {
+                        "description": "Background image scaling."
+                    }
+                },
+                "position": {
+                    "ref": "ImagePosition",
+                    "metadata": {
+                        "description": "Position of background. Defaults to `CENTER`."
+                    }
+                },
+                "blur": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Blur radius in pixels applied to the image layer. `0` (default) leaves the image unblurred; blur is independent of any color overlay and the two stack.",
+                        "validation": {
+                            "min": 0,
+                            "max": 40
+                        }
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "ImageScaling": {
+            "metadata": {
+                "section": "Common objects",
+                "emitEnum": "ImageScaling",
+                "description": "Image scaling."
+            },
+            "enum": [
+                "AUTO",
+                "CONTAIN",
+                "COVER"
+            ]
+        },
+        "ImagePosition": {
+            "metadata": {
+                "section": "Common objects",
+                "emitEnum": "ImagePosition",
+                "description": "Image position."
+            },
+            "enum": [
+                "CENTER",
+                "CENTER_LEFT",
+                "CENTER_RIGHT",
+                "TOP",
+                "TOP_LEFT",
+                "TOP_RIGHT",
+                "BOTTOM",
+                "BOTTOM_LEFT",
+                "BOTTOM_RIGHT"
+            ]
+        },
+        "Gradient": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Common objects",
+                "refUnion": {
+                    "LINEAR": "Gradient_Linear",
+                    "RADIAL": "Gradient_Radial"
+                },
+                "emitEnum": "Gradient_Type",
+                "description": "Gradient configuration. Either linear or radial."
+            },
+            "mapping": {
+                "LINEAR": {
+                    "properties": {
+                        "stops": {
+                            "elements": {
+                                "ref": "Gradient_Stop"
+                            },
+                            "metadata": {
+                                "description": "Color stops for the gradient.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "angle": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Angle in degrees for linear gradient (0-360). \n Default: `90`"
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Common objects"
+                    }
+                },
+                "RADIAL": {
+                    "properties": {
+                        "stops": {
+                            "elements": {
+                                "ref": "Gradient_Stop"
+                            },
+                            "metadata": {
+                                "description": "Color stops for the gradient.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "centerX": {
+                            "type": "float64",
+                            "metadata": {
+                                "description": "Horizontal center position (0-100). \n Default: `50`",
+                                "validation": {
+                                    "min": 0,
+                                    "max": 100
+                                }
+                            }
+                        },
+                        "centerY": {
+                            "type": "float64",
+                            "metadata": {
+                                "description": "Vertical center position (0-100). \n Default: `50`",
+                                "validation": {
+                                    "min": 0,
+                                    "max": 100
+                                }
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Common objects"
+                    }
+                }
+            }
+        },
+        "Background": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Common objects",
+                "refUnion": {
+                    "COLOR": "Background_ColorVariant",
+                    "GRADIENT": "Background_GradientVariant"
+                },
+                "emitEnum": "Background_Type",
+                "description": "Background styling. Either a solid color or gradient."
+            },
+            "mapping": {
+                "COLOR": {
+                    "properties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Background color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Common objects"
+                    }
+                },
+                "GRADIENT": {
+                    "properties": {
+                        "gradient": {
+                            "ref": "Gradient",
+                            "metadata": {
+                                "description": "Gradient configuration."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Common objects"
+                    }
+                }
+            }
+        },
+        "Background_ColorVariant": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLOR"
+                    ]
+                },
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Background_GradientVariant": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "GRADIENT"
+                    ]
+                },
+                "gradient": {
+                    "ref": "Gradient",
+                    "metadata": {
+                        "description": "Gradient configuration."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Gradient_Linear": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LINEAR"
+                    ]
+                },
+                "stops": {
+                    "elements": {
+                        "ref": "Gradient_Stop"
+                    },
+                    "metadata": {
+                        "description": "Color stops for the gradient.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "angle": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Angle in degrees for linear gradient (0-360). \n Default: `90`"
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Gradient_Radial": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "RADIAL"
+                    ]
+                },
+                "stops": {
+                    "elements": {
+                        "ref": "Gradient_Stop"
+                    },
+                    "metadata": {
+                        "description": "Color stops for the gradient.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "centerX": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Horizontal center position (0-100). \n Default: `50`",
+                        "validation": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    }
+                },
+                "centerY": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Vertical center position (0-100). \n Default: `50`",
+                        "validation": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "Gradient_Stop": {
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Stop color as a hexadecimal value."
+                    }
+                },
+                "position": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Stop position (0-1). \n Default: `0`"
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Common objects"
+            }
+        },
+        "PluginContainerData": {
+            "optionalProperties": {
+                "width": {
+                    "metadata": {
+                        "description": "Node display width."
+                    },
+                    "ref": "PluginContainerData_Width"
+                },
+                "alignment": {
+                    "metadata": {
+                        "emitEnum": "PluginContainerData_Alignment",
+                        "description": "Node alignment in its container."
+                    },
+                    "enum": [
+                        "CENTER",
+                        "LEFT",
+                        "RIGHT"
+                    ]
+                },
+                "spoiler": {
+                    "metadata": {
+                        "description": "Spoiler cover settings.",
+                        "features": [
+                            "SPOILER"
+                        ]
+                    },
+                    "ref": "PluginContainerData_Spoiler"
+                },
+                "height": {
+                    "metadata": {
+                        "description": "Node display height."
+                    },
+                    "ref": "PluginContainerData_Height"
+                },
+                "textWrap": {
+                    "metadata": {
+                        "description": "Whether the text should wrap around the node when it's displayed. If `textWrap` is `false`, the node fills the width of its container. \n Default: `true` for all node types except `DIVIDER`."
+                    },
+                    "type": "boolean"
+                }
+            },
+            "metadata": {
+                "section": "containerdata"
+            }
+        },
+        "PluginContainerData_Spoiler": {
+            "optionalProperties": {
+                "enabled": {
+                    "metadata": {
+                        "description": "Whether the spoiler cover is enabled. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "description": {
+                    "metadata": {
+                        "description": "Text displayed on the spoiler cover."
+                    },
+                    "type": "string"
+                },
+                "buttonText": {
+                    "metadata": {
+                        "description": "Text that appears on the button that removes the spoiler cover."
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "containerdata"
+            }
+        },
+        "PluginContainerData_Width": {
+            "metadata": {
+                "section": "containerdata",
+                "description": "Node display width.",
+                "oneOf": {
+                    "properties": [
+                        "size",
+                        "custom"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "size": {
+                    "metadata": {
+                        "emitEnum": "PluginContainerData_Width_Type",
+                        "description": "Width of a node in a container. Supported values: \n - `CONTENT`: Width of the container matches the content width. \n - `SMALL`: Small width. \n - `ORIGINAL`: Width of the container matches the original image width. **Note:** This value is only applicable for `imageData` containers. \n `FULL_WIDTH`: Image container takes up the full width of the screen. **Note:** This value is only applicable for `imageData` containers."
+                    },
+                    "enum": [
+                        "CONTENT",
+                        "SMALL",
+                        "ORIGINAL",
+                        "FULL_WIDTH"
+                    ]
+                },
+                "custom": {
+                    "metadata": {
+                        "description": "A custom width value in pixels."
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "PluginContainerData_Height": {
+            "optionalProperties": {
+                "custom": {
+                    "metadata": {
+                        "description": "Node display height in pixels."
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "containerdata"
+            }
+        },
+        "Decoration": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Decorations",
+                "refUnion": {
+                    "BOLD": "BoldDecoration",
+                    "ITALIC": "ItalicDecoration",
+                    "UNDERLINE": "UnderlineDecoration",
+                    "SPOILER": "SpoilerDecoration",
+                    "ANCHOR": "AnchorDecoration",
+                    "MENTION": "MentionDecoration",
+                    "LINK": "LinkDecoration",
+                    "COLOR": "ColorDecoration",
+                    "FONT_SIZE": "FontSizeDecoration",
+                    "STRIKETHROUGH": "StrikethroughDecoration",
+                    "SUPERSCRIPT": "SuperscriptDecoration",
+                    "SUBSCRIPT": "SubscriptDecoration",
+                    "FONT_FAMILY": "FontFamilyDecoration",
+                    "SKETCH": "SketchDecoration"
+                },
+                "emitEnum": "Decoration_Type"
+            },
+            "mapping": {
+                "BOLD": {
+                    "metadata": {
+                        "section": "Bold",
+                        "examples": [
+                            "bold"
+                        ],
+                        "description": "Bolds text, which makes it appear thicker and more prominent than normal text."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "fontWeightValue": {
+                            "type": "float32",
+                            "metadata": {
+                                "description": "Font weight."
+                            }
+                        }
+                    }
+                },
+                "ITALIC": {
+                    "metadata": {
+                        "section": "Italic",
+                        "examples": [
+                            "italic"
+                        ],
+                        "description": "Italicizes text, which makes it appear slanted or italicized. Italics are typically used for emphasis, citations, or to distinguish certain types of content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "italicData": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to enable the italic text."
+                            }
+                        }
+                    }
+                },
+                "UNDERLINE": {
+                    "metadata": {
+                        "section": "Underline",
+                        "examples": [
+                            "underline"
+                        ],
+                        "description": "Underlines text."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "underlineData": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to underline the text."
+                            }
+                        }
+                    }
+                },
+                "SPOILER": {
+                    "metadata": {
+                        "section": "Spoiler",
+                        "examples": [
+                            "spoiler"
+                        ],
+                        "features": [
+                            "SPOILER"
+                        ],
+                        "description": "Blurs text. <br> **Note:** This decoration requires the [`spoiler`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "spoilerData": {
+                            "ref": "SpoilerData",
+                            "metadata": {
+                                "description": "Spoiler details."
+                            }
+                        }
+                    }
+                },
+                "ANCHOR": {
+                    "metadata": {
+                        "section": "Anchor",
+                        "examples": [
+                            "anchor"
+                        ],
+                        "description": "Makes clickable text a different color. The link navigates to another section of the same page."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "anchorData": {
+                            "ref": "AnchorData",
+                            "metadata": {
+                                "description": "Anchor details."
+                            }
+                        }
+                    }
+                },
+                "MENTION": {
+                    "metadata": {
+                        "section": "Mention",
+                        "examples": [
+                            "mention"
+                        ],
+                        "features": [
+                            "MENTION"
+                        ],
+                        "description": "Text that mentions a specific user, often in social media platforms, forums, or content management systems. <br> **Note:** This decoration requires the [`mention`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "mentionData": {
+                            "ref": "MentionData",
+                            "metadata": {
+                                "description": "Anchor details."
+                            }
+                        }
+                    }
+                },
+                "LINK": {
+                    "metadata": {
+                        "section": "Link Decoration",
+                        "examples": [
+                            "link"
+                        ],
+                        "features": [
+                            "LINK"
+                        ],
+                        "description": "Makes clickable text a different color. The link navigates to another webpage or resource. <br> **Note:** This decoration requires the [`link`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "linkData": {
+                            "ref": "LinkData",
+                            "metadata": {
+                                "description": "Link details."
+                            }
+                        }
+                    }
+                },
+                "COLOR": {
+                    "metadata": {
+                        "section": "Color",
+                        "examples": [
+                            "color"
+                        ],
+                        "features": [
+                            "COLOR_DECORATION"
+                        ],
+                        "description": "Styles text using background and text colors. <br> **Note:** This decoration requires the [`colorDecoration`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "colorData": {
+                            "ref": "ColorData",
+                            "metadata": {
+                                "description": "Color details."
+                            }
+                        }
+                    }
+                },
+                "FONT_SIZE": {
+                    "metadata": {
+                        "section": "FontSize",
+                        "examples": [
+                            "font-size"
+                        ],
+                        "description": "Text font size."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "fontSizeData": {
+                            "ref": "FontSizeData",
+                            "metadata": {
+                                "description": "Font size details."
+                            }
+                        }
+                    }
+                },
+                "STRIKETHROUGH": {
+                    "metadata": {
+                        "section": "Strikethrough",
+                        "examples": [
+                            "strikethrough"
+                        ],
+                        "description": "Strikes-through text."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "strikethroughData": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to strikethrough the text. Default: `true`."
+                            }
+                        }
+                    }
+                },
+                "SUPERSCRIPT": {
+                    "metadata": {
+                        "section": "Superscript",
+                        "examples": [
+                            "superscript"
+                        ],
+                        "description": "Makes text appear smaller and raised above the baseline."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "superscriptData": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to make the text appear smaller and raised above the baseline."
+                            }
+                        }
+                    }
+                },
+                "SUBSCRIPT": {
+                    "metadata": {
+                        "section": "Subscript",
+                        "examples": [
+                            "subscript"
+                        ],
+                        "description": "Makes text appear smaller and lowered below the baseline."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "subscriptData": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to make the text appear smaller and lowered below the baseline."
+                            }
+                        }
+                    }
+                },
+                "FONT_FAMILY": {
+                    "metadata": {
+                        "section": "FontFamily",
+                        "examples": [
+                            "font-family"
+                        ],
+                        "features": [
+                            "FONT_FAMILY"
+                        ],
+                        "description": "Text font family."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "fontFamilyData": {
+                            "ref": "FontFamilyData",
+                            "metadata": {
+                                "description": "Font family details."
+                            }
+                        }
+                    }
+                },
+                "SKETCH": {
+                    "metadata": {
+                        "section": "Sketch",
+                        "examples": [
+                            "sketch-decoration"
+                        ],
+                        "features": [
+                            "SKETCH_DECORATION"
+                        ],
+                        "description": "Hand-drawn sketch annotation drawn over the text using rough.js."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "sketchData": {
+                            "ref": "SketchData",
+                            "metadata": {
+                                "description": "Data for a sketch decoration."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "BoldDecoration": {
+            "metadata": {
+                "section": "Bold",
+                "examples": [
+                    "bold"
+                ],
+                "description": "Bolds text, which makes it appear thicker and more prominent than normal text."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BOLD"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `BOLD`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "fontWeightValue": {
+                    "type": "float32",
+                    "metadata": {
+                        "description": "Font weight."
+                    }
+                }
+            }
+        },
+        "ItalicDecoration": {
+            "metadata": {
+                "section": "Italic",
+                "examples": [
+                    "italic"
+                ],
+                "description": "Italicizes text, which makes it appear slanted or italicized. Italics are typically used for emphasis, citations, or to distinguish certain types of content."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ITALIC"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `ITALIC`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "italicData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to enable the italic text."
+                    }
+                }
+            }
+        },
+        "UnderlineDecoration": {
+            "metadata": {
+                "section": "Underline",
+                "examples": [
+                    "underline"
+                ],
+                "description": "Underlines text."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "UNDERLINE"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \nMust be `UNDERLINE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "underlineData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to underline the text."
+                    }
+                }
+            }
+        },
+        "StrikethroughDecoration": {
+            "metadata": {
+                "section": "Strikethrough",
+                "examples": [
+                    "strikethrough"
+                ],
+                "description": "Strikes-through text."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STRIKETHROUGH"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \nMust be `STRIKETHROUGH`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "strikethroughData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to strikethrough the text. Default: `true`."
+                    }
+                }
+            }
+        },
+        "SuperscriptDecoration": {
+            "metadata": {
+                "section": "Superscript",
+                "examples": [
+                    "superscript"
+                ],
+                "description": "Makes text appear smaller and raised above the baseline."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SUPERSCRIPT"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `SUPERSCRIPT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "superscriptData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to make the text appear smaller and raised above the baseline."
+                    }
+                }
+            }
+        },
+        "SubscriptDecoration": {
+            "metadata": {
+                "section": "Subscript",
+                "examples": [
+                    "subscript"
+                ],
+                "description": "Makes text appear smaller and lowered below the baseline."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SUBSCRIPT"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `SUBSCRIPT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "subscriptData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to make the text appear smaller and lowered below the baseline."
+                    }
+                }
+            }
+        },
+        "SpoilerDecoration": {
+            "metadata": {
+                "section": "Spoiler",
+                "examples": [
+                    "spoiler"
+                ],
+                "features": [
+                    "SPOILER"
+                ],
+                "description": "Blurs text. <br> **Note:** This decoration requires the [`spoiler`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SPOILER"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `SPOILER`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "spoilerData": {
+                    "ref": "SpoilerData",
+                    "metadata": {
+                        "description": "Spoiler details."
+                    }
+                }
+            }
+        },
+        "AnchorDecoration": {
+            "metadata": {
+                "section": "Anchor",
+                "examples": [
+                    "anchor"
+                ],
+                "description": "Makes clickable text a different color. The link navigates to another section of the same page."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ANCHOR"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `ANCHOR`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "anchorData": {
+                    "ref": "AnchorData",
+                    "metadata": {
+                        "description": "Anchor details."
+                    }
+                }
+            }
+        },
+        "MentionDecoration": {
+            "metadata": {
+                "section": "Mention",
+                "examples": [
+                    "mention"
+                ],
+                "features": [
+                    "MENTION"
+                ],
+                "description": "Text that mentions a specific user, often in social media platforms, forums, or content management systems. <br> **Note:** This decoration requires the [`mention`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "MENTION"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `MENTION`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "mentionData": {
+                    "ref": "MentionData",
+                    "metadata": {
+                        "description": "Anchor details."
+                    }
+                }
+            }
+        },
+        "LinkDecoration": {
+            "metadata": {
+                "section": "Link Decoration",
+                "examples": [
+                    "link"
+                ],
+                "features": [
+                    "LINK"
+                ],
+                "description": "Makes clickable text a different color. The link navigates to another webpage or resource. <br> **Note:** This decoration requires the [`link`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LINK"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `LINK`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "linkData": {
+                    "ref": "LinkData",
+                    "metadata": {
+                        "description": "Link details."
+                    }
+                }
+            }
+        },
+        "ColorDecoration": {
+            "metadata": {
+                "section": "Color",
+                "examples": [
+                    "color"
+                ],
+                "features": [
+                    "COLOR_DECORATION"
+                ],
+                "description": "Styles text using background and text colors. <br> **Note:** This decoration requires the [`colorDecoration`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLOR"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Value: `COLOR`"
+                    }
+                }
+            },
+            "optionalProperties": {
+                "colorData": {
+                    "ref": "ColorData",
+                    "metadata": {
+                        "description": "Color details."
+                    }
+                }
+            }
+        },
+        "FontSizeDecoration": {
+            "metadata": {
+                "section": "FontSize",
+                "examples": [
+                    "font-size"
+                ],
+                "description": "Text font size."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FONT_SIZE"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `FONT_SIZE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "fontSizeData": {
+                    "ref": "FontSizeData",
+                    "metadata": {
+                        "description": "Font size details."
+                    }
+                }
+            }
+        },
+        "AnchorData": {
+            "metadata": {
+                "section": "Anchor"
+            },
+            "optionalProperties": {
+                "anchor": {
+                    "metadata": {
+                        "description": "Target Node ID to redirect to."
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "ColorData": {
+            "metadata": {
+                "section": "Color"
+            },
+            "optionalProperties": {
+                "background": {
+                    "metadata": {
+                        "description": "Background color as a hexadecimal value."
+                    },
+                    "type": "string"
+                },
+                "foreground": {
+                    "metadata": {
+                        "description": "Text color as a hexadecimal value."
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "LinkData": {
+            "metadata": {
+                "section": "Link Decoration"
+            },
+            "optionalProperties": {
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Link object."
+                    }
+                }
+            }
+        },
+        "MentionData": {
+            "metadata": {
+                "section": "Mention"
+            },
+            "optionalProperties": {
+                "name": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Display name of the mentioned user."
+                    }
+                },
+                "slug": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Username of the mentioned user. This is th text that appears after the \"@\"."
+                    }
+                },
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "ID of the mentioned user."
+                    }
+                },
+                "type": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "The kind of entity the mention refers to. Any value is accepted, and it's usually used to mark a mention as a group mention (for example, `group`). When empty, the mention refers to a member."
+                    }
+                }
+            }
+        },
+        "FontSizeData": {
+            "metadata": {
+                "section": "FontSize"
+            },
+            "properties": {
+                "value": {
+                    "type": "float32",
+                    "metadata": {
+                        "description": "Font size value."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "unit": {
+                    "metadata": {
+                        "description": "Font size units. \n Default: `PX`",
+                        "emitEnum": "FontSizeData_fontType"
+                    },
+                    "enum": [
+                        "PX",
+                        "EM"
+                    ]
+                }
+            }
+        },
+        "FontFamilyDecoration": {
+            "metadata": {
+                "section": "FontFamily",
+                "examples": [
+                    "font-family"
+                ],
+                "features": [
+                    "FONT_FAMILY"
+                ],
+                "description": "Text font family."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FONT_FAMILY"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `FONT_FAMILY`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "fontFamilyData": {
+                    "ref": "FontFamilyData",
+                    "metadata": {
+                        "description": "Font family details."
+                    }
+                }
+            }
+        },
+        "FontFamilyData": {
+            "metadata": {
+                "section": "FontFamily"
+            },
+            "optionalProperties": {
+                "value": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Font family value."
+                    }
+                }
+            }
+        },
+        "SketchDecoration": {
+            "metadata": {
+                "section": "Sketch",
+                "examples": [
+                    "sketch-decoration"
+                ],
+                "features": [
+                    "SKETCH_DECORATION"
+                ],
+                "description": "Hand-drawn sketch annotation drawn over the text using rough.js."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SKETCH"
+                    ],
+                    "metadata": {
+                        "description": "Decoration type. \n Must be `SKETCH`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "sketchData": {
+                    "ref": "SketchData",
+                    "metadata": {
+                        "description": "Data for a sketch decoration."
+                    }
+                }
+            }
+        },
+        "SketchData": {
+            "metadata": {
+                "section": "Sketch"
+            },
+            "properties": {
+                "variant": {
+                    "metadata": {
+                        "emitEnum": "SketchData_Variant",
+                        "description": "The sketch annotation variant to draw."
+                    },
+                    "enum": [
+                        "UNDERLINE",
+                        "BOX",
+                        "CIRCLE",
+                        "HIGHLIGHT",
+                        "STRIKETHROUGH",
+                        "CROSSED_OFF"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Annotation color. Defaults to the theme action color."
+                    }
+                },
+                "animate": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the annotation animates on first paint. Defaults to `true`."
+                    }
+                }
+            }
+        },
+        "SpoilerData": {
+            "metadata": {
+                "section": "Spoiler"
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                }
+            }
+        },
+        "BlockquoteNode": {
+            "metadata": {
+                "section": "Block quote",
+                "tsRicosNode": true,
+                "examples": [
+                    "blockquote"
+                ],
+                "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BLOCKQUOTE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `BLOCKQUOTE`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "ParagraphNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define a blockquote paragraph.",
+                        "validation": {
+                            "minSize": 1,
+                            "maxSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "blockquoteData": {
+                    "ref": "BlockquoteData",
+                    "metadata": {
+                        "description": "Blockquote details."
+                    }
+                },
+                "style": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    }
+                }
+            }
+        },
+        "BlockquoteData": {
+            "optionalProperties": {
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Blockquote margin from the left side. \n The indentation is measured relative to the font size *em* units by a ratio of 1.5. For example, if the indentation is `2`, then the margin is equal to **3em**. Therefore the margin is 3 times the size of the font."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Block quote"
+            }
+        },
+        "CaptionNode": {
+            "metadata": {
+                "section": "Caption",
+                "tsRicosNode": true,
+                "examples": [],
+                "description": "Caption container to be attached to media elements, such as images. Captions support formatted text content and can be styled independently from their parent nodes."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CAPTION"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `CAPTION`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "TextNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Caption [node ID](#node-ids)."
+                    }
+                },
+                "style": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Defines the caption styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    }
+                },
+                "captionData": {
+                    "ref": "CaptionData",
+                    "metadata": {
+                        "description": "Caption options."
+                    }
+                }
+            }
+        },
+        "CaptionData": {
+            "optionalProperties": {
+                "textStyle": {
+                    "ref": "TextStyle",
+                    "metadata": {
+                        "description": "Caption text styling."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Caption"
+            }
+        },
+        "CardNode": {
+            "metadata": {
+                "section": "Card",
+                "tsRicosNode": true,
+                "features": [
+                    "PAGING"
+                ],
+                "description": "A card container node that can hold any block-level content."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CARD"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `CARD`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "CardChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes that the card contains."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "cardData": {
+                    "ref": "CardData",
+                    "metadata": {
+                        "description": "Card details."
+                    }
+                }
+            }
+        },
+        "CardData": {
+            "optionalProperties": {
+                "background": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Background styling (color or gradient)."
+                    }
+                },
+                "backgroundImage": {
+                    "ref": "BackgroundImage",
+                    "metadata": {
+                        "description": "Background image."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Card"
+            }
+        },
+        "CardChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Card",
+                "description": "Nodes that can be placed inside a Card.",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "VIDEO": "VideoNode",
+                    "DIVIDER": "DividerNode",
+                    "FILE": "FileNode",
+                    "GALLERY": "GalleryNode",
+                    "GIF": "GifNode",
+                    "HTML": "HtmlNode",
+                    "TOC": "TocNode",
+                    "IMAGE": "ImageNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "POLL": "PollNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "BUTTON": "ButtonNode",
+                    "COLLAPSIBLE_LIST": "CollapsibleListNode",
+                    "TABLE": "TableNode",
+                    "EMBED": "EmbedNode",
+                    "AUDIO": "AudioNode",
+                    "LAYOUT": "LayoutNode",
+                    "EXTERNAL": "ExternalNode",
+                    "SHAPE": "ShapeNode",
+                    "SMART_BLOCK": "SmartBlockNode"
+                }
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "POLL": {
+                    "metadata": {
+                        "section": "Poll",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "poll"
+                        ],
+                        "features": [
+                            "POLL"
+                        ],
+                        "description": "Provides a question with several options, where the options' cumulative total may be shown."
+                    },
+                    "properties": {
+                        "pollData": {
+                            "ref": "PollData",
+                            "metadata": {
+                                "description": "Poll details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_LIST": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "collapsible-list"
+                        ],
+                        "features": [
+                            "COLLAPSIBLE_LIST"
+                        ],
+                        "description": "List of items where each item can be expanded or collapsed."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "collapsibleListData": {
+                            "ref": "CollapsibleListData",
+                            "metadata": {
+                                "description": "Collapsible list details."
+                            }
+                        }
+                    }
+                },
+                "TABLE": {
+                    "metadata": {
+                        "section": "Table",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "table"
+                        ],
+                        "features": [
+                            "TABLE"
+                        ],
+                        "description": "Data in rows and columns."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TableRowNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define table rows.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tableData": {
+                            "ref": "TableData",
+                            "metadata": {
+                                "description": "Table details."
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "LAYOUT": {
+                    "metadata": {
+                        "section": "Layout",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "layout"
+                        ],
+                        "description": "Used to wrap cells in layout container. When rendered, it cells one after the other in a row"
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "LayoutCellNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Cell items.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 6
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "layoutData": {
+                            "ref": "LayoutData",
+                            "metadata": {
+                                "description": "Layout details."
+                            }
+                        }
+                    }
+                },
+                "EXTERNAL": {
+                    "metadata": {
+                        "section": "External",
+                        "tsRicosNode": true,
+                        "internal": true
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "htmlData": {},
+                        "externalData": {
+                            "values": {}
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Shape",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "shape-id"
+                        ],
+                        "features": [
+                            "SHAPE"
+                        ],
+                        "description": "Standalone shapes in a page."
+                    },
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "shapeData": {
+                            "ref": "ShapeData",
+                            "metadata": {
+                                "description": "Shape options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SMART_BLOCK": {
+                    "metadata": {
+                        "section": "SmartBlock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "SMART_BLOCK"
+                        ],
+                        "description": "A smart block node that allows switching between different visual representations (variants) while preserving content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "SmartBlockCellNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Smart block cells.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 12
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "smartBlockData": {
+                            "ref": "SmartBlockData",
+                            "metadata": {
+                                "description": "Smart block details."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CodeBlockNode": {
+            "metadata": {
+                "section": "Codeblock",
+                "tsRicosNode": true,
+                "features": [
+                    "CODE_BLOCK"
+                ],
+                "examples": [
+                    "code-block-multi-line",
+                    "code-block-syntax-highlighting"
+                ],
+                "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CODE_BLOCK"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n VMust be `CODE_BLOCK`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "nodes": {
+                    "elements": {
+                        "ref": "TextNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define a code block text."
+                    }
+                },
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "codeBlockData": {
+                    "ref": "CodeBlockData",
+                    "metadata": {
+                        "description": "Code block details."
+                    }
+                },
+                "style": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    }
+                }
+            }
+        },
+        "CodeBlockData": {
+            "optionalProperties": {
+                "textStyle": {
+                    "ref": "TextStyle",
+                    "metadata": {
+                        "description": "Defines the text styling, such as alignment and line height."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Codeblock"
+            }
+        },
+        "HeadingNode": {
+            "metadata": {
+                "section": "Heading",
+                "tsRicosNode": true,
+                "examples": [
+                    "headings-all-sizes"
+                ],
+                "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "HEADING"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `HEADING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "nodes": {
+                    "elements": {
+                        "ref": "TextNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define the heading text."
+                    }
+                },
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "style": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    }
+                },
+                "headingData": {
+                    "ref": "HeadingData",
+                    "metadata": {
+                        "description": "Heading options."
+                    }
+                }
+            }
+        },
+        "HeadingData": {
+            "optionalProperties": {
+                "level": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Heading size. <br> Mi: `1` <br> Max: `6`",
+                        "validation": {
+                            "min": 1,
+                            "max": 6
+                        }
+                    }
+                },
+                "textStyle": {
+                    "ref": "TextStyle",
+                    "metadata": {
+                        "description": "Heading text styling, such as text alignment and line height."
+                    }
+                },
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Heading margin from the left side. \n The indentation is measured relative to the font size *em* units by a ratio of 1.5. For example, if the indentation is `2`, then the margin is equal to **3em**. Therefore the margin is 3 times the size of the font."
+                    }
+                },
+                "renderedLevel": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Rendered heading level for SEO/accessibility. When set, overrides the HTML tag (h1-h6) while `level` still controls the visual style.",
+                        "validation": {
+                            "min": 1,
+                            "max": 6
+                        }
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Heading"
+            }
+        },
+        "LayoutNode": {
+            "metadata": {
+                "section": "Layout",
+                "tsRicosNode": true,
+                "examples": [
+                    "layout"
+                ],
+                "description": "Used to wrap cells in layout container. When rendered, it cells one after the other in a row"
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LAYOUT"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `LAYOUT`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "LayoutCellNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Cell items.",
+                        "validation": {
+                            "minSize": 1,
+                            "maxSize": 6
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "layoutData": {
+                    "ref": "LayoutData",
+                    "metadata": {
+                        "description": "Layout details."
+                    }
+                }
+            }
+        },
+        "LayoutData": {
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Layout container styling."
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Deprecated: Use `background` instead.",
+                        "deprecated": true
+                    }
+                },
+                "background": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Background styling (color or gradient)."
+                    }
+                },
+                "backgroundImage": {
+                    "ref": "BackgroundImage",
+                    "metadata": {
+                        "description": "Background image."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "backdropColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Deprecated: Use `backdrop` instead.",
+                        "deprecated": true
+                    }
+                },
+                "backdrop": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Backdrop styling (color or gradient)."
+                    }
+                },
+                "backdropImage": {
+                    "ref": "BackgroundImage",
+                    "metadata": {
+                        "description": "Backdrop image."
+                    }
+                },
+                "backdropPaddingTop": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Backdrop padding top in pixels."
+                    }
+                },
+                "backdropPaddingBottom": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Backdrop padding bottom in pixels."
+                    }
+                },
+                "gap": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal and vertical gap between columns in pixels."
+                    }
+                },
+                "responsivenessBehaviour": {
+                    "ref": "LayoutData_ResponsivenessBehaviour",
+                    "metadata": {
+                        "description": "Responsiveness behaviour."
+                    }
+                },
+                "responsivenessBreakpoint": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Size in pixels when responsivenessBehaviour applies."
+                    }
+                },
+                "cellPadding": {
+                    "elements": {
+                        "type": "uint32"
+                    },
+                    "metadata": {
+                        "description": "Padding in pixels for cells. Follows CSS order: top, right, bottom, left."
+                    }
+                },
+                "cellVerticalAlignment": {
+                    "ref": "VerticalAlignment",
+                    "metadata": {
+                        "description": "Vertical alignment for the cell's items."
+                    }
+                },
+                "designTarget": {
+                    "ref": "LayoutData_DesignTarget",
+                    "metadata": {
+                        "description": "Defines where selected design propertied applies to."
+                    }
+                },
+                "banner": {
+                    "ref": "LayoutData_Banner",
+                    "metadata": {
+                        "description": "Banner configuration. When present, this layout is attached to a document edge (top for banner, bottom for footer)."
+                    }
+                },
+                "topDivider": {
+                    "ref": "LayoutData_SectionDivider",
+                    "metadata": {
+                        "description": "Shape divider at the top edge of the layout."
+                    }
+                },
+                "bottomDivider": {
+                    "ref": "LayoutData_SectionDivider",
+                    "metadata": {
+                        "description": "Shape divider at the bottom edge of the layout."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Layout",
+                "refUnion": {
+                    "ELLIPSE": "LayoutData_SectionDivider_Ellipse",
+                    "TILT": "LayoutData_SectionDivider_Tilt",
+                    "LIQUID": "LayoutData_SectionDivider_Liquid",
+                    "LEFT_WAVE": "LayoutData_SectionDivider_LeftWave",
+                    "PAINT_SCRIBBLE": "LayoutData_SectionDivider_PaintScribble",
+                    "INVERTED_ELLIPSE": "LayoutData_SectionDivider_InvertedEllipse",
+                    "RIGHT_WAVE": "LayoutData_SectionDivider_RightWave",
+                    "DUNES": "LayoutData_SectionDivider_Dunes",
+                    "WAVES": "LayoutData_SectionDivider_Waves",
+                    "TRIANGLE": "LayoutData_SectionDivider_Triangle",
+                    "SEMI_ELLIPSE": "LayoutData_SectionDivider_SemiEllipse",
+                    "PLANTS": "LayoutData_SectionDivider_Plants",
+                    "LAYERED_ELLIPSE": "LayoutData_SectionDivider_LayeredEllipse",
+                    "PIXELS": "LayoutData_SectionDivider_Pixels",
+                    "PAINT": "LayoutData_SectionDivider_Paint",
+                    "CLOUDS": "LayoutData_SectionDivider_Clouds",
+                    "OPTICAL_ILLUSION": "LayoutData_SectionDivider_OpticalIllusion",
+                    "STRIPES": "LayoutData_SectionDivider_Stripes",
+                    "BLOBS": "LayoutData_SectionDivider_Blobs",
+                    "SEMI_CIRCLES": "LayoutData_SectionDivider_SemiCircles",
+                    "HILL": "LayoutData_SectionDivider_Hill",
+                    "BRUSH": "LayoutData_SectionDivider_Brush",
+                    "PEAKS": "LayoutData_SectionDivider_Peaks",
+                    "ANGLED_TRIANGLE": "LayoutData_SectionDivider_AngledTriangle"
+                },
+                "emitEnum": "LayoutData_SectionDividerShape",
+                "description": "Decorative shape divider at a layout edge, discriminated by shape type. Each shape allows only the customization properties it supports."
+            },
+            "mapping": {
+                "ELLIPSE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "TILT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "LIQUID": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "LEFT_WAVE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "PAINT_SCRIBBLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "INVERTED_ELLIPSE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "RIGHT_WAVE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "DUNES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "WAVES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "TRIANGLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "SEMI_ELLIPSE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "PLANTS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "LAYERED_ELLIPSE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "PIXELS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "PAINT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "CLOUDS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "OPTICAL_ILLUSION": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "STRIPES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "BLOBS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "SEMI_CIRCLES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "HILL": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "BRUSH": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "PEAKS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                },
+                "ANGLED_TRIANGLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                            }
+                        },
+                        "height": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Divider height in pixels."
+                            }
+                        },
+                        "offsetX": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Horizontal offset in pixels."
+                            }
+                        },
+                        "flipped": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether the shape is flipped horizontally."
+                            }
+                        },
+                        "layers": {
+                            "ref": "LayoutData_SectionDividerLayers",
+                            "metadata": {
+                                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Layout"
+                    }
+                }
+            }
+        },
+        "LayoutData_SectionDivider_Ellipse": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ELLIPSE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `ELLIPSE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Tilt": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TILT"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `TILT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Liquid": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LIQUID"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `LIQUID`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_LeftWave": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LEFT_WAVE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `LEFT_WAVE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_PaintScribble": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PAINT_SCRIBBLE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `PAINT_SCRIBBLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_InvertedEllipse": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "INVERTED_ELLIPSE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `INVERTED_ELLIPSE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_RightWave": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "RIGHT_WAVE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `RIGHT_WAVE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Dunes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "DUNES"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `DUNES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Waves": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "WAVES"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `WAVES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Triangle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TRIANGLE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `TRIANGLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_SemiEllipse": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SEMI_ELLIPSE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `SEMI_ELLIPSE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Plants": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PLANTS"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `PLANTS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_LayeredEllipse": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LAYERED_ELLIPSE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `LAYERED_ELLIPSE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Pixels": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PIXELS"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `PIXELS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Paint": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PAINT"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `PAINT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Clouds": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CLOUDS"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `CLOUDS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_OpticalIllusion": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "OPTICAL_ILLUSION"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `OPTICAL_ILLUSION`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Stripes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STRIPES"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `STRIPES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Blobs": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BLOBS"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `BLOBS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_SemiCircles": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SEMI_CIRCLES"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `SEMI_CIRCLES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Hill": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "HILL"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `HILL`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Brush": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BRUSH"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `BRUSH`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_Peaks": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PEAKS"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `PEAKS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDivider_AngledTriangle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ANGLED_TRIANGLE"
+                    ],
+                    "metadata": {
+                        "description": "Divider shape. \n Must be `ANGLED_TRIANGLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider fill color as a hexadecimal value (may include alpha)."
+                    }
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Divider height in pixels."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal offset in pixels."
+                    }
+                },
+                "flipped": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the shape is flipped horizontally."
+                    }
+                },
+                "layers": {
+                    "ref": "LayoutData_SectionDividerLayers",
+                    "metadata": {
+                        "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutData_SectionDividerLayers": {
+            "metadata": {
+                "section": "Layout",
+                "description": "Layers effect - stacked semi-transparent copies of the divider shape."
+            },
+            "properties": {},
+            "optionalProperties": {
+                "count": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Total number of layers including the base shape (1-4). Absent or 1 disables the effect."
+                    }
+                },
+                "offsetY": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Vertical distance in pixels between the silhouettes of consecutive layers: each successive layer's silhouette is offset from the previous one by this amount. The divider's own `height` is unchanged. Defaults to 20."
+                    }
+                },
+                "offsetX": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Horizontal distance between consecutive layers in pixels. Defaults to 0. Only applies to shapes that support horizontal offset."
+                    }
+                },
+                "layerEffect": {
+                    "ref": "LayoutData_SectionDividerLayersLayerEffect",
+                    "metadata": {
+                        "description": "How the stacked layers fade relative to the base shape. Absent means CENTER."
+                    }
+                }
+            }
+        },
+        "LayoutData_SectionDividerLayersLayerEffect": {
+            "metadata": {
+                "section": "Layout",
+                "emitEnum": "LayoutData_SectionDividerLayersLayerEffect",
+                "description": "How the stacked layers fade relative to the base shape. FADE_TO_TOP: deeper (more transparent) layers shrink toward the edge inside the original band while a solid filler bar keeps its full height, so the faded copies hug the top of the band. FADE_TO_BOTTOM: deeper layers stretch taller into the section, so the faded copies fan out above the base shape and descend to the layout edge. CENTER: the shape keeps its height and a solid filler bar pushes it away from the edge. Named for a bottom divider; top dividers render mirrored, so the visual fade flips."
+            },
+            "enum": [
+                "CENTER",
+                "FADE_TO_TOP",
+                "FADE_TO_BOTTOM"
+            ]
+        },
+        "LayoutData_Banner": {
+            "metadata": {
+                "section": "Layout",
+                "description": "Edge banner configuration for layout."
+            },
+            "properties": {},
+            "optionalProperties": {
+                "position": {
+                    "ref": "LayoutData_BannerPosition",
+                    "metadata": {
+                        "description": "Edge position - top (banner) or bottom (footer)."
+                    }
+                },
+                "origin": {
+                    "ref": "LayoutData_BannerOrigin",
+                    "metadata": {
+                        "description": "Origin of the banner - whether it was created from an image or a layout."
+                    }
+                }
+            }
+        },
+        "LayoutData_BannerPosition": {
+            "metadata": {
+                "section": "Layout",
+                "emitEnum": "LayoutData_BannerPosition",
+                "description": "Edge position of the banner."
+            },
+            "enum": [
+                "TOP",
+                "BOTTOM"
+            ]
+        },
+        "LayoutData_BannerOrigin": {
+            "metadata": {
+                "section": "Layout",
+                "emitEnum": "LayoutData_BannerOrigin",
+                "description": "Origin type of the banner."
+            },
+            "enum": [
+                "IMAGE",
+                "LAYOUT"
+            ]
+        },
+        "LayoutData_ResponsivenessBehaviour": {
+            "metadata": {
+                "section": "Layout",
+                "emitEnum": "LayoutData_ResponsivenessBehaviour",
+                "description": "Responsiveness behaviour."
+            },
+            "enum": [
+                "STACK",
+                "WRAP"
+            ]
+        },
+        "LayoutData_DesignTarget": {
+            "metadata": {
+                "section": "Layout",
+                "emitEnum": "LayoutData_DesignTarget",
+                "description": "Defines where selected design propertied applies to."
+            },
+            "enum": [
+                "LAYOUT",
+                "CELL"
+            ]
+        },
+        "LayoutCellNode": {
+            "metadata": {
+                "section": "Layout",
+                "tsRicosNode": true,
+                "description": "Used to wrap content inside layout container. When rendered, it shows content inside layout column"
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LAYOUT_CELL"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `LAYOUT_CELL`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "LayoutCellChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes that the cell item contains."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "layoutCellData": {
+                    "ref": "LayoutCellData",
+                    "metadata": {
+                        "description": "Layout Cell details."
+                    }
+                }
+            }
+        },
+        "LayoutCellData": {
+            "optionalProperties": {
+                "colSpan": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Defines how many columns cell spans inside 12 column grid. If not provided it will divide remaining space equally.",
+                        "validation": {
+                            "min": 1,
+                            "max": 12
+                        }
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Layout"
+            }
+        },
+        "LayoutCellChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Layout",
+                "refUnion": {
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "HEADING": "HeadingNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "PARAGRAPH": "ParagraphNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "AUDIO": "AudioNode",
+                    "BUTTON": "ButtonNode",
+                    "COLLAPSIBLE_LIST": "CollapsibleListNode",
+                    "DIVIDER": "DividerNode",
+                    "EMBED": "EmbedNode",
+                    "FILE": "FileNode",
+                    "GALLERY": "GalleryNode",
+                    "GIF": "GifNode",
+                    "HTML": "HtmlNode",
+                    "IMAGE": "ImageNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "POLL": "PollNode",
+                    "TOC": "TocNode",
+                    "VIDEO": "VideoNode",
+                    "EXTERNAL": "ExternalNode",
+                    "SHAPE": "ShapeNode"
+                }
+            },
+            "mapping": {
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_LIST": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "collapsible-list"
+                        ],
+                        "features": [
+                            "COLLAPSIBLE_LIST"
+                        ],
+                        "description": "List of items where each item can be expanded or collapsed."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "collapsibleListData": {
+                            "ref": "CollapsibleListData",
+                            "metadata": {
+                                "description": "Collapsible list details."
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "POLL": {
+                    "metadata": {
+                        "section": "Poll",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "poll"
+                        ],
+                        "features": [
+                            "POLL"
+                        ],
+                        "description": "Provides a question with several options, where the options' cumulative total may be shown."
+                    },
+                    "properties": {
+                        "pollData": {
+                            "ref": "PollData",
+                            "metadata": {
+                                "description": "Poll details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "EXTERNAL": {
+                    "metadata": {
+                        "section": "External",
+                        "tsRicosNode": true,
+                        "internal": true
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "htmlData": {},
+                        "externalData": {
+                            "values": {}
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Shape",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "shape-id"
+                        ],
+                        "features": [
+                            "SHAPE"
+                        ],
+                        "description": "Standalone shapes in a page."
+                    },
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "shapeData": {
+                            "ref": "ShapeData",
+                            "metadata": {
+                                "description": "Shape options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "OrderedListNode": {
+            "metadata": {
+                "section": "List",
+                "tsRicosNode": true,
+                "examples": [
+                    "orderedList"
+                ],
+                "description": "Numbered list."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ORDERED_LIST"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `ORDERED_LIST`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "ListItemNode",
+                        "metadata": {
+                            "validation": {
+                                "minSize": 1
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "List items.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "orderedListData": {
+                    "ref": "OrderedListData",
+                    "metadata": {
+                        "description": "Ordered list details."
+                    }
+                }
+            }
+        },
+        "OrderedListData": {
+            "optionalProperties": {
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "deprecated": true,
+                        "description": "List margin from the left side. \n The indentation is measured relative to the font size *em* units by a ratio of 1.5. For example, if the indentation is `2`, then the margin is equal to **3em**. Therefore the margin is 3 times the size of the font."
+                    }
+                },
+                "offset": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Additional indentation of a list node. When offset is `0`, the list node appears at its default nesting level. Higher values cause increased indentation."
+                    }
+                },
+                "start": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Number at the top of the numbered list. <br> Default: `1`"
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "List"
+            }
+        },
+        "BulletedListNode": {
+            "metadata": {
+                "section": "List",
+                "tsRicosNode": true,
+                "examples": [
+                    "bulletedList"
+                ],
+                "description": "Bulleted list."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BULLETED_LIST"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `BULLETED_LIST`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "ListItemNode",
+                        "metadata": {
+                            "validation": {
+                                "minSize": 1
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "List items.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "bulletedListData": {
+                    "ref": "BulletedListData",
+                    "metadata": {
+                        "description": "Bulleted list details."
+                    }
+                }
+            }
+        },
+        "BulletedListData": {
+            "optionalProperties": {
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "deprecated": true
+                    }
+                },
+                "offset": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Additional indentation of a list node. When offset is `0`, the list node appears at its default nesting level. Higher values cause increased indentation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "List"
+            }
+        },
+        "CheckboxListNode": {
+            "metadata": {
+                "section": "List",
+                "tsRicosNode": true,
+                "examples": [
+                    "checkboxList"
+                ],
+                "description": "Checkbox list."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CHECKBOX_LIST"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `CHECKBOX_LIST`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "ListItemNode",
+                        "metadata": {
+                            "validation": {
+                                "minSize": 1
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "List items.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "checkboxListData": {
+                    "ref": "CheckboxListData",
+                    "metadata": {
+                        "description": "Checkbox list details."
+                    }
+                }
+            }
+        },
+        "CheckboxListData": {
+            "optionalProperties": {
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "deprecated": true
+                    }
+                },
+                "offset": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Additional indentation of a list node. When offset is `0`, the list node appears at its default nesting level. Higher values cause increased indentation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "List"
+            }
+        },
+        "ListItemNode": {
+            "metadata": {
+                "section": "List",
+                "tsRicosNode": true
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LIST_ITEM"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Value: `LIST_ITEM`"
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "ListItemChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes that the list item contains.",
+                        "pattern": {
+                            "description": "Must start with a paragraph or heading, followed by any number of paragraphs or nested lists.",
+                            "value": "(PARAGRAPH|HEADING|IMAGE|VIDEO|GIF|GALLERY) (PARAGRAPH|BULLETED_LIST|CHECKBOX_LIST|ORDERED_LIST|HEADING|IMAGE|VIDEO|GIF|GALLERY)*"
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "listItemData": {
+                    "ref": "ListItemNodeData",
+                    "metadata": {
+                        "description": "List item details."
+                    }
+                }
+            }
+        },
+        "ListItemNodeData": {
+            "optionalProperties": {
+                "checked": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Checkbox list item state. <br> Default: `false`"
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "List"
+            }
+        },
+        "ListItemChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "List",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "IMAGE": "ImageNode",
+                    "VIDEO": "VideoNode",
+                    "GIF": "GifNode",
+                    "GALLERY": "GalleryNode"
+                }
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ParagraphNode": {
+            "metadata": {
+                "section": "Paragraph",
+                "tsRicosNode": true,
+                "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                "examples": [
+                    "paragraph"
+                ]
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PARAGRAPH"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `PARAGRAPH`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "nodes": {
+                    "elements": {
+                        "ref": "TextNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Paragraph children."
+                    }
+                },
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "style": {
+                    "ref": "NodeStyle",
+                    "metadata": {
+                        "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                    }
+                },
+                "paragraphData": {
+                    "ref": "ParagraphData",
+                    "metadata": {
+                        "description": "Paragraph node attributes."
+                    }
+                }
+            }
+        },
+        "ParagraphData": {
+            "optionalProperties": {
+                "textStyle": {
+                    "ref": "TextStyle",
+                    "metadata": {
+                        "description": "Paragraph text styling."
+                    }
+                },
+                "indentation": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Paragraph margin from the left side. \n The indentation is measured relative to 40px. For example, if the indentation is `2`, then the margin is equal to **80px**."
+                    }
+                },
+                "level": {
+                    "type": "int32",
+                    "metadata": {
+                        "internal": true,
+                        "description": "Paragraph level for future different paragraphs."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Paragraph"
+            }
+        },
+        "TextNode": {
+            "metadata": {
+                "section": "TextNode",
+                "tsRicosNode": true,
+                "examples": [
+                    "text"
+                ],
+                "description": "Text nodes hold the text itself, similar to how `span` tags hold text in HTML. Text nodes can't be nested and must contain a non-empty string. Their appearance and behavior can be modified using [decorations](#decorations)."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TEXT"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `TEXT`."
+                    }
+                },
+                "textData": {
+                    "ref": "TextData",
+                    "metadata": {
+                        "description": "Text options."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "TextData": {
+            "properties": {
+                "text": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Non-empty string to display as text.",
+                        "validation": {
+                            "minLength": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "decorations": {
+                    "elements": {
+                        "ref": "Decoration"
+                    },
+                    "metadata": {
+                        "description": "Array of text [decorations](#decorations). A decoration can't appear twice in the array.",
+                        "validation": {
+                            "uniqueTags": true
+                        }
+                    }
+                }
+            },
+            "metadata": {
+                "section": "TextNode"
+            }
+        },
+        "AppEmbedNode": {
+            "metadata": {
+                "section": "App Embed",
+                "tsRicosNode": true,
+                "examples": [
+                    "app-embed-event",
+                    "app-embed-booking"
+                ],
+                "features": [
+                    "APP_EMBED"
+                ],
+                "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "APP_EMBED"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `APP_EMBED`."
+                    }
+                },
+                "appEmbedData": {
+                    "ref": "AppEmbedData",
+                    "metadata": {
+                        "description": "Embedded Wix app."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "AppEmbedData": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "App Embed",
+                "refUnion": {
+                    "PRODUCT": "AppEmbedDataProduct",
+                    "EVENT": "AppEmbedDataEvent",
+                    "BOOKING": "AppEmbedDataBooking"
+                },
+                "emitEnum": "AppEmbedData_AppType"
+            },
+            "mapping": {
+                "PRODUCT": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "description": "Embedded a product from Wix Stores."
+                    },
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content name."
+                            }
+                        },
+                        "url": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content URL."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "App embed container styling."
+                            }
+                        },
+                        "image": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Embedded content thumbnail."
+                            }
+                        },
+                        "itemId": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content ID."
+                            }
+                        },
+                        "imageSrc": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Deprecated: Use `image` instead.",
+                                "deprecated": true
+                            }
+                        },
+                        "hideImage": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the image."
+                            }
+                        },
+                        "hideTitle": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the title."
+                            }
+                        },
+                        "hidePrice": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the price."
+                            }
+                        },
+                        "hideButton": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the button."
+                            }
+                        },
+                        "hideRibbon": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the ribbon."
+                            }
+                        },
+                        "buttonStyles": {
+                            "ref": "AppEmbedData_ButtonStyles",
+                            "metadata": {
+                                "description": "Button styling options."
+                            }
+                        },
+                        "imageStyles": {
+                            "ref": "AppEmbedData_ImageStyles",
+                            "metadata": {
+                                "description": "Image styling options."
+                            }
+                        },
+                        "ribbonStyles": {
+                            "ref": "AppEmbedData_RibbonStyles",
+                            "metadata": {
+                                "description": "Ribbon styling options."
+                            }
+                        },
+                        "cardStyles": {
+                            "ref": "AppEmbedData_CardStyles",
+                            "metadata": {
+                                "description": "Card styling options."
+                            }
+                        },
+                        "pricingData": {
+                            "ref": "AppEmbedData_PricingData",
+                            "metadata": {
+                                "description": "Pricing information for the embedded content."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    }
+                },
+                "EVENT": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "description": "Embeds an event from Wix Events."
+                    },
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content name."
+                            }
+                        },
+                        "url": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content URL."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "App embed container styling."
+                            }
+                        },
+                        "eventData": {
+                            "ref": "AppEmbedData_EventData",
+                            "metadata": {
+                                "description": "Embedded event content."
+                            }
+                        },
+                        "image": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Embedded content thumbnail."
+                            }
+                        },
+                        "itemId": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content ID."
+                            }
+                        },
+                        "imageSrc": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Deprecated: Use `image` instead.",
+                                "deprecated": true
+                            }
+                        },
+                        "hideImage": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the image."
+                            }
+                        },
+                        "hideTitle": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the title."
+                            }
+                        },
+                        "hidePrice": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the price."
+                            }
+                        },
+                        "hideDescription": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the description."
+                            }
+                        },
+                        "hideDateTime": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the date and time."
+                            }
+                        },
+                        "hideLocation": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the location."
+                            }
+                        },
+                        "hideButton": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the button."
+                            }
+                        },
+                        "hideRibbon": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the ribbon."
+                            }
+                        },
+                        "buttonStyles": {
+                            "ref": "AppEmbedData_ButtonStyles",
+                            "metadata": {
+                                "description": "Button styling options."
+                            }
+                        },
+                        "imageStyles": {
+                            "ref": "AppEmbedData_ImageStyles",
+                            "metadata": {
+                                "description": "Image styling options."
+                            }
+                        },
+                        "ribbonStyles": {
+                            "ref": "AppEmbedData_RibbonStyles",
+                            "metadata": {
+                                "description": "Ribbon styling options."
+                            }
+                        },
+                        "cardStyles": {
+                            "ref": "AppEmbedData_CardStyles",
+                            "metadata": {
+                                "description": "Card styling options."
+                            }
+                        },
+                        "pricingData": {
+                            "ref": "AppEmbedData_PricingData",
+                            "metadata": {
+                                "description": "Pricing information for the embedded content."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    }
+                },
+                "BOOKING": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "description": "Embeds a booking from Wix Bookings."
+                    },
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content name."
+                            }
+                        },
+                        "url": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content URL."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "App embed container styling."
+                            }
+                        },
+                        "image": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Embedded content thumbnail."
+                            }
+                        },
+                        "itemId": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Embedded content ID."
+                            }
+                        },
+                        "bookingData": {
+                            "ref": "AppEmbedData_BookingData",
+                            "metadata": {
+                                "description": "Embedded booking content."
+                            }
+                        },
+                        "imageSrc": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Deprecated: Use `image` instead.",
+                                "deprecated": true
+                            }
+                        },
+                        "hideImage": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the image."
+                            }
+                        },
+                        "hideTitle": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the title."
+                            }
+                        },
+                        "hidePrice": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the price."
+                            }
+                        },
+                        "hideDescription": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the description."
+                            }
+                        },
+                        "hideDuration": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the duration."
+                            }
+                        },
+                        "hideLocation": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the location."
+                            }
+                        },
+                        "hideButton": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the button."
+                            }
+                        },
+                        "hideRibbon": {
+                            "type": "boolean",
+                            "metadata": {
+                                "description": "Whether to hide the ribbon."
+                            }
+                        },
+                        "buttonStyles": {
+                            "ref": "AppEmbedData_ButtonStyles",
+                            "metadata": {
+                                "description": "Button styling options."
+                            }
+                        },
+                        "imageStyles": {
+                            "ref": "AppEmbedData_ImageStyles",
+                            "metadata": {
+                                "description": "Image styling options."
+                            }
+                        },
+                        "ribbonStyles": {
+                            "ref": "AppEmbedData_RibbonStyles",
+                            "metadata": {
+                                "description": "Ribbon styling options."
+                            }
+                        },
+                        "cardStyles": {
+                            "ref": "AppEmbedData_CardStyles",
+                            "metadata": {
+                                "description": "Card styling options."
+                            }
+                        },
+                        "pricingData": {
+                            "ref": "AppEmbedData_PricingData",
+                            "metadata": {
+                                "description": "Pricing information for the embedded content."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "AppEmbedDataProduct": {
+            "metadata": {
+                "section": "App Embed",
+                "description": "Embedded a product from Wix Stores."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PRODUCT"
+                    ],
+                    "metadata": {
+                        "description": "Must be `PRODUCT`."
+                    }
+                },
+                "name": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content name."
+                    }
+                },
+                "url": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content URL."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "App embed container styling."
+                    }
+                },
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Embedded content thumbnail."
+                    }
+                },
+                "itemId": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content ID."
+                    }
+                },
+                "imageSrc": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `image` instead.",
+                        "deprecated": true
+                    }
+                },
+                "hideImage": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the image."
+                    }
+                },
+                "hideTitle": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the title."
+                    }
+                },
+                "hidePrice": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the price."
+                    }
+                },
+                "hideButton": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the button."
+                    }
+                },
+                "hideRibbon": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the ribbon."
+                    }
+                },
+                "buttonStyles": {
+                    "ref": "AppEmbedData_ButtonStyles",
+                    "metadata": {
+                        "description": "Button styling options."
+                    }
+                },
+                "imageStyles": {
+                    "ref": "AppEmbedData_ImageStyles",
+                    "metadata": {
+                        "description": "Image styling options."
+                    }
+                },
+                "ribbonStyles": {
+                    "ref": "AppEmbedData_RibbonStyles",
+                    "metadata": {
+                        "description": "Ribbon styling options."
+                    }
+                },
+                "cardStyles": {
+                    "ref": "AppEmbedData_CardStyles",
+                    "metadata": {
+                        "description": "Card styling options."
+                    }
+                },
+                "pricingData": {
+                    "ref": "AppEmbedData_PricingData",
+                    "metadata": {
+                        "description": "Pricing information for the embedded content."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            }
+        },
+        "AppEmbedDataEvent": {
+            "metadata": {
+                "section": "App Embed",
+                "description": "Embeds an event from Wix Events."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "EVENT"
+                    ],
+                    "metadata": {
+                        "description": "Must be `EVENT`."
+                    }
+                },
+                "name": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content name."
+                    }
+                },
+                "url": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content URL."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "App embed container styling."
+                    }
+                },
+                "eventData": {
+                    "ref": "AppEmbedData_EventData",
+                    "metadata": {
+                        "description": "Embedded event content."
+                    }
+                },
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Embedded content thumbnail."
+                    }
+                },
+                "itemId": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content ID."
+                    }
+                },
+                "imageSrc": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `image` instead.",
+                        "deprecated": true
+                    }
+                },
+                "hideImage": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the image."
+                    }
+                },
+                "hideTitle": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the title."
+                    }
+                },
+                "hidePrice": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the price."
+                    }
+                },
+                "hideDescription": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the description."
+                    }
+                },
+                "hideDateTime": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the date and time."
+                    }
+                },
+                "hideLocation": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the location."
+                    }
+                },
+                "hideButton": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the button."
+                    }
+                },
+                "hideRibbon": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the ribbon."
+                    }
+                },
+                "buttonStyles": {
+                    "ref": "AppEmbedData_ButtonStyles",
+                    "metadata": {
+                        "description": "Button styling options."
+                    }
+                },
+                "imageStyles": {
+                    "ref": "AppEmbedData_ImageStyles",
+                    "metadata": {
+                        "description": "Image styling options."
+                    }
+                },
+                "ribbonStyles": {
+                    "ref": "AppEmbedData_RibbonStyles",
+                    "metadata": {
+                        "description": "Ribbon styling options."
+                    }
+                },
+                "cardStyles": {
+                    "ref": "AppEmbedData_CardStyles",
+                    "metadata": {
+                        "description": "Card styling options."
+                    }
+                },
+                "pricingData": {
+                    "ref": "AppEmbedData_PricingData",
+                    "metadata": {
+                        "description": "Pricing information for the embedded content."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            }
+        },
+        "AppEmbedDataBooking": {
+            "metadata": {
+                "section": "App Embed",
+                "description": "Embeds a booking from Wix Bookings."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BOOKING"
+                    ]
+                },
+                "name": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content name."
+                    }
+                },
+                "url": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content URL."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "App embed container styling."
+                    }
+                },
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Embedded content thumbnail."
+                    }
+                },
+                "itemId": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Embedded content ID."
+                    }
+                },
+                "bookingData": {
+                    "ref": "AppEmbedData_BookingData",
+                    "metadata": {
+                        "description": "Embedded booking content."
+                    }
+                },
+                "imageSrc": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `image` instead.",
+                        "deprecated": true
+                    }
+                },
+                "hideImage": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the image."
+                    }
+                },
+                "hideTitle": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the title."
+                    }
+                },
+                "hidePrice": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the price."
+                    }
+                },
+                "hideDescription": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the description."
+                    }
+                },
+                "hideDuration": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the duration."
+                    }
+                },
+                "hideLocation": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the location."
+                    }
+                },
+                "hideButton": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the button."
+                    }
+                },
+                "hideRibbon": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to hide the ribbon."
+                    }
+                },
+                "buttonStyles": {
+                    "ref": "AppEmbedData_ButtonStyles",
+                    "metadata": {
+                        "description": "Button styling options."
+                    }
+                },
+                "imageStyles": {
+                    "ref": "AppEmbedData_ImageStyles",
+                    "metadata": {
+                        "description": "Image styling options."
+                    }
+                },
+                "ribbonStyles": {
+                    "ref": "AppEmbedData_RibbonStyles",
+                    "metadata": {
+                        "description": "Ribbon styling options."
+                    }
+                },
+                "cardStyles": {
+                    "ref": "AppEmbedData_CardStyles",
+                    "metadata": {
+                        "description": "Card styling options."
+                    }
+                },
+                "pricingData": {
+                    "ref": "AppEmbedData_PricingData",
+                    "metadata": {
+                        "description": "Pricing information for the embedded content."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            }
+        },
+        "AppEmbedData_BookingData": {
+            "optionalProperties": {
+                "durations": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Booking duration in minutes."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_EventData": {
+            "optionalProperties": {
+                "scheduling": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Event schedule."
+                    }
+                },
+                "location": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Event location."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_ButtonStyles": {
+            "optionalProperties": {
+                "buttonText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Text to display on the button."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "textColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Text color as a hexadecimal value."
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                },
+                "borderColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value (hover state)."
+                    }
+                },
+                "textColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Text color as a hexadecimal value (hover state)."
+                    }
+                },
+                "backgroundColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value (hover state)."
+                    }
+                },
+                "buttonSize": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Button size option, one of `SMALL`, `MEDIUM` or `LARGE`. Defaults to `MEDIUM`."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_ImageStyles": {
+            "optionalProperties": {
+                "imagePosition": {
+                    "enum": [
+                        "START",
+                        "END",
+                        "TOP"
+                    ],
+                    "metadata": {
+                        "description": "Position of image. Defaults to `START`.",
+                        "emitEnum": "AppEmbedData_ImageStyles_Position"
+                    }
+                },
+                "aspectRatio": {
+                    "enum": [
+                        "SQUARE",
+                        "RECTANGLE"
+                    ],
+                    "metadata": {
+                        "description": "Aspect ratio for the image. Defaults to `SQUARE`.",
+                        "emitEnum": "AppEmbedData_ImageStyles_AspectRatio"
+                    }
+                },
+                "resizing": {
+                    "enum": [
+                        "FILL",
+                        "FIT"
+                    ],
+                    "metadata": {
+                        "description": "How the image should be resized. Defaults to `FILL`.",
+                        "emitEnum": "AppEmbedData_ImageStyles_Resizing"
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Image border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Image border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Image border radius in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_RibbonStyles": {
+            "optionalProperties": {
+                "ribbonText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Text to display on the ribbon."
+                    }
+                },
+                "ribbonPlacement": {
+                    "enum": [
+                        "IMAGE",
+                        "PRODUCT_INFO"
+                    ],
+                    "metadata": {
+                        "description": "Placement of the ribbon. Defaults to `IMAGE`.",
+                        "emitEnum": "AppEmbedData_RibbonStyles_Placement"
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Ribbon background color as a hexadecimal value."
+                    }
+                },
+                "textColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Ribbon text color as a hexadecimal value."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Ribbon border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Ribbon border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Ribbon border radius in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_CardStyles": {
+            "optionalProperties": {
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Card background color as a hexadecimal value."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Card border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Card border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Card border radius in pixels."
+                    }
+                },
+                "type": {
+                    "enum": [
+                        "CONTAINED",
+                        "FRAMELESS"
+                    ],
+                    "metadata": {
+                        "description": "Card type. Defaults to `CONTAINED`.",
+                        "emitEnum": "AppEmbedData_CardStyles_Type"
+                    }
+                },
+                "alignment": {
+                    "enum": [
+                        "START",
+                        "CENTER",
+                        "END"
+                    ],
+                    "metadata": {
+                        "description": "Content alignment. Defaults to `START`.",
+                        "emitEnum": "AppEmbedData_CardStyles_Alignment"
+                    }
+                },
+                "titlePriceLayout": {
+                    "ref": "AppEmbedData_CardStyles_Layout",
+                    "metadata": {
+                        "description": "Layout for title and price. Defaults to `STACKED`."
+                    }
+                },
+                "titleColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Title text color as a hexadecimal value."
+                    }
+                },
+                "textColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Text color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AppEmbedData_CardStyles_Layout": {
+            "enum": [
+                "STACKED",
+                "SIDE_BY_SIDE"
+            ],
+            "metadata": {
+                "section": "App Embed",
+                "description": "Layout options for arranging elements."
+            }
+        },
+        "AppEmbedData_PricingData": {
+            "optionalProperties": {
+                "valueFrom": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "DECIMAL",
+                        "description": "Minimum numeric price value as string (e.g., \"10.99\")."
+                    }
+                },
+                "valueTo": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "DECIMAL",
+                        "description": "Maximum numeric price value as string (e.g., \"19.99\")."
+                    }
+                },
+                "discountedValue": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "DECIMAL",
+                        "description": "Numeric price value as string after discount application (e.g., \"15.99\")."
+                    }
+                },
+                "currency": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "CURRENCY",
+                        "description": "Currency of the value in ISO 4217 format (e.g., \"USD\", \"EUR\")."
+                    }
+                },
+                "pricingPlanId": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "GUID",
+                        "description": "Pricing plan ID."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "App Embed"
+            }
+        },
+        "AudioNode": {
+            "metadata": {
+                "section": "Audio",
+                "tsRicosNode": true,
+                "examples": [
+                    "audio-soundcloud"
+                ],
+                "features": [
+                    "AUDIO"
+                ],
+                "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "AUDIO"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `AUDIO`."
+                    }
+                },
+                "audioData": {
+                    "ref": "AudioData",
+                    "metadata": {
+                        "description": "Audio details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "AudioData": {
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "Audio node container styling."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "audio": {
+                    "metadata": {
+                        "description": "Audio file details."
+                    },
+                    "ref": "Media"
+                },
+                "disableDownload": {
+                    "metadata": {
+                        "description": "Whether the audio download button is disabled. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "coverImage": {
+                    "metadata": {
+                        "description": "Cover image."
+                    },
+                    "ref": "Media"
+                },
+                "name": {
+                    "metadata": {
+                        "description": "Track name."
+                    },
+                    "type": "string"
+                },
+                "authorName": {
+                    "metadata": {
+                        "description": "Author name."
+                    },
+                    "type": "string"
+                },
+                "html": {
+                    "metadata": {
+                        "description": "HTML version of the audio node."
+                    },
+                    "type": "string"
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Audio"
+            }
+        },
+        "ButtonNode": {
+            "metadata": {
+                "section": "Button",
+                "tsRicosNode": true,
+                "examples": [
+                    "button-link",
+                    "button-action",
+                    "button-styled"
+                ],
+                "features": [
+                    "BUTTON"
+                ],
+                "description": "Button to trigger an action."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BUTTON"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `BUTTON`"
+                    }
+                },
+                "buttonData": {
+                    "ref": "ButtonData",
+                    "metadata": {
+                        "description": "Button details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "ButtonData": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LINK",
+                        "ACTION"
+                    ],
+                    "metadata": {
+                        "emitEnum": "ButtonData_Type",
+                        "description": "Button type. Supported values: <br> - `LINK`: Redirects to a webpage. <br> - `ACTION`: Performs an action."
+                    }
+                },
+                "text": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Button text."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Button container styling."
+                    }
+                },
+                "styles": {
+                    "ref": "ButtonData_Styles",
+                    "metadata": {
+                        "description": "Button styling."
+                    }
+                },
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Button link details."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Button"
+            }
+        },
+        "ButtonData_Styles": {
+            "optionalProperties": {
+                "border": {
+                    "ref": "ButtonData_Styles_Border",
+                    "metadata": {
+                        "description": "Deprecated: Use `borderWidth` and `borderRadius` instead.",
+                        "deprecated": true
+                    }
+                },
+                "colors": {
+                    "ref": "ButtonData_Styles_Colors",
+                    "metadata": {
+                        "description": "Deprecated: Use `textColor`, `borderColor` and `backgroundColor` instead.",
+                        "deprecated": true
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderWidthHover": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Deprecated: Use `borderWidth` for normal/hover states instead.",
+                        "deprecated": true
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value (hover state)."
+                    }
+                },
+                "textColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Text color as a hexadecimal value."
+                    }
+                },
+                "textColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Text color as a hexadecimal value (hover state)."
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Deprecated: Use `background` instead.",
+                        "deprecated": true
+                    }
+                },
+                "backgroundColorHover": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Deprecated: Use `backgroundHover` instead.",
+                        "deprecated": true
+                    }
+                },
+                "background": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Background styling (color or gradient)."
+                    }
+                },
+                "backgroundHover": {
+                    "ref": "Background",
+                    "metadata": {
+                        "description": "Background styling for hover state (color or gradient)."
+                    }
+                },
+                "buttonSize": {
+                    "enum": [
+                        "MEDIUM",
+                        "SMALL",
+                        "LARGE"
+                    ],
+                    "metadata": {
+                        "emitEnum": "ButtonData_Styles_ButtonSize",
+                        "description": "Button size. Defaults to `MEDIUM`."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Button"
+            }
+        },
+        "ButtonData_Styles_Colors": {
+            "optionalProperties": {
+                "text": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `textColor` in `styles` instead.",
+                        "deprecated": true
+                    }
+                },
+                "border": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `borderColor` in `styles` instead.",
+                        "deprecated": true
+                    }
+                },
+                "background": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated: Use `backgroundColor` in `styles` instead.",
+                        "deprecated": true
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Button"
+            }
+        },
+        "ButtonData_Styles_Border": {
+            "optionalProperties": {
+                "width": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Deprecated: Use `borderWidth` in `styles` instead.",
+                        "deprecated": true
+                    }
+                },
+                "radius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Deprecated: Use `borderRadius` in `styles` instead",
+                        "deprecated": true
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Button"
+            }
+        },
+        "CollapsibleListNode": {
+            "metadata": {
+                "section": "Collapsible List",
+                "tsRicosNode": true,
+                "examples": [
+                    "collapsible-list"
+                ],
+                "features": [
+                    "COLLAPSIBLE_LIST"
+                ],
+                "description": "List of items where each item can be expanded or collapsed."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLLAPSIBLE_LIST"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `COLLAPSIBLE_LIST`"
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "CollapsibleItemNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Collapsible list child nodes.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "collapsibleListData": {
+                    "ref": "CollapsibleListData",
+                    "metadata": {
+                        "description": "Collapsible list details."
+                    }
+                }
+            }
+        },
+        "CollapsibleListData": {
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Collapsible list container styling."
+                    }
+                },
+                "expandOnlyOne": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether only one item can be expanded at a time. \n Default: `false`."
+                    }
+                },
+                "initialExpandedItems": {
+                    "enum": [
+                        "FIRST",
+                        "ALL",
+                        "NONE"
+                    ],
+                    "metadata": {
+                        "emitEnum": "CollapsibleListData_InitialExpandedItems",
+                        "description": "Sets which items are automatically expanded after the page loads."
+                    }
+                },
+                "direction": {
+                    "enum": [
+                        "LTR",
+                        "RTL"
+                    ],
+                    "metadata": {
+                        "emitEnum": "CollapsibleListData_Direction",
+                        "description": "Direction of the text in the list. Supported values: \n - `LTR`: Left to right. \n - `RTL`: Right to left."
+                    }
+                },
+                "isQapageData": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the collapsible item will appear in search results as an FAQ."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Collapsible List"
+            }
+        },
+        "CollapsibleItemNode": {
+            "metadata": {
+                "section": "Collapsible List",
+                "tsRicosNode": true
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLLAPSIBLE_ITEM"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `COLLAPSIBLE_ITEM`"
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "CollapsibleItemChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Collapsible list item.",
+                        "pattern": {
+                            "value": "COLLAPSIBLE_ITEM_TITLE COLLAPSIBLE_ITEM_BODY",
+                            "description": "Must contain title as the first item and body as the second."
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                }
+            }
+        },
+        "CollapsibleItemChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Collapsible List",
+                "refUnion": {
+                    "COLLAPSIBLE_ITEM_TITLE": "CollapsibleItemTitleNode",
+                    "COLLAPSIBLE_ITEM_BODY": "CollapsibleItemBodyNode"
+                }
+            },
+            "mapping": {
+                "COLLAPSIBLE_ITEM_TITLE": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "description": "Collapsible list item title."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleTitleChildNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list item title child nodes.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_ITEM_BODY": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "description": "Collapsible list item body."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemBodyChildNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list item body child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CollapsibleItemTitleNode": {
+            "metadata": {
+                "section": "Collapsible List",
+                "tsRicosNode": true,
+                "description": "Collapsible list item title."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLLAPSIBLE_ITEM_TITLE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `COLLAPSIBLE_ITEM_TITLE`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "CollapsibleTitleChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Collapsible list item title child nodes.",
+                        "validation": {
+                            "minSize": 1,
+                            "maxSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                }
+            }
+        },
+        "CollapsibleTitleChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Collapsible List",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "CODE_BLOCK": "CodeBlockNode"
+                }
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CollapsibleItemBodyNode": {
+            "metadata": {
+                "section": "Collapsible List",
+                "tsRicosNode": true,
+                "description": "Collapsible list item body."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLLAPSIBLE_ITEM_BODY"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `COLLAPSIBLE_ITEM_BODY`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "CollapsibleItemBodyChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Collapsible list item body child nodes.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                }
+            }
+        },
+        "CollapsibleItemBodyChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Collapsible List",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "AUDIO": "AudioNode",
+                    "FILE": "FileNode",
+                    "IMAGE": "ImageNode",
+                    "VIDEO": "VideoNode",
+                    "GIF": "GifNode",
+                    "DIVIDER": "DividerNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "GALLERY": "GalleryNode",
+                    "BUTTON": "ButtonNode",
+                    "COLLAPSIBLE_LIST": "CollapsibleListNode",
+                    "TABLE": "TableNode",
+                    "EMBED": "EmbedNode",
+                    "POLL": "PollNode",
+                    "HTML": "HtmlNode",
+                    "TOC": "TocNode",
+                    "SHAPE": "ShapeNode"
+                },
+                "description": "Collapsible list item body."
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_LIST": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "collapsible-list"
+                        ],
+                        "features": [
+                            "COLLAPSIBLE_LIST"
+                        ],
+                        "description": "List of items where each item can be expanded or collapsed."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "collapsibleListData": {
+                            "ref": "CollapsibleListData",
+                            "metadata": {
+                                "description": "Collapsible list details."
+                            }
+                        }
+                    }
+                },
+                "TABLE": {
+                    "metadata": {
+                        "section": "Table",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "table"
+                        ],
+                        "features": [
+                            "TABLE"
+                        ],
+                        "description": "Data in rows and columns."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TableRowNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define table rows.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tableData": {
+                            "ref": "TableData",
+                            "metadata": {
+                                "description": "Table details."
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "POLL": {
+                    "metadata": {
+                        "section": "Poll",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "poll"
+                        ],
+                        "features": [
+                            "POLL"
+                        ],
+                        "description": "Provides a question with several options, where the options' cumulative total may be shown."
+                    },
+                    "properties": {
+                        "pollData": {
+                            "ref": "PollData",
+                            "metadata": {
+                                "description": "Poll details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Shape",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "shape-id"
+                        ],
+                        "features": [
+                            "SHAPE"
+                        ],
+                        "description": "Standalone shapes in a page."
+                    },
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "shapeData": {
+                            "ref": "ShapeData",
+                            "metadata": {
+                                "description": "Shape options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "DividerNode": {
+            "metadata": {
+                "section": "Divider",
+                "tsRicosNode": true,
+                "examples": [
+                    "divider"
+                ],
+                "features": [
+                    "DIVIDER"
+                ],
+                "description": "Horizontal line between different content."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "DIVIDER"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `DIVIDER`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "dividerData": {
+                    "ref": "DividerData",
+                    "metadata": {
+                        "description": "Divider details."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "DividerData": {
+            "discriminator": "lineStyle",
+            "metadata": {
+                "section": "Divider",
+                "refUnion": {
+                    "SINGLE": "DividerData_SingleLine",
+                    "DOUBLE": "DividerData_DoubleLine",
+                    "DASHED": "DividerData_DashedLine",
+                    "DOTTED": "DividerData_DottedLine"
+                },
+                "emitEnum": "DividerData_LineStyle",
+                "description": "Divider data discriminated by line style."
+            },
+            "mapping": {
+                "SINGLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "Divider container styling."
+                            }
+                        },
+                        "width": {
+                            "ref": "DividerData_Width",
+                            "metadata": {
+                                "description": "Divider width."
+                            }
+                        },
+                        "alignment": {
+                            "ref": "DividerData_Alignment",
+                            "metadata": {
+                                "description": "Divider alignment."
+                            }
+                        },
+                        "styles": {
+                            "ref": "DividerData_SingleLine_Styles",
+                            "metadata": {
+                                "description": "Visual styling for the divider lines."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Divider"
+                    }
+                },
+                "DOUBLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "Divider container styling."
+                            }
+                        },
+                        "width": {
+                            "ref": "DividerData_Width",
+                            "metadata": {
+                                "description": "Divider width."
+                            }
+                        },
+                        "alignment": {
+                            "ref": "DividerData_Alignment",
+                            "metadata": {
+                                "description": "Divider alignment."
+                            }
+                        },
+                        "styles": {
+                            "ref": "DividerData_DoubleLine_Styles",
+                            "metadata": {
+                                "description": "Visual styling for the divider lines."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Divider"
+                    }
+                },
+                "DASHED": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "Divider container styling."
+                            }
+                        },
+                        "width": {
+                            "ref": "DividerData_Width",
+                            "metadata": {
+                                "description": "Divider width."
+                            }
+                        },
+                        "alignment": {
+                            "ref": "DividerData_Alignment",
+                            "metadata": {
+                                "description": "Divider alignment."
+                            }
+                        },
+                        "styles": {
+                            "ref": "DividerData_DashedLine_Styles",
+                            "metadata": {
+                                "description": "Visual styling for the divider lines."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Divider"
+                    }
+                },
+                "DOTTED": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "containerData": {
+                            "ref": "PluginContainerData",
+                            "metadata": {
+                                "description": "Divider container styling."
+                            }
+                        },
+                        "width": {
+                            "ref": "DividerData_Width",
+                            "metadata": {
+                                "description": "Divider width."
+                            }
+                        },
+                        "alignment": {
+                            "ref": "DividerData_Alignment",
+                            "metadata": {
+                                "description": "Divider alignment."
+                            }
+                        },
+                        "styles": {
+                            "ref": "DividerData_DottedLine_Styles",
+                            "metadata": {
+                                "description": "Visual styling for the divider lines."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Divider"
+                    }
+                }
+            }
+        },
+        "DividerData_SingleLine": {
+            "properties": {
+                "lineStyle": {
+                    "enum": [
+                        "SINGLE"
+                    ],
+                    "metadata": {
+                        "description": "Must be `SINGLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Divider container styling."
+                    }
+                },
+                "width": {
+                    "ref": "DividerData_Width",
+                    "metadata": {
+                        "description": "Divider width."
+                    }
+                },
+                "alignment": {
+                    "ref": "DividerData_Alignment",
+                    "metadata": {
+                        "description": "Divider alignment."
+                    }
+                },
+                "styles": {
+                    "ref": "DividerData_SingleLine_Styles",
+                    "metadata": {
+                        "description": "Visual styling for the divider lines."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DoubleLine": {
+            "properties": {
+                "lineStyle": {
+                    "enum": [
+                        "DOUBLE"
+                    ],
+                    "metadata": {
+                        "description": "Must be `DOUBLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Divider container styling."
+                    }
+                },
+                "width": {
+                    "ref": "DividerData_Width",
+                    "metadata": {
+                        "description": "Divider width."
+                    }
+                },
+                "alignment": {
+                    "ref": "DividerData_Alignment",
+                    "metadata": {
+                        "description": "Divider alignment."
+                    }
+                },
+                "styles": {
+                    "ref": "DividerData_DoubleLine_Styles",
+                    "metadata": {
+                        "description": "Visual styling for the divider lines."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DashedLine": {
+            "properties": {
+                "lineStyle": {
+                    "enum": [
+                        "DASHED"
+                    ],
+                    "metadata": {
+                        "description": "Must be `DASHED`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Divider container styling."
+                    }
+                },
+                "width": {
+                    "ref": "DividerData_Width",
+                    "metadata": {
+                        "description": "Divider width."
+                    }
+                },
+                "alignment": {
+                    "ref": "DividerData_Alignment",
+                    "metadata": {
+                        "description": "Divider alignment."
+                    }
+                },
+                "styles": {
+                    "ref": "DividerData_DashedLine_Styles",
+                    "metadata": {
+                        "description": "Visual styling for the divider lines."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DottedLine": {
+            "properties": {
+                "lineStyle": {
+                    "enum": [
+                        "DOTTED"
+                    ],
+                    "metadata": {
+                        "description": "Must be `DOTTED`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Divider container styling."
+                    }
+                },
+                "width": {
+                    "ref": "DividerData_Width",
+                    "metadata": {
+                        "description": "Divider width."
+                    }
+                },
+                "alignment": {
+                    "ref": "DividerData_Alignment",
+                    "metadata": {
+                        "description": "Divider alignment."
+                    }
+                },
+                "styles": {
+                    "ref": "DividerData_DottedLine_Styles",
+                    "metadata": {
+                        "description": "Visual styling for the divider lines."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_Width": {
+            "enum": [
+                "LARGE",
+                "MEDIUM",
+                "SMALL"
+            ],
+            "metadata": {
+                "section": "Divider",
+                "emitEnum": "DividerData_Width",
+                "description": "Divider width."
+            }
+        },
+        "DividerData_Alignment": {
+            "enum": [
+                "CENTER",
+                "LEFT",
+                "RIGHT"
+            ],
+            "metadata": {
+                "section": "Divider",
+                "emitEnum": "DividerData_Alignment",
+                "description": "Divider alignment."
+            }
+        },
+        "DividerData_Styles_LineCap": {
+            "enum": [
+                "SQUARE",
+                "ROUND"
+            ],
+            "metadata": {
+                "section": "Divider",
+                "emitEnum": "DividerData_Styles_LineCap",
+                "description": "Divider line ending shape."
+            }
+        },
+        "DividerData_SingleLine_Styles": {
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider color as a hexadecimal value. An alpha channel controls opacity."
+                    }
+                },
+                "lineCap": {
+                    "ref": "DividerData_Styles_LineCap",
+                    "metadata": {
+                        "description": "Divider line ending shape."
+                    }
+                },
+                "lineThickness": {
+                    "elements": {
+                        "type": "int32"
+                    },
+                    "metadata": {
+                        "description": "Line thicknesses in pixels, ordered from first line to last line."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DoubleLine_Styles": {
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider color as a hexadecimal value. An alpha channel controls opacity."
+                    }
+                },
+                "lineCap": {
+                    "ref": "DividerData_Styles_LineCap",
+                    "metadata": {
+                        "description": "Divider line ending shape."
+                    }
+                },
+                "lineThickness": {
+                    "elements": {
+                        "type": "int32"
+                    },
+                    "metadata": {
+                        "description": "Line thicknesses in pixels, ordered from first line to last line."
+                    }
+                },
+                "lineGap": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Gap between divider lines in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DashedLine_Styles": {
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider color as a hexadecimal value. An alpha channel controls opacity."
+                    }
+                },
+                "lineCap": {
+                    "ref": "DividerData_Styles_LineCap",
+                    "metadata": {
+                        "description": "Divider line ending shape."
+                    }
+                },
+                "lineThickness": {
+                    "elements": {
+                        "type": "int32"
+                    },
+                    "metadata": {
+                        "description": "Line thickness in pixels."
+                    }
+                },
+                "dashLength": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Visible dash length for dashed dividers, in pixels. The pattern is snapped to a whole number of dashes so that the first and last dash touch the divider's edges - narrower containers show fewer dashes at the same size."
+                    }
+                },
+                "dashGap": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Visible gap between dashes or dots, in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "DividerData_DottedLine_Styles": {
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Divider color as a hexadecimal value. An alpha channel controls opacity."
+                    }
+                },
+                "lineCap": {
+                    "ref": "DividerData_Styles_LineCap",
+                    "metadata": {
+                        "description": "Divider line ending shape."
+                    }
+                },
+                "lineThickness": {
+                    "elements": {
+                        "type": "int32"
+                    },
+                    "metadata": {
+                        "description": "Line thicknesses in pixels, ordered from first line to last line."
+                    }
+                },
+                "dashGap": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Visible gap between dashes or dots, in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Divider"
+            }
+        },
+        "EmbedNode": {
+            "metadata": {
+                "section": "Embed",
+                "tsRicosNode": true,
+                "examples": [
+                    "embed"
+                ],
+                "features": [
+                    "EMBED"
+                ],
+                "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "EMBED"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `EMBED`."
+                    }
+                },
+                "embedData": {
+                    "ref": "EmbedData",
+                    "metadata": {
+                        "description": "oEmbed details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "EmbedData": {
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "oEmbed node container styling."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "oembed": {
+                    "metadata": {
+                        "description": "[oEmbed](https://www.oembed.com) details."
+                    },
+                    "ref": "Oembed"
+                },
+                "src": {
+                    "metadata": {
+                        "description": "Original asset source."
+                    },
+                    "type": "string"
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Embed"
+            }
+        },
+        "Oembed": {
+            "optionalProperties": {
+                "type": {
+                    "metadata": {
+                        "description": "Resource type."
+                    },
+                    "type": "string"
+                },
+                "width": {
+                    "metadata": {
+                        "description": "Width of the resource specified in the `url` field in pixels."
+                    },
+                    "type": "int32"
+                },
+                "height": {
+                    "metadata": {
+                        "description": "Height of the resource specified in the `url` field in pixels."
+                    },
+                    "type": "int32"
+                },
+                "title": {
+                    "metadata": {
+                        "description": "Resource title."
+                    },
+                    "type": "string"
+                },
+                "url": {
+                    "metadata": {
+                        "description": "Resource source URL."
+                    },
+                    "type": "string"
+                },
+                "html": {
+                    "metadata": {
+                        "description": "HTML to embed a video player. The HTML should have no padding or margins."
+                    },
+                    "type": "string"
+                },
+                "authorName": {
+                    "metadata": {
+                        "description": "Name of the author or owner of the resource."
+                    },
+                    "type": "string"
+                },
+                "authorUrl": {
+                    "metadata": {
+                        "description": "URL for the author or owner of the resource."
+                    },
+                    "type": "string"
+                },
+                "providerName": {
+                    "metadata": {
+                        "description": "Name of the resource provider."
+                    },
+                    "type": "string"
+                },
+                "providerUrl": {
+                    "metadata": {
+                        "description": "URL for the resource provider."
+                    },
+                    "type": "string"
+                },
+                "thumbnailUrl": {
+                    "metadata": {
+                        "description": "Thumbnail image URL for the resource. If defined, `thumbnailWidth` and `thumbnailHeight` must also be defined."
+                    },
+                    "type": "string"
+                },
+                "thumbnailWidth": {
+                    "metadata": {
+                        "description": "Resource's thumbnail image width. If defined, `thumbnailUrl` and `thumbnailHeight` must also be defined."
+                    },
+                    "type": "string"
+                },
+                "thumbnailHeight": {
+                    "metadata": {
+                        "description": "Resource's thumbnail image height. If defined, `thumbnailUrl` and `thumbnailWidth`must also be defined."
+                    },
+                    "type": "string"
+                },
+                "videoUrl": {
+                    "metadata": {
+                        "description": "Embedded video URL."
+                    },
+                    "type": "string"
+                },
+                "version": {
+                    "metadata": {
+                        "description": "The oEmbed version number. Must be `1.0`."
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "Embed"
+            }
+        },
+        "ExternalNode": {
+            "metadata": {
+                "section": "External",
+                "tsRicosNode": true,
+                "internal": true
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "EXTERNAL"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string"
+                },
+                "htmlData": {},
+                "externalData": {
+                    "values": {}
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "FileNode": {
+            "metadata": {
+                "section": "File",
+                "tsRicosNode": true,
+                "examples": [
+                    "file"
+                ],
+                "features": [
+                    "FILE"
+                ],
+                "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "FILE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `FILE`."
+                    }
+                },
+                "fileData": {
+                    "ref": "FileData",
+                    "metadata": {
+                        "description": "File details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "FileData": {
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "File container styling."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "src": {
+                    "metadata": {
+                        "description": "File data source."
+                    },
+                    "ref": "FileSource"
+                },
+                "name": {
+                    "metadata": {
+                        "description": "File name."
+                    },
+                    "type": "string"
+                },
+                "type": {
+                    "metadata": {
+                        "description": "File type."
+                    },
+                    "type": "string"
+                },
+                "size": {
+                    "metadata": {
+                        "description": "Deprecated. Replaced by `sizeInKb`",
+                        "deprecated": true
+                    },
+                    "type": "uint32"
+                },
+                "sizeInKb": {
+                    "metadata": {
+                        "description": "File size in KB."
+                    },
+                    "type": "string"
+                },
+                "pdfSettings": {
+                    "metadata": {
+                        "description": "Settings for PDF files."
+                    },
+                    "ref": "FileData_PDFSettings"
+                },
+                "mimeType": {
+                    "metadata": {
+                        "description": "File MIME type."
+                    },
+                    "type": "string"
+                },
+                "path": {
+                    "metadata": {
+                        "description": "File path."
+                    },
+                    "type": "string"
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "File"
+            }
+        },
+        "FileData_PDFSettings": {
+            "optionalProperties": {
+                "viewMode": {
+                    "metadata": {
+                        "emitEnum": "FileData_PDFSettings_ViewMode",
+                        "description": "PDF view mode. Supported values: \n - `NONE`: PDF isn't displayed. \n - `FULL`: Full PDF page view is displayed. \n - `MINI`: Mini view of the PDF is displayed."
+                    },
+                    "enum": [
+                        "NONE",
+                        "FULL",
+                        "MINI"
+                    ]
+                },
+                "disableDownload": {
+                    "metadata": {
+                        "description": "Whether the PDF download button is disabled. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "disablePrint": {
+                    "metadata": {
+                        "description": "Whether the PDF print button is disabled. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                }
+            },
+            "metadata": {
+                "section": "File"
+            }
+        },
+        "GalleryNode": {
+            "metadata": {
+                "section": "Gallery",
+                "tsRicosNode": true,
+                "examples": [
+                    "gallery"
+                ],
+                "features": [
+                    "GALLERY"
+                ],
+                "description": "Collection of images displayed together."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "GALLERY"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `GALLERY`."
+                    }
+                },
+                "galleryData": {
+                    "ref": "GalleryData",
+                    "metadata": {
+                        "description": "Gallery node details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "GalleryData": {
+            "properties": {
+                "items": {
+                    "elements": {
+                        "ref": "GalleryData_Item"
+                    },
+                    "metadata": {
+                        "description": "Gallery items details.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Gallery container styling."
+                    }
+                },
+                "options": {
+                    "ref": "GalleryOptions",
+                    "metadata": {
+                        "description": "Gallery appearance options."
+                    }
+                },
+                "disableExpand": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the expand button is disabled. \nDefault: `false`"
+                    }
+                },
+                "disableDownload": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the download button is disabled. \nDefault: `false`"
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryOptions": {
+            "optionalProperties": {
+                "layout": {
+                    "ref": "GalleryOptions_Layout",
+                    "metadata": {
+                        "description": "Gallery layout."
+                    }
+                },
+                "item": {
+                    "ref": "GalleryOptions_ItemStyle",
+                    "metadata": {
+                        "description": "Styling for gallery items."
+                    }
+                },
+                "thumbnails": {
+                    "ref": "GalleryOptions_Thumbnails",
+                    "metadata": {
+                        "description": "Styling for gallery thumbnail images."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryOptions_Layout": {
+            "optionalProperties": {
+                "type": {
+                    "metadata": {
+                        "emitEnum": "GalleryOptions_Layout_Type",
+                        "description": "Gallery layout. Supported values: <br> - `COLLAGE`: Presents images in various sizes and positions, creating an artistic or dynamic layout. <br> - `MASONRY`: Grid-based design that places items in optimal positions based on available vertical space, creating an arrangement where items of varying heights fit together like bricks in a wall. <br> - `GRID`: A layout structure that organizes items into rows and columns, creating a uniform arrangement of images. <br> - `THUMBNAIL`: Smaller, scaled-down version of an image that serves as a preview. <br> - `SLIDER`: Component that allows users to browse through a set of images by sliding or swiping through them, typically in a confined viewing area. <br> - `SLIDESHOW`: A component that automatically or manually transitions through a set of images in a designated area. <br> - `PANORAMA`: Wide-angle or 360-degree image that allows users to view an extended horizontal view of a scene. <br> - `COLUMN`: Arrangement of the gallery items in vertical sections. <br> - `MAGIC`: Visually stunning, dynamic effects that enhance the user experience. <br> - `FULLSIZE`: A layout where each image or item is displayed at its full size, sometimes  taking up the entire viewport or a significant portion of the screen."
+                    },
+                    "enum": [
+                        "COLLAGE",
+                        "MASONRY",
+                        "GRID",
+                        "THUMBNAIL",
+                        "SLIDER",
+                        "SLIDESHOW",
+                        "PANORAMA",
+                        "COLUMN",
+                        "MAGIC",
+                        "FULLSIZE"
+                    ]
+                },
+                "horizontalScroll": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the horizontal scroll is enabled. \nDefault: `true`, unless the `type` field is set to `GRID` or `COLLAGE`."
+                    }
+                },
+                "orientation": {
+                    "metadata": {
+                        "description": "Gallery orientation.",
+                        "emitEnum": "GalleryOptions_Layout_Orientation"
+                    },
+                    "enum": [
+                        "ROWS",
+                        "COLUMNS"
+                    ]
+                },
+                "numberOfColumns": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Number of columns to display on computer screens."
+                    }
+                },
+                "mobileNumberOfColumns": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Number of columns to display on mobile phone screens."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryOptions_ItemStyle": {
+            "optionalProperties": {
+                "targetSize": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Dimensions for each gallery item in pixels. Behavior may change with gallery type."
+                    }
+                },
+                "ratio": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Height to width ratio."
+                    }
+                },
+                "crop": {
+                    "metadata": {
+                        "description": "Cropping strategy. Supported values: <br> - `FILL`: Each item in the gallery is cropped and resized to completely fill its container. <br> - `FIT`: Each item in the gallery is resized to fit exactly in its container without cropping.",
+                        "emitEnum": "GalleryOptions_ItemStyle_Crop"
+                    },
+                    "enum": [
+                        "FILL",
+                        "FIT"
+                    ]
+                },
+                "spacing": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Spacing between gallery items in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryOptions_Thumbnails": {
+            "optionalProperties": {
+                "placement": {
+                    "metadata": {
+                        "emitEnum": "GalleryOptions_Thumbnails_Alignment",
+                        "description": "Thumbnail alignment."
+                    },
+                    "enum": [
+                        "TOP",
+                        "RIGHT",
+                        "BOTTOM",
+                        "LEFT",
+                        "NONE"
+                    ]
+                },
+                "spacing": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Spacing between thumbnails in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryData_Item": {
+            "metadata": {
+                "section": "Gallery",
+                "oneOf": {
+                    "strict": true,
+                    "properties": [
+                        "image",
+                        "video"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "title": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Item title."
+                    }
+                },
+                "altText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Item's alternative text."
+                    }
+                },
+                "image": {
+                    "ref": "GalleryData_Item_Image",
+                    "metadata": {
+                        "description": "Image item."
+                    }
+                },
+                "video": {
+                    "ref": "GalleryData_Item_Video",
+                    "metadata": {
+                        "description": "Video item."
+                    }
+                }
+            }
+        },
+        "GalleryData_Item_Video": {
+            "properties": {
+                "media": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Video file details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "thumbnail": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Video thumbnail file details."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GalleryData_Item_Image": {
+            "properties": {
+                "media": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Image file details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Link details for images, if relevant."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gallery"
+            }
+        },
+        "GifNode": {
+            "metadata": {
+                "section": "Gif",
+                "tsRicosNode": true,
+                "examples": [
+                    "gif-basic"
+                ],
+                "features": [
+                    "GIF"
+                ],
+                "description": "GIF images."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "GIF"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `GIF`."
+                    }
+                },
+                "gifData": {
+                    "ref": "GIFData",
+                    "metadata": {
+                        "description": "GIF details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define a GIF caption."
+                    },
+                    "elements": {
+                        "ref": "CaptionNode"
+                    }
+                }
+            }
+        },
+        "GIFData": {
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "GIF container styling."
+                    }
+                },
+                "original": {
+                    "metadata": {
+                        "description": "Source for the full size GIF."
+                    },
+                    "ref": "GIF"
+                },
+                "downsized": {
+                    "metadata": {
+                        "description": "Source for the downsized GIF."
+                    },
+                    "ref": "GIF"
+                },
+                "height": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Height in pixels."
+                    }
+                },
+                "width": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Width in pixels."
+                    }
+                },
+                "gifType": {
+                    "enum": [
+                        "NORMAL",
+                        "STICKER"
+                    ],
+                    "metadata": {
+                        "emitEnum": "GIFData_GIFType",
+                        "description": "Type of GIF (Sticker or NORMAL). \n Default: `NORMAL`"
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gif"
+            }
+        },
+        "GIF": {
+            "optionalProperties": {
+                "gif": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "WEB_URL",
+                        "description": "GIF source URL."
+                    }
+                },
+                "mp4": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "WEB_URL",
+                        "description": "MP4 source URL."
+                    }
+                },
+                "still": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "WEB_URL",
+                        "description": "GIF thumbnail URL."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Gif"
+            }
+        },
+        "HtmlNode": {
+            "metadata": {
+                "section": "Html",
+                "tsRicosNode": true,
+                "examples": [
+                    "html-code",
+                    "html-url"
+                ],
+                "features": [
+                    "HTML"
+                ],
+                "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "HTML"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Mst be `HTML`."
+                    }
+                },
+                "htmlData": {
+                    "ref": "HTMLData",
+                    "metadata": {
+                        "description": "HTML details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "HTMLData": {
+            "metadata": {
+                "section": "Html",
+                "oneOf": {
+                    "properties": [
+                        "url",
+                        "html",
+                        "widgetId"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "HTML node container styling. Height property is irrelevant for HTML embeds when autoHeight is set to `true`."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "source": {
+                    "metadata": {
+                        "description": "HTML code type. Possible values: \n - `HTML`: HTML code. \n - [`ADSENSE`](https://adsense.google.com/start/): Service provided by Google for rendering advertisements on web pages. \n - `AI`: AI-generated HTML code.",
+                        "emitEnum": "HTMLData_Source"
+                    },
+                    "enum": [
+                        "HTML",
+                        "ADSENSE",
+                        "AI",
+                        "AI_WIDGET"
+                    ]
+                },
+                "url": {
+                    "metadata": {
+                        "description": "HTML code URL."
+                    },
+                    "type": "string"
+                },
+                "html": {
+                    "metadata": {
+                        "description": "HTML code."
+                    },
+                    "type": "string"
+                },
+                "widgetId": {
+                    "metadata": {
+                        "description": "WixelWidget ID. Used when source is `AI_WIDGET`."
+                    },
+                    "type": "string"
+                },
+                "autoHeight": {
+                    "metadata": {
+                        "description": "If container height is aligned with its content height. \n Default: `true`"
+                    },
+                    "type": "boolean"
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            }
+        },
+        "ImageNode": {
+            "metadata": {
+                "section": "Image",
+                "tsRicosNode": true,
+                "examples": [
+                    "image-id",
+                    "image-url"
+                ],
+                "features": [
+                    "IMAGE"
+                ],
+                "description": "Standalone images in a page."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "IMAGE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `IMAGE`."
+                    }
+                },
+                "imageData": {
+                    "ref": "ImageData",
+                    "metadata": {
+                        "description": "Image options."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define an image caption."
+                    },
+                    "elements": {
+                        "ref": "CaptionNode"
+                    }
+                }
+            }
+        },
+        "ImageData": {
+            "properties": {
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Image file details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Image container styling."
+                    }
+                },
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Image link details."
+                    }
+                },
+                "disableExpand": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the image expands to the full screen when clicked. \n Default: `false`"
+                    }
+                },
+                "altText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Alternate text for accessibility and display when the image doesn't load."
+                    }
+                },
+                "caption": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Deprecated. Use `CaptionNode` instead.",
+                        "deprecated": true
+                    }
+                },
+                "disableDownload": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the download image button is disabled. \n Default: `false`"
+                    }
+                },
+                "decorative": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the image is decorative and does not need an explanation. Defaults to `false`."
+                    }
+                },
+                "styles": {
+                    "ref": "ImageData_Styles",
+                    "metadata": {
+                        "description": "Image styling."
+                    }
+                },
+                "crop": {
+                    "ref": "ImageData_Crop",
+                    "metadata": {
+                        "description": "Non-destructive crop rectangle, expressed as fractions (0-1) of the original image. When omitted, the full image is shown."
+                    }
+                },
+                "cropShape": {
+                    "enum": [
+                        "CIRCLE",
+                        "OVAL",
+                        "STAR",
+                        "PENTAGON",
+                        "HEXAGON",
+                        "TRIANGLE",
+                        "HEART",
+                        "RHOMBUS",
+                        "FLUID",
+                        "WINDOW"
+                    ],
+                    "metadata": {
+                        "description": "Optional shape mask applied to the visible crop.",
+                        "emitEnum": "ImageData_CropShape"
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Image"
+            }
+        },
+        "ImageData_Crop": {
+            "optionalProperties": {
+                "x": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Left edge of the crop, as a fraction (0-1) of the original image width."
+                    }
+                },
+                "y": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Top edge of the crop, as a fraction (0-1) of the original image height."
+                    }
+                },
+                "width": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Visible width of the crop, as a fraction (0-1) of the original image width."
+                    }
+                },
+                "height": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Visible height of the crop, as a fraction (0-1) of the original image height."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Image"
+            }
+        },
+        "ImageData_Styles": {
+            "optionalProperties": {
+                "border": {
+                    "ref": "ImageData_Styles_Border",
+                    "metadata": {
+                        "description": "Border properties."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Image"
+            }
+        },
+        "ImageData_Styles_Border": {
+            "optionalProperties": {
+                "width": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "radius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Image"
+            }
+        },
+        "LinkPreviewNode": {
+            "metadata": {
+                "section": "Link Preview",
+                "tsRicosNode": true,
+                "examples": [
+                    "link-preview"
+                ],
+                "features": [
+                    "LINK_PREVIEW"
+                ],
+                "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "LINK_PREVIEW"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `LINK_PREVIEW`."
+                    }
+                },
+                "linkPreviewData": {
+                    "ref": "LinkPreviewData",
+                    "metadata": {
+                        "description": "Link preview details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "LinkPreviewData": {
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Link preview container styling."
+                    }
+                },
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Link details."
+                    }
+                },
+                "title": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Preview title."
+                    }
+                },
+                "thumbnailUrl": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Preview thumbnail URL."
+                    }
+                },
+                "description": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Preview description."
+                    }
+                },
+                "html": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Preview content as HTML."
+                    }
+                },
+                "styles": {
+                    "ref": "LinkPreviewData_Styles",
+                    "metadata": {
+                        "description": "Styling for the link preview."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Link Preview"
+            }
+        },
+        "LinkPreviewData_Styles": {
+            "optionalProperties": {
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                },
+                "titleColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Title color as a hexadecimal value."
+                    }
+                },
+                "subtitleColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Subtitle color as a hexadecimal value."
+                    }
+                },
+                "linkColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Link color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "thumbnailPosition": {
+                    "enum": [
+                        "START",
+                        "END",
+                        "TOP",
+                        "HIDDEN"
+                    ],
+                    "metadata": {
+                        "description": "Position of thumbnail. Defaults to `START`."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Link Preview"
+            }
+        },
+        "PollNode": {
+            "metadata": {
+                "section": "Poll",
+                "tsRicosNode": true,
+                "examples": [
+                    "poll"
+                ],
+                "features": [
+                    "POLL"
+                ],
+                "description": "Provides a question with several options, where the options' cumulative total may be shown."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "POLL"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `POLL`."
+                    }
+                },
+                "pollData": {
+                    "ref": "PollData",
+                    "metadata": {
+                        "description": "Poll details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "PollData": {
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Poll container styling."
+                    }
+                },
+                "poll": {
+                    "ref": "PollData_Poll",
+                    "metadata": {
+                        "description": "Poll data."
+                    }
+                },
+                "layout": {
+                    "ref": "PollData_Layout",
+                    "metadata": {
+                        "description": "Poll layout settings."
+                    }
+                },
+                "design": {
+                    "ref": "PollData_Design",
+                    "metadata": {
+                        "description": "Poll design."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Poll": {
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "title": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Poll title."
+                    }
+                },
+                "creatorId": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Poll creator ID."
+                    }
+                },
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Main poll image."
+                    }
+                },
+                "options": {
+                    "elements": {
+                        "ref": "PollData_Poll_Option"
+                    },
+                    "metadata": {
+                        "description": "Poll details."
+                    }
+                },
+                "settings": {
+                    "ref": "PollData_Poll_Settings",
+                    "metadata": {
+                        "description": "Poll display settings."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Poll_Option": {
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Poll option ID."
+                    }
+                },
+                "title": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Poll option title"
+                    }
+                },
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Image displayed with the option."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Poll_Settings": {
+            "optionalProperties": {
+                "permissions": {
+                    "ref": "PollData_Poll_Settings_Permissions",
+                    "metadata": {
+                        "description": "Voting permission settings."
+                    }
+                },
+                "showVoters": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to display the voters in the vote results. \n Default: `true`."
+                    }
+                },
+                "showVotesCount": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to display the vote count. \n Default: `true`."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Poll_Settings_Permissions": {
+            "optionalProperties": {
+                "view": {
+                    "metadata": {
+                        "emitEnum": "PollData_Poll_Settings_Permissions_ViewRole",
+                        "description": "Who can view the poll results."
+                    },
+                    "enum": [
+                        "CREATOR",
+                        "VOTERS",
+                        "EVERYONE"
+                    ]
+                },
+                "vote": {
+                    "metadata": {
+                        "description": "Who can vote.",
+                        "emitEnum": "PollData_Poll_Settings_Permissions_VoteRole"
+                    },
+                    "enum": [
+                        "SITE_MEMBERS",
+                        "ALL"
+                    ]
+                },
+                "allowMultipleVotes": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether a user can vote multiple times. \n Default: `false`"
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Layout": {
+            "optionalProperties": {
+                "poll": {
+                    "ref": "PollData_Layout_PollLayout",
+                    "metadata": {
+                        "description": "Poll layout settings."
+                    }
+                },
+                "options": {
+                    "ref": "PollData_Layout_OptionLayout",
+                    "metadata": {
+                        "description": "Poll options layout settings."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Layout_PollLayout": {
+            "optionalProperties": {
+                "type": {
+                    "enum": [
+                        "LIST",
+                        "GRID"
+                    ],
+                    "metadata": {
+                        "emitEnum": "PollData_Layout_PollLayout_Type",
+                        "description": "Voting options layout."
+                    }
+                },
+                "direction": {
+                    "enum": [
+                        "LTR",
+                        "RTL"
+                    ],
+                    "metadata": {
+                        "emitEnum": "PollData_Layout_PollLayout_Direction",
+                        "description": "Direction of the text in the poll. Supported values: <br> - `LTR`: Left to right. <br> - `RTL`: Right to left."
+                    }
+                },
+                "enableImage": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to display the main poll image. \n Default: `false`"
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Layout_OptionLayout": {
+            "optionalProperties": {
+                "enableImage": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to display option images. \n Defaults: `false`."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Design": {
+            "optionalProperties": {
+                "poll": {
+                    "ref": "PollData_Design_PollDesign",
+                    "metadata": {
+                        "description": "Poll styling."
+                    }
+                },
+                "options": {
+                    "ref": "PollData_Design_OptionDesign",
+                    "metadata": {
+                        "description": "Voting options styling."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Design_PollDesign": {
+            "optionalProperties": {
+                "background": {
+                    "ref": "PollData_Design_PollDesign_Background",
+                    "metadata": {
+                        "description": "Poll background styling."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Design_PollDesign_Background": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Poll",
+                "refUnion": {
+                    "COLOR": "PollData_Background_ColorVariant",
+                    "IMAGE": "PollData_Background_ImageVariant",
+                    "GRADIENT": "PollData_Background_GradientVariant"
+                },
+                "emitEnum": "PollData_Design_PollDesign_Background_Type"
+            },
+            "mapping": {
+                "COLOR": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "color": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Background color as a hexademical value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Poll"
+                    }
+                },
+                "IMAGE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "image": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Image to use for the background."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Poll"
+                    }
+                },
+                "GRADIENT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "gradient": {
+                            "ref": "PollData_Design_PollDesign_Background_Gradient",
+                            "metadata": {
+                                "description": "Gradient background details."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "Poll"
+                    }
+                }
+            }
+        },
+        "PollData_Background_ColorVariant": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "COLOR"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexademical value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Background_ImageVariant": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "IMAGE"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "image": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Image to use for the background."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Background_GradientVariant": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "GRADIENT"
+                    ]
+                }
+            },
+            "optionalProperties": {
+                "gradient": {
+                    "ref": "PollData_Design_PollDesign_Background_Gradient",
+                    "metadata": {
+                        "description": "Gradient background details."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Design_PollDesign_Background_Gradient": {
+            "optionalProperties": {
+                "angle": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Gradient angle in degrees."
+                    }
+                },
+                "startColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Start color as a hexadecimal value."
+                    }
+                },
+                "lastColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "End color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "PollData_Design_OptionDesign": {
+            "optionalProperties": {
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Poll"
+            }
+        },
+        "ShapeNode": {
+            "metadata": {
+                "section": "Shape",
+                "tsRicosNode": true,
+                "examples": [
+                    "shape-id"
+                ],
+                "features": [
+                    "SHAPE"
+                ],
+                "description": "Standalone shapes in a page."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SHAPE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `SHAPE`."
+                    }
+                },
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "shapeData": {
+                    "ref": "ShapeData",
+                    "metadata": {
+                        "description": "Shape options."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "ShapeData": {
+            "properties": {
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "ref": "PluginContainerData",
+                    "metadata": {
+                        "description": "Shape container styling."
+                    }
+                },
+                "styles": {
+                    "ref": "ShapeData_Styles",
+                    "metadata": {
+                        "description": "Styling for the shape."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                },
+                "link": {
+                    "ref": "Link",
+                    "metadata": {
+                        "description": "Shape link details."
+                    }
+                },
+                "altText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Alternate text describing the link's purpose for accessibility. Applies only when `link` is set; a shape without a link stays decorative and hidden from screen readers."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Shape"
+            }
+        },
+        "ShapeData_Styles": {
+            "optionalProperties": {
+                "colors": {
+                    "values": {
+                        "type": "string",
+                        "metadata": {
+                            "format": "COLOR_VALUE"
+                        }
+                    },
+                    "metadata": {
+                        "description": "Map of original color keys to their new color values."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Shape"
+            }
+        },
+        "SmartBlockNode": {
+            "metadata": {
+                "section": "SmartBlock",
+                "tsRicosNode": true,
+                "features": [
+                    "SMART_BLOCK"
+                ],
+                "description": "A smart block node that allows switching between different visual representations (variants) while preserving content."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SMART_BLOCK"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `SMART_BLOCK`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "SmartBlockCellNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Smart block cells.",
+                        "validation": {
+                            "minSize": 1,
+                            "maxSize": 12
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "smartBlockData": {
+                    "ref": "SmartBlockData",
+                    "metadata": {
+                        "description": "Smart block details."
+                    }
+                }
+            }
+        },
+        "SmartBlockData": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "SmartBlock",
+                "refUnion": {
+                    "SOLID_BOXES": "SmartBlockData_SolidBoxes",
+                    "NUMBERED_BOXES": "SmartBlockData_NumberedBoxes",
+                    "STATS": "SmartBlockData_Stats",
+                    "BAR_STATS": "SmartBlockData_BarStats",
+                    "CIRCLE_STATS": "SmartBlockData_CircleStats",
+                    "SOLID_BOXES_ALTERNATING": "SmartBlockData_SolidBoxesAlternating",
+                    "SOLID_JOINED_BOXES": "SmartBlockData_SolidJoinedBoxes",
+                    "SIDE_LINE_TEXT": "SmartBlockData_SideLineText",
+                    "TOP_LINE_TEXT": "SmartBlockData_TopLineText",
+                    "OUTLINE_BOXES_WITH_TOP_CIRCLE": "SmartBlockData_OutlineBoxesWithTopCircle",
+                    "BIG_BULLETS": "SmartBlockData_BigBullets",
+                    "SMALL_BULLETS": "SmartBlockData_SmallBullets",
+                    "ARROW_BULLETS": "SmartBlockData_ArrowBullets",
+                    "PROCESS_STEPS": "SmartBlockData_ProcessSteps",
+                    "TIMELINE": "SmartBlockData_Timeline",
+                    "MINIMAL_TIMELINE": "SmartBlockData_MinimalTimeline",
+                    "PILLS": "SmartBlockData_Pills",
+                    "STAR_RATING": "SmartBlockData_StarRating",
+                    "QUOTE_BOXES": "SmartBlockData_QuoteBoxes",
+                    "CIRCLE": "SmartBlockData_Circle",
+                    "PYRAMID": "SmartBlockData_Pyramid",
+                    "STAIRCASE": "SmartBlockData_Staircase",
+                    "VERTICAL_FUNNEL": "SmartBlockData_VerticalFunnel"
+                },
+                "emitEnum": "SmartBlockData_Type",
+                "description": "Smart block data discriminated by type."
+            },
+            "mapping": {
+                "SOLID_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "NUMBERED_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "BAR_STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "CIRCLE_STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SOLID_BOXES_ALTERNATING": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SOLID_JOINED_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SIDE_LINE_TEXT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "TOP_LINE_TEXT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "OUTLINE_BOXES_WITH_TOP_CIRCLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "BIG_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SMALL_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "ARROW_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PROCESS_STEPS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "TIMELINE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row. Not exposed in the editor toolbar for TIMELINE (gated by the toolbar resolver), but kept in the schema for parity with the proto wire format which always carries this field."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "MINIMAL_TIMELINE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row. Not exposed in the editor toolbar for MINIMAL_TIMELINE (gated by the toolbar resolver), but kept in the schema for parity with the proto wire format which always carries this field."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PILLS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "orientation": {
+                            "ref": "SmartBlockData_Orientation",
+                            "metadata": {
+                                "description": "Layout orientation. HORIZONTAL places the pill on top of the cell content; VERTICAL places it on the left."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STAR_RATING": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "QUOTE_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "CIRCLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PYRAMID": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row. Scales the overall pyramid width."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STAIRCASE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "VERTICAL_FUNNEL": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "columnSize": {
+                            "ref": "SmartBlockData_ColumnSize",
+                            "metadata": {
+                                "description": "Number of columns per row. Scales the overall funnel width."
+                            }
+                        },
+                        "animation": {
+                            "ref": "Animation",
+                            "metadata": {
+                                "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                }
+            }
+        },
+        "SmartBlockData_SolidBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `SOLID_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_NumberedBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "NUMBERED_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `NUMBERED_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Stats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STATS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_BarStats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BAR_STATS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `BAR_STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_CircleStats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CIRCLE_STATS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `CIRCLE_STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_SolidBoxesAlternating": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_BOXES_ALTERNATING"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `SOLID_BOXES_ALTERNATING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_SolidJoinedBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_JOINED_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `SOLID_JOINED_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_SideLineText": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SIDE_LINE_TEXT"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `SIDE_LINE_TEXT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_TopLineText": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TOP_LINE_TEXT"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `TOP_LINE_TEXT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_OutlineBoxesWithTopCircle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "OUTLINE_BOXES_WITH_TOP_CIRCLE"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `OUTLINE_BOXES_WITH_TOP_CIRCLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_BigBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BIG_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `BIG_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_SmallBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SMALL_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `SMALL_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_ArrowBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ARROW_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `ARROW_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_ProcessSteps": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PROCESS_STEPS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `PROCESS_STEPS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Timeline": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TIMELINE"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `TIMELINE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row. Not exposed in the editor toolbar for TIMELINE (gated by the toolbar resolver), but kept in the schema for parity with the proto wire format which always carries this field."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_MinimalTimeline": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "MINIMAL_TIMELINE"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `MINIMAL_TIMELINE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row. Not exposed in the editor toolbar for MINIMAL_TIMELINE (gated by the toolbar resolver), but kept in the schema for parity with the proto wire format which always carries this field."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Pills": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PILLS"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `PILLS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "orientation": {
+                    "ref": "SmartBlockData_Orientation",
+                    "metadata": {
+                        "description": "Layout orientation. HORIZONTAL places the pill on top of the cell content; VERTICAL places it on the left."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_StarRating": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STAR_RATING"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `STAR_RATING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_QuoteBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "QUOTE_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `QUOTE_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Circle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CIRCLE"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `CIRCLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Pyramid": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PYRAMID"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `PYRAMID`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row. Scales the overall pyramid width."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_Staircase": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STAIRCASE"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `STAIRCASE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_VerticalFunnel": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "VERTICAL_FUNNEL"
+                    ],
+                    "metadata": {
+                        "description": "Variant type. \n Must be `VERTICAL_FUNNEL`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "columnSize": {
+                    "ref": "SmartBlockData_ColumnSize",
+                    "metadata": {
+                        "description": "Number of columns per row. Scales the overall funnel width."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockData_ColumnSize": {
+            "metadata": {
+                "section": "SmartBlock",
+                "emitEnum": "SmartBlockData_ColumnSize",
+                "description": "Column size controlling how many cells appear per row."
+            },
+            "enum": [
+                "SMALL",
+                "MEDIUM",
+                "LARGE",
+                "EXTRA_LARGE"
+            ]
+        },
+        "SmartBlockData_Orientation": {
+            "metadata": {
+                "section": "SmartBlock",
+                "emitEnum": "SmartBlockData_Orientation",
+                "description": "Orientation for arranging smart block items."
+            },
+            "enum": [
+                "HORIZONTAL",
+                "VERTICAL"
+            ]
+        },
+        "SmartBlockCellNode": {
+            "metadata": {
+                "section": "SmartBlock",
+                "tsRicosNode": true,
+                "validation": {
+                    "matchFieldWithParent": {
+                        "parent": [
+                            "smartBlockData",
+                            "type"
+                        ],
+                        "self": [
+                            "smartBlockCellData",
+                            "type"
+                        ]
+                    }
+                },
+                "description": "A cell within a smart block containing title, body, and optional icon/image."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SMART_BLOCK_CELL"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `SMART_BLOCK_CELL`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "SmartBlockCellChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes that the cell contains (heading, paragraph, image, etc.)."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "smartBlockCellData": {
+                    "ref": "SmartBlockCellData",
+                    "metadata": {
+                        "description": "Cell-level variant data."
+                    }
+                }
+            }
+        },
+        "SmartBlockCellData": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "SmartBlock",
+                "refUnion": {
+                    "SOLID_BOXES": "SmartBlockCellData_SolidBoxes",
+                    "NUMBERED_BOXES": "SmartBlockCellData_NumberedBoxes",
+                    "STATS": "SmartBlockCellData_Stats",
+                    "BAR_STATS": "SmartBlockCellData_BarStats",
+                    "CIRCLE_STATS": "SmartBlockCellData_CircleStats",
+                    "SOLID_BOXES_ALTERNATING": "SmartBlockCellData_SolidBoxesAlternating",
+                    "SOLID_JOINED_BOXES": "SmartBlockCellData_SolidJoinedBoxes",
+                    "SIDE_LINE_TEXT": "SmartBlockCellData_SideLineText",
+                    "TOP_LINE_TEXT": "SmartBlockCellData_TopLineText",
+                    "OUTLINE_BOXES_WITH_TOP_CIRCLE": "SmartBlockCellData_OutlineBoxesWithTopCircle",
+                    "BIG_BULLETS": "SmartBlockCellData_BigBullets",
+                    "SMALL_BULLETS": "SmartBlockCellData_SmallBullets",
+                    "ARROW_BULLETS": "SmartBlockCellData_ArrowBullets",
+                    "PROCESS_STEPS": "SmartBlockCellData_ProcessSteps",
+                    "TIMELINE": "SmartBlockCellData_Timeline",
+                    "MINIMAL_TIMELINE": "SmartBlockCellData_MinimalTimeline",
+                    "PILLS": "SmartBlockCellData_Pills",
+                    "STAR_RATING": "SmartBlockCellData_StarRating",
+                    "QUOTE_BOXES": "SmartBlockCellData_QuoteBoxes",
+                    "CIRCLE": "SmartBlockCellData_Circle",
+                    "PYRAMID": "SmartBlockCellData_Pyramid",
+                    "STAIRCASE": "SmartBlockCellData_Staircase",
+                    "VERTICAL_FUNNEL": "SmartBlockCellData_VerticalFunnel"
+                },
+                "emitEnum": "SmartBlockCellData_Type",
+                "description": "Cell data discriminated by type. Type must match the parent SmartBlockData type."
+            },
+            "mapping": {
+                "SOLID_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "backgroundColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Background color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "NUMBERED_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "label": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Cell label text."
+                            }
+                        },
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "BAR_STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "label": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Cell label text."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "CIRCLE_STATS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "label": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Cell label text."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SOLID_BOXES_ALTERNATING": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "backgroundColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Background color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SOLID_JOINED_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "backgroundColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Background color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SIDE_LINE_TEXT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "TOP_LINE_TEXT": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "OUTLINE_BOXES_WITH_TOP_CIRCLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "BIG_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "SMALL_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "ARROW_BULLETS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        },
+                        "borderColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Border color as a hexadecimal value."
+                            }
+                        },
+                        "borderWidth": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border width in pixels."
+                            }
+                        },
+                        "borderRadius": {
+                            "type": "int32",
+                            "metadata": {
+                                "description": "Border radius in pixels."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PROCESS_STEPS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "TIMELINE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "MINIMAL_TIMELINE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PILLS": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Pill background color as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details rendered inside the pill instead of the cell number."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STAR_RATING": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "label": {
+                            "type": "string",
+                            "metadata": {
+                                "description": "Cell rating value as text (e.g. `3.5`). Drives the star fill."
+                            }
+                        },
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "QUOTE_BOXES": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value. Drives both the quote-glyph fill and the cell border."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "CIRCLE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color used to fill this cell's donut segment."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape rendered inside the segment in place of the auto-generated number."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "PYRAMID": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Fill color of the pyramid slice as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details rendered inside the slice instead of the cell number."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "STAIRCASE": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Accent color as a hexadecimal value. Drives the staircase bar fill."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details rendered inside the bar instead of the cell number."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                },
+                "VERTICAL_FUNNEL": {
+                    "properties": {},
+                    "optionalProperties": {
+                        "accentColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Fill color of the funnel slice as a hexadecimal value."
+                            }
+                        },
+                        "shape": {
+                            "ref": "Media",
+                            "metadata": {
+                                "description": "Shape file details rendered inside the slice instead of the cell number."
+                            }
+                        },
+                        "shapeColor": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "COLOR_VALUE",
+                                "description": "Shape fill color as a hexadecimal value."
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "section": "SmartBlock"
+                    }
+                }
+            }
+        },
+        "SmartBlockCellData_SolidBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `SOLID_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_NumberedBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "NUMBERED_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `NUMBERED_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Stats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STATS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "label": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Cell label text."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_BarStats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BAR_STATS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `BAR_STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "label": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Cell label text."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_CircleStats": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CIRCLE_STATS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `CIRCLE_STATS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "label": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Cell label text."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_SolidBoxesAlternating": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_BOXES_ALTERNATING"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `SOLID_BOXES_ALTERNATING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_SolidJoinedBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SOLID_JOINED_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `SOLID_JOINED_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "backgroundColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Background color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_SideLineText": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SIDE_LINE_TEXT"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `SIDE_LINE_TEXT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_TopLineText": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TOP_LINE_TEXT"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `TOP_LINE_TEXT`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_OutlineBoxesWithTopCircle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "OUTLINE_BOXES_WITH_TOP_CIRCLE"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `OUTLINE_BOXES_WITH_TOP_CIRCLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_BigBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "BIG_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `BIG_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_SmallBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "SMALL_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `SMALL_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_ArrowBullets": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "ARROW_BULLETS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `ARROW_BULLETS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                },
+                "borderColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Border color as a hexadecimal value."
+                    }
+                },
+                "borderWidth": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border width in pixels."
+                    }
+                },
+                "borderRadius": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Border radius in pixels."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_ProcessSteps": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PROCESS_STEPS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `PROCESS_STEPS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Timeline": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TIMELINE"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `TIMELINE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_MinimalTimeline": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "MINIMAL_TIMELINE"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `MINIMAL_TIMELINE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Pills": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PILLS"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `PILLS`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Pill background color as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details rendered inside the pill instead of the cell number."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_StarRating": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STAR_RATING"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `STAR_RATING`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "label": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Cell rating value as text (e.g. `3.5`). Drives the star fill."
+                    }
+                },
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_QuoteBoxes": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "QUOTE_BOXES"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `QUOTE_BOXES`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value. Drives both the quote-glyph fill and the cell border."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Circle": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "CIRCLE"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `CIRCLE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color used to fill this cell's donut segment."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape rendered inside the segment in place of the auto-generated number."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Pyramid": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "PYRAMID"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `PYRAMID`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Fill color of the pyramid slice as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details rendered inside the slice instead of the cell number."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_Staircase": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "STAIRCASE"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `STAIRCASE`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Accent color as a hexadecimal value. Drives the staircase bar fill."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details rendered inside the bar instead of the cell number."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellData_VerticalFunnel": {
+            "properties": {
+                "type": {
+                    "enum": [
+                        "VERTICAL_FUNNEL"
+                    ],
+                    "metadata": {
+                        "description": "Cell data type. \n Must be `VERTICAL_FUNNEL`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "accentColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Fill color of the funnel slice as a hexadecimal value."
+                    }
+                },
+                "shape": {
+                    "ref": "Media",
+                    "metadata": {
+                        "description": "Shape file details rendered inside the slice instead of the cell number."
+                    }
+                },
+                "shapeColor": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Shape fill color as a hexadecimal value."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "SmartBlock"
+            }
+        },
+        "SmartBlockCellChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "SmartBlock",
+                "refUnion": {
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "HEADING": "HeadingNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "PARAGRAPH": "ParagraphNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "AUDIO": "AudioNode",
+                    "BUTTON": "ButtonNode",
+                    "COLLAPSIBLE_LIST": "CollapsibleListNode",
+                    "DIVIDER": "DividerNode",
+                    "EMBED": "EmbedNode",
+                    "FILE": "FileNode",
+                    "GALLERY": "GalleryNode",
+                    "GIF": "GifNode",
+                    "HTML": "HtmlNode",
+                    "IMAGE": "ImageNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "POLL": "PollNode",
+                    "TOC": "TocNode",
+                    "VIDEO": "VideoNode",
+                    "EXTERNAL": "ExternalNode"
+                },
+                "description": "A block-level node allowed as a direct child of a smart block cell."
+            },
+            "mapping": {
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_LIST": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "collapsible-list"
+                        ],
+                        "features": [
+                            "COLLAPSIBLE_LIST"
+                        ],
+                        "description": "List of items where each item can be expanded or collapsed."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "collapsibleListData": {
+                            "ref": "CollapsibleListData",
+                            "metadata": {
+                                "description": "Collapsible list details."
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "POLL": {
+                    "metadata": {
+                        "section": "Poll",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "poll"
+                        ],
+                        "features": [
+                            "POLL"
+                        ],
+                        "description": "Provides a question with several options, where the options' cumulative total may be shown."
+                    },
+                    "properties": {
+                        "pollData": {
+                            "ref": "PollData",
+                            "metadata": {
+                                "description": "Poll details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "EXTERNAL": {
+                    "metadata": {
+                        "section": "External",
+                        "tsRicosNode": true,
+                        "internal": true
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "htmlData": {},
+                        "externalData": {
+                            "values": {}
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TableNode": {
+            "metadata": {
+                "section": "Table",
+                "tsRicosNode": true,
+                "examples": [
+                    "table"
+                ],
+                "features": [
+                    "TABLE"
+                ],
+                "description": "Data in rows and columns."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TABLE"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `TABLE`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "TableRowNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define table rows.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "tableData": {
+                    "ref": "TableData",
+                    "metadata": {
+                        "description": "Table details."
+                    }
+                }
+            }
+        },
+        "TableRowNode": {
+            "metadata": {
+                "section": "Table",
+                "tsRicosNode": true
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TABLE_ROW"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `TABLE_ROW`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "TableCellNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define table cells."
+                    }
+                }
+            }
+        },
+        "TableData": {
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "Table container styling."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "dimensions": {
+                    "metadata": {
+                        "description": "Table dimensions."
+                    },
+                    "ref": "TableData_Dimensions"
+                },
+                "rowHeader": {
+                    "metadata": {
+                        "description": "Whether the table's first row is a heading. <br> Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "columnHeader": {
+                    "metadata": {
+                        "description": "Whether the table's first column is a heading. <br> Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "cellSpacing": {
+                    "metadata": {
+                        "description": "The spacing between cells."
+                    },
+                    "type": "uint32"
+                },
+                "cellPadding": {
+                    "elements": {
+                        "type": "uint32"
+                    },
+                    "metadata": {
+                        "description": "Padding in pixels for cells. Follows CSS order: top, right, bottom, left."
+                    }
+                },
+                "altText": {
+                    "type": "string",
+                    "metadata": {
+                        "description": "Table's alternative text."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TableData_Dimensions": {
+            "optionalProperties": {
+                "colsWidthRatio": {
+                    "elements": {
+                        "type": "float64"
+                    },
+                    "metadata": {
+                        "description": "Each column width as a fraction to the width of table."
+                    }
+                },
+                "rowsHeight": {
+                    "elements": {
+                        "type": "uint32"
+                    },
+                    "metadata": {
+                        "description": "Height of each row."
+                    }
+                },
+                "colsMinWidth": {
+                    "elements": {
+                        "type": "uint32"
+                    },
+                    "metadata": {
+                        "description": "Minimum width of each column."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TableCellNode": {
+            "metadata": {
+                "section": "Table",
+                "tsRicosNode": true
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TABLE_CELL"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `TABLE_CELL`."
+                    }
+                },
+                "nodes": {
+                    "elements": {
+                        "ref": "TableCellChildNode"
+                    },
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define cell content.",
+                        "validation": {
+                            "minSize": 1
+                        }
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "tableCellData": {
+                    "ref": "TableCellData",
+                    "metadata": {
+                        "description": "Table cell details."
+                    }
+                }
+            }
+        },
+        "TableCellChildNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "Table",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "AUDIO": "AudioNode",
+                    "FILE": "FileNode",
+                    "IMAGE": "ImageNode",
+                    "VIDEO": "VideoNode",
+                    "GIF": "GifNode",
+                    "DIVIDER": "DividerNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "HTML": "HtmlNode",
+                    "TOC": "TocNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "BUTTON": "ButtonNode",
+                    "EMBED": "EmbedNode",
+                    "SHAPE": "ShapeNode"
+                },
+                "description": "Table cell content node."
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Shape",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "shape-id"
+                        ],
+                        "features": [
+                            "SHAPE"
+                        ],
+                        "description": "Standalone shapes in a page."
+                    },
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "shapeData": {
+                            "ref": "ShapeData",
+                            "metadata": {
+                                "description": "Shape options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "TableCellData": {
+            "optionalProperties": {
+                "cellStyle": {
+                    "metadata": {
+                        "description": "Cell styling."
+                    },
+                    "ref": "TableCellData_CellStyle"
+                },
+                "borderColors": {
+                    "metadata": {
+                        "description": "Cell border colors."
+                    },
+                    "ref": "TableCellData_BorderColors"
+                },
+                "borderWidths": {
+                    "metadata": {
+                        "description": "Cell border widths."
+                    },
+                    "ref": "TableCellData_BorderWidths"
+                },
+                "colspan": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Defines how many columns the cell spans.",
+                        "validation": {
+                            "min": 0
+                        }
+                    }
+                },
+                "rowspan": {
+                    "type": "int32",
+                    "metadata": {
+                        "description": "Defines how many rows the cell spans.",
+                        "validation": {
+                            "min": 0
+                        }
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TableCellData_CellStyle": {
+            "optionalProperties": {
+                "verticalAlignment": {
+                    "metadata": {
+                        "description": "Vertical alignment for the cell's text."
+                    },
+                    "enum": [
+                        "TOP",
+                        "MIDDLE",
+                        "BOTTOM"
+                    ]
+                },
+                "backgroundColor": {
+                    "metadata": {
+                        "description": "Cell background color as a hexadecimal value.",
+                        "format": "COLOR_VALUE"
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TableCellData_BorderColors": {
+            "optionalProperties": {
+                "left": {
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Left border color as a hexadecimal value."
+                    },
+                    "type": "string"
+                },
+                "right": {
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Right border color as a hexadecimal value."
+                    },
+                    "type": "string"
+                },
+                "top": {
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Top border color as a hexadecimal value."
+                    },
+                    "type": "string"
+                },
+                "bottom": {
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Bottom border color as a hexadecimal value."
+                    },
+                    "type": "string"
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TableCellData_BorderWidths": {
+            "optionalProperties": {
+                "left": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Left border width."
+                    }
+                },
+                "right": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Right border width."
+                    }
+                },
+                "top": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Top border width."
+                    }
+                },
+                "bottom": {
+                    "type": "uint32",
+                    "metadata": {
+                        "description": "Bottom border width."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Table"
+            }
+        },
+        "TocNode": {
+            "metadata": {
+                "section": "Table of Contents",
+                "tsRicosNode": true,
+                "features": [
+                    "TOC"
+                ],
+                "description": "Dynamic table of contents block that renders links to headings in the document."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "TOC"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `TOC`."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "tocData": {
+                    "ref": "TocData",
+                    "metadata": {
+                        "description": "Table of contents block settings."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "internal": true,
+                        "tsRicosNodesChildren": true
+                    },
+                    "elements": {
+                        "ref": "Never"
+                    }
+                }
+            }
+        },
+        "TocData": {
+            "optionalProperties": {
+                "includedHeadings": {
+                    "elements": {
+                        "type": "int32",
+                        "metadata": {
+                            "validation": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    },
+                    "metadata": {
+                        "description": "Heading levels included in the table of contents. Default: `[1, 2, 3, 4, 5, 6]`."
+                    }
+                },
+                "listStyle": {
+                    "enum": [
+                        "BULLETED",
+                        "NUMBERED",
+                        "LETTERS",
+                        "ROMAN",
+                        "PLAIN",
+                        "ALPHABETICAL_INDEX",
+                        "ALPHABETICAL_INDEX_COMPACT"
+                    ],
+                    "metadata": {
+                        "emitEnum": "TocData_ListStyle",
+                        "description": "List style. Default: `NUMBERED`."
+                    }
+                },
+                "fontSize": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Optional override for the font size in pixels."
+                    }
+                },
+                "itemSpacing": {
+                    "type": "float64",
+                    "metadata": {
+                        "description": "Optional override for the vertical spacing between items in pixels."
+                    }
+                },
+                "color": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "COLOR_VALUE",
+                        "description": "Optional override for the text color."
+                    }
+                },
+                "indentation": {
+                    "enum": [
+                        "NESTED",
+                        "FLAT"
+                    ],
+                    "metadata": {
+                        "emitEnum": "TocData_Indentation",
+                        "description": "Indentation style. Default: `NESTED`."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Table of Contents"
+            }
+        },
+        "VideoNode": {
+            "metadata": {
+                "section": "Video",
+                "tsRicosNode": true,
+                "examples": [
+                    "video-url",
+                    "video-wix"
+                ],
+                "features": [
+                    "VIDEO"
+                ],
+                "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+            },
+            "properties": {
+                "type": {
+                    "enum": [
+                        "VIDEO"
+                    ],
+                    "metadata": {
+                        "description": "Node type. \n Must be `VIDEO`."
+                    }
+                },
+                "videoData": {
+                    "ref": "VideoData",
+                    "metadata": {
+                        "description": "Video details."
+                    }
+                }
+            },
+            "optionalProperties": {
+                "id": {
+                    "type": "string",
+                    "metadata": {
+                        "format": "NODE_ID",
+                        "description": "[Node ID](#node-ids)."
+                    }
+                },
+                "nodes": {
+                    "metadata": {
+                        "tsRicosNodesChildren": true,
+                        "description": "Child nodes to define a video caption."
+                    },
+                    "elements": {
+                        "ref": "CaptionNode"
+                    }
+                }
+            }
+        },
+        "VideoData": {
+            "properties": {
+                "video": {
+                    "metadata": {
+                        "description": "Video file details."
+                    },
+                    "ref": "Media"
+                }
+            },
+            "optionalProperties": {
+                "containerData": {
+                    "metadata": {
+                        "description": "Video container styling."
+                    },
+                    "ref": "PluginContainerData"
+                },
+                "thumbnail": {
+                    "metadata": {
+                        "description": "Video thumbnail details."
+                    },
+                    "ref": "Media"
+                },
+                "disableDownload": {
+                    "metadata": {
+                        "description": "Whether the video download button is disabled. \n Default: `false`"
+                    },
+                    "type": "boolean"
+                },
+                "title": {
+                    "metadata": {
+                        "description": "Video title."
+                    },
+                    "type": "string"
+                },
+                "options": {
+                    "ref": "PlaybackOptions",
+                    "metadata": {
+                        "description": "Playback details."
+                    }
+                },
+                "animation": {
+                    "ref": "Animation",
+                    "metadata": {
+                        "description": "Node animation. \n **Note:** This property requires the animation feature to be enabled."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Video"
+            }
+        },
+        "PlaybackOptions": {
+            "optionalProperties": {
+                "autoPlay": {
+                    "metadata": {
+                        "description": "Whether the media automatically starts playing after opening a page."
+                    },
+                    "type": "boolean"
+                },
+                "playInLoop": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether the media is looped."
+                    }
+                },
+                "showControls": {
+                    "type": "boolean",
+                    "metadata": {
+                        "description": "Whether to show the media controls."
+                    }
+                }
+            },
+            "metadata": {
+                "section": "Video"
+            }
+        },
+        "RootNode": {
+            "discriminator": "type",
+            "metadata": {
+                "section": "RootNode",
+                "description": "Nodes that can be added to the root level of `nodes` array.",
+                "refUnion": {
+                    "PARAGRAPH": "ParagraphNode",
+                    "HEADING": "HeadingNode",
+                    "BULLETED_LIST": "BulletedListNode",
+                    "CHECKBOX_LIST": "CheckboxListNode",
+                    "ORDERED_LIST": "OrderedListNode",
+                    "BLOCKQUOTE": "BlockquoteNode",
+                    "CODE_BLOCK": "CodeBlockNode",
+                    "VIDEO": "VideoNode",
+                    "DIVIDER": "DividerNode",
+                    "FILE": "FileNode",
+                    "GALLERY": "GalleryNode",
+                    "GIF": "GifNode",
+                    "HTML": "HtmlNode",
+                    "TOC": "TocNode",
+                    "IMAGE": "ImageNode",
+                    "LINK_PREVIEW": "LinkPreviewNode",
+                    "POLL": "PollNode",
+                    "APP_EMBED": "AppEmbedNode",
+                    "BUTTON": "ButtonNode",
+                    "COLLAPSIBLE_LIST": "CollapsibleListNode",
+                    "TABLE": "TableNode",
+                    "EMBED": "EmbedNode",
+                    "AUDIO": "AudioNode",
+                    "LAYOUT": "LayoutNode",
+                    "EXTERNAL": "ExternalNode",
+                    "SHAPE": "ShapeNode",
+                    "CARD": "CardNode",
+                    "SMART_BLOCK": "SmartBlockNode"
+                }
+            },
+            "mapping": {
+                "PARAGRAPH": {
+                    "metadata": {
+                        "section": "Paragraph",
+                        "tsRicosNode": true,
+                        "description": "Structures text content, providing a clear separation between different ideas or sections of text. Paragraphs are rendered with default styling that typically includes some space above and below the paragraph, making it visually distinct from the surrounding content.",
+                        "examples": [
+                            "paragraph"
+                        ]
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Paragraph children."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Vertical padding. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "paragraphData": {
+                            "ref": "ParagraphData",
+                            "metadata": {
+                                "description": "Paragraph node attributes."
+                            }
+                        }
+                    }
+                },
+                "HEADING": {
+                    "metadata": {
+                        "section": "Heading",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "headings-all-sizes"
+                        ],
+                        "description": "Indicates a heading or title of a section. There are 6 levels of headings, with `1` being the most prominent and `6` being the least."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define the heading text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Heading styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        },
+                        "headingData": {
+                            "ref": "HeadingData",
+                            "metadata": {
+                                "description": "Heading options."
+                            }
+                        }
+                    }
+                },
+                "BULLETED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "bulletedList"
+                        ],
+                        "description": "Bulleted list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "bulletedListData": {
+                            "ref": "BulletedListData",
+                            "metadata": {
+                                "description": "Bulleted list details."
+                            }
+                        }
+                    }
+                },
+                "CHECKBOX_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "checkboxList"
+                        ],
+                        "description": "Checkbox list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "checkboxListData": {
+                            "ref": "CheckboxListData",
+                            "metadata": {
+                                "description": "Checkbox list details."
+                            }
+                        }
+                    }
+                },
+                "ORDERED_LIST": {
+                    "metadata": {
+                        "section": "List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "orderedList"
+                        ],
+                        "description": "Numbered list."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ListItemNode",
+                                "metadata": {
+                                    "validation": {
+                                        "minSize": 1
+                                    }
+                                }
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "List items.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "orderedListData": {
+                            "ref": "OrderedListData",
+                            "metadata": {
+                                "description": "Ordered list details."
+                            }
+                        }
+                    }
+                },
+                "BLOCKQUOTE": {
+                    "metadata": {
+                        "section": "Block quote",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "blockquote"
+                        ],
+                        "description": "Used to visually distinguish quoted or cited content from the surrounding text. When rendered, it displays as the quoted text with indentation or other styling to visually separate it from the surrounding content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "ParagraphNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a blockquote paragraph.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "blockquoteData": {
+                            "ref": "BlockquoteData",
+                            "metadata": {
+                                "description": "Blockquote details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Defines the blockquote style, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "CODE_BLOCK": {
+                    "metadata": {
+                        "section": "Codeblock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "CODE_BLOCK"
+                        ],
+                        "examples": [
+                            "code-block-multi-line",
+                            "code-block-syntax-highlighting"
+                        ],
+                        "description": "Presents code snippets, markup, or other text-based content that should be displayed exactly as it appears, without any interpretation or formatting applied by the browser. When rendered, it is displayed as the code block with a monospaced font, preserving indentation, line breaks, and spacing as specified in the code."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TextNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a code block text."
+                            }
+                        },
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "codeBlockData": {
+                            "ref": "CodeBlockData",
+                            "metadata": {
+                                "description": "Code block details."
+                            }
+                        },
+                        "style": {
+                            "ref": "NodeStyle",
+                            "metadata": {
+                                "description": "Code block styling, such as padding and background color. \n **Note:** This node requires the [`lineSpacing`](https://dev.wix.com/docs/ricos/getting-started/introduction#plugins) plugin to be enabled."
+                            }
+                        }
+                    }
+                },
+                "VIDEO": {
+                    "metadata": {
+                        "section": "Video",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "video-url",
+                            "video-wix"
+                        ],
+                        "features": [
+                            "VIDEO"
+                        ],
+                        "description": "Embeds and plays video content directly in a page. When rendered, it is displayed as the video player with the specified video file. Users can interact with the controls to play, pause, rewind, and adjust the volume of the video."
+                    },
+                    "properties": {
+                        "videoData": {
+                            "ref": "VideoData",
+                            "metadata": {
+                                "description": "Video details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a video caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "DIVIDER": {
+                    "metadata": {
+                        "section": "Divider",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "divider"
+                        ],
+                        "features": [
+                            "DIVIDER"
+                        ],
+                        "description": "Horizontal line between different content."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "dividerData": {
+                            "ref": "DividerData",
+                            "metadata": {
+                                "description": "Divider details."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "FILE": {
+                    "metadata": {
+                        "section": "File",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "file"
+                        ],
+                        "features": [
+                            "FILE"
+                        ],
+                        "description": "File that is uploaded and accessed in a page. Files can be different types of content, such as text documents, images, and videos."
+                    },
+                    "properties": {
+                        "fileData": {
+                            "ref": "FileData",
+                            "metadata": {
+                                "description": "File details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GALLERY": {
+                    "metadata": {
+                        "section": "Gallery",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gallery"
+                        ],
+                        "features": [
+                            "GALLERY"
+                        ],
+                        "description": "Collection of images displayed together."
+                    },
+                    "properties": {
+                        "galleryData": {
+                            "ref": "GalleryData",
+                            "metadata": {
+                                "description": "Gallery node details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "GIF": {
+                    "metadata": {
+                        "section": "Gif",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "gif-basic"
+                        ],
+                        "features": [
+                            "GIF"
+                        ],
+                        "description": "GIF images."
+                    },
+                    "properties": {
+                        "gifData": {
+                            "ref": "GIFData",
+                            "metadata": {
+                                "description": "GIF details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define a GIF caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "HTML": {
+                    "metadata": {
+                        "section": "Html",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "html-code",
+                            "html-url"
+                        ],
+                        "features": [
+                            "HTML"
+                        ],
+                        "description": "HTML block that incorporates external content, such as interactive maps or entire web pages."
+                    },
+                    "properties": {
+                        "htmlData": {
+                            "ref": "HTMLData",
+                            "metadata": {
+                                "description": "HTML details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "TOC": {
+                    "metadata": {
+                        "section": "Table of Contents",
+                        "tsRicosNode": true,
+                        "features": [
+                            "TOC"
+                        ],
+                        "description": "Dynamic table of contents block that renders links to headings in the document."
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tocData": {
+                            "ref": "TocData",
+                            "metadata": {
+                                "description": "Table of contents block settings."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "IMAGE": {
+                    "metadata": {
+                        "section": "Image",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "image-id",
+                            "image-url"
+                        ],
+                        "features": [
+                            "IMAGE"
+                        ],
+                        "description": "Standalone images in a page."
+                    },
+                    "properties": {
+                        "imageData": {
+                            "ref": "ImageData",
+                            "metadata": {
+                                "description": "Image options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define an image caption."
+                            },
+                            "elements": {
+                                "ref": "CaptionNode"
+                            }
+                        }
+                    }
+                },
+                "LINK_PREVIEW": {
+                    "metadata": {
+                        "section": "Link Preview",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "link-preview"
+                        ],
+                        "features": [
+                            "LINK_PREVIEW"
+                        ],
+                        "description": "Preview or summary of a webpage. Link previews include elements such as the title of the linked page, a brief description or excerpt of the content, and sometimes a thumbnail image or other relevant information."
+                    },
+                    "properties": {
+                        "linkPreviewData": {
+                            "ref": "LinkPreviewData",
+                            "metadata": {
+                                "description": "Link preview details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "POLL": {
+                    "metadata": {
+                        "section": "Poll",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "poll"
+                        ],
+                        "features": [
+                            "POLL"
+                        ],
+                        "description": "Provides a question with several options, where the options' cumulative total may be shown."
+                    },
+                    "properties": {
+                        "pollData": {
+                            "ref": "PollData",
+                            "metadata": {
+                                "description": "Poll details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "APP_EMBED": {
+                    "metadata": {
+                        "section": "App Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "app-embed-event",
+                            "app-embed-booking"
+                        ],
+                        "features": [
+                            "APP_EMBED"
+                        ],
+                        "description": "Embeds an external content preview from Wix business solutions. For example, you can embed previews from the Wix Bookings, Wix Stores and Wix Events apps."
+                    },
+                    "properties": {
+                        "appEmbedData": {
+                            "ref": "AppEmbedData",
+                            "metadata": {
+                                "description": "Embedded Wix app."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "BUTTON": {
+                    "metadata": {
+                        "section": "Button",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "button-link",
+                            "button-action",
+                            "button-styled"
+                        ],
+                        "features": [
+                            "BUTTON"
+                        ],
+                        "description": "Button to trigger an action."
+                    },
+                    "properties": {
+                        "buttonData": {
+                            "ref": "ButtonData",
+                            "metadata": {
+                                "description": "Button details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "COLLAPSIBLE_LIST": {
+                    "metadata": {
+                        "section": "Collapsible List",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "collapsible-list"
+                        ],
+                        "features": [
+                            "COLLAPSIBLE_LIST"
+                        ],
+                        "description": "List of items where each item can be expanded or collapsed."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CollapsibleItemNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Collapsible list child nodes.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "collapsibleListData": {
+                            "ref": "CollapsibleListData",
+                            "metadata": {
+                                "description": "Collapsible list details."
+                            }
+                        }
+                    }
+                },
+                "TABLE": {
+                    "metadata": {
+                        "section": "Table",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "table"
+                        ],
+                        "features": [
+                            "TABLE"
+                        ],
+                        "description": "Data in rows and columns."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "TableRowNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes to define table rows.",
+                                "validation": {
+                                    "minSize": 1
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "tableData": {
+                            "ref": "TableData",
+                            "metadata": {
+                                "description": "Table details."
+                            }
+                        }
+                    }
+                },
+                "EMBED": {
+                    "metadata": {
+                        "section": "Embed",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "embed"
+                        ],
+                        "features": [
+                            "EMBED"
+                        ],
+                        "description": "Embedded content when you include a link to a resource, without having to parse the resource directly. This provides a standardized way for web developers to include content such as videos, images, and other multimedia elements from supported providers. To learn more, see [oembed](https://oembed.com/)."
+                    },
+                    "properties": {
+                        "embedData": {
+                            "ref": "EmbedData",
+                            "metadata": {
+                                "description": "oEmbed details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "AUDIO": {
+                    "metadata": {
+                        "section": "Audio",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "audio-soundcloud"
+                        ],
+                        "features": [
+                            "AUDIO"
+                        ],
+                        "description": "Embeds and plays audio content directly in a webpage. Users can interact with the controls to play, pause, rewind, and adjust the volume of the audio."
+                    },
+                    "properties": {
+                        "audioData": {
+                            "ref": "AudioData",
+                            "metadata": {
+                                "description": "Audio details."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "LAYOUT": {
+                    "metadata": {
+                        "section": "Layout",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "layout"
+                        ],
+                        "description": "Used to wrap cells in layout container. When rendered, it cells one after the other in a row"
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "LayoutCellNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Cell items.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 6
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "layoutData": {
+                            "ref": "LayoutData",
+                            "metadata": {
+                                "description": "Layout details."
+                            }
+                        }
+                    }
+                },
+                "EXTERNAL": {
+                    "metadata": {
+                        "section": "External",
+                        "tsRicosNode": true,
+                        "internal": true
+                    },
+                    "properties": {},
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "htmlData": {},
+                        "externalData": {
+                            "values": {}
+                        },
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "SHAPE": {
+                    "metadata": {
+                        "section": "Shape",
+                        "tsRicosNode": true,
+                        "examples": [
+                            "shape-id"
+                        ],
+                        "features": [
+                            "SHAPE"
+                        ],
+                        "description": "Standalone shapes in a page."
+                    },
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "shapeData": {
+                            "ref": "ShapeData",
+                            "metadata": {
+                                "description": "Shape options."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "nodes": {
+                            "metadata": {
+                                "internal": true,
+                                "tsRicosNodesChildren": true
+                            },
+                            "elements": {
+                                "ref": "Never"
+                            }
+                        }
+                    }
+                },
+                "CARD": {
+                    "metadata": {
+                        "section": "Card",
+                        "tsRicosNode": true,
+                        "features": [
+                            "PAGING"
+                        ],
+                        "description": "A card container node that can hold any block-level content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "CardChildNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Child nodes that the card contains."
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "cardData": {
+                            "ref": "CardData",
+                            "metadata": {
+                                "description": "Card details."
+                            }
+                        }
+                    }
+                },
+                "SMART_BLOCK": {
+                    "metadata": {
+                        "section": "SmartBlock",
+                        "tsRicosNode": true,
+                        "features": [
+                            "SMART_BLOCK"
+                        ],
+                        "description": "A smart block node that allows switching between different visual representations (variants) while preserving content."
+                    },
+                    "properties": {
+                        "nodes": {
+                            "elements": {
+                                "ref": "SmartBlockCellNode"
+                            },
+                            "metadata": {
+                                "tsRicosNodesChildren": true,
+                                "description": "Smart block cells.",
+                                "validation": {
+                                    "minSize": 1,
+                                    "maxSize": 12
+                                }
+                            }
+                        }
+                    },
+                    "optionalProperties": {
+                        "id": {
+                            "type": "string",
+                            "metadata": {
+                                "format": "NODE_ID",
+                                "description": "[Node ID](#node-ids)."
+                            }
+                        },
+                        "smartBlockData": {
+                            "ref": "SmartBlockData",
+                            "metadata": {
+                                "description": "Smart block details."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/json-typedef-js-fork/schema.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isDiscriminatorForm",
+    ()=>isDiscriminatorForm,
+    "isElementsForm",
+    ()=>isElementsForm,
+    "isEmptyForm",
+    ()=>isEmptyForm,
+    "isEnumForm",
+    ()=>isEnumForm,
+    "isPropertiesForm",
+    ()=>isPropertiesForm,
+    "isRefForm",
+    ()=>isRefForm,
+    "isSchema",
+    ()=>isSchema,
+    "isTypeForm",
+    ()=>isTypeForm,
+    "isValidSchema",
+    ()=>isValidSchema,
+    "isValuesForm",
+    ()=>isValuesForm
+]);
+function isEmptyForm(schema) {
+    const { definitions, nullable, metadata, ...rest } = schema;
+    return Object.keys(rest).length === 0;
+}
+function isRefForm(schema) {
+    return "ref" in schema;
+}
+function isTypeForm(schema) {
+    return "type" in schema;
+}
+function isEnumForm(schema) {
+    return "enum" in schema;
+}
+function isElementsForm(schema) {
+    return "elements" in schema;
+}
+function isPropertiesForm(schema) {
+    return "properties" in schema || "optionalProperties" in schema;
+}
+function isValuesForm(schema) {
+    return "values" in schema;
+}
+function isDiscriminatorForm(schema) {
+    return "discriminator" in schema;
+}
+function isValidSchema(schema, path = [], skipRefCheck = false, root) {
+    const err = (message)=>({
+            type: "error",
+            message,
+            path
+        });
+    if (root === void 0) {
+        root = schema;
+    }
+    if (schema.definitions !== void 0) {
+        if (root !== schema) {
+            return err("non-root schema has definitions");
+        }
+        for (const subSchemaKey of Object.keys(schema.definitions)){
+            const result = isValidSchema(schema.definitions[subSchemaKey], path.concat("definitions", subSchemaKey), skipRefCheck, root);
+            if (result.type === "error") {
+                return result;
+            }
+        }
+    }
+    if (isRefForm(schema) && !skipRefCheck) {
+        if (!(schema.ref in (root.definitions || {}))) {
+            return err("ref does not point to a definition");
+        }
+    }
+    if (isEnumForm(schema)) {
+        if (schema.enum.length === 0) {
+            return err("enum must be non-empty");
+        }
+        if (schema.enum.length !== new Set(schema.enum).size) {
+            return err("enum must not contain duplicates");
+        }
+    }
+    if (isElementsForm(schema)) {
+        const result = isValidSchema(schema.elements, path.concat("elements"), skipRefCheck, root);
+        if (result.type === "error") {
+            return result;
+        }
+    }
+    if (isPropertiesForm(schema)) {
+        for (const subSchemaKey of Object.keys(schema.properties || {})){
+            const result = isValidSchema(schema.properties[subSchemaKey], path.concat("properties", subSchemaKey), skipRefCheck, root);
+            if (result.type === "error") {
+                return result;
+            }
+        }
+        for (const subSchemaKey of Object.keys(schema.optionalProperties || {})){
+            const result = isValidSchema(schema.optionalProperties[subSchemaKey], path.concat("optionalProperties", subSchemaKey), skipRefCheck, root);
+            if (result.type === "error") {
+                return result;
+            }
+        }
+        for (const key of Object.keys(schema.properties || {})){
+            if (key in (schema.optionalProperties || {})) {
+                return err("properties and optionalProperties must not share properties: " + key);
+            }
+        }
+        for (const key of Object.keys(schema.optionalProperties || {})){
+            if (key in (schema.properties || {})) {
+                return err("properties and optionalProperties must not share properties: " + key);
+            }
+        }
+    }
+    if (isValuesForm(schema)) {
+        const result = isValidSchema(schema.values, path.concat("values"), skipRefCheck, root);
+        if (result.type === "error") {
+            return result;
+        }
+    }
+    if (isDiscriminatorForm(schema)) {
+        for (const subSchemaKey of Object.keys(schema.mapping)){
+            const subSchema = schema.mapping[subSchemaKey];
+            const result = isValidSchema(subSchema, path.concat("mapping", subSchemaKey), skipRefCheck, root);
+            if (result.type === "error") {
+                return result;
+            }
+            if (!isPropertiesForm(subSchema)) {
+                return err("mapping values in discriminator form must be of the properties form");
+            }
+            if (subSchema.nullable) {
+                return err("mapping values in discriminator form must not be nullable");
+            }
+            if (schema.discriminator in (subSchema.properties || {})) {
+                return err("mapping values in discriminator form must not re-specify the discriminator");
+            }
+            if (schema.discriminator in (subSchema.optionalProperties || {})) {
+                return err("mapping values in discriminator form must not re-specify the discriminator");
+            }
+        }
+    }
+    return ok();
+}
+const VALID_FORMS = [
+    // Empty form
+    [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    // Ref form
+    [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    // Type form
+    [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    // Enum form
+    [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    // Elements form
+    [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    // Properties form -- properties or optional properties or both, and never
+    // additional properties on its own
+    [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+    ],
+    [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+    ],
+    [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+    ],
+    // Values form
+    [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+    ],
+    // Discriminator form
+    [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+    ]
+];
+const VALID_TYPES = [
+    "boolean",
+    "float32",
+    "float64",
+    "int8",
+    "uint8",
+    "int16",
+    "uint16",
+    "int32",
+    "uint32",
+    "string",
+    "timestamp"
+];
+const ok = ()=>({
+        type: "ok"
+    });
+function isSchema(data, path = []) {
+    const err = (message)=>({
+            type: "error",
+            message,
+            path
+        });
+    if (typeof data !== "object" || Array.isArray(data) || data === null) {
+        return err("schema must be an object");
+    }
+    const obj = data;
+    const { definitions = void 0, nullable = void 0, metadata = void 0, ref = void 0, type = void 0, enum: enum_ = void 0, elements = void 0, properties = void 0, optionalProperties = void 0, additionalProperties = void 0, values = void 0, discriminator = void 0, mapping = void 0, ...rest } = obj;
+    const formSignature = [
+        ref !== void 0,
+        type !== void 0,
+        enum_ !== void 0,
+        elements !== void 0,
+        properties !== void 0,
+        optionalProperties !== void 0,
+        additionalProperties !== void 0,
+        values !== void 0,
+        discriminator !== void 0,
+        mapping !== void 0
+    ];
+    let formOk = false;
+    for (const validForm of VALID_FORMS){
+        formOk = formOk || validForm.every((value, index)=>value === formSignature[index]);
+    }
+    if (!formOk) {
+        return err("schema doesn't match any valid form signature");
+    }
+    if (definitions !== void 0) {
+        if (typeof definitions !== "object" || Array.isArray(definitions) || definitions === null) {
+            return err("definitions must be an object");
+        }
+        for (const key of Object.keys(definitions)){
+            const result = isSchema(definitions[key], path.concat("definitions", key));
+            if (result.type === "error") {
+                return result;
+            }
+        }
+    }
+    if (nullable !== void 0) {
+        if (typeof nullable !== "boolean") {
+            return err("nullable must be a boolean");
+        }
+    }
+    if (metadata !== void 0) {
+        if (typeof metadata !== "object" || Array.isArray(metadata) || metadata === null) {
+            return err("metadata must be an object");
+        }
+    }
+    if (ref !== void 0) {
+        if (typeof ref !== "string") {
+            return err("ref must be a string");
+        }
+    }
+    if (type !== void 0) {
+        if (typeof type !== "string" || !VALID_TYPES.includes(type)) {
+            return err("type must be a string and one of the valid types");
+        }
+    }
+    if (enum_ !== void 0) {
+        if (!Array.isArray(enum_)) {
+            return err("enum must be an array");
+        }
+        if (!enum_.every((elem)=>typeof elem === "string")) {
+            return err("enum must be an array of strings");
+        }
+    }
+    if (elements !== void 0) {
+        const result = isSchema(elements, path.concat("elements"));
+        if (result.type === "error") {
+            return result;
+        }
+    }
+    if (properties !== void 0) {
+        if (typeof properties !== "object" || Array.isArray(properties) || properties === null) {
+            return err("properties must be an object");
+        }
+        for (const key of Object.keys(properties)){
+            const result = isSchema(properties[key], path.concat("properties", key));
+            if (result.type === "error") {
+                return result;
+            }
+        }
+    }
+    if (optionalProperties !== void 0) {
+        if (typeof optionalProperties !== "object" || Array.isArray(optionalProperties) || optionalProperties === null) {
+            return err("optionalProperties must be an object");
+        }
+        for (const key of Object.keys(optionalProperties)){
+            const result = isSchema(optionalProperties[key], path.concat("optionalProperties", key));
+            if (result.type === "error") {
+                return result;
+            }
+        }
+    }
+    if (additionalProperties !== void 0) {
+        if (typeof additionalProperties !== "boolean") {
+            return err("additionalProperties must be a boolean");
+        }
+    }
+    if (values !== void 0) {
+        const result = isSchema(values, path.concat("values"));
+        if (result.type === "error") {
+            return result;
+        }
+    }
+    if (discriminator !== void 0) {
+        if (typeof discriminator !== "string") {
+            return err("discriminator must be a string");
+        }
+    }
+    if (mapping !== void 0) {
+        if (typeof mapping !== "object" || Array.isArray(mapping) || mapping === null) {
+            return err("mapping must be an object");
+        }
+        for (const key of Object.keys(mapping)){
+            const result = isSchema(mapping[key], path.concat("mapping", key));
+            if (result.type === "error") {
+                return result;
+            }
+        }
+    }
+    if (Object.keys(rest).length !== 0) {
+        return err("schema has unknown properties");
+    }
+    return ok();
+}
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/json-typedef-js-fork/validate.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "validate",
+    ()=>validate
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/json-typedef-js-fork/schema.js [app-client] (ecmascript)");
+;
+class MaxDepthExceededError extends Error {
+}
+class MaxErrorsReachedError extends Error {
+}
+function validate(schema, instance, config) {
+    const formats = schema.metadata?.formats;
+    const validateFormat = createFormatValidator(formats);
+    const state = {
+        errors: [],
+        instanceTokens: [],
+        schemaTokens: [
+            []
+        ],
+        root: schema,
+        config: {
+            maxDepth: config?.maxDepth ?? 0,
+            maxErrors: config?.maxErrors ?? 0,
+            features: config?.features
+        }
+    };
+    try {
+        validateWithState(state, schema, instance, {
+            format: validateFormat
+        });
+    } catch (err) {
+        if (err instanceof MaxErrorsReachedError) {} else {
+            throw err;
+        }
+    }
+    return state.errors;
+}
+function validateWithState(state, schema, instance, nonStandardValidations, parentTag, parentInstance) {
+    if (schema.nullable && instance === null) {
+        return;
+    }
+    if (state.config.features && schema.metadata?.features && !schema.metadata.features.some((f)=>state.config.features?.includes(f)) && instance !== null && !isEmptyObject(instance)) {
+        pushSchemaToken(state, "metadata");
+        pushSchemaToken(state, "features");
+        pushError(state, schema.metadata.features.length > 1 ? `Features [${schema.metadata.features.join(", ")}] are not supported` : `Feature [${schema.metadata.features[0]}] is not supported`);
+        popSchemaToken(state);
+        popSchemaToken(state);
+    }
+    if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isRefForm"])(schema)) {
+        if (state.schemaTokens.length === state.config.maxDepth) {
+            throw new MaxDepthExceededError();
+        }
+        state.schemaTokens.push([
+            "definitions",
+            schema.ref
+        ]);
+        validateWithState(state, state.root.definitions[schema.ref], instance, nonStandardValidations, void 0, parentInstance);
+        state.schemaTokens.pop();
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isTypeForm"])(schema)) {
+        pushSchemaToken(state, "type");
+        switch(schema.type){
+            case "boolean":
+                if (typeof instance !== "boolean") {
+                    pushError(state, "Expected a boolean");
+                }
+                break;
+            case "float32":
+            case "float64":
+                if (typeof instance !== "number") {
+                    pushError(state, "Expected a number");
+                }
+                break;
+            case "int8":
+                validateInt(state, instance, schema, -128, 127);
+                break;
+            case "uint8":
+                validateInt(state, instance, schema, 0, 255);
+                break;
+            case "int16":
+                validateInt(state, instance, schema, -32768, 32767);
+                break;
+            case "uint16":
+                validateInt(state, instance, schema, 0, 65535);
+                break;
+            case "int32":
+                validateInt(state, instance, schema, -2147483648, 2147483647);
+                break;
+            case "uint32":
+                validateInt(state, instance, schema, 0, 4294967295);
+                break;
+            case "string":
+                if (typeof instance !== "string") {
+                    pushError(state, "Expected a string");
+                }
+                if (schema.metadata?.validation?.minLength && instance.length < schema.metadata.validation.minLength) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "validation",
+                        "minLength"
+                    ]);
+                    pushError(state, `Expected at least ${schema.metadata.validation.minLength} characters`);
+                    popSchemaToken(state, 3);
+                }
+                if (schema.metadata?.validation?.maxLength && instance.length > schema.metadata.validation.maxLength) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "validation",
+                        "maxLength"
+                    ]);
+                    pushError(state, `Expected at most ${schema.metadata.validation.minLength} characters`);
+                    popSchemaToken(state, 3);
+                }
+                break;
+            case "timestamp":
+                if (typeof instance !== "string") {
+                    pushError(state, "Expected a timestamp");
+                }
+                break;
+        }
+        const formatError = nonStandardValidations.format(schema, instance);
+        if (formatError) {
+            pushError(state, formatError);
+        }
+        popSchemaToken(state);
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isEnumForm"])(schema)) {
+        pushSchemaToken(state, "enum");
+        if (typeof instance !== "string" || !schema.enum.includes(instance)) {
+            pushError(state, `Expected one of: ${schema.enum.join(", ")}`);
+        }
+        popSchemaToken(state);
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isElementsForm"])(schema)) {
+        pushSchemaToken(state, "elements");
+        if (Array.isArray(instance)) {
+            for (const [index, subInstance] of instance.entries()){
+                pushInstanceToken(state, index.toString());
+                validateWithState(state, schema.elements, subInstance, nonStandardValidations, void 0, parentInstance);
+                popInstanceToken(state);
+            }
+            if (schema.metadata?.pattern) {
+                const pattern = schema.metadata.pattern;
+                const validationResult = validatePattern(pattern.value, instance);
+                if (!validationResult.valid) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "pattern"
+                    ]);
+                    pushError(state, validationResult.message);
+                    popSchemaToken(state, 2);
+                }
+            }
+            if (schema.metadata?.validation?.maxSize && instance.length > schema.metadata.validation.maxSize) {
+                pushSchemaToken(state, [
+                    "metadata",
+                    "validation",
+                    "maxSize"
+                ]);
+                pushError(state, `Expected at most ${schema.metadata.validation.maxSize} items`);
+                popSchemaToken(state, 3);
+            }
+            if (schema.metadata?.validation?.minSize && instance.length < schema.metadata.validation.minSize) {
+                pushSchemaToken(state, [
+                    "metadata",
+                    "validation",
+                    "minSize"
+                ]);
+                pushError(state, `Expected at least ${schema.metadata.validation.minSize} items`);
+                popSchemaToken(state, 3);
+            }
+            if (schema.metadata?.validation?.uniqueTags) {
+                const repeating = instance.map((i)=>i?.type).filter((item, index, arr)=>arr.indexOf(item) !== index);
+                if (repeating.length) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "validation",
+                        "uniqueTags"
+                    ]);
+                    pushError(state, `Expected unique types, but [${repeating.join(", ")}] are repeated`);
+                    popSchemaToken(state, 3);
+                }
+            }
+        } else {
+            pushError(state, "Expected an array");
+        }
+        popSchemaToken(state);
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isPropertiesForm"])(schema)) {
+        if (typeof instance === "object" && instance !== null && !Array.isArray(instance)) {
+            if (schema.properties !== void 0) {
+                pushSchemaToken(state, "properties");
+                for (const [name, subSchema] of Object.entries(schema.properties)){
+                    pushSchemaToken(state, name);
+                    if (instance.hasOwnProperty(name)) {
+                        pushInstanceToken(state, name);
+                        validateWithState(state, subSchema, instance[name], nonStandardValidations, void 0, instance);
+                        popInstanceToken(state);
+                    } else {
+                        pushError(state, `Missing property: ${name}`);
+                    }
+                    popSchemaToken(state);
+                }
+                popSchemaToken(state);
+            }
+            if (schema.optionalProperties !== void 0) {
+                pushSchemaToken(state, "optionalProperties");
+                for (const [name, subSchema] of Object.entries(schema.optionalProperties)){
+                    pushSchemaToken(state, name);
+                    if (instance.hasOwnProperty(name)) {
+                        const value = instance[name];
+                        if (value !== void 0) {
+                            pushInstanceToken(state, name);
+                            validateWithState(state, subSchema, value, nonStandardValidations, void 0, instance);
+                            popInstanceToken(state);
+                        }
+                    }
+                    popSchemaToken(state);
+                }
+                popSchemaToken(state);
+            }
+            if (schema.additionalProperties !== true) {
+                for (const name of Object.keys(instance)){
+                    const inRequired = schema.properties && name in schema.properties;
+                    const inOptional = schema.optionalProperties && name in schema.optionalProperties;
+                    const value = instance[name];
+                    if (!inRequired && !inOptional && name !== parentTag && value !== void 0) {
+                        pushInstanceToken(state, name);
+                        pushError(state, "Unexpected property");
+                        popInstanceToken(state);
+                    }
+                }
+            }
+            if (schema.metadata?.validation?.matchFieldWithParent && parentInstance) {
+                const { parent: parentPath, self: selfPath } = schema.metadata.validation.matchFieldWithParent;
+                const parentValue = getNestedValue(parentInstance, parentPath);
+                const selfValue = getNestedValue(instance, selfPath);
+                if (parentValue !== null && parentValue !== void 0 && selfValue !== null && selfValue !== void 0 && parentValue !== selfValue) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "validation",
+                        "matchFieldWithParent"
+                    ]);
+                    pushError(state, `Expected ${selfPath.join(".")} to match parent ${parentPath.join(".")}: "${parentValue}", got "${selfValue}"`);
+                    popSchemaToken(state, 3);
+                }
+            }
+            if (schema.metadata?.oneOf) {
+                const oneOfProperties = schema.metadata?.oneOf.properties;
+                const countOfInitializedOneOfProperties = oneOfProperties.filter((p)=>{
+                    return Object.hasOwn(instance, p) && (instance[p] !== null || instance[p] !== void 0);
+                }).length;
+                if (countOfInitializedOneOfProperties > 1) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "oneOf"
+                    ]);
+                    pushError(state, `Only one of the properties [${oneOfProperties.join(", ")}] can be initialized`);
+                    popSchemaToken(state, 2);
+                }
+                if (schema.metadata.oneOf.strict && countOfInitializedOneOfProperties < 1) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "oneOf"
+                    ]);
+                    pushError(state, `One property in oneOf group [${oneOfProperties.join(",")}] must be initialized`);
+                    popSchemaToken(state, 2);
+                }
+            }
+            if (schema.metadata?.validation?.matchFieldWithParent && parentInstance) {
+                const { parent: parentPath, self: selfPath } = schema.metadata.validation.matchFieldWithParent;
+                const parentValue = getNestedValue(parentInstance, parentPath);
+                const selfValue = getNestedValue(instance, selfPath);
+                if (parentValue !== null && parentValue !== void 0 && selfValue !== null && selfValue !== void 0 && parentValue !== selfValue) {
+                    pushSchemaToken(state, [
+                        "metadata",
+                        "validation",
+                        "matchFieldWithParent"
+                    ]);
+                    pushError(state, `Expected ${selfPath.join(".")} to match parent ${parentPath.join(".")}: "${parentValue}", got "${selfValue}"`);
+                    popSchemaToken(state, 3);
+                }
+            }
+        } else {
+            if (schema.properties !== void 0) {
+                pushSchemaToken(state, "properties");
+            } else {
+                pushSchemaToken(state, "optionalProperties");
+            }
+            pushError(state, "Expected an object");
+            popSchemaToken(state);
+        }
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isValuesForm"])(schema)) {
+        pushSchemaToken(state, "values");
+        if (typeof instance === "object" && instance !== null && !Array.isArray(instance)) {
+            for (const [name, subInstance] of Object.entries(instance)){
+                pushInstanceToken(state, name);
+                validateWithState(state, schema.values, subInstance, nonStandardValidations, void 0, parentInstance);
+                popInstanceToken(state);
+            }
+        } else {
+            pushError(state, "Expected an object in map form");
+        }
+        popSchemaToken(state);
+    } else if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$schema$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isDiscriminatorForm"])(schema)) {
+        if (typeof instance === "object" && instance !== null && !Array.isArray(instance)) {
+            if (instance.hasOwnProperty(schema.discriminator)) {
+                const tag = instance[schema.discriminator];
+                if (typeof tag === "string") {
+                    if (tag in schema.mapping) {
+                        pushSchemaToken(state, "mapping");
+                        pushSchemaToken(state, tag);
+                        validateWithState(state, schema.mapping[tag], instance, nonStandardValidations, schema.discriminator, parentInstance);
+                        popSchemaToken(state);
+                        popSchemaToken(state);
+                    } else {
+                        pushSchemaToken(state, "mapping");
+                        pushInstanceToken(state, schema.discriminator);
+                        pushError(state, `Allowed values: ${Object.keys(schema.mapping).join(", ")}`);
+                        popInstanceToken(state);
+                        popSchemaToken(state);
+                    }
+                } else {
+                    pushSchemaToken(state, "discriminator");
+                    pushInstanceToken(state, schema.discriminator);
+                    pushError(state, "Expected a string");
+                    popInstanceToken(state);
+                    popSchemaToken(state);
+                }
+            } else {
+                pushSchemaToken(state, "discriminator");
+                pushError(state, `Missing tag: ${schema.discriminator}`);
+                popSchemaToken(state);
+            }
+        } else {
+            pushSchemaToken(state, "discriminator");
+            pushError(state, "Expected an object");
+            popSchemaToken(state);
+        }
+    }
+}
+function validateInt(state, instance, schema, min, max) {
+    if (typeof instance !== "number" || !Number.isInteger(instance) || instance < min || instance > max) {
+        pushError(state, `Expected an integer between ${min} and ${max}`);
+    }
+    if (schema.metadata?.validation?.min && Number(instance) < schema.metadata.validation.min) {
+        pushSchemaToken(state, [
+            "metadata",
+            "validation",
+            "min"
+        ]);
+        pushError(state, `Expected min value of ${schema.metadata.validation.min}`);
+        popSchemaToken(state, 3);
+    }
+    if (schema.metadata?.validation?.max && Number(instance) > schema.metadata.validation.max) {
+        pushSchemaToken(state, [
+            "metadata",
+            "validation",
+            "max"
+        ]);
+        pushError(state, `Expected max value of ${schema.metadata.validation.max}`);
+        popSchemaToken(state, 3);
+    }
+}
+function pushInstanceToken(state, token) {
+    state.instanceTokens.push(token);
+}
+function popInstanceToken(state) {
+    state.instanceTokens.pop();
+}
+function pushSchemaToken(state, token) {
+    state.schemaTokens[state.schemaTokens.length - 1].push(...Array.isArray(token) ? token : [
+        token
+    ]);
+}
+function popSchemaToken(state, count = 1) {
+    for(let i = 0; i < count; i++){
+        state.schemaTokens[state.schemaTokens.length - 1].pop();
+    }
+}
+function pushError(state, message) {
+    state.errors.push({
+        instancePath: [
+            ...state.instanceTokens
+        ],
+        schemaPath: [
+            ...state.schemaTokens[state.schemaTokens.length - 1]
+        ],
+        message
+    });
+    if (state.errors.length === state.config.maxErrors) {
+        throw new MaxErrorsReachedError();
+    }
+}
+function createFormatValidator(formats) {
+    if (!formats) {
+        return ()=>void 0;
+    }
+    return (schema, instance)=>{
+        if (!schema.metadata?.format || !("type" in schema)) {
+            return void 0;
+        }
+        if (schema.type !== "string") {
+            throw new Error(`Invalid schema: Format validation can only be applied to string type form (got ${schema.type})`);
+        }
+        if (!instance) {
+            return void 0;
+        }
+        const format = formats?.[schema.metadata.format];
+        if (format?.validation.type === "regex") {
+            const regex = new RegExp(format.validation.regex);
+            if (regex.test(instance)) {
+                return void 0;
+            }
+            return `Incorrect format (expected: /${format.validation.regex})/ ${format.description})`;
+        }
+        if (format?.validation.type === "web_url") {
+            try {
+                new URL(instance);
+            } catch (e) {
+                return "Incorrect format (expected: web_url): " + e.message;
+            }
+            const url = new URL(instance);
+            if (url.protocol !== "http:" && url.protocol !== "https:") {
+                return "Incorrect format (expected: web_url): URL must start with http:// or https://";
+            }
+        }
+        return void 0;
+    };
+}
+const validatePattern = (pattern, instance)=>{
+    const nodeArrangement = instance.map((o)=>o?.type ?? "UNDEFINED").join("");
+    const isValid = !!nodeArrangement.match(`^${pattern.replaceAll(" ", "")}$`);
+    if (isValid) {
+        return {
+            valid: true
+        };
+    }
+    return {
+        valid: false,
+        message: `Incorrect node order [${instance.map((o)=>o?.type ?? "UNDEFINED").join(" ")}] does not match required pattern [${pattern}]`
+    };
+};
+const isEmptyObject = (obj)=>obj && typeof obj === "object" && !Object.keys(obj).length;
+const getNestedValue = (obj, path)=>path.reduce((acc, key)=>acc?.[key], obj);
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/plugin-to-feature.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "pluginsToFeatures",
+    ()=>pluginsToFeatures
+]);
+const pluginsToFeatures = (plugins)=>{
+    return [
+        ...new Set(plugins.flatMap((p)=>pluginToFeatureMap[p]))
+    ];
+};
+const pluginToFeatureMap = {
+    actionButton: [
+        "BUTTON"
+    ],
+    fontFamily: [
+        "FONT_FAMILY"
+    ],
+    audio: [
+        "AUDIO"
+    ],
+    codeBlock: [
+        "CODE_BLOCK"
+    ],
+    collapsibleList: [
+        "COLLAPSIBLE_LIST"
+    ],
+    divider: [
+        "DIVIDER"
+    ],
+    file: [
+        "FILE"
+    ],
+    gallery: [
+        "GALLERY"
+    ],
+    giphy: [
+        "GIF"
+    ],
+    hashtag: [],
+    html: [
+        "HTML"
+    ],
+    toc: [
+        "TOC"
+    ],
+    image: [
+        "IMAGE"
+    ],
+    link: [
+        "LINK"
+    ],
+    linkButton: [
+        "BUTTON"
+    ],
+    linkPreview: [
+        "LINK_PREVIEW",
+        "EMBED"
+    ],
+    mentions: [
+        "MENTION"
+    ],
+    poll: [
+        "POLL"
+    ],
+    spoiler: [
+        "SPOILER"
+    ],
+    table: [
+        "TABLE"
+    ],
+    textColor: [
+        "COLOR_DECORATION"
+    ],
+    textHighlight: [
+        "COLOR_DECORATION",
+        "SKETCH_DECORATION"
+    ],
+    verticalEmbed: [
+        "APP_EMBED"
+    ],
+    video: [
+        "VIDEO"
+    ],
+    ai: [],
+    inlineAi: [],
+    layout: [],
+    emoji: [],
+    heading: [],
+    indent: [],
+    lineSpacing: [
+        "LINE_SPACING"
+    ],
+    shape: [
+        "SHAPE"
+    ],
+    card: [
+        "PAGING"
+    ],
+    smartBlock: [
+        "SMART_BLOCK"
+    ],
+    animation: [
+        "ANIMATION"
+    ]
+};
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/validator/validate-ricos-document.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "validateRicosDocument",
+    ()=>validateRicosDocument
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$generated$2f$ricos_document$2e$jtd$2e$json$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/generated/ricos_document.jtd.json.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$validate$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/json-typedef-js-fork/validate.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$plugin$2d$to$2d$feature$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/plugin-to-feature.js [app-client] (ecmascript)");
+;
+;
+;
+function validateRicosDocument(content, options) {
+    const errors = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$json$2d$typedef$2d$js$2d$fork$2f$validate$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["validate"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$generated$2f$ricos_document$2e$jtd$2e$json$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], content, {
+        features: options?.plugins ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$schema$2f$next$2d$schema$2f$plugin$2d$to$2d$feature$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pluginsToFeatures"])(options.plugins) : void 0
+    });
+    if (!errors.length) {
+        return {
+            type: "ok",
+            content
+        };
+    }
+    return {
+        type: "error",
+        errors: errors ?? []
+    };
+}
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/plugin_collapsible_list.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CollapsibleListData_Direction",
+    ()=>CollapsibleListData_Direction,
+    "CollapsibleListData_InitialExpandedItems",
+    ()=>CollapsibleListData_InitialExpandedItems
+]);
+var CollapsibleListData_InitialExpandedItems = /* @__PURE__ */ ((CollapsibleListData_InitialExpandedItems2)=>{
+    CollapsibleListData_InitialExpandedItems2["FIRST"] = "FIRST";
+    CollapsibleListData_InitialExpandedItems2["ALL"] = "ALL";
+    CollapsibleListData_InitialExpandedItems2["NONE"] = "NONE";
+    CollapsibleListData_InitialExpandedItems2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return CollapsibleListData_InitialExpandedItems2;
+})(CollapsibleListData_InitialExpandedItems || {});
+var CollapsibleListData_Direction = /* @__PURE__ */ ((CollapsibleListData_Direction2)=>{
+    CollapsibleListData_Direction2["LTR"] = "LTR";
+    CollapsibleListData_Direction2["RTL"] = "RTL";
+    CollapsibleListData_Direction2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return CollapsibleListData_Direction2;
+})(CollapsibleListData_Direction || {});
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/version.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "RICOS_VERSION",
+    ()=>RICOS_VERSION
+]);
+const RICOS_VERSION = "11.11.2";
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/plugin-names.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "editorPluginNames",
+    ()=>editorPluginNames,
+    "legacyPluginToNextMap",
+    ()=>legacyPluginToNextMap,
+    "toEditorPluginName",
+    ()=>toEditorPluginName,
+    "viewerPluginNames",
+    ()=>viewerPluginNames
+]);
+const viewerPluginNames = [
+    "actionButton",
+    "animation",
+    "audio",
+    "codeBlock",
+    "collapsibleList",
+    "divider",
+    "file",
+    "gallery",
+    "giphy",
+    "hashtag",
+    "html",
+    "toc",
+    "image",
+    "link",
+    "linkButton",
+    "linkPreview",
+    "mentions",
+    "poll",
+    "smartBlock",
+    "spoiler",
+    "table",
+    "textColor",
+    "textHighlight",
+    "verticalEmbed",
+    "video",
+    "fontFamily",
+    "shape",
+    "card",
+    "smartBlock"
+];
+const editorPluginNames = [
+    "ai",
+    "inlineAi",
+    "layout",
+    "emoji",
+    "heading",
+    "indent",
+    "lineSpacing",
+    "card",
+    ...viewerPluginNames
+];
+const nextPluginToLegacyMap = {
+    fontFamily: "fontFamily",
+    ai: "wix-rich-content-plugin-ai",
+    inlineAi: "inlineAi",
+    emoji: "wix-draft-plugin-emoji",
+    heading: "wix-rich-content-plugin-headings",
+    indent: "wix-rich-content-plugin-indent",
+    lineSpacing: "line-spacing",
+    actionButton: "wix-draft-plugin-action-button",
+    animation: "animation",
+    audio: "ricos-audio",
+    codeBlock: "code-block",
+    collapsibleList: "wix-rich-content-plugin-collapsible-list",
+    divider: "wix-draft-plugin-divider",
+    file: "wix-draft-plugin-file-upload",
+    gallery: "wix-draft-plugin-gallery",
+    giphy: "wix-draft-plugin-giphy",
+    hashtag: "wix-draft-plugin-hashtag",
+    html: "wix-draft-plugin-html",
+    toc: "toc",
+    image: "wix-draft-plugin-image",
+    link: "LINK",
+    linkButton: "wix-draft-plugin-link-button",
+    linkPreview: "wix-draft-plugin-link-preview",
+    mentions: "wix-draft-plugin-external-mentions",
+    poll: "wix-draft-plugin-poll",
+    spoiler: "wix-rich-content-plugin-spoiler",
+    table: "wix-rich-content-plugin-table",
+    textColor: "wix-rich-content-text-color",
+    textHighlight: "wix-rich-content-text-highlight",
+    verticalEmbed: "wix-draft-plugin-vertical-embed",
+    video: "wix-draft-plugin-video",
+    layout: "layout",
+    shape: "shape",
+    card: "card",
+    smartBlock: "smart-block"
+};
+const legacyPluginToNextMap = Object.fromEntries(Object.entries(nextPluginToLegacyMap).map(([key, value])=>[
+        value,
+        key
+    ]));
+const toEditorPluginName = (pluginType)=>{
+    if (editorPluginNames.includes(pluginType)) {
+        return pluginType;
+    }
+    return legacyPluginToNextMap[pluginType];
+};
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/next-schema/generated/ricos_document.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Animation_Axis",
+    ()=>Animation_Axis,
+    "Animation_CornerDirection",
+    ()=>Animation_CornerDirection,
+    "Animation_Direction",
+    ()=>Animation_Direction,
+    "Animation_Easing",
+    ()=>Animation_Easing,
+    "Animation_Orientation",
+    ()=>Animation_Orientation,
+    "Animation_RadialDirection",
+    ()=>Animation_RadialDirection,
+    "Animation_SideDirection",
+    ()=>Animation_SideDirection,
+    "Animation_SpinDirection",
+    ()=>Animation_SpinDirection,
+    "Animation_Type",
+    ()=>Animation_Type,
+    "AppEmbedData_AppType",
+    ()=>AppEmbedData_AppType,
+    "AppEmbedData_CardStyles_Alignment",
+    ()=>AppEmbedData_CardStyles_Alignment,
+    "AppEmbedData_CardStyles_Type",
+    ()=>AppEmbedData_CardStyles_Type,
+    "AppEmbedData_ImageStyles_AspectRatio",
+    ()=>AppEmbedData_ImageStyles_AspectRatio,
+    "AppEmbedData_ImageStyles_Position",
+    ()=>AppEmbedData_ImageStyles_Position,
+    "AppEmbedData_ImageStyles_Resizing",
+    ()=>AppEmbedData_ImageStyles_Resizing,
+    "AppEmbedData_RibbonStyles_Placement",
+    ()=>AppEmbedData_RibbonStyles_Placement,
+    "Background_Type",
+    ()=>Background_Type,
+    "ButtonData_Styles_ButtonSize",
+    ()=>ButtonData_Styles_ButtonSize,
+    "ButtonData_Type",
+    ()=>ButtonData_Type,
+    "CollapsibleListData_Direction",
+    ()=>CollapsibleListData_Direction,
+    "CollapsibleListData_InitialExpandedItems",
+    ()=>CollapsibleListData_InitialExpandedItems,
+    "Decoration_Type",
+    ()=>Decoration_Type,
+    "DividerData_Alignment",
+    ()=>DividerData_Alignment,
+    "DividerData_LineStyle",
+    ()=>DividerData_LineStyle,
+    "DividerData_Styles_LineCap",
+    ()=>DividerData_Styles_LineCap,
+    "DividerData_Width",
+    ()=>DividerData_Width,
+    "EntranceEffect_Bounce_Direction",
+    ()=>EntranceEffect_Bounce_Direction,
+    "EntranceEffect_Glide_Direction",
+    ()=>EntranceEffect_Glide_Direction,
+    "EntranceEffect_Shape_ClipShape",
+    ()=>EntranceEffect_Shape_ClipShape,
+    "EntranceEffect_Type",
+    ()=>EntranceEffect_Type,
+    "FileData_PDFSettings_ViewMode",
+    ()=>FileData_PDFSettings_ViewMode,
+    "FontSizeData_fontType",
+    ()=>FontSizeData_fontType,
+    "GIFData_GIFType",
+    ()=>GIFData_GIFType,
+    "GalleryOptions_ItemStyle_Crop",
+    ()=>GalleryOptions_ItemStyle_Crop,
+    "GalleryOptions_Layout_Orientation",
+    ()=>GalleryOptions_Layout_Orientation,
+    "GalleryOptions_Layout_Type",
+    ()=>GalleryOptions_Layout_Type,
+    "GalleryOptions_Thumbnails_Alignment",
+    ()=>GalleryOptions_Thumbnails_Alignment,
+    "Gradient_Type",
+    ()=>Gradient_Type,
+    "HTMLData_Source",
+    ()=>HTMLData_Source,
+    "ImageData_CropShape",
+    ()=>ImageData_CropShape,
+    "ImagePosition",
+    ()=>ImagePosition,
+    "ImageScaling",
+    ()=>ImageScaling,
+    "LATEST_VERSION",
+    ()=>LATEST_VERSION,
+    "LayoutData_BannerOrigin",
+    ()=>LayoutData_BannerOrigin,
+    "LayoutData_BannerPosition",
+    ()=>LayoutData_BannerPosition,
+    "LayoutData_DesignTarget",
+    ()=>LayoutData_DesignTarget,
+    "LayoutData_ResponsivenessBehaviour",
+    ()=>LayoutData_ResponsivenessBehaviour,
+    "LayoutData_SectionDividerLayersLayerEffect",
+    ()=>LayoutData_SectionDividerLayersLayerEffect,
+    "LayoutData_SectionDividerShape",
+    ()=>LayoutData_SectionDividerShape,
+    "Link_Target",
+    ()=>Link_Target,
+    "LoopEffect_Breathe_Direction",
+    ()=>LoopEffect_Breathe_Direction,
+    "LoopEffect_Type",
+    ()=>LoopEffect_Type,
+    "Node_Type",
+    ()=>Node_Type,
+    "PluginContainerData_Alignment",
+    ()=>PluginContainerData_Alignment,
+    "PluginContainerData_Width_Type",
+    ()=>PluginContainerData_Width_Type,
+    "PointerEffect_Scale_Direction",
+    ()=>PointerEffect_Scale_Direction,
+    "PointerEffect_Swivel_Axis",
+    ()=>PointerEffect_Swivel_Axis,
+    "PointerEffect_Type",
+    ()=>PointerEffect_Type,
+    "PollData_Design_PollDesign_Background_Type",
+    ()=>PollData_Design_PollDesign_Background_Type,
+    "PollData_Layout_PollLayout_Direction",
+    ()=>PollData_Layout_PollLayout_Direction,
+    "PollData_Layout_PollLayout_Type",
+    ()=>PollData_Layout_PollLayout_Type,
+    "PollData_Poll_Settings_Permissions_ViewRole",
+    ()=>PollData_Poll_Settings_Permissions_ViewRole,
+    "PollData_Poll_Settings_Permissions_VoteRole",
+    ()=>PollData_Poll_Settings_Permissions_VoteRole,
+    "RichContent",
+    ()=>RichContent,
+    "RicosDocumentNodeType",
+    ()=>RicosDocumentNodeType,
+    "SketchData_Variant",
+    ()=>SketchData_Variant,
+    "SmartBlockCellData_Type",
+    ()=>SmartBlockCellData_Type,
+    "SmartBlockData_ColumnSize",
+    ()=>SmartBlockData_ColumnSize,
+    "SmartBlockData_Orientation",
+    ()=>SmartBlockData_Orientation,
+    "SmartBlockData_Type",
+    ()=>SmartBlockData_Type,
+    "TextStyle_TextAlignment",
+    ()=>TextStyle_TextAlignment,
+    "TocData_Indentation",
+    ()=>TocData_Indentation,
+    "TocData_ListStyle",
+    ()=>TocData_ListStyle,
+    "VerticalAlignment",
+    ()=>VerticalAlignment
+]);
+const Animation_Type = {
+    VIEW: "VIEW",
+    POINTER: "POINTER"
+};
+const EntranceEffect_Type = {
+    FADE: "FADE",
+    ARC: "ARC",
+    BLUR: "BLUR",
+    BOUNCE: "BOUNCE",
+    DROP: "DROP",
+    EXPAND: "EXPAND",
+    FLIP: "FLIP",
+    FLOAT: "FLOAT",
+    FOLD: "FOLD",
+    GLIDE: "GLIDE",
+    REVEAL: "REVEAL",
+    SHAPE: "SHAPE",
+    SHUTTERS: "SHUTTERS",
+    SLIDE: "SLIDE",
+    SPIN: "SPIN",
+    TILT: "TILT",
+    TURN: "TURN",
+    WINK: "WINK"
+};
+const EntranceEffect_Bounce_Direction = {
+    LEFT: "LEFT",
+    RIGHT: "RIGHT",
+    TOP: "TOP",
+    BOTTOM: "BOTTOM",
+    CENTER: "CENTER"
+};
+const EntranceEffect_Glide_Direction = {
+    RIGHT: "RIGHT",
+    TOP_RIGHT: "TOP_RIGHT",
+    TOP: "TOP",
+    TOP_LEFT: "TOP_LEFT",
+    LEFT: "LEFT",
+    BOTTOM_LEFT: "BOTTOM_LEFT",
+    BOTTOM: "BOTTOM",
+    BOTTOM_RIGHT: "BOTTOM_RIGHT"
+};
+const EntranceEffect_Shape_ClipShape = {
+    ELLIPSE: "ELLIPSE",
+    CIRCLE: "CIRCLE",
+    RECTANGLE: "RECTANGLE",
+    DIAMOND: "DIAMOND"
+};
+const LoopEffect_Type = {
+    BOUNCE: "BOUNCE",
+    BREATHE: "BREATHE",
+    CROSS: "CROSS",
+    FLASH: "FLASH",
+    FLIP: "FLIP",
+    FOLD: "FOLD",
+    JELLO: "JELLO",
+    POKE: "POKE",
+    PULSE: "PULSE",
+    RUBBER: "RUBBER",
+    SPIN: "SPIN",
+    SWING: "SWING",
+    WIGGLE: "WIGGLE"
+};
+const LoopEffect_Breathe_Direction = {
+    HORIZONTAL: "HORIZONTAL",
+    VERTICAL: "VERTICAL",
+    CENTER: "CENTER"
+};
+const PointerEffect_Type = {
+    AIRY: "AIRY",
+    BLOB: "BLOB",
+    BLUR: "BLUR",
+    SCALE: "SCALE",
+    SKEW: "SKEW",
+    SWIVEL: "SWIVEL",
+    TILT_3D: "TILT_3D",
+    TRACK: "TRACK",
+    TRACK_3D: "TRACK_3D"
+};
+const PointerEffect_Scale_Direction = {
+    UP: "UP",
+    DOWN: "DOWN"
+};
+const PointerEffect_Swivel_Axis = {
+    TOP: "TOP",
+    BOTTOM: "BOTTOM",
+    LEFT: "LEFT",
+    RIGHT: "RIGHT",
+    CENTER_HORIZONTAL: "CENTER_HORIZONTAL",
+    CENTER_VERTICAL: "CENTER_VERTICAL"
+};
+const Animation_Direction = {
+    LEFT: "LEFT",
+    RIGHT: "RIGHT",
+    TOP: "TOP",
+    BOTTOM: "BOTTOM"
+};
+const Animation_Axis = {
+    HORIZONTAL: "HORIZONTAL",
+    VERTICAL: "VERTICAL",
+    BOTH: "BOTH"
+};
+const Animation_RadialDirection = {
+    RIGHT: "RIGHT",
+    TOP_RIGHT: "TOP_RIGHT",
+    TOP: "TOP",
+    TOP_LEFT: "TOP_LEFT",
+    LEFT: "LEFT",
+    BOTTOM_LEFT: "BOTTOM_LEFT",
+    BOTTOM: "BOTTOM",
+    BOTTOM_RIGHT: "BOTTOM_RIGHT",
+    CENTER: "CENTER"
+};
+const Animation_SideDirection = {
+    LEFT: "LEFT",
+    RIGHT: "RIGHT"
+};
+const Animation_CornerDirection = {
+    TOP_LEFT: "TOP_LEFT",
+    BOTTOM_LEFT: "BOTTOM_LEFT",
+    TOP_RIGHT: "TOP_RIGHT",
+    BOTTOM_RIGHT: "BOTTOM_RIGHT"
+};
+const Animation_Orientation = {
+    HORIZONTAL: "HORIZONTAL",
+    VERTICAL: "VERTICAL"
+};
+const Animation_SpinDirection = {
+    CLOCKWISE: "CLOCKWISE",
+    COUNTER_CLOCKWISE: "COUNTER_CLOCKWISE"
+};
+const Animation_Easing = {
+    GENTLE: "GENTLE",
+    MODERATE: "MODERATE",
+    INTENSE: "INTENSE"
+};
+const TextStyle_TextAlignment = {
+    AUTO: "AUTO",
+    LEFT: "LEFT",
+    RIGHT: "RIGHT",
+    CENTER: "CENTER",
+    JUSTIFY: "JUSTIFY"
+};
+const Link_Target = {
+    SELF: "SELF",
+    BLANK: "BLANK",
+    PARENT: "PARENT",
+    TOP: "TOP"
+};
+const VerticalAlignment = {
+    TOP: "TOP",
+    MIDDLE: "MIDDLE",
+    BOTTOM: "BOTTOM"
+};
+const ImageScaling = {
+    AUTO: "AUTO",
+    CONTAIN: "CONTAIN",
+    COVER: "COVER"
+};
+const ImagePosition = {
+    CENTER: "CENTER",
+    CENTER_LEFT: "CENTER_LEFT",
+    CENTER_RIGHT: "CENTER_RIGHT",
+    TOP: "TOP",
+    TOP_LEFT: "TOP_LEFT",
+    TOP_RIGHT: "TOP_RIGHT",
+    BOTTOM: "BOTTOM",
+    BOTTOM_LEFT: "BOTTOM_LEFT",
+    BOTTOM_RIGHT: "BOTTOM_RIGHT"
+};
+const Gradient_Type = {
+    LINEAR: "LINEAR",
+    RADIAL: "RADIAL"
+};
+const Background_Type = {
+    COLOR: "COLOR",
+    GRADIENT: "GRADIENT"
+};
+const PluginContainerData_Alignment = {
+    CENTER: "CENTER",
+    LEFT: "LEFT",
+    RIGHT: "RIGHT"
+};
+const PluginContainerData_Width_Type = {
+    CONTENT: "CONTENT",
+    SMALL: "SMALL",
+    ORIGINAL: "ORIGINAL",
+    FULL_WIDTH: "FULL_WIDTH"
+};
+const Decoration_Type = {
+    BOLD: "BOLD",
+    ITALIC: "ITALIC",
+    UNDERLINE: "UNDERLINE",
+    SPOILER: "SPOILER",
+    ANCHOR: "ANCHOR",
+    MENTION: "MENTION",
+    LINK: "LINK",
+    COLOR: "COLOR",
+    FONT_SIZE: "FONT_SIZE",
+    STRIKETHROUGH: "STRIKETHROUGH",
+    SUPERSCRIPT: "SUPERSCRIPT",
+    SUBSCRIPT: "SUBSCRIPT",
+    FONT_FAMILY: "FONT_FAMILY",
+    SKETCH: "SKETCH"
+};
+const FontSizeData_fontType = {
+    PX: "PX",
+    EM: "EM"
+};
+const SketchData_Variant = {
+    UNDERLINE: "UNDERLINE",
+    BOX: "BOX",
+    CIRCLE: "CIRCLE",
+    HIGHLIGHT: "HIGHLIGHT",
+    STRIKETHROUGH: "STRIKETHROUGH",
+    CROSSED_OFF: "CROSSED_OFF"
+};
+const LayoutData_SectionDividerShape = {
+    ELLIPSE: "ELLIPSE",
+    TILT: "TILT",
+    LIQUID: "LIQUID",
+    LEFT_WAVE: "LEFT_WAVE",
+    PAINT_SCRIBBLE: "PAINT_SCRIBBLE",
+    INVERTED_ELLIPSE: "INVERTED_ELLIPSE",
+    RIGHT_WAVE: "RIGHT_WAVE",
+    DUNES: "DUNES",
+    WAVES: "WAVES",
+    TRIANGLE: "TRIANGLE",
+    SEMI_ELLIPSE: "SEMI_ELLIPSE",
+    PLANTS: "PLANTS",
+    LAYERED_ELLIPSE: "LAYERED_ELLIPSE",
+    PIXELS: "PIXELS",
+    PAINT: "PAINT",
+    CLOUDS: "CLOUDS",
+    OPTICAL_ILLUSION: "OPTICAL_ILLUSION",
+    STRIPES: "STRIPES",
+    BLOBS: "BLOBS",
+    SEMI_CIRCLES: "SEMI_CIRCLES",
+    HILL: "HILL",
+    BRUSH: "BRUSH",
+    PEAKS: "PEAKS",
+    ANGLED_TRIANGLE: "ANGLED_TRIANGLE"
+};
+const LayoutData_SectionDividerLayersLayerEffect = {
+    CENTER: "CENTER",
+    FADE_TO_TOP: "FADE_TO_TOP",
+    FADE_TO_BOTTOM: "FADE_TO_BOTTOM"
+};
+const LayoutData_BannerPosition = {
+    TOP: "TOP",
+    BOTTOM: "BOTTOM"
+};
+const LayoutData_BannerOrigin = {
+    IMAGE: "IMAGE",
+    LAYOUT: "LAYOUT"
+};
+const LayoutData_ResponsivenessBehaviour = {
+    STACK: "STACK",
+    WRAP: "WRAP"
+};
+const LayoutData_DesignTarget = {
+    LAYOUT: "LAYOUT",
+    CELL: "CELL"
+};
+const AppEmbedData_AppType = {
+    PRODUCT: "PRODUCT",
+    EVENT: "EVENT",
+    BOOKING: "BOOKING"
+};
+const AppEmbedData_ImageStyles_Position = {
+    START: "START",
+    END: "END",
+    TOP: "TOP"
+};
+const AppEmbedData_ImageStyles_AspectRatio = {
+    SQUARE: "SQUARE",
+    RECTANGLE: "RECTANGLE"
+};
+const AppEmbedData_ImageStyles_Resizing = {
+    FILL: "FILL",
+    FIT: "FIT"
+};
+const AppEmbedData_RibbonStyles_Placement = {
+    IMAGE: "IMAGE",
+    PRODUCT_INFO: "PRODUCT_INFO"
+};
+const AppEmbedData_CardStyles_Type = {
+    CONTAINED: "CONTAINED",
+    FRAMELESS: "FRAMELESS"
+};
+const AppEmbedData_CardStyles_Alignment = {
+    START: "START",
+    CENTER: "CENTER",
+    END: "END"
+};
+const ButtonData_Type = {
+    LINK: "LINK",
+    ACTION: "ACTION"
+};
+const ButtonData_Styles_ButtonSize = {
+    MEDIUM: "MEDIUM",
+    SMALL: "SMALL",
+    LARGE: "LARGE"
+};
+const CollapsibleListData_InitialExpandedItems = {
+    FIRST: "FIRST",
+    ALL: "ALL",
+    NONE: "NONE"
+};
+const CollapsibleListData_Direction = {
+    LTR: "LTR",
+    RTL: "RTL"
+};
+const DividerData_LineStyle = {
+    SINGLE: "SINGLE",
+    DOUBLE: "DOUBLE",
+    DASHED: "DASHED",
+    DOTTED: "DOTTED"
+};
+const DividerData_Width = {
+    LARGE: "LARGE",
+    MEDIUM: "MEDIUM",
+    SMALL: "SMALL"
+};
+const DividerData_Alignment = {
+    CENTER: "CENTER",
+    LEFT: "LEFT",
+    RIGHT: "RIGHT"
+};
+const DividerData_Styles_LineCap = {
+    SQUARE: "SQUARE",
+    ROUND: "ROUND"
+};
+const FileData_PDFSettings_ViewMode = {
+    NONE: "NONE",
+    FULL: "FULL",
+    MINI: "MINI"
+};
+const GalleryOptions_Layout_Type = {
+    COLLAGE: "COLLAGE",
+    MASONRY: "MASONRY",
+    GRID: "GRID",
+    THUMBNAIL: "THUMBNAIL",
+    SLIDER: "SLIDER",
+    SLIDESHOW: "SLIDESHOW",
+    PANORAMA: "PANORAMA",
+    COLUMN: "COLUMN",
+    MAGIC: "MAGIC",
+    FULLSIZE: "FULLSIZE"
+};
+const GalleryOptions_Layout_Orientation = {
+    ROWS: "ROWS",
+    COLUMNS: "COLUMNS"
+};
+const GalleryOptions_ItemStyle_Crop = {
+    FILL: "FILL",
+    FIT: "FIT"
+};
+const GalleryOptions_Thumbnails_Alignment = {
+    TOP: "TOP",
+    RIGHT: "RIGHT",
+    BOTTOM: "BOTTOM",
+    LEFT: "LEFT",
+    NONE: "NONE"
+};
+const GIFData_GIFType = {
+    NORMAL: "NORMAL",
+    STICKER: "STICKER"
+};
+const HTMLData_Source = {
+    HTML: "HTML",
+    ADSENSE: "ADSENSE",
+    AI: "AI",
+    AI_WIDGET: "AI_WIDGET"
+};
+const ImageData_CropShape = {
+    CIRCLE: "CIRCLE",
+    OVAL: "OVAL",
+    STAR: "STAR",
+    PENTAGON: "PENTAGON",
+    HEXAGON: "HEXAGON",
+    TRIANGLE: "TRIANGLE",
+    HEART: "HEART",
+    RHOMBUS: "RHOMBUS",
+    FLUID: "FLUID",
+    WINDOW: "WINDOW"
+};
+const PollData_Poll_Settings_Permissions_ViewRole = {
+    CREATOR: "CREATOR",
+    VOTERS: "VOTERS",
+    EVERYONE: "EVERYONE"
+};
+const PollData_Poll_Settings_Permissions_VoteRole = {
+    SITE_MEMBERS: "SITE_MEMBERS",
+    ALL: "ALL"
+};
+const PollData_Layout_PollLayout_Type = {
+    LIST: "LIST",
+    GRID: "GRID"
+};
+const PollData_Layout_PollLayout_Direction = {
+    LTR: "LTR",
+    RTL: "RTL"
+};
+const PollData_Design_PollDesign_Background_Type = {
+    COLOR: "COLOR",
+    IMAGE: "IMAGE",
+    GRADIENT: "GRADIENT"
+};
+const SmartBlockData_Type = {
+    SOLID_BOXES: "SOLID_BOXES",
+    NUMBERED_BOXES: "NUMBERED_BOXES",
+    STATS: "STATS",
+    BAR_STATS: "BAR_STATS",
+    CIRCLE_STATS: "CIRCLE_STATS",
+    SOLID_BOXES_ALTERNATING: "SOLID_BOXES_ALTERNATING",
+    SOLID_JOINED_BOXES: "SOLID_JOINED_BOXES",
+    SIDE_LINE_TEXT: "SIDE_LINE_TEXT",
+    TOP_LINE_TEXT: "TOP_LINE_TEXT",
+    OUTLINE_BOXES_WITH_TOP_CIRCLE: "OUTLINE_BOXES_WITH_TOP_CIRCLE",
+    BIG_BULLETS: "BIG_BULLETS",
+    SMALL_BULLETS: "SMALL_BULLETS",
+    ARROW_BULLETS: "ARROW_BULLETS",
+    PROCESS_STEPS: "PROCESS_STEPS",
+    TIMELINE: "TIMELINE",
+    MINIMAL_TIMELINE: "MINIMAL_TIMELINE",
+    PILLS: "PILLS",
+    STAR_RATING: "STAR_RATING",
+    QUOTE_BOXES: "QUOTE_BOXES",
+    CIRCLE: "CIRCLE",
+    PYRAMID: "PYRAMID",
+    STAIRCASE: "STAIRCASE",
+    VERTICAL_FUNNEL: "VERTICAL_FUNNEL"
+};
+const SmartBlockData_ColumnSize = {
+    SMALL: "SMALL",
+    MEDIUM: "MEDIUM",
+    LARGE: "LARGE",
+    EXTRA_LARGE: "EXTRA_LARGE"
+};
+const SmartBlockData_Orientation = {
+    HORIZONTAL: "HORIZONTAL",
+    VERTICAL: "VERTICAL"
+};
+const SmartBlockCellData_Type = {
+    SOLID_BOXES: "SOLID_BOXES",
+    NUMBERED_BOXES: "NUMBERED_BOXES",
+    STATS: "STATS",
+    BAR_STATS: "BAR_STATS",
+    CIRCLE_STATS: "CIRCLE_STATS",
+    SOLID_BOXES_ALTERNATING: "SOLID_BOXES_ALTERNATING",
+    SOLID_JOINED_BOXES: "SOLID_JOINED_BOXES",
+    SIDE_LINE_TEXT: "SIDE_LINE_TEXT",
+    TOP_LINE_TEXT: "TOP_LINE_TEXT",
+    OUTLINE_BOXES_WITH_TOP_CIRCLE: "OUTLINE_BOXES_WITH_TOP_CIRCLE",
+    BIG_BULLETS: "BIG_BULLETS",
+    SMALL_BULLETS: "SMALL_BULLETS",
+    ARROW_BULLETS: "ARROW_BULLETS",
+    PROCESS_STEPS: "PROCESS_STEPS",
+    TIMELINE: "TIMELINE",
+    MINIMAL_TIMELINE: "MINIMAL_TIMELINE",
+    PILLS: "PILLS",
+    STAR_RATING: "STAR_RATING",
+    QUOTE_BOXES: "QUOTE_BOXES",
+    CIRCLE: "CIRCLE",
+    PYRAMID: "PYRAMID",
+    STAIRCASE: "STAIRCASE",
+    VERTICAL_FUNNEL: "VERTICAL_FUNNEL"
+};
+const TocData_ListStyle = {
+    BULLETED: "BULLETED",
+    NUMBERED: "NUMBERED",
+    LETTERS: "LETTERS",
+    ROMAN: "ROMAN",
+    PLAIN: "PLAIN",
+    ALPHABETICAL_INDEX: "ALPHABETICAL_INDEX",
+    ALPHABETICAL_INDEX_COMPACT: "ALPHABETICAL_INDEX_COMPACT"
+};
+const TocData_Indentation = {
+    NESTED: "NESTED",
+    FLAT: "FLAT"
+};
+const LATEST_VERSION = 1;
+const RicosDocumentNodeType = {
+    PARAGRAPH: "PARAGRAPH",
+    TEXT: "TEXT",
+    HEADING: "HEADING",
+    BULLETED_LIST: "BULLETED_LIST",
+    CHECKBOX_LIST: "CHECKBOX_LIST",
+    ORDERED_LIST: "ORDERED_LIST",
+    LIST_ITEM: "LIST_ITEM",
+    BLOCKQUOTE: "BLOCKQUOTE",
+    CODE_BLOCK: "CODE_BLOCK",
+    VIDEO: "VIDEO",
+    DIVIDER: "DIVIDER",
+    FILE: "FILE",
+    GALLERY: "GALLERY",
+    GIF: "GIF",
+    HTML: "HTML",
+    IMAGE: "IMAGE",
+    LINK_PREVIEW: "LINK_PREVIEW",
+    POLL: "POLL",
+    SHAPE: "SHAPE",
+    APP_EMBED: "APP_EMBED",
+    BUTTON: "BUTTON",
+    COLLAPSIBLE_LIST: "COLLAPSIBLE_LIST",
+    COLLAPSIBLE_ITEM: "COLLAPSIBLE_ITEM",
+    COLLAPSIBLE_ITEM_TITLE: "COLLAPSIBLE_ITEM_TITLE",
+    COLLAPSIBLE_ITEM_BODY: "COLLAPSIBLE_ITEM_BODY",
+    TABLE: "TABLE",
+    TOC: "TOC",
+    EMBED: "EMBED",
+    TABLE_CELL: "TABLE_CELL",
+    TABLE_ROW: "TABLE_ROW",
+    EXTERNAL: "EXTERNAL",
+    AUDIO: "AUDIO",
+    CAPTION: "CAPTION",
+    LAYOUT: "LAYOUT",
+    LAYOUT_CELL: "LAYOUT_CELL",
+    CARD: "CARD",
+    SMART_BLOCK: "SMART_BLOCK",
+    SMART_BLOCK_CELL: "SMART_BLOCK_CELL",
+    // for compat with legacy node
+    UNRECOGNIZED: "UNRECOGNIZED",
+    MAP: "MAP"
+};
+const RichContent = {
+    fromJSON: (content)=>{
+        return content;
+    },
+    toJSON: (content)=>{
+        return content;
+    }
+};
+const Node_Type = RicosDocumentNodeType;
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/decoration_fontsize.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "FontSizeData_fontType",
+    ()=>FontSizeData_fontType
+]);
+var FontSizeData_fontType = /* @__PURE__ */ ((FontSizeData_fontType2)=>{
+    FontSizeData_fontType2["PX"] = "PX";
+    FontSizeData_fontType2["EM"] = "EM";
+    FontSizeData_fontType2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return FontSizeData_fontType2;
+})(FontSizeData_fontType || {});
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/common.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Gradient_Type",
+    ()=>Gradient_Type,
+    "Link_Target",
+    ()=>Link_Target,
+    "PluginContainerData_Alignment",
+    ()=>PluginContainerData_Alignment,
+    "PluginContainerData_Width_Type",
+    ()=>PluginContainerData_Width_Type,
+    "TextStyle_TextAlignment",
+    ()=>TextStyle_TextAlignment
+]);
+var TextStyle_TextAlignment = /* @__PURE__ */ ((TextStyle_TextAlignment2)=>{
+    TextStyle_TextAlignment2["AUTO"] = "AUTO";
+    TextStyle_TextAlignment2["LEFT"] = "LEFT";
+    TextStyle_TextAlignment2["RIGHT"] = "RIGHT";
+    TextStyle_TextAlignment2["CENTER"] = "CENTER";
+    TextStyle_TextAlignment2["JUSTIFY"] = "JUSTIFY";
+    TextStyle_TextAlignment2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return TextStyle_TextAlignment2;
+})(TextStyle_TextAlignment || {});
+var Link_Target = /* @__PURE__ */ ((Link_Target2)=>{
+    Link_Target2["SELF"] = "SELF";
+    Link_Target2["BLANK"] = "BLANK";
+    Link_Target2["PARENT"] = "PARENT";
+    Link_Target2["TOP"] = "TOP";
+    Link_Target2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return Link_Target2;
+})(Link_Target || {});
+var PluginContainerData_Alignment = /* @__PURE__ */ ((PluginContainerData_Alignment2)=>{
+    PluginContainerData_Alignment2["CENTER"] = "CENTER";
+    PluginContainerData_Alignment2["LEFT"] = "LEFT";
+    PluginContainerData_Alignment2["RIGHT"] = "RIGHT";
+    PluginContainerData_Alignment2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return PluginContainerData_Alignment2;
+})(PluginContainerData_Alignment || {});
+var PluginContainerData_Width_Type = /* @__PURE__ */ ((PluginContainerData_Width_Type2)=>{
+    PluginContainerData_Width_Type2["CONTENT"] = "CONTENT";
+    PluginContainerData_Width_Type2["SMALL"] = "SMALL";
+    PluginContainerData_Width_Type2["ORIGINAL"] = "ORIGINAL";
+    PluginContainerData_Width_Type2["FULL_WIDTH"] = "FULL_WIDTH";
+    PluginContainerData_Width_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return PluginContainerData_Width_Type2;
+})(PluginContainerData_Width_Type || {});
+var Gradient_Type = /* @__PURE__ */ ((Gradient_Type2)=>{
+    Gradient_Type2["LINEAR"] = "LINEAR";
+    Gradient_Type2["RADIAL"] = "RADIAL";
+    Gradient_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return Gradient_Type2;
+})(Gradient_Type || {});
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/struct.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "NullValue",
+    ()=>NullValue
+]);
+var NullValue = /* @__PURE__ */ ((NullValue2)=>{
+    NullValue2["NULL_VALUE"] = "NULL_VALUE";
+    NullValue2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return NullValue2;
+})(NullValue || {});
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-schema/legacy/wix/rich_content/v1/plugin_button.enums.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ButtonData_Styles_Background_Type",
+    ()=>ButtonData_Styles_Background_Type,
+    "ButtonData_Type",
+    ()=>ButtonData_Type
+]);
+var ButtonData_Type = /* @__PURE__ */ ((ButtonData_Type2)=>{
+    ButtonData_Type2["LINK"] = "LINK";
+    ButtonData_Type2["ACTION"] = "ACTION";
+    ButtonData_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return ButtonData_Type2;
+})(ButtonData_Type || {});
+var ButtonData_Styles_Background_Type = /* @__PURE__ */ ((ButtonData_Styles_Background_Type2)=>{
+    ButtonData_Styles_Background_Type2["COLOR"] = "COLOR";
+    ButtonData_Styles_Background_Type2["GRADIENT"] = "GRADIENT";
+    ButtonData_Styles_Background_Type2["UNRECOGNIZED"] = "UNRECOGNIZED";
+    return ButtonData_Styles_Background_Type2;
+})(ButtonData_Styles_Background_Type || {});
+;
+}),
+]);
+
+//# sourceMappingURL=0rv~_%40wix_ricos_dist_es_ricos-schema_00ey-0t._.js.map

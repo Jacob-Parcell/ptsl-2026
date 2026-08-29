@@ -1,0 +1,2930 @@
+(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/alternating.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "AlternatingIcon",
+    ()=>AlternatingIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const AlternatingIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "9",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 18.5C13 17.6716 13.6716 17 14.5 17H31.5C32.3284 17 33 17.6716 33 18.5C33 19.3284 32.3284 20 31.5 20H14.5C13.6716 20 13 19.3284 13 18.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 23.5C13 22.6716 13.6716 22 14.5 22H28.5C29.3284 22 30 22.6716 30 23.5C30 24.3284 29.3284 25 28.5 25H14.5C13.6716 25 13 24.3284 13 23.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 32C13 31.4477 13.4477 31 14 31H32C32.5523 31 33 31.4477 33 32C33 32.5523 32.5523 33 32 33H14C13.4477 33 13 32.5523 13 32Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 40C13 39.4477 13.4477 39 14 39H32C32.5523 39 33 39.4477 33 40C33 40.5523 32.5523 41 32 41H14C13.4477 41 13 40.5523 13 40Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 36C13 35.4477 13.4477 35 14 35H29C29.5523 35 30 35.4477 30 36C30 36.5523 29.5523 37 29 37H14C13.4477 37 13 36.5523 13 36Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "74",
+        y: "9",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 18.5C79 17.6716 79.6716 17 80.5 17H97.5C98.3284 17 99 17.6716 99 18.5C99 19.3284 98.3284 20 97.5 20H80.5C79.6716 20 79 19.3284 79 18.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 23.5C79 22.6716 79.6716 22 80.5 22H94.5C95.3284 22 96 22.6716 96 23.5C96 24.3284 95.3284 25 94.5 25H80.5C79.6716 25 79 24.3284 79 23.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 32C79 31.4477 79.4477 31 80 31H98C98.5523 31 99 31.4477 99 32C99 32.5523 98.5523 33 98 33H80C79.4477 33 79 32.5523 79 32Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 40C79 39.4477 79.4477 39 80 39H98C98.5523 39 99 39.4477 99 40C99 40.5523 98.5523 41 98 41H80C79.4477 41 79 40.5523 79 40Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 36C79 35.4477 79.4477 35 80 35H95C95.5523 35 96 35.4477 96 36C96 36.5523 95.5523 37 95 37H80C79.4477 37 79 36.5523 79 36Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "63",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 72.5C46 71.6716 46.6716 71 47.5 71H64.5C65.3284 71 66 71.6716 66 72.5C66 73.3284 65.3284 74 64.5 74H47.5C46.6716 74 46 73.3284 46 72.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 77.5C46 76.6716 46.6716 76 47.5 76H61.5C62.3284 76 63 76.6716 63 77.5C63 78.3284 62.3284 79 61.5 79H47.5C46.6716 79 46 78.3284 46 77.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 86C46 85.4477 46.4477 85 47 85H65C65.5523 85 66 85.4477 66 86C66 86.5523 65.5523 87 65 87H47C46.4477 87 46 86.5523 46 86Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 94C46 93.4477 46.4477 93 47 93H65C65.5523 93 66 93.4477 66 94C66 94.5523 65.5523 95 65 95H47C46.4477 95 46 94.5523 46 94Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 90C46 89.4477 46.4477 89 47 89H62C62.5523 89 63 89.4477 63 90C63 90.5523 62.5523 91 62 91H47C46.4477 91 46 90.5523 46 90Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        opacity: "0.5",
+        d: "M8 56C8 55.4477 8.44772 55 9 55L104 55C104.552 55 105 55.4477 105 56C105 56.5523 104.552 57 104 57H9C8.44772 57 8 56.5523 8 56Z",
+        fill: "#868AA5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/arrow-bullets.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ArrowBulletsIcon",
+    ()=>ArrowBulletsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const ArrowBulletsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "6",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M9.51144 45C9.25257 45 9 44.7948 9 44.43V41.57C9 41.2052 9.25257 41 9.51144 41C9.63457 41 9.74191 41.0456 9.91239 41.1303L12.6022 42.4463C12.8485 42.5668 13 42.7524 13 43C13 43.2476 12.8485 43.4332 12.6022 43.5537L9.91239 44.8697C9.74191 44.9544 9.63457 45 9.51144 45Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 39.5C20 38.6716 20.6716 38 21.5 38L34.5 38C35.3284 38 36 38.6716 36 39.5C36 40.3284 35.3284 41 34.5 41H21.5C20.6716 41 20 40.3284 20 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 44.5C20 43.6716 20.6716 43 21.5 43H31.5C32.3284 43 33 43.6716 33 44.5C33 45.3284 32.3284 46 31.5 46H21.5C20.6716 46 20 45.3284 20 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 49.5C20 48.6716 20.6716 48 21.5 48H34.5C35.3284 48 36 48.6716 36 49.5C36 50.3284 35.3284 51 34.5 51H21.5C20.6716 51 20 50.3284 20 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 58C20 57.4477 20.4477 57 21 57L35 57C35.5523 57 36 57.4477 36 58C36 58.5523 35.5523 59 35 59H21C20.4477 59 20 58.5523 20 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 66C20 65.4477 20.4477 65 21 65H35C35.5523 65 36 65.4477 36 66C36 66.5523 35.5523 67 35 67H21C20.4477 67 20 66.5523 20 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 62C20 61.4477 20.4477 61 21 61H32C32.5523 61 33 61.4477 33 62C33 62.5523 32.5523 63 32 63H21C20.4477 63 20 62.5523 20 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 70C20 69.4477 20.4477 69 21 69H32C32.5523 69 33 69.4477 33 70C33 70.5523 32.5523 71 32 71H21C20.4477 71 20 70.5523 20 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M44.5114 45C44.2526 45 44 44.7948 44 44.43V41.57C44 41.2052 44.2526 41 44.5114 41C44.6346 41 44.7419 41.0456 44.9124 41.1303L47.6022 42.4463C47.8485 42.5668 48 42.7524 48 43C48 43.2476 47.8485 43.4332 47.6022 43.5537L44.9124 44.8697C44.7419 44.9544 44.6346 45 44.5114 45Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 39.5C55 38.6716 55.6716 38 56.5 38L69.5 38C70.3284 38 71 38.6716 71 39.5C71 40.3284 70.3284 41 69.5 41H56.5C55.6716 41 55 40.3284 55 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 44.5C55 43.6716 55.6716 43 56.5 43H66.5C67.3284 43 68 43.6716 68 44.5C68 45.3284 67.3284 46 66.5 46H56.5C55.6716 46 55 45.3284 55 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 49.5C55 48.6716 55.6716 48 56.5 48H69.5C70.3284 48 71 48.6716 71 49.5C71 50.3284 70.3284 51 69.5 51H56.5C55.6716 51 55 50.3284 55 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 58C55 57.4477 55.4477 57 56 57L70 57C70.5523 57 71 57.4477 71 58C71 58.5523 70.5523 59 70 59H56C55.4477 59 55 58.5523 55 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 66C55 65.4477 55.4477 65 56 65H70C70.5523 65 71 65.4477 71 66C71 66.5523 70.5523 67 70 67H56C55.4477 67 55 66.5523 55 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 62C55 61.4477 55.4477 61 56 61H67C67.5523 61 68 61.4477 68 62C68 62.5523 67.5523 63 67 63H56C55.4477 63 55 62.5523 55 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 70C55 69.4477 55.4477 69 56 69H67C67.5523 69 68 69.4477 68 70C68 70.5523 67.5523 71 67 71H56C55.4477 71 55 70.5523 55 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "76",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79.5114 45C79.2526 45 79 44.7948 79 44.43V41.57C79 41.2052 79.2526 41 79.5114 41C79.6346 41 79.7419 41.0456 79.9124 41.1303L82.6022 42.4463C82.8485 42.5668 83 42.7524 83 43C83 43.2476 82.8485 43.4332 82.6022 43.5537L79.9124 44.8697C79.7419 44.9544 79.6346 45 79.5114 45Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 39.5C90 38.6716 90.6716 38 91.5 38L104.5 38C105.328 38 106 38.6716 106 39.5C106 40.3284 105.328 41 104.5 41H91.5C90.6716 41 90 40.3284 90 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 44.5C90 43.6716 90.6716 43 91.5 43H101.5C102.328 43 103 43.6716 103 44.5C103 45.3284 102.328 46 101.5 46H91.5C90.6716 46 90 45.3284 90 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 49.5C90 48.6716 90.6716 48 91.5 48H104.5C105.328 48 106 48.6716 106 49.5C106 50.3284 105.328 51 104.5 51H91.5C90.6716 51 90 50.3284 90 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 58C90 57.4477 90.4477 57 91 57L105 57C105.552 57 106 57.4477 106 58C106 58.5523 105.552 59 105 59H91C90.4477 59 90 58.5523 90 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 66C90 65.4477 90.4477 65 91 65H105C105.552 65 106 65.4477 106 66C106 66.5523 105.552 67 105 67H91C90.4477 67 90 66.5523 90 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 62C90 61.4477 90.4477 61 91 61H102C102.552 61 103 61.4477 103 62C103 62.5523 102.552 63 102 63H91C90.4477 63 90 62.5523 90 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 70C90 69.4477 90.4477 69 91 69H102C102.552 69 103 69.4477 103 70C103 70.5523 102.552 71 102 71H91C90.4477 71 90 70.5523 90 70Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/bar-stats.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BarStatsIcon",
+    ()=>BarStatsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const BarStatsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 41.5C8 40.6716 8.67157 40 9.5 40H20.5C21.3284 40 22 40.6716 22 41.5C22 42.3284 21.3284 43 20.5 43H9.5C8.67157 43 8 42.3284 8 41.5Z",
+        fill: "#DFE5EB"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "40",
+        width: "8",
+        height: "3",
+        rx: "1.5",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 56.5C8 55.6716 8.67157 55 9.5 55H32.5C33.3284 55 34 55.6716 34 56.5C34 57.3284 33.3284 58 32.5 58H9.5C8.67157 58 8 57.3284 8 56.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 61.5C8 60.6716 8.67157 60 9.5 60H29.5C30.3284 60 31 60.6716 31 61.5C31 62.3284 30.3284 63 29.5 63H9.5C8.67157 63 8 62.3284 8 61.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 70C8 69.4477 8.44772 69 9 69L33 69C33.5523 69 34 69.4477 34 70C34 70.5523 33.5523 71 33 71H9C8.44772 71 8 70.5523 8 70Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 74C8 73.4477 8.44772 73 9 73H30C30.5523 73 31 73.4477 31 74C31 74.5523 30.5523 75 30 75H9C8.44772 75 8 74.5523 8 74Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M33.2428 38C32.8522 37.6095 32.2191 37.6095 31.8285 38L24.7575 45.0711C24.367 45.4616 24.367 46.0948 24.7575 46.4853C25.148 46.8758 25.7812 46.8758 26.1717 46.4853L33.2428 39.4142C33.6333 39.0237 33.6333 38.3906 33.2428 38Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M34 45.5C34 46.3284 33.3284 47 32.5 47C31.6716 47 31 46.3284 31 45.5C31 44.6716 31.6716 44 32.5 44C33.3284 44 34 44.6716 34 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M27 38.5C27 39.3284 26.3284 40 25.5 40C24.6716 40 24 39.3284 24 38.5C24 37.6716 24.6716 37 25.5 37C26.3284 37 27 37.6716 27 38.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 41.5C43 40.6716 43.6716 40 44.5 40H55.5C56.3284 40 57 40.6716 57 41.5C57 42.3284 56.3284 43 55.5 43H44.5C43.6716 43 43 42.3284 43 41.5Z",
+        fill: "#DFE5EB"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "43",
+        y: "40",
+        width: "8",
+        height: "3",
+        rx: "1.5",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 56.5C43 55.6716 43.6716 55 44.5 55H67.5C68.3284 55 69 55.6716 69 56.5C69 57.3284 68.3284 58 67.5 58H44.5C43.6716 58 43 57.3284 43 56.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 61.5C43 60.6716 43.6716 60 44.5 60H64.5C65.3284 60 66 60.6716 66 61.5C66 62.3284 65.3284 63 64.5 63H44.5C43.6716 63 43 62.3284 43 61.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 70C43 69.4477 43.4477 69 44 69L68 69C68.5523 69 69 69.4477 69 70C69 70.5523 68.5523 71 68 71H44C43.4477 71 43 70.5523 43 70Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 74C43 73.4477 43.4477 73 44 73H65C65.5523 73 66 73.4477 66 74C66 74.5523 65.5523 75 65 75H44C43.4477 75 43 74.5523 43 74Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M68.2428 38C67.8522 37.6095 67.2191 37.6095 66.8285 38L59.7575 45.0711C59.367 45.4616 59.367 46.0948 59.7575 46.4853C60.148 46.8758 60.7812 46.8758 61.1717 46.4853L68.2428 39.4142C68.6333 39.0237 68.6333 38.3906 68.2428 38Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M69 45.5C69 46.3284 68.3284 47 67.5 47C66.6716 47 66 46.3284 66 45.5C66 44.6716 66.6716 44 67.5 44C68.3284 44 69 44.6716 69 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M62 38.5C62 39.3284 61.3284 40 60.5 40C59.6716 40 59 39.3284 59 38.5C59 37.6716 59.6716 37 60.5 37C61.3284 37 62 37.6716 62 38.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 41.5C78 40.6716 78.6716 40 79.5 40H90.5C91.3284 40 92 40.6716 92 41.5C92 42.3284 91.3284 43 90.5 43H79.5C78.6716 43 78 42.3284 78 41.5Z",
+        fill: "#DFE5EB"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "78",
+        y: "40",
+        width: "8",
+        height: "3",
+        rx: "1.5",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 56.5C78 55.6716 78.6716 55 79.5 55H102.5C103.328 55 104 55.6716 104 56.5C104 57.3284 103.328 58 102.5 58H79.5C78.6716 58 78 57.3284 78 56.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 61.5C78 60.6716 78.6716 60 79.5 60H99.5C100.328 60 101 60.6716 101 61.5C101 62.3284 100.328 63 99.5 63H79.5C78.6716 63 78 62.3284 78 61.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 70C78 69.4477 78.4477 69 79 69L103 69C103.552 69 104 69.4477 104 70C104 70.5523 103.552 71 103 71H79C78.4477 71 78 70.5523 78 70Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 74C78 73.4477 78.4477 73 79 73H100C100.552 73 101 73.4477 101 74C101 74.5523 100.552 75 100 75H79C78.4477 75 78 74.5523 78 74Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M103.243 38C102.852 37.6095 102.219 37.6095 101.829 38L94.7575 45.0711C94.367 45.4616 94.367 46.0948 94.7575 46.4853C95.148 46.8758 95.7812 46.8758 96.1717 46.4853L103.243 39.4142C103.633 39.0237 103.633 38.3906 103.243 38Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M104 45.5C104 46.3284 103.328 47 102.5 47C101.672 47 101 46.3284 101 45.5C101 44.6716 101.672 44 102.5 44C103.328 44 104 44.6716 104 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M97 38.5C97 39.3284 96.3284 40 95.5 40C94.6716 40 94 39.3284 94 38.5C94 37.6716 94.6716 37 95.5 37C96.3284 37 97 37.6716 97 38.5Z",
+        fill: "#868AA5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/big-bullets.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BigBulletsIcon",
+    ()=>BigBulletsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const BigBulletsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "6",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10.707 45.1914V42.1016H10.6992L10.4805 42.2305C10.2227 42.3828 10.0977 42.4297 9.94141 42.4297C9.62109 42.4297 9.39453 42.2031 9.39453 41.8828C9.39453 41.6445 9.53516 41.4375 9.80859 41.2734L10.3594 40.9414C10.6953 40.7383 11.0547 40.6289 11.3789 40.6289C11.957 40.6289 12.332 41.0117 12.332 41.6055V45.1914C12.332 45.75 12.043 46.0586 11.5234 46.0586C11 46.0586 10.707 45.7461 10.707 45.1914Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 39.5C20 38.6716 20.6716 38 21.5 38L34.5 38C35.3284 38 36 38.6716 36 39.5C36 40.3284 35.3284 41 34.5 41H21.5C20.6716 41 20 40.3284 20 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 44.5C20 43.6716 20.6716 43 21.5 43H31.5C32.3284 43 33 43.6716 33 44.5C33 45.3284 32.3284 46 31.5 46H21.5C20.6716 46 20 45.3284 20 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 49.5C20 48.6716 20.6716 48 21.5 48H34.5C35.3284 48 36 48.6716 36 49.5C36 50.3284 35.3284 51 34.5 51H21.5C20.6716 51 20 50.3284 20 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 58C20 57.4477 20.4477 57 21 57L35 57C35.5523 57 36 57.4477 36 58C36 58.5523 35.5523 59 35 59H21C20.4477 59 20 58.5523 20 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 66C20 65.4477 20.4477 65 21 65H35C35.5523 65 36 65.4477 36 66C36 66.5523 35.5523 67 35 67H21C20.4477 67 20 66.5523 20 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 62C20 61.4477 20.4477 61 21 61H32C32.5523 61 33 61.4477 33 62C33 62.5523 32.5523 63 32 63H21C20.4477 63 20 62.5523 20 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20 70C20 69.4477 20.4477 69 21 69H32C32.5523 69 33 69.4477 33 70C33 70.5523 32.5523 71 32 71H21C20.4477 71 20 70.5523 20 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M44.0273 45.3555C44.0273 45.0664 44.1953 44.8086 44.6758 44.3594L45.8711 43.2344C46.2773 42.8516 46.457 42.6016 46.457 42.3438C46.457 42.0547 46.2461 41.8594 45.9414 41.8594C45.707 41.8594 45.5391 41.9531 45.332 42.2109C45.0938 42.5078 44.9219 42.6094 44.6602 42.6094C44.2852 42.6094 44.0195 42.3594 44.0195 42.0117C44.0195 41.25 44.9375 40.5781 46.0273 40.5781C47.1641 40.5781 48.0117 41.2617 48.0117 42.1797C48.0117 42.7539 47.707 43.3008 47.0859 43.8516L46.1641 44.6719V44.7344H47.4727C47.9258 44.7344 48.207 44.9766 48.207 45.3711C48.207 45.7656 47.9336 46 47.4727 46H44.75C44.3203 46 44.0273 45.7383 44.0273 45.3555Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 39.5C55 38.6716 55.6716 38 56.5 38L69.5 38C70.3284 38 71 38.6716 71 39.5C71 40.3284 70.3284 41 69.5 41H56.5C55.6716 41 55 40.3284 55 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 44.5C55 43.6716 55.6716 43 56.5 43H66.5C67.3284 43 68 43.6716 68 44.5C68 45.3284 67.3284 46 66.5 46H56.5C55.6716 46 55 45.3284 55 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 49.5C55 48.6716 55.6716 48 56.5 48H69.5C70.3284 48 71 48.6716 71 49.5C71 50.3284 70.3284 51 69.5 51H56.5C55.6716 51 55 50.3284 55 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 58C55 57.4477 55.4477 57 56 57L70 57C70.5523 57 71 57.4477 71 58C71 58.5523 70.5523 59 70 59H56C55.4477 59 55 58.5523 55 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 66C55 65.4477 55.4477 65 56 65H70C70.5523 65 71 65.4477 71 66C71 66.5523 70.5523 67 70 67H56C55.4477 67 55 66.5523 55 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 62C55 61.4477 55.4477 61 56 61H67C67.5523 61 68 61.4477 68 62C68 62.5523 67.5523 63 67 63H56C55.4477 63 55 62.5523 55 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55 70C55 69.4477 55.4477 69 56 69H67C67.5523 69 68 69.4477 68 70C68 70.5523 67.5523 71 67 71H56C55.4477 71 55 70.5523 55 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "76",
+        y: "38",
+        width: "10",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78.9375 44.832C78.9375 44.4688 79.1914 44.207 79.543 44.207C79.7617 44.207 79.957 44.3086 80.1758 44.5352C80.4336 44.8047 80.6875 44.9258 80.9766 44.9258C81.3906 44.9258 81.6641 44.7188 81.6641 44.4062C81.6641 44.0938 81.3906 43.8828 80.9766 43.8828H80.7617C80.4375 43.8828 80.207 43.6328 80.207 43.2812C80.207 42.9492 80.4375 42.6875 80.7617 42.6875H80.9766C81.3164 42.6875 81.5664 42.4922 81.5664 42.2266C81.5664 41.9609 81.3203 41.7695 80.9766 41.7695C80.7109 41.7695 80.4922 41.875 80.207 42.1445C80.0312 42.3086 79.832 42.3906 79.6016 42.3906C79.2305 42.3906 78.957 42.1406 78.957 41.8008C78.957 41.1367 79.8906 40.5781 81 40.5781C82.2383 40.5781 83.0938 41.1719 83.0938 42.0312C83.0938 42.5938 82.6719 43.0781 82.1367 43.1289V43.2383C82.7695 43.2734 83.2305 43.7969 83.2305 44.4805C83.2305 45.4375 82.2969 46.1172 80.9844 46.1172C79.8516 46.1172 78.9375 45.543 78.9375 44.832Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 39.5C90 38.6716 90.6716 38 91.5 38L104.5 38C105.328 38 106 38.6716 106 39.5C106 40.3284 105.328 41 104.5 41H91.5C90.6716 41 90 40.3284 90 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 44.5C90 43.6716 90.6716 43 91.5 43H101.5C102.328 43 103 43.6716 103 44.5C103 45.3284 102.328 46 101.5 46H91.5C90.6716 46 90 45.3284 90 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 49.5C90 48.6716 90.6716 48 91.5 48H104.5C105.328 48 106 48.6716 106 49.5C106 50.3284 105.328 51 104.5 51H91.5C90.6716 51 90 50.3284 90 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 58C90 57.4477 90.4477 57 91 57L105 57C105.552 57 106 57.4477 106 58C106 58.5523 105.552 59 105 59H91C90.4477 59 90 58.5523 90 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 66C90 65.4477 90.4477 65 91 65H105C105.552 65 106 65.4477 106 66C106 66.5523 105.552 67 105 67H91C90.4477 67 90 66.5523 90 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 62C90 61.4477 90.4477 61 91 61H102C102.552 61 103 61.4477 103 62C103 62.5523 102.552 63 102 63H91C90.4477 63 90 62.5523 90 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 70C90 69.4477 90.4477 69 91 69H102C102.552 69 103 69.4477 103 70C103 70.5523 102.552 71 102 71H91C90.4477 71 90 70.5523 90 70Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/circle-stats.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CircleStatsIcon",
+    ()=>CircleStatsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const CircleStatsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 71C8 70.4477 8.44772 70 9 70L35 70C35.5523 70 36 70.4477 36 71C36 71.5523 35.5523 72 35 72H9C8.44772 72 8 71.5523 8 71Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 75C8 74.4477 8.44772 74 9 74H32C32.5523 74 33 74.4477 33 75C33 75.5523 32.5523 76 32 76H9C8.44772 76 8 75.5523 8 75Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 57.5C8 56.6716 8.67157 56 9.5 56H34.5C35.3284 56 36 56.6716 36 57.5C36 58.3284 35.3284 59 34.5 59H9.5C8.67157 59 8 58.3284 8 57.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 62.5C8 61.6716 8.67157 61 9.5 61H31.5C32.3284 61 33 61.6716 33 62.5C33 63.3284 32.3284 64 31.5 64H9.5C8.67157 64 8 63.3284 8 62.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("circle", {
+        cx: "22",
+        cy: "42",
+        r: "7",
+        stroke: "#DFE5EB",
+        "stroke-width": "2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M24.5457 39.6C24.3113 39.3657 23.9314 39.3657 23.6971 39.6L19.4545 43.8427C19.2202 44.077 19.2202 44.4569 19.4545 44.6912C19.6888 44.9255 20.0687 44.9255 20.303 44.6912L24.5457 40.4485C24.78 40.2142 24.78 39.8343 24.5457 39.6Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M25 44.1C25 44.5971 24.5971 45 24.1 45C23.6029 45 23.2 44.5971 23.2 44.1C23.2 43.6029 23.6029 43.2 24.1 43.2C24.5971 43.2 25 43.6029 25 44.1Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20.8 39.9C20.8 40.3971 20.3971 40.8 19.9 40.8C19.4029 40.8 19 40.3971 19 39.9C19 39.4029 19.4029 39 19.9 39C20.3971 39 20.8 39.4029 20.8 39.9Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-5-inside-1_10408_18200",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M22 49.0376C22 49.5691 22.4325 50.006 22.9602 49.9422C24.7281 49.7285 26.3847 48.929 27.6569 47.6569C29.1571 46.1566 30 44.1217 30 42C30 39.8783 29.1571 37.8434 27.6569 36.3431C26.3847 35.071 24.7281 34.2715 22.9602 34.0578C22.4325 33.994 22 34.4309 22 34.9624C22 35.494 22.4336 35.9171 22.9585 36.0009C24.2146 36.2016 25.3849 36.7934 26.2958 37.7042C27.4351 38.8436 28.0751 40.3888 28.0751 42C28.0751 43.6112 27.4351 45.1565 26.2958 46.2958C25.3849 47.2066 24.2146 47.7984 22.9585 47.9991C22.4336 48.0829 22 48.506 22 49.0376Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M26.2958 46.2958L24.8815 44.8815L26.2958 46.2958ZM22.9602 49.9422L22.7202 47.9567L22.9602 49.9422ZM22.9602 49.9422L23.2002 51.9277C25.4101 51.6606 27.4808 50.6613 29.0711 49.0711L27.6569 47.6569L26.2426 46.2426C25.2885 47.1967 24.0461 47.7964 22.7202 47.9567L22.9602 49.9422ZM27.6569 47.6569L29.0711 49.0711C30.9464 47.1957 32 44.6522 32 42H30H28C28 43.5913 27.3679 45.1174 26.2426 46.2426L27.6569 47.6569ZM30 42H32C32 39.3478 30.9464 36.8043 29.0711 34.9289L27.6569 36.3431L26.2426 37.7574C27.3679 38.8826 28 40.4087 28 42H30ZM27.6569 36.3431L29.0711 34.9289C27.4808 33.3387 25.4101 32.3394 23.2002 32.0723L22.9602 34.0578L22.7202 36.0433C24.0461 36.2036 25.2886 36.8033 26.2426 37.7574L27.6569 36.3431ZM22.9585 36.0009L22.6429 37.9759C23.4856 38.1105 24.2706 38.5075 24.8815 39.1185L26.2958 37.7042L27.71 36.29C26.4992 35.0792 24.9436 34.2927 23.274 34.026L22.9585 36.0009ZM26.2958 37.7042L24.8815 39.1185C25.6458 39.8827 26.0751 40.9192 26.0751 42H28.0751H30.0751C30.0751 39.8583 29.2243 37.8044 27.71 36.29L26.2958 37.7042ZM28.0751 42H26.0751C26.0751 43.0808 25.6458 44.1173 24.8815 44.8815L26.2958 46.2958L27.71 47.71C29.2243 46.1956 30.0751 44.1417 30.0751 42H28.0751ZM26.2958 46.2958L24.8815 44.8815C24.2706 45.4925 23.4856 45.8895 22.6429 46.0241L22.9585 47.9991L23.274 49.974C24.9435 49.7073 26.4992 48.9208 27.71 47.71L26.2958 46.2958ZM22.9585 47.9991L22.6429 46.0241C21.3434 46.2317 20 47.3373 20 49.0376H22H24C24 49.3384 23.8725 49.5809 23.7307 49.7298C23.5969 49.8702 23.4361 49.9481 23.274 49.974L22.9585 47.9991ZM22.9602 34.0578L23.2002 32.0723C21.319 31.8449 20 33.4008 20 34.9624L22 34.9624L24 34.9624C24 35.461 23.5459 36.1432 22.7202 36.0433L22.9602 34.0578ZM22 34.9624L20 34.9624C20 36.6627 21.3434 37.7683 22.6429 37.9759L22.9585 36.0009L23.274 34.026C23.4361 34.0519 23.5969 34.1298 23.7307 34.2702C23.8725 34.4191 24 34.6616 24 34.9624L22 34.9624ZM22.9602 49.9422L22.7202 47.9567C23.5459 47.8568 24 48.539 24 49.0376H22H20C20 50.5992 21.319 52.1551 23.2002 51.9277L22.9602 49.9422Z",
+        fill: "#868AA5",
+        mask: "url(#path-5-inside-1_10408_18200)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M42 71C42 70.4477 42.4477 70 43 70L69 70C69.5523 70 70 70.4477 70 71C70 71.5523 69.5523 72 69 72H43C42.4477 72 42 71.5523 42 71Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M42 75C42 74.4477 42.4477 74 43 74H66C66.5523 74 67 74.4477 67 75C67 75.5523 66.5523 76 66 76H43C42.4477 76 42 75.5523 42 75Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M42 57.5C42 56.6716 42.6716 56 43.5 56H68.5C69.3284 56 70 56.6716 70 57.5C70 58.3284 69.3284 59 68.5 59H43.5C42.6716 59 42 58.3284 42 57.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M42 62.5C42 61.6716 42.6716 61 43.5 61H65.5C66.3284 61 67 61.6716 67 62.5C67 63.3284 66.3284 64 65.5 64H43.5C42.6716 64 42 63.3284 42 62.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("circle", {
+        cx: "56",
+        cy: "42",
+        r: "7",
+        stroke: "#DFE5EB",
+        "stroke-width": "2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M58.5457 39.6C58.3113 39.3657 57.9314 39.3657 57.6971 39.6L53.4545 43.8427C53.2202 44.077 53.2202 44.4569 53.4545 44.6912C53.6888 44.9255 54.0687 44.9255 54.303 44.6912L58.5457 40.4485C58.78 40.2142 58.78 39.8343 58.5457 39.6Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M59 44.1C59 44.5971 58.5971 45 58.1 45C57.6029 45 57.2 44.5971 57.2 44.1C57.2 43.6029 57.6029 43.2 58.1 43.2C58.5971 43.2 59 43.6029 59 44.1Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M54.8 39.9C54.8 40.3971 54.3971 40.8 53.9 40.8C53.4029 40.8 53 40.3971 53 39.9C53 39.4029 53.4029 39 53.9 39C54.3971 39 54.8 39.4029 54.8 39.9Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-11-inside-2_10408_18200",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M56 49.0376C56 49.5691 56.4325 50.006 56.9602 49.9422C58.7281 49.7285 60.3847 48.929 61.6569 47.6569C63.1571 46.1566 64 44.1217 64 42C64 39.8783 63.1571 37.8434 61.6569 36.3431C60.3847 35.071 58.7281 34.2715 56.9602 34.0578C56.4325 33.994 56 34.4309 56 34.9624C56 35.494 56.4336 35.9171 56.9585 36.0009C58.2146 36.2016 59.3849 36.7934 60.2958 37.7042C61.4351 38.8436 62.0751 40.3888 62.0751 42C62.0751 43.6112 61.4351 45.1565 60.2958 46.2958C59.3849 47.2066 58.2146 47.7984 56.9585 47.9991C56.4336 48.0829 56 48.506 56 49.0376Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M60.2958 46.2958L58.8815 44.8815L60.2958 46.2958ZM56.9602 49.9422L56.7202 47.9567L56.9602 49.9422ZM56.9602 49.9422L57.2002 51.9277C59.4101 51.6606 61.4808 50.6613 63.0711 49.0711L61.6569 47.6569L60.2426 46.2426C59.2885 47.1967 58.0461 47.7964 56.7202 47.9567L56.9602 49.9422ZM61.6569 47.6569L63.0711 49.0711C64.9464 47.1957 66 44.6522 66 42H64H62C62 43.5913 61.3679 45.1174 60.2426 46.2426L61.6569 47.6569ZM64 42H66C66 39.3478 64.9464 36.8043 63.0711 34.9289L61.6569 36.3431L60.2426 37.7574C61.3679 38.8826 62 40.4087 62 42H64ZM61.6569 36.3431L63.0711 34.9289C61.4808 33.3387 59.4101 32.3394 57.2002 32.0723L56.9602 34.0578L56.7202 36.0433C58.0461 36.2036 59.2886 36.8033 60.2426 37.7574L61.6569 36.3431ZM56.9585 36.0009L56.6429 37.9759C57.4856 38.1105 58.2706 38.5075 58.8815 39.1185L60.2958 37.7042L61.71 36.29C60.4992 35.0792 58.9436 34.2927 57.274 34.026L56.9585 36.0009ZM60.2958 37.7042L58.8815 39.1185C59.6458 39.8827 60.0751 40.9192 60.0751 42H62.0751H64.0751C64.0751 39.8583 63.2243 37.8044 61.71 36.29L60.2958 37.7042ZM62.0751 42H60.0751C60.0751 43.0808 59.6458 44.1173 58.8815 44.8815L60.2958 46.2958L61.71 47.71C63.2243 46.1956 64.0751 44.1417 64.0751 42H62.0751ZM60.2958 46.2958L58.8815 44.8815C58.2706 45.4925 57.4856 45.8895 56.6429 46.0241L56.9585 47.9991L57.274 49.974C58.9435 49.7073 60.4992 48.9208 61.71 47.71L60.2958 46.2958ZM56.9585 47.9991L56.6429 46.0241C55.3434 46.2317 54 47.3373 54 49.0376H56H58C58 49.3384 57.8725 49.5809 57.7307 49.7298C57.5969 49.8702 57.4361 49.9481 57.274 49.974L56.9585 47.9991ZM56.9602 34.0578L57.2002 32.0723C55.319 31.8449 54 33.4008 54 34.9624L56 34.9624L58 34.9624C58 35.461 57.5459 36.1432 56.7202 36.0433L56.9602 34.0578ZM56 34.9624L54 34.9624C54 36.6627 55.3434 37.7683 56.6429 37.9759L56.9585 36.0009L57.274 34.026C57.4361 34.0519 57.5969 34.1298 57.7307 34.2702C57.8725 34.4191 58 34.6616 58 34.9624L56 34.9624ZM56.9602 49.9422L56.7202 47.9567C57.5459 47.8568 58 48.539 58 49.0376H56H54C54 50.5992 55.319 52.1551 57.2002 51.9277L56.9602 49.9422Z",
+        fill: "#868AA5",
+        mask: "url(#path-11-inside-2_10408_18200)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 71C76 70.4477 76.4477 70 77 70L103 70C103.552 70 104 70.4477 104 71C104 71.5523 103.552 72 103 72H77C76.4477 72 76 71.5523 76 71Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 75C76 74.4477 76.4477 74 77 74H100C100.552 74 101 74.4477 101 75C101 75.5523 100.552 76 100 76H77C76.4477 76 76 75.5523 76 75Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 57.5C76 56.6716 76.6716 56 77.5 56H102.5C103.328 56 104 56.6716 104 57.5C104 58.3284 103.328 59 102.5 59H77.5C76.6716 59 76 58.3284 76 57.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 62.5C76 61.6716 76.6716 61 77.5 61H99.5C100.328 61 101 61.6716 101 62.5C101 63.3284 100.328 64 99.5 64H77.5C76.6716 64 76 63.3284 76 62.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("circle", {
+        cx: "90",
+        cy: "42",
+        r: "7",
+        stroke: "#DFE5EB",
+        "stroke-width": "2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M92.5457 39.6C92.3113 39.3657 91.9314 39.3657 91.6971 39.6L87.4545 43.8427C87.2202 44.077 87.2202 44.4569 87.4545 44.6912C87.6888 44.9255 88.0687 44.9255 88.303 44.6912L92.5457 40.4485C92.78 40.2142 92.78 39.8343 92.5457 39.6Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M93 44.1C93 44.5971 92.5971 45 92.1 45C91.6029 45 91.2 44.5971 91.2 44.1C91.2 43.6029 91.6029 43.2 92.1 43.2C92.5971 43.2 93 43.6029 93 44.1Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M88.8 39.9C88.8 40.3971 88.3971 40.8 87.9 40.8C87.4029 40.8 87 40.3971 87 39.9C87 39.4029 87.4029 39 87.9 39C88.3971 39 88.8 39.4029 88.8 39.9Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-17-inside-3_10408_18200",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M90 49.0376C90 49.5691 90.4325 50.006 90.9602 49.9422C92.7281 49.7285 94.3847 48.929 95.6569 47.6569C97.1571 46.1566 98 44.1217 98 42C98 39.8783 97.1571 37.8434 95.6569 36.3431C94.3847 35.071 92.7281 34.2715 90.9602 34.0578C90.4325 33.994 90 34.4309 90 34.9624C90 35.494 90.4336 35.9171 90.9585 36.0009C92.2146 36.2016 93.3849 36.7934 94.2958 37.7042C95.4351 38.8436 96.0751 40.3888 96.0751 42C96.0751 43.6112 95.4351 45.1565 94.2958 46.2958C93.3849 47.2066 92.2146 47.7984 90.9585 47.9991C90.4336 48.0829 90 48.506 90 49.0376Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M94.2958 46.2958L92.8815 44.8815L94.2958 46.2958ZM90.9602 49.9422L90.7202 47.9567L90.9602 49.9422ZM90.9602 49.9422L91.2002 51.9277C93.4101 51.6606 95.4808 50.6613 97.0711 49.0711L95.6569 47.6569L94.2426 46.2426C93.2885 47.1967 92.0461 47.7964 90.7202 47.9567L90.9602 49.9422ZM95.6569 47.6569L97.0711 49.0711C98.9464 47.1957 100 44.6522 100 42H98H96C96 43.5913 95.3679 45.1174 94.2426 46.2426L95.6569 47.6569ZM98 42H100C100 39.3478 98.9464 36.8043 97.0711 34.9289L95.6569 36.3431L94.2426 37.7574C95.3679 38.8826 96 40.4087 96 42H98ZM95.6569 36.3431L97.0711 34.9289C95.4808 33.3387 93.4101 32.3394 91.2002 32.0723L90.9602 34.0578L90.7202 36.0433C92.0461 36.2036 93.2886 36.8033 94.2426 37.7574L95.6569 36.3431ZM90.9585 36.0009L90.6429 37.9759C91.4856 38.1105 92.2706 38.5075 92.8815 39.1185L94.2958 37.7042L95.71 36.29C94.4992 35.0792 92.9436 34.2927 91.274 34.026L90.9585 36.0009ZM94.2958 37.7042L92.8815 39.1185C93.6458 39.8827 94.0751 40.9192 94.0751 42H96.0751H98.0751C98.0751 39.8583 97.2243 37.8044 95.71 36.29L94.2958 37.7042ZM96.0751 42H94.0751C94.0751 43.0808 93.6458 44.1173 92.8815 44.8815L94.2958 46.2958L95.71 47.71C97.2243 46.1956 98.0751 44.1417 98.0751 42H96.0751ZM94.2958 46.2958L92.8815 44.8815C92.2706 45.4925 91.4856 45.8895 90.6429 46.0241L90.9585 47.9991L91.274 49.974C92.9435 49.7073 94.4992 48.9208 95.71 47.71L94.2958 46.2958ZM90.9585 47.9991L90.6429 46.0241C89.3434 46.2317 88 47.3373 88 49.0376H90H92C92 49.3384 91.8725 49.5809 91.7307 49.7298C91.5969 49.8702 91.4361 49.9481 91.274 49.974L90.9585 47.9991ZM90.9602 34.0578L91.2002 32.0723C89.319 31.8449 88 33.4008 88 34.9624L90 34.9624L92 34.9624C92 35.461 91.5459 36.1432 90.7202 36.0433L90.9602 34.0578ZM90 34.9624L88 34.9624C88 36.6627 89.3434 37.7683 90.6429 37.9759L90.9585 36.0009L91.274 34.026C91.4361 34.0519 91.5969 34.1298 91.7307 34.2702C91.8725 34.4191 92 34.6616 92 34.9624L90 34.9624ZM90.9602 49.9422L90.7202 47.9567C91.5459 47.8568 92 48.539 92 49.0376H90H88C88 50.5992 89.319 52.1551 91.2002 51.9277L90.9602 49.9422Z",
+        fill: "#868AA5",
+        mask: "url(#path-17-inside-3_10408_18200)"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/circle.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CircleIcon",
+    ()=>CircleIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const CircleIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 32.5A1.5 1.5 0 0 1 9.5 31h13a1.5 1.5 0 0 1 0 3h-13A1.5 1.5 0 0 1 8 32.5m0 5A1.5 1.5 0 0 1 9.5 36h10a1.5 1.5 0 0 1 0 3h-10A1.5 1.5 0 0 1 8 37.5m40 51a1.5 1.5 0 0 1 1.5-1.5h13a1.5 1.5 0 0 1 0 3h-13a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 0 3h-10a1.5 1.5 0 0 1-1.5-1.5m40-61a1.5 1.5 0 0 1 1.5-1.5h13a1.5 1.5 0 0 1 0 3h-13a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 0 3h-10a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M77.924 65.836c.983.567 1.304 1.841.631 2.755C73.457 75.51 65.254 80 56 80s-17.458-4.49-22.556-11.41c-.673-.914-.352-2.188.63-2.755l8.742-5.036c.906-.523 2.052-.246 2.75.533A13.96 13.96 0 0 0 56 66.001c4.146 0 7.87-1.804 10.434-4.668.698-.78 1.843-1.056 2.75-.533zM54.97 36.18c0 1.047-.815 1.901-1.84 2.115C46.774 39.62 42 45.253 42 52.001c0 1.525.244 2.993.695 4.368.326.995-.007 2.126-.913 2.65l-8.732 5.052c-.98.568-2.243.21-2.699-.828A27.9 27.9 0 0 1 28 52.001c0-14.42 10.9-26.292 24.91-27.83 1.126-.123 2.07.791 2.069 1.925zm2.051-10.084c0-1.134.942-2.048 2.069-1.925C73.099 25.71 84 37.581 84 52.001c0 3.999-.84 7.802-2.352 11.243-.456 1.037-1.718 1.395-2.7.827l-8.732-5.051c-.906-.525-1.239-1.656-.912-2.652A14 14 0 0 0 70 52.001c0-6.749-4.775-12.383-11.13-13.707-1.026-.214-1.84-1.068-1.841-2.115z",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M53.938 74.832c0-.363.253-.625.605-.625.219 0 .414.102.633.328.258.27.511.39.8.39.415 0 .688-.206.688-.519 0-.312-.273-.523-.687-.523h-.215c-.325 0-.555-.25-.555-.602 0-.332.23-.594.555-.594h.215c.34 0 .59-.195.59-.46 0-.266-.247-.458-.59-.458-.266 0-.485.106-.77.375a.86.86 0 0 1-.605.247c-.371 0-.645-.25-.645-.59 0-.664.934-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.957 1.098v.11c.633.034 1.093.558 1.093 1.242 0 .957-.933 1.636-2.246 1.636-1.132 0-2.047-.574-2.047-1.285m-17.23-30.641v-3.09h-.008l-.218.13c-.258.152-.383.199-.54.199a.525.525 0 0 1-.547-.547c0-.239.141-.446.415-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.977v3.585c0 .559-.289.868-.809.868-.523 0-.816-.313-.816-.868m36.32.165c0-.29.168-.547.649-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.918-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629H73.75c-.43 0-.723-.262-.723-.645",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/joined.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "JoinedIcon",
+    ()=>JoinedIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const JoinedIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "36",
+        width: "32",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 45.5C14 44.6716 14.6716 44 15.5 44H32.5C33.3284 44 34 44.6716 34 45.5C34 46.3284 33.3284 47 32.5 47H15.5C14.6716 47 14 46.3284 14 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 50.5C14 49.6716 14.6716 49 15.5 49H29.5C30.3284 49 31 49.6716 31 50.5C31 51.3284 30.3284 52 29.5 52H15.5C14.6716 52 14 51.3284 14 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 59C14 58.4477 14.4477 58 15 58H33C33.5523 58 34 58.4477 34 59C34 59.5523 33.5523 60 33 60H15C14.4477 60 14 59.5523 14 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 67C14 66.4477 14.4477 66 15 66H33C33.5523 66 34 66.4477 34 67C34 67.5523 33.5523 68 33 68H15C14.4477 68 14 67.5523 14 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 63C14 62.4477 14.4477 62 15 62H30C30.5523 62 31 62.4477 31 63C31 63.5523 30.5523 64 30 64H15C14.4477 64 14 63.5523 14 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "40",
+        y: "36",
+        width: "32",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "72",
+        y: "36",
+        width: "32",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 45.5C46 44.6716 46.6716 44 47.5 44H64.5C65.3284 44 66 44.6716 66 45.5C66 46.3284 65.3284 47 64.5 47H47.5C46.6716 47 46 46.3284 46 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 50.5C46 49.6716 46.6716 49 47.5 49H61.5C62.3284 49 63 49.6716 63 50.5C63 51.3284 62.3284 52 61.5 52H47.5C46.6716 52 46 51.3284 46 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 45.5C78 44.6716 78.6716 44 79.5 44H96.5C97.3284 44 98 44.6716 98 45.5C98 46.3284 97.3284 47 96.5 47H79.5C78.6716 47 78 46.3284 78 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 50.5C78 49.6716 78.6716 49 79.5 49H93.5C94.3284 49 95 49.6716 95 50.5C95 51.3284 94.3284 52 93.5 52H79.5C78.6716 52 78 51.3284 78 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 59C46 58.4477 46.4477 58 47 58H65C65.5523 58 66 58.4477 66 59C66 59.5523 65.5523 60 65 60H47C46.4477 60 46 59.5523 46 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 67C46 66.4477 46.4477 66 47 66H65C65.5523 66 66 66.4477 66 67C66 67.5523 65.5523 68 65 68H47C46.4477 68 46 67.5523 46 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 63C46 62.4477 46.4477 62 47 62H62C62.5523 62 63 62.4477 63 63C63 63.5523 62.5523 64 62 64H47C46.4477 64 46 63.5523 46 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 59C78 58.4477 78.4477 58 79 58H97C97.5523 58 98 58.4477 98 59C98 59.5523 97.5523 60 97 60H79C78.4477 60 78 59.5523 78 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 67C78 66.4477 78.4477 66 79 66H97C97.5523 66 98 66.4477 98 67C98 67.5523 97.5523 68 97 68H79C78.4477 68 78 67.5523 78 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 63C78 62.4477 78.4477 62 79 62H94C94.5523 62 95 62.4477 95 63C95 63.5523 94.5523 64 94 64H79C78.4477 64 78 63.5523 78 63Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/minimal-timeline.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "MinimalTimelineIcon",
+    ()=>MinimalTimelineIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const MinimalTimelineIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 18.5A1.5 1.5 0 0 1 9.5 17h23a1.5 1.5 0 0 1 0 3h-23A1.5 1.5 0 0 1 8 18.5m0 5A1.5 1.5 0 0 1 9.5 22h20a1.5 1.5 0 0 1 0 3h-20A1.5 1.5 0 0 1 8 23.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 32a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 18.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 32a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 72.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 86a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1M8 56a1 1 0 0 1 1-1h95a1 1 0 0 1 0 2H9a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "18",
+        y: "53",
+        width: "6",
+        height: "6",
+        rx: "3",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "51",
+        y: "53",
+        width: "6",
+        height: "6",
+        rx: "3",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "84",
+        y: "53",
+        width: "6",
+        height: "6",
+        rx: "3",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/numbered.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "NumberedIcon",
+    ()=>NumberedIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const NumberedIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "36",
+        width: "30",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M22.4531 43.1914V40.1016H22.4453L22.2266 40.2305C21.9688 40.3828 21.8438 40.4297 21.6875 40.4297C21.3672 40.4297 21.1406 40.2031 21.1406 39.8828C21.1406 39.6445 21.2812 39.4375 21.5547 39.2734L22.1055 38.9414C22.4414 38.7383 22.8008 38.6289 23.125 38.6289C23.7031 38.6289 24.0781 39.0117 24.0781 39.6055V43.1914C24.0781 43.75 23.7891 44.0586 23.2695 44.0586C22.7461 44.0586 22.4531 43.7461 22.4531 43.1914Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 53.5C10 52.6716 10.6716 52 11.5 52L34.5 52C35.3284 52 36 52.6716 36 53.5C36 54.3284 35.3284 55 34.5 55H11.5C10.6716 55 10 54.3284 10 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 58.5C10 57.6716 10.6716 57 11.5 57H31.5C32.3284 57 33 57.6716 33 58.5C33 59.3284 32.3284 60 31.5 60H11.5C10.6716 60 10 59.3284 10 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 67C10 66.4477 10.4477 66 11 66L35 66C35.5523 66 36 66.4477 36 67C36 67.5523 35.5523 68 35 68H11C10.4477 68 10 67.5523 10 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 75C10 74.4477 10.4477 74 11 74H35C35.5523 74 36 74.4477 36 75C36 75.5523 35.5523 76 35 76H11C10.4477 76 10 75.5523 10 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 71C10 70.4477 10.4477 70 11 70H32C32.5523 70 33 70.4477 33 71C33 71.5523 32.5523 72 32 72H11C10.4477 72 10 71.5523 10 71Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "36",
+        width: "30",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M54.3594 43.3555C54.3594 43.0664 54.5273 42.8086 55.0078 42.3594L56.2031 41.2344C56.6094 40.8516 56.7891 40.6016 56.7891 40.3438C56.7891 40.0547 56.5781 39.8594 56.2734 39.8594C56.0391 39.8594 55.8711 39.9531 55.6641 40.2109C55.4258 40.5078 55.2539 40.6094 54.9922 40.6094C54.6172 40.6094 54.3516 40.3594 54.3516 40.0117C54.3516 39.25 55.2695 38.5781 56.3594 38.5781C57.4961 38.5781 58.3438 39.2617 58.3438 40.1797C58.3438 40.7539 58.0391 41.3008 57.418 41.8516L56.4961 42.6719V42.7344H57.8047C58.2578 42.7344 58.5391 42.9766 58.5391 43.3711C58.5391 43.7656 58.2656 44 57.8047 44H55.082C54.6523 44 54.3594 43.7383 54.3594 43.3555Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 53.5C43 52.6716 43.6716 52 44.5 52L67.5 52C68.3284 52 69 52.6716 69 53.5C69 54.3284 68.3284 55 67.5 55H44.5C43.6716 55 43 54.3284 43 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 58.5C43 57.6716 43.6716 57 44.5 57H64.5C65.3284 57 66 57.6716 66 58.5C66 59.3284 65.3284 60 64.5 60H44.5C43.6716 60 43 59.3284 43 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 67C43 66.4477 43.4477 66 44 66L68 66C68.5523 66 69 66.4477 69 67C69 67.5523 68.5523 68 68 68H44C43.4477 68 43 67.5523 43 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 75C43 74.4477 43.4477 74 44 74H68C68.5523 74 69 74.4477 69 75C69 75.5523 68.5523 76 68 76H44C43.4477 76 43 75.5523 43 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 71C43 70.4477 43.4477 70 44 70H65C65.5523 70 66 70.4477 66 71C66 71.5523 65.5523 72 65 72H44C43.4477 72 43 71.5523 43 71Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "74",
+        y: "36",
+        width: "30",
+        height: "10",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M87.3242 42.832C87.3242 42.4688 87.5781 42.207 87.9297 42.207C88.1484 42.207 88.3438 42.3086 88.5625 42.5352C88.8203 42.8047 89.0742 42.9258 89.3633 42.9258C89.7773 42.9258 90.0508 42.7188 90.0508 42.4062C90.0508 42.0938 89.7773 41.8828 89.3633 41.8828H89.1484C88.8242 41.8828 88.5938 41.6328 88.5938 41.2812C88.5938 40.9492 88.8242 40.6875 89.1484 40.6875H89.3633C89.7031 40.6875 89.9531 40.4922 89.9531 40.2266C89.9531 39.9609 89.707 39.7695 89.3633 39.7695C89.0977 39.7695 88.8789 39.875 88.5938 40.1445C88.418 40.3086 88.2188 40.3906 87.9883 40.3906C87.6172 40.3906 87.3438 40.1406 87.3438 39.8008C87.3438 39.1367 88.2773 38.5781 89.3867 38.5781C90.625 38.5781 91.4805 39.1719 91.4805 40.0312C91.4805 40.5938 91.0586 41.0781 90.5234 41.1289V41.2383C91.1562 41.2734 91.6172 41.7969 91.6172 42.4805C91.6172 43.4375 90.6836 44.1172 89.3711 44.1172C88.2383 44.1172 87.3242 43.543 87.3242 42.832Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 53.5C76 52.6716 76.6716 52 77.5 52L100.5 52C101.328 52 102 52.6716 102 53.5C102 54.3284 101.328 55 100.5 55H77.5C76.6716 55 76 54.3284 76 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 58.5C76 57.6716 76.6716 57 77.5 57H97.5C98.3284 57 99 57.6716 99 58.5C99 59.3284 98.3284 60 97.5 60H77.5C76.6716 60 76 59.3284 76 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 67C76 66.4477 76.4477 66 77 66L101 66C101.552 66 102 66.4477 102 67C102 67.5523 101.552 68 101 68H77C76.4477 68 76 67.5523 76 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 75C76 74.4477 76.4477 74 77 74H101C101.552 74 102 74.4477 102 75C102 75.5523 101.552 76 101 76H77C76.4477 76 76 75.5523 76 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 71C76 70.4477 76.4477 70 77 70H98C98.5523 70 99 70.4477 99 71C99 71.5523 98.5523 72 98 72H77C76.4477 72 76 71.5523 76 71Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/pills.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "PillsIcon",
+    ()=>PillsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const PillsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "36",
+        width: "30",
+        height: "10",
+        rx: "5",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M22.453 43.191v-3.09h-.008l-.218.13c-.258.152-.383.199-.54.199a.525.525 0 0 1-.546-.547c0-.239.14-.446.414-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.977v3.585c0 .559-.289.868-.808.868-.524 0-.817-.313-.817-.868M10 53.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 67a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "36",
+        width: "30",
+        height: "10",
+        rx: "5",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M54.36 43.356c0-.29.167-.547.648-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.918-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629h-2.723c-.43 0-.723-.262-.723-.645M43 53.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 67a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H44a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H44a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H44a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "74",
+        y: "36",
+        width: "30",
+        height: "10",
+        rx: "5",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M87.324 42.832c0-.363.254-.625.606-.625.218 0 .414.102.632.328.258.27.512.39.801.39.414 0 .688-.206.688-.519 0-.312-.274-.523-.688-.523h-.215c-.324 0-.554-.25-.554-.602 0-.332.23-.593.554-.593h.215c.34 0 .59-.196.59-.461 0-.266-.246-.457-.59-.457-.265 0-.484.105-.77.374a.86.86 0 0 1-.605.247c-.37 0-.644-.25-.644-.59 0-.664.933-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.958 1.098v.11c.633.034 1.094.558 1.094 1.242 0 .956-.933 1.636-2.246 1.636-1.133 0-2.047-.574-2.047-1.285M76 53.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 67a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/process-steps.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ProcessStepsIcon",
+    ()=>ProcessStepsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const ProcessStepsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "45",
+        width: "30",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M11.4531 42.1914V39.1016H11.4453L11.2266 39.2305C10.9688 39.3828 10.8438 39.4297 10.6875 39.4297C10.3672 39.4297 10.1406 39.2031 10.1406 38.8828C10.1406 38.6445 10.2812 38.4375 10.5547 38.2734L11.1055 37.9414C11.4414 37.7383 11.8008 37.6289 12.125 37.6289C12.7031 37.6289 13.0781 38.0117 13.0781 38.6055V42.1914C13.0781 42.75 12.7891 43.0586 12.2695 43.0586C11.7461 43.0586 11.4531 42.7461 11.4531 42.1914Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 54.5C10 53.6716 10.6716 53 11.5 53L34.5 53C35.3284 53 36 53.6716 36 54.5C36 55.3284 35.3284 56 34.5 56H11.5C10.6716 56 10 55.3284 10 54.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 59.5C10 58.6716 10.6716 58 11.5 58H31.5C32.3284 58 33 58.6716 33 59.5C33 60.3284 32.3284 61 31.5 61H11.5C10.6716 61 10 60.3284 10 59.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 68C10 67.4477 10.4477 67 11 67L35 67C35.5523 67 36 67.4477 36 68C36 68.5523 35.5523 69 35 69H11C10.4477 69 10 68.5523 10 68Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 76C10 75.4477 10.4477 75 11 75H35C35.5523 75 36 75.4477 36 76C36 76.5523 35.5523 77 35 77H11C10.4477 77 10 76.5523 10 76Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 72C10 71.4477 10.4477 71 11 71H32C32.5523 71 33 71.4477 33 72C33 72.5523 32.5523 73 32 73H11C10.4477 73 10 72.5523 10 72Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "45",
+        width: "30",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43.3594 42.3555C43.3594 42.0664 43.5273 41.8086 44.0078 41.3594L45.2031 40.2344C45.6094 39.8516 45.7891 39.6016 45.7891 39.3438C45.7891 39.0547 45.5781 38.8594 45.2734 38.8594C45.0391 38.8594 44.8711 38.9531 44.6641 39.2109C44.4258 39.5078 44.2539 39.6094 43.9922 39.6094C43.6172 39.6094 43.3516 39.3594 43.3516 39.0117C43.3516 38.25 44.2695 37.5781 45.3594 37.5781C46.4961 37.5781 47.3438 38.2617 47.3438 39.1797C47.3438 39.7539 47.0391 40.3008 46.418 40.8516L45.4961 41.6719V41.7344H46.8047C47.2578 41.7344 47.5391 41.9766 47.5391 42.3711C47.5391 42.7656 47.2656 43 46.8047 43H44.082C43.6523 43 43.3594 42.7383 43.3594 42.3555Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 54.5C43 53.6716 43.6716 53 44.5 53L67.5 53C68.3284 53 69 53.6716 69 54.5C69 55.3284 68.3284 56 67.5 56H44.5C43.6716 56 43 55.3284 43 54.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 59.5C43 58.6716 43.6716 58 44.5 58H64.5C65.3284 58 66 58.6716 66 59.5C66 60.3284 65.3284 61 64.5 61H44.5C43.6716 61 43 60.3284 43 59.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 68C43 67.4477 43.4477 67 44 67L68 67C68.5523 67 69 67.4477 69 68C69 68.5523 68.5523 69 68 69H44C43.4477 69 43 68.5523 43 68Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 76C43 75.4477 43.4477 75 44 75H68C68.5523 75 69 75.4477 69 76C69 76.5523 68.5523 77 68 77H44C43.4477 77 43 76.5523 43 76Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 72C43 71.4477 43.4477 71 44 71H65C65.5523 71 66 71.4477 66 72C66 72.5523 65.5523 73 65 73H44C43.4477 73 43 72.5523 43 72Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "74",
+        y: "45",
+        width: "30",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76.3242 41.832C76.3242 41.4688 76.5781 41.207 76.9297 41.207C77.1484 41.207 77.3438 41.3086 77.5625 41.5352C77.8203 41.8047 78.0742 41.9258 78.3633 41.9258C78.7773 41.9258 79.0508 41.7188 79.0508 41.4062C79.0508 41.0938 78.7773 40.8828 78.3633 40.8828H78.1484C77.8242 40.8828 77.5938 40.6328 77.5938 40.2812C77.5938 39.9492 77.8242 39.6875 78.1484 39.6875H78.3633C78.7031 39.6875 78.9531 39.4922 78.9531 39.2266C78.9531 38.9609 78.707 38.7695 78.3633 38.7695C78.0977 38.7695 77.8789 38.875 77.5938 39.1445C77.418 39.3086 77.2188 39.3906 76.9883 39.3906C76.6172 39.3906 76.3438 39.1406 76.3438 38.8008C76.3438 38.1367 77.2773 37.5781 78.3867 37.5781C79.625 37.5781 80.4805 38.1719 80.4805 39.0312C80.4805 39.5938 80.0586 40.0781 79.5234 40.1289V40.2383C80.1562 40.2734 80.6172 40.7969 80.6172 41.4805C80.6172 42.4375 79.6836 43.1172 78.3711 43.1172C77.2383 43.1172 76.3242 42.543 76.3242 41.832Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 54.5C76 53.6716 76.6716 53 77.5 53L100.5 53C101.328 53 102 53.6716 102 54.5C102 55.3284 101.328 56 100.5 56H77.5C76.6716 56 76 55.3284 76 54.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 59.5C76 58.6716 76.6716 58 77.5 58H97.5C98.3284 58 99 58.6716 99 59.5C99 60.3284 98.3284 61 97.5 61H77.5C76.6716 61 76 60.3284 76 59.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 68C76 67.4477 76.4477 67 77 67L101 67C101.552 67 102 67.4477 102 68C102 68.5523 101.552 69 101 69H77C76.4477 69 76 68.5523 76 68Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 76C76 75.4477 76.4477 75 77 75H101C101.552 75 102 75.4477 102 76C102 76.5523 101.552 77 101 77H77C76.4477 77 76 76.5523 76 76Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 72C76 71.4477 76.4477 71 77 71H98C98.5523 71 99 71.4477 99 72C99 72.5523 98.5523 73 98 73H77C76.4477 73 76 72.5523 76 72Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/pyramid.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "PyramidIcon",
+    ()=>PyramidIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const PyramidIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 32.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 39a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 52.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 59a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 72.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 79a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M38.09 26.01c.354-.783 1.466-.783 1.82 0l27.45 60.577A1 1 0 0 1 66.449 88H11.551a1 1 0 0 1-.91-1.413z",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M38.707 41.191v-3.09h-.008l-.218.13c-.258.152-.383.199-.54.199a.525.525 0 0 1-.547-.547c0-.239.141-.446.415-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.977v3.585c0 .559-.289.868-.809.868-.523 0-.816-.313-.816-.868m-1.68 20.165c0-.29.168-.547.649-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.917-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629H37.75c-.43 0-.723-.262-.723-.645m-.089 19.477c0-.363.253-.625.605-.625.219 0 .414.102.633.328.258.27.511.39.8.39.415 0 .688-.206.688-.519 0-.312-.273-.523-.687-.523h-.215c-.325 0-.555-.25-.555-.602 0-.332.23-.594.555-.594h.215c.34 0 .59-.195.59-.46 0-.266-.247-.458-.59-.458-.266 0-.485.106-.77.375a.86.86 0 0 1-.605.247c-.371 0-.645-.25-.645-.59 0-.664.934-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.957 1.098v.11c.633.034 1.093.558 1.093 1.242 0 .957-.933 1.636-2.246 1.636-1.132 0-2.047-.574-2.047-1.285",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M10 48h58v2H10zm0 20h58v2H10z"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/quote-boxes.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "QuoteBoxesIcon",
+    ()=>QuoteBoxesIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const QuoteBoxesIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8.5",
+        y: "37.5",
+        width: "29",
+        height: "39",
+        rx: "2.5",
+        stroke: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 48.5a1.5 1.5 0 0 1 1.5-1.5h17a1.5 1.5 0 0 1 0 3h-17a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h14a1.5 1.5 0 0 1 0 3h-14a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 62a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H14a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h15a1 1 0 1 1 0 2H14a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M5 33h10.838v9.461H5z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M9.738 40.06a.4.4 0 0 1-.4.4H7.4a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.295-2.67a.378.378 0 0 1 .443.38v.528c0 .215-.172.385-.382.431q-.764.169-.932.925c-.049.219.139.407.363.407h.551a.4.4 0 0 1 .4.4zm4.1 0a.4.4 0 0 1-.4.4h-1.939a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.296-2.67a.378.378 0 0 1 .443.38v.528c0 .215-.172.385-.382.431q-.765.169-.932.925c-.05.219.138.407.363.407h.551a.4.4 0 0 1 .4.4z",
+        fill: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M29 70h10.838v9.461H29z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M35.1 72.4a.4.4 0 0 1 .4-.4h1.938a.4.4 0 0 1 .4.4v2.322q0 2.222-2.295 2.67a.378.378 0 0 1-.444-.38v-.527c0-.215.173-.386.383-.432q.764-.168.932-.924c.049-.22-.139-.407-.363-.407h-.552a.4.4 0 0 1-.4-.4zm-4.1 0a.4.4 0 0 1 .4-.4h1.939a.4.4 0 0 1 .4.4v2.322q0 2.222-2.296 2.67a.378.378 0 0 1-.443-.38v-.527c0-.215.172-.386.382-.432q.764-.168.932-.924c.05-.22-.138-.407-.363-.407H31.4a.4.4 0 0 1-.4-.4z",
+        fill: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "42.338",
+        y: "37.5",
+        width: "29",
+        height: "39",
+        rx: "2.5",
+        stroke: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46.838 48.5a1.5 1.5 0 0 1 1.5-1.5h17a1.5 1.5 0 0 1 0 3h-17a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h14a1.5 1.5 0 0 1 0 3h-14a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46.838 62a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2h-18a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h15a1 1 0 1 1 0 2h-15a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M38.838 33h10.838v9.461H38.838z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43.577 40.06a.4.4 0 0 1-.4.4h-1.939a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.295-2.67a.378.378 0 0 1 .444.38v.528c0 .215-.173.385-.383.431q-.764.169-.932.925c-.049.219.139.407.364.407h.55a.4.4 0 0 1 .4.4zm4.099 0a.4.4 0 0 1-.4.4h-1.939a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.296-2.67a.378.378 0 0 1 .443.38v.528c0 .215-.172.385-.382.431q-.764.169-.932.925c-.05.219.138.407.363.407h.551a.4.4 0 0 1 .4.4z",
+        fill: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M62.838 70h10.838v9.461H62.838z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M68.938 72.4a.4.4 0 0 1 .4-.4h1.938a.4.4 0 0 1 .4.4v2.322q0 2.222-2.295 2.67a.378.378 0 0 1-.444-.38v-.527c0-.215.173-.386.383-.432q.764-.168.932-.924c.049-.22-.139-.407-.363-.407h-.551a.4.4 0 0 1-.4-.4zm-4.1 0a.4.4 0 0 1 .4-.4h1.939a.4.4 0 0 1 .4.4v2.322q0 2.222-2.296 2.67a.378.378 0 0 1-.443-.38v-.527c0-.215.172-.386.382-.432q.764-.168.932-.924c.05-.22-.138-.407-.363-.407h-.551a.4.4 0 0 1-.4-.4z",
+        fill: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "76.176",
+        y: "37.5",
+        width: "29",
+        height: "39",
+        rx: "2.5",
+        stroke: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80.676 48.5a1.5 1.5 0 0 1 1.5-1.5h17a1.5 1.5 0 0 1 0 3h-17a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h14a1.5 1.5 0 1 1 0 3h-14a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80.676 62a1 1 0 0 1 1-1h18a1 1 0 0 1 0 2h-18a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h15a1 1 0 1 1 0 2h-15a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M72.676 33h10.838v9.461H72.676z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M77.415 40.06a.4.4 0 0 1-.4.4h-1.939a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.295-2.67a.378.378 0 0 1 .444.38v.528c0 .215-.173.385-.383.431q-.764.169-.932.925c-.049.219.139.407.364.407h.55a.4.4 0 0 1 .4.4zm4.099 0a.4.4 0 0 1-.4.4h-1.939a.4.4 0 0 1-.4-.4v-2.322q0-2.22 2.296-2.67a.378.378 0 0 1 .443.38v.528c0 .215-.172.385-.382.431q-.764.169-.932.925c-.05.219.138.407.363.407h.551a.4.4 0 0 1 .4.4z",
+        fill: "#c3c5d2"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M96.676 70h10.838v9.461H96.676z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M102.776 72.4a.4.4 0 0 1 .4-.4h1.938a.4.4 0 0 1 .4.4v2.322q0 2.222-2.295 2.67a.377.377 0 0 1-.443-.38v-.527c0-.215.172-.386.382-.432q.763-.168.932-.924c.049-.22-.139-.407-.363-.407h-.551a.4.4 0 0 1-.4-.4zm-4.1 0a.4.4 0 0 1 .4-.4h1.939a.4.4 0 0 1 .4.4v2.322q0 2.222-2.296 2.67a.378.378 0 0 1-.443-.38v-.527c0-.215.172-.386.382-.432q.764-.168.932-.924c.049-.22-.138-.407-.363-.407h-.551a.4.4 0 0 1-.4-.4z",
+        fill: "#c3c5d2"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/side-line.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "SideLineIcon",
+    ()=>SideLineIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const SideLineIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-1-inside-1_10408_18164",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 36H38V76H8V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 76H10V36H8H6V76H8Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-1-inside-1_10408_18164)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 45.5C14 44.6716 14.6716 44 15.5 44H32.5C33.3284 44 34 44.6716 34 45.5C34 46.3284 33.3284 47 32.5 47H15.5C14.6716 47 14 46.3284 14 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 50.5C14 49.6716 14.6716 49 15.5 49H29.5C30.3284 49 31 49.6716 31 50.5C31 51.3284 30.3284 52 29.5 52H15.5C14.6716 52 14 51.3284 14 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 59C14 58.4477 14.4477 58 15 58H33C33.5523 58 34 58.4477 34 59C34 59.5523 33.5523 60 33 60H15C14.4477 60 14 59.5523 14 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 67C14 66.4477 14.4477 66 15 66H33C33.5523 66 34 66.4477 34 67C34 67.5523 33.5523 68 33 68H15C14.4477 68 14 67.5523 14 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M14 63C14 62.4477 14.4477 62 15 62H30C30.5523 62 31 62.4477 31 63C31 63.5523 30.5523 64 30 64H15C14.4477 64 14 63.5523 14 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-5-inside-2_10408_18164",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 36H71V76H41V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 76H43V36H41H39V76H41Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-5-inside-2_10408_18164)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-7-inside-3_10408_18164",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 36H104V76H74V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 76H76V36H74H72V76H74Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-7-inside-3_10408_18164)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M47 45.5C47 44.6716 47.6716 44 48.5 44H65.5C66.3284 44 67 44.6716 67 45.5C67 46.3284 66.3284 47 65.5 47H48.5C47.6716 47 47 46.3284 47 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M47 50.5C47 49.6716 47.6716 49 48.5 49H62.5C63.3284 49 64 49.6716 64 50.5C64 51.3284 63.3284 52 62.5 52H48.5C47.6716 52 47 51.3284 47 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80 45.5C80 44.6716 80.6716 44 81.5 44H98.5C99.3284 44 100 44.6716 100 45.5C100 46.3284 99.3284 47 98.5 47H81.5C80.6716 47 80 46.3284 80 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80 50.5C80 49.6716 80.6716 49 81.5 49H95.5C96.3284 49 97 49.6716 97 50.5C97 51.3284 96.3284 52 95.5 52H81.5C80.6716 52 80 51.3284 80 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M47 59C47 58.4477 47.4477 58 48 58H66C66.5523 58 67 58.4477 67 59C67 59.5523 66.5523 60 66 60H48C47.4477 60 47 59.5523 47 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M47 67C47 66.4477 47.4477 66 48 66H66C66.5523 66 67 66.4477 67 67C67 67.5523 66.5523 68 66 68H48C47.4477 68 47 67.5523 47 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M47 63C47 62.4477 47.4477 62 48 62H63C63.5523 62 64 62.4477 64 63C64 63.5523 63.5523 64 63 64H48C47.4477 64 47 63.5523 47 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80 59C80 58.4477 80.4477 58 81 58H99C99.5523 58 100 58.4477 100 59C100 59.5523 99.5523 60 99 60H81C80.4477 60 80 59.5523 80 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80 67C80 66.4477 80.4477 66 81 66H99C99.5523 66 100 66.4477 100 67C100 67.5523 99.5523 68 99 68H81C80.4477 68 80 67.5523 80 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M80 63C80 62.4477 80.4477 62 81 62H96C96.5523 62 97 62.4477 97 63C97 63.5523 96.5523 64 96 64H81C80.4477 64 80 63.5523 80 63Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/small-bullets.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "SmallBulletsIcon",
+    ()=>SmallBulletsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const SmallBulletsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "38",
+        width: "4",
+        height: "4",
+        rx: "2",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 39.5C16 38.6716 16.6716 38 17.5 38L34.5 38C35.3284 38 36 38.6716 36 39.5C36 40.3284 35.3284 41 34.5 41H17.5C16.6716 41 16 40.3284 16 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 44.5C16 43.6716 16.6716 43 17.5 43H31.5C32.3284 43 33 43.6716 33 44.5C33 45.3284 32.3284 46 31.5 46H17.5C16.6716 46 16 45.3284 16 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 49.5C16 48.6716 16.6716 48 17.5 48H34.5C35.3284 48 36 48.6716 36 49.5C36 50.3284 35.3284 51 34.5 51H17.5C16.6716 51 16 50.3284 16 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 58C16 57.4477 16.4477 57 17 57L35 57C35.5523 57 36 57.4477 36 58C36 58.5523 35.5523 59 35 59H17C16.4477 59 16 58.5523 16 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 66C16 65.4477 16.4477 65 17 65H35C35.5523 65 36 65.4477 36 66C36 66.5523 35.5523 67 35 67H17C16.4477 67 16 66.5523 16 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 62C16 61.4477 16.4477 61 17 61H32C32.5523 61 33 61.4477 33 62C33 62.5523 32.5523 63 32 63H17C16.4477 63 16 62.5523 16 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M16 70C16 69.4477 16.4477 69 17 69H32C32.5523 69 33 69.4477 33 70C33 70.5523 32.5523 71 32 71H17C16.4477 71 16 70.5523 16 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "42",
+        y: "38",
+        width: "4",
+        height: "4",
+        rx: "2",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 39.5C50 38.6716 50.6716 38 51.5 38L68.5 38C69.3284 38 70 38.6716 70 39.5C70 40.3284 69.3284 41 68.5 41H51.5C50.6716 41 50 40.3284 50 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 44.5C50 43.6716 50.6716 43 51.5 43H65.5C66.3284 43 67 43.6716 67 44.5C67 45.3284 66.3284 46 65.5 46H51.5C50.6716 46 50 45.3284 50 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 49.5C50 48.6716 50.6716 48 51.5 48H68.5C69.3284 48 70 48.6716 70 49.5C70 50.3284 69.3284 51 68.5 51H51.5C50.6716 51 50 50.3284 50 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 58C50 57.4477 50.4477 57 51 57L69 57C69.5523 57 70 57.4477 70 58C70 58.5523 69.5523 59 69 59H51C50.4477 59 50 58.5523 50 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 66C50 65.4477 50.4477 65 51 65H69C69.5523 65 70 65.4477 70 66C70 66.5523 69.5523 67 69 67H51C50.4477 67 50 66.5523 50 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 62C50 61.4477 50.4477 61 51 61H66C66.5523 61 67 61.4477 67 62C67 62.5523 66.5523 63 66 63H51C50.4477 63 50 62.5523 50 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M50 70C50 69.4477 50.4477 69 51 69H66C66.5523 69 67 69.4477 67 70C67 70.5523 66.5523 71 66 71H51C50.4477 71 50 70.5523 50 70Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "76",
+        y: "38",
+        width: "4",
+        height: "4",
+        rx: "2",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 39.5C84 38.6716 84.6716 38 85.5 38L102.5 38C103.328 38 104 38.6716 104 39.5C104 40.3284 103.328 41 102.5 41H85.5C84.6716 41 84 40.3284 84 39.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 44.5C84 43.6716 84.6716 43 85.5 43H99.5C100.328 43 101 43.6716 101 44.5C101 45.3284 100.328 46 99.5 46H85.5C84.6716 46 84 45.3284 84 44.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 49.5C84 48.6716 84.6716 48 85.5 48H102.5C103.328 48 104 48.6716 104 49.5C104 50.3284 103.328 51 102.5 51H85.5C84.6716 51 84 50.3284 84 49.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 58C84 57.4477 84.4477 57 85 57L103 57C103.552 57 104 57.4477 104 58C104 58.5523 103.552 59 103 59H85C84.4477 59 84 58.5523 84 58Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 66C84 65.4477 84.4477 65 85 65H103C103.552 65 104 65.4477 104 66C104 66.5523 103.552 67 103 67H85C84.4477 67 84 66.5523 84 66Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 62C84 61.4477 84.4477 61 85 61H100C100.552 61 101 61.4477 101 62C101 62.5523 100.552 63 100 63H85C84.4477 63 84 62.5523 84 62Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84 70C84 69.4477 84.4477 69 85 69H100C100.552 69 101 69.4477 101 70C101 70.5523 100.552 71 100 71H85C84.4477 71 84 70.5523 84 70Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/solid.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "SolidIcon",
+    ()=>SolidIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const SolidIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "8",
+        y: "36",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 45.5C13 44.6716 13.6716 44 14.5 44H31.5C32.3284 44 33 44.6716 33 45.5C33 46.3284 32.3284 47 31.5 47H14.5C13.6716 47 13 46.3284 13 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 50.5C13 49.6716 13.6716 49 14.5 49H28.5C29.3284 49 30 49.6716 30 50.5C30 51.3284 29.3284 52 28.5 52H14.5C13.6716 52 13 51.3284 13 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 59C13 58.4477 13.4477 58 14 58H32C32.5523 58 33 58.4477 33 59C33 59.5523 32.5523 60 32 60H14C13.4477 60 13 59.5523 13 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 67C13 66.4477 13.4477 66 14 66H32C32.5523 66 33 66.4477 33 67C33 67.5523 32.5523 68 32 68H14C13.4477 68 13 67.5523 13 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 63C13 62.4477 13.4477 62 14 62H29C29.5523 62 30 62.4477 30 63C30 63.5523 29.5523 64 29 64H14C13.4477 64 13 63.5523 13 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "41",
+        y: "36",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 45.5C46 44.6716 46.6716 44 47.5 44H64.5C65.3284 44 66 44.6716 66 45.5C66 46.3284 65.3284 47 64.5 47H47.5C46.6716 47 46 46.3284 46 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 50.5C46 49.6716 46.6716 49 47.5 49H61.5C62.3284 49 63 49.6716 63 50.5C63 51.3284 62.3284 52 61.5 52H47.5C46.6716 52 46 51.3284 46 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 59C46 58.4477 46.4477 58 47 58H65C65.5523 58 66 58.4477 66 59C66 59.5523 65.5523 60 65 60H47C46.4477 60 46 59.5523 46 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 67C46 66.4477 46.4477 66 47 66H65C65.5523 66 66 66.4477 66 67C66 67.5523 65.5523 68 65 68H47C46.4477 68 46 67.5523 46 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 63C46 62.4477 46.4477 62 47 62H62C62.5523 62 63 62.4477 63 63C63 63.5523 62.5523 64 62 64H47C46.4477 64 46 63.5523 46 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "74",
+        y: "36",
+        width: "30",
+        height: "40",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 45.5C79 44.6716 79.6716 44 80.5 44H97.5C98.3284 44 99 44.6716 99 45.5C99 46.3284 98.3284 47 97.5 47H80.5C79.6716 47 79 46.3284 79 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 50.5C79 49.6716 79.6716 49 80.5 49H94.5C95.3284 49 96 49.6716 96 50.5C96 51.3284 95.3284 52 94.5 52H80.5C79.6716 52 79 51.3284 79 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 59C79 58.4477 79.4477 58 80 58H98C98.5523 58 99 58.4477 99 59C99 59.5523 98.5523 60 98 60H80C79.4477 60 79 59.5523 79 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 67C79 66.4477 79.4477 66 80 66H98C98.5523 66 99 66.4477 99 67C99 67.5523 98.5523 68 98 68H80C79.4477 68 79 67.5523 79 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 63C79 62.4477 79.4477 62 80 62H95C95.5523 62 96 62.4477 96 63C96 63.5523 95.5523 64 95 64H80C79.4477 64 79 63.5523 79 63Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/staircase.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "StaircaseIcon",
+    ()=>StaircaseIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const StaircaseIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "11",
+        y: "29",
+        width: "30",
+        height: "16",
+        rx: "2",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M25.707 39.191v-3.09h-.008l-.219.13c-.257.152-.382.199-.539.199a.525.525 0 0 1-.546-.547c0-.239.14-.446.414-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.977v3.585c0 .559-.289.868-.809.868-.523 0-.816-.313-.816-.868",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "11",
+        y: "48",
+        width: "45",
+        height: "16",
+        rx: "2",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M31.527 58.356c0-.29.168-.547.649-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.918-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629H32.25c-.43 0-.723-.262-.723-.645",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "11",
+        y: "67",
+        width: "60",
+        height: "16",
+        rx: "2",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M38.938 76.832c0-.363.253-.625.605-.625.219 0 .414.102.633.328.258.27.511.39.8.39.415 0 .688-.206.688-.519 0-.312-.273-.523-.687-.523h-.215c-.325 0-.555-.25-.555-.602 0-.332.23-.594.555-.594h.215c.34 0 .59-.195.59-.46 0-.266-.247-.458-.59-.458-.266 0-.485.106-.77.375a.86.86 0 0 1-.605.247c-.371 0-.645-.25-.645-.59 0-.664.934-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.957 1.098v.11c.633.034 1.093.558 1.093 1.242 0 .957-.933 1.636-2.246 1.636-1.132 0-2.047-.574-2.047-1.285M45 31.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M45 38a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H46a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H46a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M60 50.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M60 57a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H61a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H61a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M75 69.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M75 76a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H76a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H76a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/star-rating.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "StarRatingIcon",
+    ()=>StarRatingIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const StarRatingIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 51.5A1.5 1.5 0 0 1 9.5 50h23a1.5 1.5 0 0 1 0 3h-23A1.5 1.5 0 0 1 8 51.5m0 5A1.5 1.5 0 0 1 9.5 55h20a1.5 1.5 0 0 1 0 3h-20A1.5 1.5 0 0 1 8 56.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 65a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M11.294 38.13a.229.229 0 0 1 .412 0l.869 1.847c.033.07.1.12.178.129l2.047.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.068-.208l-1.51-1.387a.224.224 0 0 1 .127-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.869 1.847c.033.07.1.12.178.129l2.047.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.869 1.847c.033.07.1.12.178.129l2.047.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zM43 51.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 65a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H44a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H44a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46.294 38.13a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zM78 51.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M78 65a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H79a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 0 1 0 2H79a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M81.294 38.13a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.223.223 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129zm8 0a.229.229 0 0 1 .412 0l.868 1.847a.23.23 0 0 0 .18.129l2.046.245a.224.224 0 0 1 .127.387l-1.51 1.387a.22.22 0 0 0-.068.208l.397 1.998a.227.227 0 0 1-.334.24l-1.801-.99a.23.23 0 0 0-.222 0l-1.8.99c-.17.093-.372-.052-.335-.24l.397-1.998a.22.22 0 0 0-.069-.208l-1.51-1.387a.224.224 0 0 1 .128-.387l2.047-.245a.23.23 0 0 0 .178-.129z",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/stats.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "StatsIcon",
+    ()=>StatsIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const StatsIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 36H38V76H8V36Z",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 58.5C13 57.6716 13.6716 57 14.5 57H31.5C32.3284 57 33 57.6716 33 58.5C33 59.3284 32.3284 60 31.5 60H14.5C13.6716 60 13 59.3284 13 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 63.5C13 62.6716 13.6716 62 14.5 62H28.5C29.3284 62 30 62.6716 30 63.5C30 64.3284 29.3284 65 28.5 65H14.5C13.6716 65 13 64.3284 13 63.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        opacity: "0.5",
+        d: "M13 69C13 68.4477 13.4477 68 14 68H32C32.5523 68 33 68.4477 33 69C33 69.5523 32.5523 70 32 70H14C13.4477 70 13 69.5523 13 69Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 36H71V76H41V36Z",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 36H104V76H74V36Z",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 58.5C46 57.6716 46.6716 57 47.5 57H64.5C65.3284 57 66 57.6716 66 58.5C66 59.3284 65.3284 60 64.5 60H47.5C46.6716 60 46 59.3284 46 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 63.5C46 62.6716 46.6716 62 47.5 62H61.5C62.3284 62 63 62.6716 63 63.5C63 64.3284 62.3284 65 61.5 65H47.5C46.6716 65 46 64.3284 46 63.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 58.5C79 57.6716 79.6716 57 80.5 57H97.5C98.3284 57 99 57.6716 99 58.5C99 59.3284 98.3284 60 97.5 60H80.5C79.6716 60 79 59.3284 79 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 63.5C79 62.6716 79.6716 62 80.5 62H94.5C95.3284 62 96 62.6716 96 63.5C96 64.3284 95.3284 65 94.5 65H80.5C79.6716 65 79 64.3284 79 63.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        opacity: "0.5",
+        d: "M46 69C46 68.4477 46.4477 68 47 68H65C65.5523 68 66 68.4477 66 69C66 69.5523 65.5523 70 65 70H47C46.4477 70 46 69.5523 46 69Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        opacity: "0.5",
+        d: "M79 69C79 68.4477 79.4477 68 80 68H98C98.5523 68 99 68.4477 99 69C99 69.5523 98.5523 70 98 70H80C79.4477 70 79 69.5523 79 69Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M23.2428 43C22.8522 42.6095 22.2191 42.6095 21.8285 43L14.7575 50.0711C14.367 50.4616 14.367 51.0948 14.7575 51.4853C15.148 51.8758 15.7812 51.8758 16.1717 51.4853L23.2428 44.4142C23.6333 44.0237 23.6333 43.3906 23.2428 43Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M24 50.5C24 51.3284 23.3284 52 22.5 52C21.6716 52 21 51.3284 21 50.5C21 49.6716 21.6716 49 22.5 49C23.3284 49 24 49.6716 24 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M17 43.5C17 44.3284 16.3284 45 15.5 45C14.6716 45 14 44.3284 14 43.5C14 42.6716 14.6716 42 15.5 42C16.3284 42 17 42.6716 17 43.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M55.2428 43C54.8522 42.6095 54.2191 42.6095 53.8285 43L46.7575 50.0711C46.367 50.4616 46.367 51.0948 46.7575 51.4853C47.148 51.8758 47.7812 51.8758 48.1717 51.4853L55.2428 44.4142C55.6333 44.0237 55.6333 43.3906 55.2428 43Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M56 50.5C56 51.3284 55.3284 52 54.5 52C53.6716 52 53 51.3284 53 50.5C53 49.6716 53.6716 49 54.5 49C55.3284 49 56 49.6716 56 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M49 43.5C49 44.3284 48.3284 45 47.5 45C46.6716 45 46 44.3284 46 43.5C46 42.6716 46.6716 42 47.5 42C48.3284 42 49 42.6716 49 43.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M88.2428 43C87.8522 42.6095 87.2191 42.6095 86.8285 43L79.7575 50.0711C79.367 50.4616 79.367 51.0948 79.7575 51.4853C80.148 51.8758 80.7812 51.8758 81.1717 51.4853L88.2428 44.4142C88.6333 44.0237 88.6333 43.3906 88.2428 43Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M89 50.5C89 51.3284 88.3284 52 87.5 52C86.6716 52 86 51.3284 86 50.5C86 49.6716 86.6716 49 87.5 49C88.3284 49 89 49.6716 89 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M82 43.5C82 44.3284 81.3284 45 80.5 45C79.6716 45 79 44.3284 79 43.5C79 42.6716 79.6716 42 80.5 42C81.3284 42 82 42.6716 82 43.5Z",
+        fill: "#868AA5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/timeline.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "TimelineIcon",
+    ()=>TimelineIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const TimelineIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 18.5A1.5 1.5 0 0 1 9.5 17h23a1.5 1.5 0 0 1 0 3h-23A1.5 1.5 0 0 1 8 18.5m0 5A1.5 1.5 0 0 1 9.5 22h20a1.5 1.5 0 0 1 0 3h-20A1.5 1.5 0 0 1 8 23.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 32a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 18.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 32a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H75a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 72.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5m0 5a1.5 1.5 0 0 1 1.5-1.5h20a1.5 1.5 0 0 1 0 3h-20a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 86a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1m0 8a1 1 0 0 1 1-1h24a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1m0-4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H42a1 1 0 0 1-1-1M8 56a1 1 0 0 1 1-1h95a1 1 0 0 1 0 2H9a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#e7f0ff",
+        d: "M16 51h10v10H16z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M20.707 58.191v-3.09h-.008l-.219.13c-.257.152-.382.199-.539.199a.525.525 0 0 1-.546-.547c0-.239.14-.446.414-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.977v3.585c0 .559-.289.868-.809.868-.523 0-.816-.313-.816-.868",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#e7f0ff",
+        d: "M49 51h10v10H49z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M52.027 58.356c0-.29.168-.547.649-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.917-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629H52.75c-.43 0-.723-.262-.723-.645",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#e7f0ff",
+        d: "M82 51h10v10H82z"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M84.938 57.832c0-.363.253-.625.605-.625.219 0 .414.102.633.328.258.27.511.39.8.39.415 0 .688-.206.688-.519 0-.312-.273-.523-.687-.523h-.215c-.325 0-.555-.25-.555-.602 0-.332.23-.593.555-.593h.215c.34 0 .59-.196.59-.461 0-.266-.247-.457-.59-.457-.266 0-.485.105-.77.374a.86.86 0 0 1-.605.247c-.371 0-.645-.25-.645-.59 0-.664.934-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.957 1.098v.11c.632.034 1.094.558 1.094 1.242 0 .956-.934 1.636-2.247 1.636-1.132 0-2.046-.574-2.046-1.285",
+        fill: "#868aa5"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/top-circle.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "TopCircleIcon",
+    ()=>TopCircleIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const TopCircleIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "18",
+        y: "36",
+        width: "10",
+        height: "10",
+        rx: "5",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "10",
+        y: "40",
+        width: "26",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M22.3125 42.5625V39.4727H22.3047L22.0859 39.6016C21.8281 39.7539 21.7031 39.8008 21.5469 39.8008C21.2266 39.8008 21 39.5742 21 39.2539C21 39.0156 21.1406 38.8086 21.4141 38.6445L21.9648 38.3125C22.3008 38.1094 22.6602 38 22.9844 38C23.5625 38 23.9375 38.3828 23.9375 38.9766V42.5625C23.9375 43.1211 23.6484 43.4297 23.1289 43.4297C22.6055 43.4297 22.3125 43.1172 22.3125 42.5625Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 53.5C10 52.6716 10.6716 52 11.5 52L34.5 52C35.3284 52 36 52.6716 36 53.5C36 54.3284 35.3284 55 34.5 55H11.5C10.6716 55 10 54.3284 10 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 58.5C10 57.6716 10.6716 57 11.5 57H31.5C32.3284 57 33 57.6716 33 58.5C33 59.3284 32.3284 60 31.5 60H11.5C10.6716 60 10 59.3284 10 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 67C10 66.4477 10.4477 66 11 66L35 66C35.5523 66 36 66.4477 36 67C36 67.5523 35.5523 68 35 68H11C10.4477 68 10 67.5523 10 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 75C10 74.4477 10.4477 74 11 74H35C35.5523 74 36 74.4477 36 75C36 75.5523 35.5523 76 35 76H11C10.4477 76 10 75.5523 10 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M10 71C10 70.4477 10.4477 70 11 70H32C32.5523 70 33 70.4477 33 71C33 71.5523 32.5523 72 32 72H11C10.4477 72 10 71.5523 10 71Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "51",
+        y: "36",
+        width: "10",
+        height: "10",
+        rx: "5",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "43",
+        y: "40",
+        width: "26",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M54.0078 42.7773C54.0078 42.4883 54.1758 42.2305 54.6562 41.7812L55.8516 40.6562C56.2578 40.2734 56.4375 40.0234 56.4375 39.7656C56.4375 39.4766 56.2266 39.2812 55.9219 39.2812C55.6875 39.2812 55.5195 39.375 55.3125 39.6328C55.0742 39.9297 54.9023 40.0312 54.6406 40.0312C54.2656 40.0312 54 39.7812 54 39.4336C54 38.6719 54.918 38 56.0078 38C57.1445 38 57.9922 38.6836 57.9922 39.6016C57.9922 40.1758 57.6875 40.7227 57.0664 41.2734L56.1445 42.0938V42.1562H57.4531C57.9062 42.1562 58.1875 42.3984 58.1875 42.793C58.1875 43.1875 57.9141 43.4219 57.4531 43.4219H54.7305C54.3008 43.4219 54.0078 43.1602 54.0078 42.7773Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 53.5C43 52.6716 43.6716 52 44.5 52L67.5 52C68.3284 52 69 52.6716 69 53.5C69 54.3284 68.3284 55 67.5 55H44.5C43.6716 55 43 54.3284 43 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 58.5C43 57.6716 43.6716 57 44.5 57H64.5C65.3284 57 66 57.6716 66 58.5C66 59.3284 65.3284 60 64.5 60H44.5C43.6716 60 43 59.3284 43 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 67C43 66.4477 43.4477 66 44 66L68 66C68.5523 66 69 66.4477 69 67C69 67.5523 68.5523 68 68 68H44C43.4477 68 43 67.5523 43 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 75C43 74.4477 43.4477 74 44 74H68C68.5523 74 69 74.4477 69 75C69 75.5523 68.5523 76 68 76H44C43.4477 76 43 75.5523 43 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M43 71C43 70.4477 43.4477 70 44 70H65C65.5523 70 66 70.4477 66 71C66 71.5523 65.5523 72 65 72H44C43.4477 72 43 71.5523 43 71Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "84",
+        y: "36",
+        width: "10",
+        height: "10",
+        rx: "5",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("rect", {
+        x: "76",
+        y: "40",
+        width: "26",
+        height: "2",
+        rx: "1",
+        fill: "#E7F0FF"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M87 42.2539C87 41.8906 87.2539 41.6289 87.6055 41.6289C87.8242 41.6289 88.0195 41.7305 88.2383 41.957C88.4961 42.2266 88.75 42.3477 89.0391 42.3477C89.4531 42.3477 89.7266 42.1406 89.7266 41.8281C89.7266 41.5156 89.4531 41.3047 89.0391 41.3047H88.8242C88.5 41.3047 88.2695 41.0547 88.2695 40.7031C88.2695 40.3711 88.5 40.1094 88.8242 40.1094H89.0391C89.3789 40.1094 89.6289 39.9141 89.6289 39.6484C89.6289 39.3828 89.3828 39.1914 89.0391 39.1914C88.7734 39.1914 88.5547 39.2969 88.2695 39.5664C88.0938 39.7305 87.8945 39.8125 87.6641 39.8125C87.293 39.8125 87.0195 39.5625 87.0195 39.2227C87.0195 38.5586 87.9531 38 89.0625 38C90.3008 38 91.1562 38.5938 91.1562 39.4531C91.1562 40.0156 90.7344 40.5 90.1992 40.5508V40.6602C90.832 40.6953 91.293 41.2188 91.293 41.9023C91.293 42.8594 90.3594 43.5391 89.0469 43.5391C87.9141 43.5391 87 42.9648 87 42.2539Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 53.5C76 52.6716 76.6716 52 77.5 52L100.5 52C101.328 52 102 52.6716 102 53.5C102 54.3284 101.328 55 100.5 55H77.5C76.6716 55 76 54.3284 76 53.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 58.5C76 57.6716 76.6716 57 77.5 57H97.5C98.3284 57 99 57.6716 99 58.5C99 59.3284 98.3284 60 97.5 60H77.5C76.6716 60 76 59.3284 76 58.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 67C76 66.4477 76.4477 66 77 66L101 66C101.552 66 102 66.4477 102 67C102 67.5523 101.552 68 101 68H77C76.4477 68 76 67.5523 76 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 75C76 74.4477 76.4477 74 77 74H101C101.552 74 102 74.4477 102 75C102 75.5523 101.552 76 101 76H77C76.4477 76 76 75.5523 76 75Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 71C76 70.4477 76.4477 70 77 70H98C98.5523 70 99 70.4477 99 71C99 71.5523 98.5523 72 98 72H77C76.4477 72 76 71.5523 76 71Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/top-line.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "TopLineIcon",
+    ()=>TopLineIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const TopLineIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-1-inside-1_10408_18154",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 36H38V76H8V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M8 36V38H38V36V34H8V36Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-1-inside-1_10408_18154)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 45.5C13 44.6716 13.6716 44 14.5 44H31.5C32.3284 44 33 44.6716 33 45.5C33 46.3284 32.3284 47 31.5 47H14.5C13.6716 47 13 46.3284 13 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 50.5C13 49.6716 13.6716 49 14.5 49H28.5C29.3284 49 30 49.6716 30 50.5C30 51.3284 29.3284 52 28.5 52H14.5C13.6716 52 13 51.3284 13 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 59C13 58.4477 13.4477 58 14 58H32C32.5523 58 33 58.4477 33 59C33 59.5523 32.5523 60 32 60H14C13.4477 60 13 59.5523 13 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 67C13 66.4477 13.4477 66 14 66H32C32.5523 66 33 66.4477 33 67C33 67.5523 32.5523 68 32 68H14C13.4477 68 13 67.5523 13 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M13 63C13 62.4477 13.4477 62 14 62H29C29.5523 62 30 62.4477 30 63C30 63.5523 29.5523 64 29 64H14C13.4477 64 13 63.5523 13 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-5-inside-2_10408_18154",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 36H71V76H41V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M41 36V38H71V36V34H41V36Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-5-inside-2_10408_18154)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("mask", {
+        id: "path-7-inside-3_10408_18154",
+        fill: "white"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 36H104V76H74V36Z"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M74 36V38H104V36V34H74V36Z",
+        fill: "#D6E6FE",
+        mask: "url(#path-7-inside-3_10408_18154)"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 45.5C46 44.6716 46.6716 44 47.5 44H64.5C65.3284 44 66 44.6716 66 45.5C66 46.3284 65.3284 47 64.5 47H47.5C46.6716 47 46 46.3284 46 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 50.5C46 49.6716 46.6716 49 47.5 49H61.5C62.3284 49 63 49.6716 63 50.5C63 51.3284 62.3284 52 61.5 52H47.5C46.6716 52 46 51.3284 46 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 45.5C79 44.6716 79.6716 44 80.5 44H97.5C98.3284 44 99 44.6716 99 45.5C99 46.3284 98.3284 47 97.5 47H80.5C79.6716 47 79 46.3284 79 45.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 50.5C79 49.6716 79.6716 49 80.5 49H94.5C95.3284 49 96 49.6716 96 50.5C96 51.3284 95.3284 52 94.5 52H80.5C79.6716 52 79 51.3284 79 50.5Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 59C46 58.4477 46.4477 58 47 58H65C65.5523 58 66 58.4477 66 59C66 59.5523 65.5523 60 65 60H47C46.4477 60 46 59.5523 46 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 67C46 66.4477 46.4477 66 47 66H65C65.5523 66 66 66.4477 66 67C66 67.5523 65.5523 68 65 68H47C46.4477 68 46 67.5523 46 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M46 63C46 62.4477 46.4477 62 47 62H62C62.5523 62 63 62.4477 63 63C63 63.5523 62.5523 64 62 64H47C46.4477 64 46 63.5523 46 63Z",
+        fill: "#868AA5"
+    })), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("g", {
+        opacity: "0.5"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 59C79 58.4477 79.4477 58 80 58H98C98.5523 58 99 58.4477 99 59C99 59.5523 98.5523 60 98 60H80C79.4477 60 79 59.5523 79 59Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 67C79 66.4477 79.4477 66 80 66H98C98.5523 66 99 66.4477 99 67C99 67.5523 98.5523 68 98 68H80C79.4477 68 79 67.5523 79 67Z",
+        fill: "#868AA5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M79 63C79 62.4477 79.4477 62 80 62H95C95.5523 62 96 62.4477 96 63C96 63.5523 95.5523 64 95 64H80C79.4477 64 79 63.5523 79 63Z",
+        fill: "#868AA5"
+    })));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/vertical-funnel.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "VerticalFunnelIcon",
+    ()=>VerticalFunnelIcon
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+const VerticalFunnelIcon = ()=>/* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("svg", {
+        width: "117",
+        height: "120",
+        viewBox: "0 0 112 112",
+        fill: "none",
+        xmlns: "http://www.w3.org/2000/svg"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 29.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 36a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 49.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 56a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 69.5a1.5 1.5 0 0 1 1.5-1.5h23a1.5 1.5 0 0 1 0 3h-23a1.5 1.5 0 0 1-1.5-1.5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M76 76a1 1 0 0 1 1-1h24a1 1 0 0 1 0 2H77a1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1h21a1 1 0 1 1 0 2H77a1 1 0 0 1-1-1",
+        opacity: ".5",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M38.09 85.99c.354.783 1.466.783 1.82 0l27.45-60.577A1 1 0 0 0 66.449 24H11.551a1 1 0 0 0-.91 1.413z",
+        fill: "#e7f0ff"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        d: "M38.707 35.191v-3.09h-.008l-.218.13c-.258.152-.383.199-.54.199a.525.525 0 0 1-.547-.547c0-.238.141-.445.415-.61l.55-.332c.336-.203.696-.312 1.02-.312.578 0 .953.383.953.976v3.586c0 .559-.289.868-.809.868-.523 0-.816-.313-.816-.868m-1.68 20.165c0-.29.168-.547.649-.997l1.195-1.125c.406-.382.586-.632.586-.89 0-.29-.21-.485-.516-.485-.234 0-.402.094-.609.352-.238.297-.41.398-.672.398-.375 0-.64-.25-.64-.597 0-.762.917-1.434 2.007-1.434 1.137 0 1.985.684 1.985 1.602 0 .574-.305 1.12-.926 1.672l-.922.82v.062h1.309c.453 0 .734.243.734.637 0 .395-.273.629-.734.629H37.75c-.43 0-.723-.262-.723-.645m-.089 19.477c0-.363.253-.625.605-.625.219 0 .414.102.633.328.258.27.511.39.8.39.415 0 .688-.206.688-.519 0-.312-.273-.523-.687-.523h-.215c-.325 0-.555-.25-.555-.602 0-.332.23-.594.555-.594h.215c.34 0 .59-.195.59-.46 0-.266-.247-.458-.59-.458-.266 0-.485.106-.77.375a.86.86 0 0 1-.605.247c-.371 0-.645-.25-.645-.59 0-.664.934-1.223 2.043-1.223 1.238 0 2.094.594 2.094 1.453 0 .563-.422 1.047-.957 1.098v.11c.633.034 1.093.558 1.093 1.242 0 .957-.933 1.636-2.246 1.636-1.132 0-2.047-.574-2.047-1.285",
+        fill: "#868aa5"
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("path", {
+        fill: "#fff",
+        d: "M10 42h58v2H10zm0 20h58v2H10z"
+    }));
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/variant-picker-scss.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>variant_picker_default,
+    "injectCss",
+    ()=>injectCss
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var styleDataHash = "dd8d0230";
+const injectCss = ()=>{
+    var css = `.nCmTV{column-gap:6px;display:grid;grid-template-columns:1fr 1fr;row-gap:16px}.ypGtA{cursor:pointer;flex-shrink:0;position:relative}.fSpE6 [data-hook=thumbnail-wrapper]{padding:5px!important}.E2YYU{align-items:center;background-color:var(--rt-design-background-color,var(--rt-design-background-image-bg-color,var(--ricos-background-color,#fff)));display:flex;height:100%;justify-content:center;padding:5px;position:relative;width:100%}.E2YYU,.GfCzu{overflow:hidden}.GfCzu{left:0;pointer-events:none;position:absolute;top:0;transform-origin:top left}.Af-wi{background-color:var(--rt-design-background-color,var(--rt-design-background-image-bg-color,var(--ricos-background-color,#fffffa)))}.t71wY [data-hook=variant-accordion]{overflow-y:auto}`;
+    var isTest = typeof __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] !== "undefined" && __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env && false;
+    if (isTest || !css || typeof document === "undefined") {
+        return;
+    }
+    if (document.querySelector('style[data-ricos-style-hash="' + styleDataHash + '"]')) {
+        return;
+    }
+    var head = document.head || document.getElementsByTagName("head")[0];
+    var style = document.createElement("style");
+    style.setAttribute("data-ricos-style-hash", styleDataHash);
+    style.type = "text/css";
+    head.appendChild(style);
+    if (style.styleSheet) {
+        style.styleSheet.cssText = css;
+    } else {
+        style.appendChild(document.createTextNode(css));
+    }
+};
+injectCss();
+var variant_picker_default = {
+    "variantContainer": "nCmTV",
+    "thumbnailItem": "ypGtA",
+    "thumbnail": "fSpE6",
+    "thumbnailContent": "E2YYU",
+    "viewerContainer": "GfCzu",
+    "viewerWrapper": "Af-wi",
+    "variantsBox": "t71wY"
+};
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/variant-picker.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "SMART_BLOCK_VARIANT_PICKER_MODAL_ID",
+    ()=>SMART_BLOCK_VARIANT_PICKER_MODAL_ID,
+    "VariantPicker",
+    ()=>VariantPicker
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Accordion$2f$Accordion$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Accordion/Accordion.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Box/Box.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Divider/Divider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Search$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Search/Search.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Text$2f$Text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Text/Text.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Thumbnail$2f$Thumbnail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Thumbnail/Thumbnail.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$pm$2d$converters$2f$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/pm-converters/context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$editor$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/editor-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/ricos-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$modals$2f$modal$2d$service$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-modals/modal-service-provider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/pm-node-types.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2f$panel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/panel/panel.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2d$header$2f$panel$2d$header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/panel-header/panel-header.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2d$editor$2f$helpers$2f$find$2d$node$2d$by$2d$id$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/tiptap-editor/helpers/find-node-by-id.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$consts$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/consts.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/data-hooks.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$templates$2f$create$2d$boxes$2d$template$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/templates/create-boxes-template.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/utils/variant-features.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$alternating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/alternating.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$arrow$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/arrow-bullets.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$bar$2d$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/bar-stats.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$big$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/big-bullets.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$circle$2d$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/circle-stats.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/circle.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$joined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/joined.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$minimal$2d$timeline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/minimal-timeline.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$numbered$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/numbered.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$pills$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/pills.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$process$2d$steps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/process-steps.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$pyramid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/pyramid.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$quote$2d$boxes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/quote-boxes.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$side$2d$line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/side-line.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$small$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/small-bullets.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$solid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/solid.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$staircase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/staircase.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$star$2d$rating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/star-rating.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/stats.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$timeline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/timeline.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$top$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/top-circle.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$top$2d$line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/top-line.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$vertical$2d$funnel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/icons/vertical-funnel.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$variant$2d$picker$2d$scss$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/variant-picker-scss.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const SMART_BLOCK_VARIANT_PICKER_MODAL_ID = "smart-block-insert-modal";
+const VARIANT_SECTIONS = [
+    {
+        title: "SmartBlock_VariantSection_Boxes",
+        variants: [
+            {
+                id: "SOLID_BOXES",
+                label: "SmartBlock_Variant_Solid",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$solid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SolidIcon"]
+            },
+            {
+                id: "SOLID_JOINED_BOXES",
+                label: "SmartBlock_Variant_Joined",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$joined$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["JoinedIcon"]
+            },
+            {
+                id: "NUMBERED_BOXES",
+                label: "SmartBlock_Variant_Numbered",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$numbered$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NumberedIcon"]
+            },
+            {
+                id: "SOLID_BOXES_ALTERNATING",
+                label: "SmartBlock_Variant_Alternating",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$alternating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AlternatingIcon"]
+            },
+            {
+                id: "QUOTE_BOXES",
+                label: "SmartBlock_Variant_QuoteBoxes",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$quote$2d$boxes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["QuoteBoxesIcon"]
+            }
+        ]
+    },
+    {
+        title: "SmartBlock_VariantSection_Lines",
+        variants: [
+            {
+                id: "SIDE_LINE_TEXT",
+                label: "SmartBlock_Variant_SideLine",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$side$2d$line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SideLineIcon"]
+            },
+            {
+                id: "TOP_LINE_TEXT",
+                label: "SmartBlock_Variant_TopLine",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$top$2d$line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TopLineIcon"]
+            },
+            {
+                id: "PROCESS_STEPS",
+                label: "SmartBlock_Variant_ProcessSteps",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$process$2d$steps$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ProcessStepsIcon"]
+            },
+            {
+                id: "OUTLINE_BOXES_WITH_TOP_CIRCLE",
+                label: "SmartBlock_Variant_TopCircle",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$top$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TopCircleIcon"]
+            }
+        ]
+    },
+    {
+        title: "SmartBlock_VariantSection_Bullets",
+        variants: [
+            {
+                id: "SMALL_BULLETS",
+                label: "SmartBlock_Variant_SmallBullets",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$small$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SmallBulletsIcon"]
+            },
+            {
+                id: "BIG_BULLETS",
+                label: "SmartBlock_Variant_BigBullets",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$big$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BigBulletsIcon"]
+            },
+            {
+                id: "ARROW_BULLETS",
+                label: "SmartBlock_Variant_ArrowBullets",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$arrow$2d$bullets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ArrowBulletsIcon"]
+            }
+        ]
+    },
+    {
+        title: "SmartBlock_VariantSection_Stats",
+        variants: [
+            {
+                id: "STATS",
+                label: "SmartBlock_Variant_Stats",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["StatsIcon"]
+            },
+            {
+                id: "BAR_STATS",
+                label: "SmartBlock_Variant_BarStats",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$bar$2d$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BarStatsIcon"]
+            },
+            {
+                id: "CIRCLE_STATS",
+                label: "SmartBlock_Variant_CircleStats",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$circle$2d$stats$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CircleStatsIcon"]
+            },
+            {
+                id: "STAR_RATING",
+                label: "SmartBlock_Variant_StarRating",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$star$2d$rating$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["StarRatingIcon"]
+            }
+        ]
+    },
+    {
+        title: "SmartBlock_VariantSection_Sequence",
+        variants: [
+            {
+                id: "TIMELINE",
+                label: "SmartBlock_Variant_Timeline",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$timeline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TimelineIcon"]
+            },
+            {
+                id: "MINIMAL_TIMELINE",
+                label: "SmartBlock_Variant_MinimalTimeline",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$minimal$2d$timeline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MinimalTimelineIcon"]
+            },
+            {
+                id: "PILLS",
+                label: "SmartBlock_Variant_Pills",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$pills$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PillsIcon"]
+            }
+        ]
+    },
+    {
+        title: "SmartBlock_VariantSection_Steps",
+        variants: [
+            {
+                id: "PYRAMID",
+                label: "SmartBlock_Variant_Pyramid",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$pyramid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PyramidIcon"]
+            },
+            {
+                id: "VERTICAL_FUNNEL",
+                label: "SmartBlock_Variant_VerticalFunnel",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$vertical$2d$funnel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["VerticalFunnelIcon"]
+            },
+            {
+                id: "STAIRCASE",
+                label: "SmartBlock_Variant_Staircase",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$staircase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["StaircaseIcon"]
+            },
+            {
+                id: "CIRCLE",
+                label: "SmartBlock_Variant_Circle",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$icons$2f$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CircleIcon"]
+            }
+        ]
+    }
+];
+const VariantPicker = ({ onSelect, currentType, nodeId })=>{
+    const { t, isMobile } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RicosContext"]);
+    const { adapter } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$editor$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorContext"]);
+    const modals = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$modals$2f$modal$2d$service$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useModalService"])();
+    const converters = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$pm$2d$converters$2f$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useConverters"])();
+    const [searchValue, setSearchValue] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const enterTimerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const leaveTimerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const previewingRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    const originalTypeRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(currentType);
+    const selectedRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const onSelectRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(onSelect);
+    onSelectRef.current = onSelect;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "VariantPicker.useEffect": ()=>{
+            selectedRef.current?.scrollIntoView({
+                block: "center"
+            });
+        }
+    }["VariantPicker.useEffect"], []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "VariantPicker.useEffect": ()=>({
+                "VariantPicker.useEffect": ()=>{
+                    if (enterTimerRef.current) {
+                        clearTimeout(enterTimerRef.current);
+                    }
+                    if (leaveTimerRef.current) {
+                        clearTimeout(leaveTimerRef.current);
+                    }
+                    if (previewingRef.current && originalTypeRef.current && onSelectRef.current) {
+                        onSelectRef.current(originalTypeRef.current, true);
+                        previewingRef.current = false;
+                    }
+                }
+            })["VariantPicker.useEffect"]
+    }["VariantPicker.useEffect"], []);
+    const closeModal = ()=>modals?.closeModal(SMART_BLOCK_VARIANT_PICKER_MODAL_ID);
+    const handleHoverEnter = (type)=>{
+        if (!onSelect) {
+            return;
+        }
+        if (leaveTimerRef.current) {
+            clearTimeout(leaveTimerRef.current);
+            leaveTimerRef.current = null;
+        }
+        if (enterTimerRef.current) {
+            clearTimeout(enterTimerRef.current);
+        }
+        enterTimerRef.current = setTimeout(()=>{
+            enterTimerRef.current = null;
+            previewingRef.current = true;
+            onSelect(type, true);
+        }, 300);
+    };
+    const handleHoverLeave = ()=>{
+        if (enterTimerRef.current) {
+            clearTimeout(enterTimerRef.current);
+            enterTimerRef.current = null;
+        }
+        if (previewingRef.current && originalTypeRef.current && onSelect) {
+            leaveTimerRef.current = setTimeout(()=>{
+                leaveTimerRef.current = null;
+                previewingRef.current = false;
+                onSelect(originalTypeRef.current, true);
+            }, 300);
+        }
+    };
+    const translatedSections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "VariantPicker.useMemo[translatedSections]": ()=>VARIANT_SECTIONS.map({
+                "VariantPicker.useMemo[translatedSections]": (s)=>({
+                        ...s,
+                        title: t(s.title),
+                        variants: s.variants.map({
+                            "VariantPicker.useMemo[translatedSections]": (v)=>({
+                                    ...v,
+                                    label: t(v.label)
+                                })
+                        }["VariantPicker.useMemo[translatedSections]"])
+                    })
+            }["VariantPicker.useMemo[translatedSections]"])
+    }["VariantPicker.useMemo[translatedSections]"], [
+        t
+    ]);
+    const allTranslatedVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "VariantPicker.useMemo[allTranslatedVariants]": ()=>translatedSections.flatMap({
+                "VariantPicker.useMemo[allTranslatedVariants]": (s)=>s.variants
+            }["VariantPicker.useMemo[allTranslatedVariants]"])
+    }["VariantPicker.useMemo[allTranslatedVariants]"], [
+        translatedSections
+    ]);
+    const previewMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "VariantPicker.useMemo[previewMap]": ()=>{
+            let baseNodeJson;
+            if (nodeId) {
+                const tr = adapter.tiptapEditor.view.state.tr;
+                const nodeWithPos = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2d$editor$2f$helpers$2f$find$2d$node$2d$by$2d$id$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findNodeById"])(tr, nodeId)?.[0];
+                baseNodeJson = nodeWithPos?.node.toJSON();
+            }
+            return new Map(allTranslatedVariants.map({
+                "VariantPicker.useMemo[previewMap]": ({ id, label, icon })=>[
+                        id,
+                        {
+                            id,
+                            label,
+                            icon,
+                            content: baseNodeJson ? converters.fromPm({
+                                content: [
+                                    applyTypeToNode(baseNodeJson, id)
+                                ]
+                            }) : (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$templates$2f$create$2d$boxes$2d$template$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createSmartBlockTemplate"])(id, t)
+                        }
+                    ]
+            }["VariantPicker.useMemo[previewMap]"]));
+        }
+    }["VariantPicker.useMemo[previewMap]"], [
+        nodeId,
+        t,
+        adapter,
+        converters,
+        allTranslatedVariants
+    ]);
+    const filteredVariants = searchValue ? allTranslatedVariants.filter((v)=>v.label.toLowerCase().includes(searchValue.toLowerCase())) : [];
+    const handleSelect = (type)=>{
+        if (enterTimerRef.current) {
+            clearTimeout(enterTimerRef.current);
+            enterTimerRef.current = null;
+        }
+        if (leaveTimerRef.current) {
+            clearTimeout(leaveTimerRef.current);
+            leaveTimerRef.current = null;
+        }
+        previewingRef.current = false;
+        if (onSelect) {
+            onSelect(type);
+        } else {
+            const content = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$templates$2f$create$2d$boxes$2d$template$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createSmartBlockTemplate"])(type, t);
+            adapter.tiptapEditor.commands.insertSmartBlockPreset(content);
+        }
+        closeModal();
+    };
+    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2f$panel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Panel"], {
+        dataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].INSERT_MODAL,
+        closeButtonProps: {
+            onClick: closeModal
+        },
+        maxHeight: isMobile ? void 0 : 576
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2d$header$2f$panel$2d$header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PanelHeader"], {
+        title: t("SmartBlock_Panel_Title")
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Box"], {
+        paddingLeft: "SP4",
+        paddingRight: "SP4",
+        paddingBottom: "SP3",
+        paddingTop: "SP3"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Search$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Search"], {
+        value: searchValue,
+        onChange: (e)=>setSearchValue(e.target.value),
+        onClear: ()=>setSearchValue(""),
+        placeholder: t("SmartBlock_VariantPicker_SearchPlaceholder"),
+        size: "small"
+    })), !searchValue && /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Divider"], null), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Box"], {
+        overflowY: "auto",
+        direction: "vertical",
+        paddingBottom: "SP4",
+        style: {
+            flex: 1,
+            minHeight: 0
+        },
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$variant$2d$picker$2d$scss$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].variantsBox
+    }, searchValue ? /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Box"], {
+        paddingLeft: "SP4",
+        paddingRight: "SP4",
+        paddingTop: "SP1"
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$variant$2d$picker$2d$scss$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].variantContainer
+    }, filteredVariants.map((v)=>{
+        const variant = previewMap.get(v.id);
+        return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("div", {
+            key: variant.id,
+            ref: variant.id === currentType ? selectedRef : void 0,
+            onMouseOver: ()=>handleHoverEnter(variant.id),
+            onMouseLeave: handleHoverLeave
+        }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(LayoutThumbnail, {
+            image: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(variant.icon, null),
+            title: t(variant.label),
+            selected: variant.id === currentType,
+            onClick: ()=>handleSelect(variant.id)
+        }));
+    }))) : /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Accordion$2f$Accordion$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Accordion"], {
+        hideShadow: true,
+        skin: "light",
+        size: "medium",
+        multiple: true,
+        dataHook: "variant-accordion",
+        items: translatedSections.map((section)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Accordion$2f$Accordion$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["accordionItemBuilder"])({
+                initiallyOpen: true,
+                title: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Text$2f$Text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Text"], {
+                    size: "small",
+                    weight: "bold"
+                }, section.title),
+                children: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$variant$2d$picker$2d$scss$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].variantContainer
+                }, section.variants.map((v)=>{
+                    const variant = previewMap.get(v.id);
+                    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("div", {
+                        key: variant.id,
+                        ref: variant.id === currentType ? selectedRef : void 0,
+                        onMouseOver: ()=>handleHoverEnter(variant.id),
+                        onMouseLeave: handleHoverLeave
+                    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(LayoutThumbnail, {
+                        image: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(variant.icon, null),
+                        title: t(variant.label),
+                        selected: variant.id === currentType,
+                        onClick: ()=>handleSelect(variant.id)
+                    }));
+                }))
+            }))
+    })));
+};
+const LayoutThumbnail = (props)=>{
+    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Thumbnail$2f$Thumbnail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Thumbnail"], {
+        height: 120,
+        width: 117,
+        size: "tiny",
+        contentAlignment: "center",
+        textPosition: "outside",
+        ...props
+    });
+};
+const applyTypeToNode = (pmJson, type)=>{
+    const oldType = pmJson.attrs?.type;
+    const result = {
+        ...pmJson,
+        attrs: {
+            ...pmJson.attrs,
+            type
+        }
+    };
+    if (result.content) {
+        result.content = result.content.map((cell)=>{
+            if (cell.type !== __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK_CELL) {
+                return cell;
+            }
+            const newColorAttr = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCellColorAttr"])(type);
+            const newAttrs = {
+                ...cell.attrs,
+                type
+            };
+            if (oldType) {
+                const oldColorAttr = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCellColorAttr"])(oldType);
+                if (oldColorAttr !== newColorAttr) {
+                    newAttrs[newColorAttr] = cell.attrs?.[oldColorAttr];
+                    newAttrs[oldColorAttr] = null;
+                }
+            }
+            const isStatVariant = type === "CIRCLE_STATS" || type === "BAR_STATS" || type === "STATS";
+            if (isStatVariant && !cell.attrs?.label) {
+                newAttrs.label = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$consts$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DEFAULT_LABEL"];
+            } else if (type === "STAR_RATING" && !cell.attrs?.label) {
+                newAttrs.label = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$consts$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DEFAULT_STAR_RATING_LABEL"];
+            }
+            return {
+                ...cell,
+                attrs: newAttrs
+            };
+        });
+    }
+    return result;
+};
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/color-picker.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "ColorPicker",
+    ()=>ColorPicker
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$modal$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/modal-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/ricos-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$styles$2f$themeStrategy$2f$generators$2f$palette$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-styles/themeStrategy/generators/palette.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$bi$2d$context$2d$provider$2f$bi$2d$context$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/bi-context-provider/bi-context-provider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$color$2d$manager$2d$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/color-manager-utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$colors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/colors.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/pm-node-types.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$use$2d$node$2d$attrs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/use-node-attrs.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$color$2d$picker$2f$new$2d$color$2d$picker$2f$new$2d$color$2d$picker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/color-picker/new-color-picker/new-color-picker.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/utils/variant-features.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const ColorPicker = ({ modalId, nodeId, colorAttr, variant, referenceElement, onColorSelected, onColorPreview, onColorPreviewEnd })=>{
+    const modalService = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$modal$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ModalServiceContext"]);
+    const { t, colorManager, theme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RicosContext"]);
+    const themeColors = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "ColorPicker.useMemo[themeColors]": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$color$2d$manager$2d$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveThemeColorsPalette"])(theme)
+    }["ColorPicker.useMemo[themeColors]"], [
+        theme
+    ]);
+    const customColors = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$color$2d$manager$2d$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResolvedCustomColors"])(colorManager);
+    const { pmNodeAttrs: cellNodeAttrs } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$use$2d$node$2d$attrs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useNodeAttrs"])(nodeId, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK_CELL);
+    const { pmNodeAttrs: blockNodeAttrs } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$use$2d$node$2d$attrs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useNodeAttrs"])(nodeId, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK);
+    const themeSmartBlock = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "ColorPicker.useMemo[themeSmartBlock]": ()=>theme?.customStyles?.smartBlock ?? (theme?.colorPalette ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$styles$2f$themeStrategy$2f$generators$2f$palette$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mapColorPaletteToCustomStyles"])(theme.colorPalette).smartBlock : void 0)
+    }["ColorPicker.useMemo[themeSmartBlock]"], [
+        theme?.customStyles?.smartBlock,
+        theme?.colorPalette
+    ]);
+    const liveColor = cellNodeAttrs?.[colorAttr] ?? (colorAttr === "borderColor" ? blockNodeAttrs?.borderColor : void 0);
+    const themeDefault = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "ColorPicker.useMemo[themeDefault]": ()=>{
+            if (!themeSmartBlock) {
+                return void 0;
+            }
+            if (colorAttr === "shapeColor") {
+                return themeSmartBlock.labelColor;
+            }
+            if (colorAttr === "borderColor") {
+                return themeSmartBlock.borderColor;
+            }
+            return variant ? themeSmartBlock[(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCellColorAttr"])(variant)] : void 0;
+        }
+    }["ColorPicker.useMemo[themeDefault]"], [
+        colorAttr,
+        variant,
+        themeSmartBlock
+    ]);
+    const resolvedColor = liveColor ?? themeDefault ?? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$colors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TRANSPARENT_HEX_COLOR"];
+    const logBi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$bi$2d$context$2d$provider$2f$bi$2d$context$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useBiNext"])({
+        modalId,
+        pluginId: "smartBlock",
+        nodeId
+    });
+    const onColorAdded = (color)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$color$2d$manager$2d$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["handleColorAdded"])(color, colorManager);
+        onColorSelected(color);
+    };
+    const onColorDeletedHandler = (color)=>{
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$color$2d$manager$2d$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["handleColorDeleted"])(color, colorManager);
+    };
+    const closeModal = ()=>modalService.closeModal(modalId);
+    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$color$2d$picker$2f$new$2d$color$2d$picker$2f$new$2d$color$2d$picker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NewColorPicker"], {
+        themeColors,
+        customColors,
+        currentColor: resolvedColor,
+        title: t("Layouts_ColourModal_Title"),
+        closeModal,
+        onColorSelected,
+        onColorPreview,
+        onColorPreviewEnd,
+        onColorAdded,
+        onColorDeleted: onColorDeletedHandler,
+        onResetColor: ()=>onColorSelected(void 0),
+        referenceElement,
+        allowTransparent: true,
+        logBi
+    });
+};
+;
+}),
+"[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/border-settings.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BorderSettings",
+    ()=>BorderSettings,
+    "SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID",
+    ()=>SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID,
+    "SMART_BLOCK_BORDER_SETTINGS_MODAL_ID",
+    ()=>SMART_BLOCK_BORDER_SETTINGS_MODAL_ID
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Input$2f$Input$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+design-system@1.315.0__9378fc8999335755aeb26db4d40a88a4/node_modules/@wix/design-system/dist/esm/Input/Input.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/next@16.2.6_@babel+core@7.2_08fb079d488a2f3c22f7836c5d8e9a02/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$editor$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/editor-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$modal$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/modal-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/ricos-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$z$2d$index$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ricos-context/z-index-context.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$bi$2d$context$2d$provider$2f$bi$2d$context$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/bi-context-provider/bi-context-provider.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$colors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/colors.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/pm-node-types.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$use$2d$node$2d$attrs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/_shared/use-node-attrs.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2f$core$2f$helpers$2f$find$2d$parent$2d$node$2d$closest$2d$to$2d$pos$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/tiptap/core/helpers/find-parent-node-closest-to-pos.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$color$2d$with$2d$opacity$2d$input$2f$color$2d$with$2d$opacity$2d$input$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/color-with-opacity-input/color-with-opacity-input.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$number$2d$input$2d$with$2d$label$2f$number$2d$input$2d$with$2d$label$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/number-input-with-label/number-input-with-label.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2f$panel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/panel/panel.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2d$header$2f$panel$2d$header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/ui-components/panel-header/panel-header.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2d$editor$2f$helpers$2f$find$2d$node$2d$by$2d$id$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/tiptap-editor/helpers/find-node-by-id.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/data-hooks.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$resolve$2d$theme$2d$smart$2d$block$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/utils/resolve-theme-smart-block.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/utils/variant-features.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$color$2d$picker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Github/ptsl-2026/node_modules/.pnpm/@wix+ricos@11.11.2_@babel+c_967d2a9d5f0144a013b2d9a49aefa898/node_modules/@wix/ricos/dist/es/plugin-smart-block/modals/color-picker.js [app-client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const SMART_BLOCK_BORDER_SETTINGS_MODAL_ID = "smart-block-border-settings-modal";
+const SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID = "smart-block-border-color-picker-modal";
+const BorderSettings = ({ nodeId })=>{
+    const { isMobile } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RicosContext"]);
+    const modalService = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$modal$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ModalServiceContext"]);
+    const { adapter } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$editor$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorContext"]);
+    const { borderColor, borderWidth, borderRadius, colorFills, colorPickerNodeId, applyDesign } = useBlockBorderSettings(nodeId);
+    const borderWidthRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(borderWidth);
+    const borderRadiusRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(borderRadius);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "BorderSettings.useEffect": ()=>{
+            borderWidthRef.current = borderWidth;
+        }
+    }["BorderSettings.useEffect"], [
+        borderWidth
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "BorderSettings.useEffect": ()=>{
+            borderRadiusRef.current = borderRadius;
+        }
+    }["BorderSettings.useEffect"], [
+        borderRadius
+    ]);
+    const logBi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$bi$2d$context$2d$provider$2f$bi$2d$context$2d$provider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useBiNext"])({
+        modalId: SMART_BLOCK_BORDER_SETTINGS_MODAL_ID,
+        pluginId: "smartBlock",
+        nodeId
+    });
+    const openColorPicker = (referenceElement)=>{
+        if (!colorPickerNodeId) {
+            return;
+        }
+        const closeSub = modalService.onModalClosed((modal)=>{
+            if (modal.id === SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID) {
+                adapter.tiptapEditor.commands.clearSmartBlockColorPreview();
+                closeSub.cancel();
+            }
+        });
+        modalService.togglePluginPanel({
+            id: SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID,
+            Component: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$modals$2f$color$2d$picker$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ColorPicker"],
+            componentProps: {
+                modalId: SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID,
+                nodeId: colorPickerNodeId,
+                colorAttr: "borderColor",
+                referenceElement,
+                // Preview during drag (no doc change → no undo entries); commit once on release.
+                onColorPreview: (color)=>{
+                    adapter.tiptapEditor.commands.setSmartBlockColorPreview({
+                        attr: "borderColor",
+                        color
+                    });
+                },
+                onColorPreviewEnd: ()=>{
+                    adapter.tiptapEditor.commands.clearSmartBlockColorPreview();
+                },
+                onColorSelected: (color)=>{
+                    adapter.tiptapEditor.commands.clearSmartBlockColorPreview();
+                    if (color === void 0) {
+                        applyDesign({
+                            borderColor: null
+                        });
+                        return;
+                    }
+                    applyDesign({
+                        borderColor: color,
+                        borderWidth: borderWidthRef.current === 0 ? 1 : borderWidthRef.current,
+                        borderRadius: borderRadiusRef.current
+                    });
+                }
+            },
+            isMobile,
+            positioning: {
+                referenceElement,
+                placement: "left"
+            },
+            onClickOutside: {
+                on: "pointerup",
+                handler: ()=>{}
+            },
+            focusReturnElement: referenceElement,
+            type: void 0
+        });
+    };
+    const closePanel = ()=>{
+        modalService.closeModal(SMART_BLOCK_BORDER_COLOR_PICKER_MODAL_ID);
+        modalService.closeModal(SMART_BLOCK_BORDER_SETTINGS_MODAL_ID);
+    };
+    const handleColorChangeCommit = (color)=>{
+        if (color === void 0) {
+            applyDesign({
+                borderColor: null
+            });
+            return;
+        }
+        applyDesign({
+            borderColor: color,
+            borderWidth: borderWidthRef.current === 0 ? 1 : borderWidthRef.current,
+            borderRadius: borderRadiusRef.current
+        });
+    };
+    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(BorderSettingsForm, {
+        borderColor,
+        borderWidth,
+        borderRadius,
+        colorFills,
+        logBi,
+        onColorChangeCommit: handleColorChangeCommit,
+        onColorPress: openColorPicker,
+        onWidthChange: (value)=>applyDesign({
+                borderWidth: value ?? 0
+            }),
+        onRadiusChange: (value)=>applyDesign({
+                borderRadius: value ?? 0
+            }),
+        onClose: closePanel
+    });
+};
+const BorderSettingsForm = ({ borderColor, borderWidth, borderRadius, colorFills, logBi, onColorChangeCommit, onColorPress, onWidthChange, onRadiusChange, onClose })=>{
+    const colorPickerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const zIndex = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$z$2d$index$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ZIndexContext"]).getZIndex("DIALOG");
+    const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RicosContext"]);
+    return /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2f$panel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Panel"], {
+        closeButtonProps: {
+            onClick: onClose
+        },
+        dataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].BLOCK_BORDER_SETTINGS
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$panel$2d$header$2f$panel$2d$header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PanelHeader"], {
+        title: t("SmartBlock_BorderSettings_Title")
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement("div", {
+        style: {
+            padding: "12px 20px",
+            display: "flex",
+            flexDirection: "column",
+            gap: "8px"
+        }
+    }, /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$color$2d$with$2d$opacity$2d$input$2f$color$2d$with$2d$opacity$2d$input$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ColorWithOpacityInput"], {
+        label: t("SmartBlock_BorderSettings_BorderColor"),
+        fill: colorFills && colorFills.length > 1 ? {
+            type: "multi-color",
+            colors: colorFills
+        } : {
+            type: "color",
+            color: borderColor,
+            onChangeCommit: onColorChangeCommit,
+            allowTransparent: true
+        },
+        onColorPress: ()=>onColorPress(colorPickerRef.current),
+        colorPickerRef,
+        inputDataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].CELL_DESIGN_BORDER_COLOR,
+        fillPreviewDataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].CELL_DESIGN_BORDER_COLOR_PICKER,
+        zIndex,
+        logBi
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$number$2d$input$2d$with$2d$label$2f$number$2d$input$2d$with$2d$label$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NumberInputWithLabel"], {
+        label: t("SmartBlock_BorderSettings_BorderWidth"),
+        dataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].CELL_DESIGN_BORDER_WIDTH,
+        suffix: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Input$2f$Input$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"].Affix, null, "px"),
+        value: borderWidth,
+        min: 0,
+        max: 15,
+        onChange: onWidthChange,
+        logBi,
+        zIndex
+    }), /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ui$2d$components$2f$number$2d$input$2d$with$2d$label$2f$number$2d$input$2d$with$2d$label$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["NumberInputWithLabel"], {
+        label: t("SmartBlock_BorderSettings_CornerRadius"),
+        dataHook: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$data$2d$hooks$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DATA_HOOKS"].CELL_DESIGN_BORDER_RADIUS,
+        suffix: /* @__PURE__ */ __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].createElement(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$design$2d$system$40$1$2e$315$2e$0_$5f$9378fc8999335755aeb26db4d40a88a4$2f$node_modules$2f40$wix$2f$design$2d$system$2f$dist$2f$esm$2f$Input$2f$Input$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"].Affix, null, "px"),
+        value: borderRadius,
+        min: 0,
+        max: 30,
+        onChange: onRadiusChange,
+        logBi,
+        zIndex
+    })));
+};
+const useBlockBorderSettings = (nodeId)=>{
+    const { adapter } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$editor$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EditorContext"]);
+    const { theme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$ricos$2d$context$2f$ricos$2d$context$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RicosContext"]);
+    const { pmNodeAttrs } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$use$2d$node$2d$attrs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useNodeAttrs"])(nodeId ?? "", __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK_CELL);
+    const themeBorderColor = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useBlockBorderSettings.useMemo[themeBorderColor]": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$resolve$2d$theme$2d$smart$2d$block$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["resolveThemeSmartBlock"])(theme)?.borderColor
+    }["useBlockBorderSettings.useMemo[themeBorderColor]"], [
+        theme
+    ]);
+    const parentSmartBlock = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useBlockBorderSettings.useMemo[parentSmartBlock]": ()=>{
+            const { selection } = adapter.tiptapEditor.state;
+            const nodeSelection = selection;
+            if (nodeSelection.node?.type?.name === __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK) {
+                return {
+                    node: nodeSelection.node,
+                    pos: selection.from,
+                    depth: 0,
+                    start: selection.from + 1
+                };
+            }
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2f$core$2f$helpers$2f$find$2d$parent$2d$node$2d$closest$2d$to$2d$pos$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findParentNodeClosestToPos"])(adapter.tiptapEditor.state.doc.resolve(selection.from), {
+                "useBlockBorderSettings.useMemo[parentSmartBlock]": (node)=>node.type?.name === __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$pm$2d$node$2d$types$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PmNodeType"].SMART_BLOCK
+            }["useBlockBorderSettings.useMemo[parentSmartBlock]"]);
+        }
+    }["useBlockBorderSettings.useMemo[parentSmartBlock]"], [
+        adapter.tiptapEditor.state
+    ]);
+    const { design, colorFills, colorPickerNodeId } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_08fb079d488a2f3c22f7836c5d8e9a02$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "useBlockBorderSettings.useMemo": ()=>{
+            if (!parentSmartBlock || parentSmartBlock.node.childCount === 0) {
+                return {
+                    design: null,
+                    colorFills: [],
+                    colorPickerNodeId: void 0
+                };
+            }
+            const { node } = parentSmartBlock;
+            if ((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$plugin$2d$smart$2d$block$2f$utils$2f$variant$2d$features$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hasBlockBorderSupport"])(node.attrs.type)) {
+                const attrs = node.attrs;
+                return {
+                    design: {
+                        borderColor: attrs.borderColor ?? void 0,
+                        borderWidth: attrs.borderWidth ?? void 0,
+                        borderRadius: attrs.borderRadius ?? void 0
+                    },
+                    colorFills: attrs.borderColor ? [
+                        attrs.borderColor
+                    ] : [],
+                    colorPickerNodeId: attrs.id
+                };
+            }
+            const borderColorSet = /* @__PURE__ */ new Set();
+            node.forEach({
+                "useBlockBorderSettings.useMemo": (child)=>{
+                    const bc = child.attrs.borderColor;
+                    if (bc) {
+                        borderColorSet.add(bc);
+                    }
+                }
+            }["useBlockBorderSettings.useMemo"]);
+            return {
+                design: {
+                    borderColor: allSame(node, "borderColor"),
+                    borderWidth: allSame(node, "borderWidth"),
+                    borderRadius: allSame(node, "borderRadius")
+                },
+                colorFills: [
+                    ...borderColorSet
+                ],
+                colorPickerNodeId: node.firstChild?.attrs.id
+            };
+        }
+    }["useBlockBorderSettings.useMemo"], [
+        parentSmartBlock
+    ]);
+    if (nodeId) {
+        return {
+            borderColor: pmNodeAttrs?.borderColor ?? themeBorderColor ?? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$colors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TRANSPARENT_HEX_COLOR"],
+            borderWidth: pmNodeAttrs?.borderWidth ?? 0,
+            borderRadius: pmNodeAttrs?.borderRadius ?? 0,
+            colorPickerNodeId: nodeId,
+            applyDesign: (updates)=>adapter.tiptapEditor.commands.command(({ tr })=>{
+                    const nodeWithPos = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$tiptap$2d$editor$2f$helpers$2f$find$2d$node$2d$by$2d$id$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["findNodeById"])(tr, nodeId)[0];
+                    if (!nodeWithPos) {
+                        return false;
+                    }
+                    Object.entries(updates).forEach(([key, value])=>{
+                        tr.setNodeAttribute(nodeWithPos.pos, key, value);
+                    });
+                    return true;
+                })
+        };
+    }
+    return {
+        borderColor: design?.borderColor ?? themeBorderColor ?? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Github$2f$ptsl$2d$2026$2f$node_modules$2f2e$pnpm$2f40$wix$2b$ricos$40$11$2e$11$2e$2_$40$babel$2b$c_967d2a9d5f0144a013b2d9a49aefa898$2f$node_modules$2f40$wix$2f$ricos$2f$dist$2f$es$2f$_shared$2f$colors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TRANSPARENT_HEX_COLOR"],
+        borderWidth: design?.borderWidth ?? 0,
+        borderRadius: design?.borderRadius ?? 0,
+        colorFills,
+        colorPickerNodeId,
+        applyDesign: (updates)=>adapter.tiptapEditor.commands.applyDesignToAllCells(updates)
+    };
+};
+const allSame = (node, key)=>{
+    const firstVal = node.firstChild?.attrs[key];
+    let same = true;
+    node.forEach((child)=>{
+        if (child.attrs[key] !== firstVal) {
+            same = false;
+        }
+    });
+    return same ? firstVal ?? void 0 : void 0;
+};
+;
+}),
+]);
+
+//# sourceMappingURL=0rv~_%40wix_ricos_dist_es_plugin-smart-block_modals_0ibbnyr._.js.map

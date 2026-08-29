@@ -1,0 +1,5 @@
+(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: ["static/chunks/0ov4__pnpm_0kveqyf._.js","static/chunks/0jdy_@wix_wix-ui-icons-common_dist_esm_11kt1g1._.js","static/chunks/0rv~_@wix_ricos_dist_es_plugin-vertical-embed_0hf8c55._.js","static/chunks/0rv~_@wix_ricos_dist_es__shared_0wmpqxm._.js","static/chunks/0rv~_@wix_ricos_dist_es_ui-components_0pud949._.js","static/chunks/0rv~_@wix_ricos_dist_es_0f7n4n-._.js","static/chunks/0pf__@wix_design-system_dist_esm_Input_0gflcz7._.js","static/chunks/0pf__@wix_design-system_dist_esm_ColorPicker_0yfvi24._.js","static/chunks/0pf__@wix_design-system_dist_esm_0lhr1cm._.js","static/chunks/05nc_lodash_10e3wcz._.js","static/chunks/0lc6_react-aria_dist_private_0jt1y-d._.js","static/chunks/0w42_@floating-ui_react_dist_0vthox~._.js","static/chunks/0910_rc-slider_es_0tlcrif._.js","static/chunks/0jnm_rc-trigger_es_0p~s50v._.js","static/chunks/06h1_rc-motion_es_03m57x4._.js","static/chunks/0doz_prosemirror-view_dist_index_09onfic.js","static/chunks/0ov4__pnpm_087jh1w._.js"],
+    source: "dynamic"
+});

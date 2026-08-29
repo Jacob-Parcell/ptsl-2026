@@ -1,0 +1,5 @@
+(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: ["static/chunks/0ov4__pnpm_0q9p20i._.js","static/chunks/0jdy_@wix_wix-ui-icons-common_dist_esm_0r8fm1_._.js","static/chunks/0rv~_@wix_ricos_dist_es__shared_0px_74t._.js","static/chunks/0rv~_@wix_ricos_dist_es_plugin-ai_0z~xn7d._.js","static/chunks/0rv~_@wix_ricos_dist_es_ricos-styles_0awef2l._.js","static/chunks/0rv~_@wix_ricos_dist_es_ricos-viewer-next_0afqw7v._.js","static/chunks/0rv~_@wix_ricos_dist_es_ricos-common-plugins_0d43822._.js","static/chunks/0rv~_@wix_ricos_dist_es_0jgaji~._.js","static/chunks/0rv~_@wix_ricos_css_ricos-viewer_global_inject_mjs_0m7lk5_._.js","static/chunks/0pf__@wix_design-system_dist_esm_12mlhc.._.js","static/chunks/0rgn_fp-ts-esm_es6_0e-.83~._.js","static/chunks/0cxr_monocle-ts-esm_es6_0-12j.-._.js","static/chunks/0lc6_react-aria_dist_private_0jt1y-d._.js","static/chunks/0w42_@floating-ui_react_dist_0vthox~._.js","static/chunks/0ov4__pnpm_08cgjui._.js"],
+    source: "dynamic"
+});
