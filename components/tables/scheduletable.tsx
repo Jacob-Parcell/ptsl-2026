@@ -35,8 +35,6 @@ export function ScheduleTable({ masterSheet = [] }: Props) {
     }).format(date);
   };
 
-  console.log(masterSheet)
-
   if (!masterSheet.length) {
     return (
       <section className="ptsl-results-card" aria-labelledby="ptsl-game-results-title">
