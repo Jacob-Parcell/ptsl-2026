@@ -16,14 +16,11 @@ type Props = {
 }
 
 export function ScheduleTable({ masterSheet = [] }: Props) {
-  const formatDate = (value: string | Date) => {
+  const formatDate = (value: string) => {
     if (!value) return "";
     const date = new Date(value);
-    return new Intl.DateTimeFormat("en-US", {
-      month: "numeric",
-      day: "numeric",
-      year: "2-digit",
-    }).format(date);
+    let dateArray = value.split("-")
+    return parseInt(dateArray[1], 10) + "/" + parseInt(dateArray[2], 10) + "/" + dateArray[0]
   };
 
   const formatTime = (value: string) => {
@@ -37,6 +34,8 @@ export function ScheduleTable({ masterSheet = [] }: Props) {
       minute: "2-digit",
     }).format(date);
   };
+
+  console.log(masterSheet)
 
   if (!masterSheet.length) {
     return (

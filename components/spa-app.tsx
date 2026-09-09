@@ -52,7 +52,7 @@ const sectionTitles: Record<SectionKey, string> = {
 
 async function fetchWixData() {
   const [teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies] = await Promise.all([
-    myWixClient.items.query("TeamList").find(),
+    myWixClient.items.query("TeamList").fields("title").find(),
     myWixClient.items
       .query("MasterSheet")
       .ascending("title", "startTime")

@@ -81,7 +81,7 @@ export function StandingsTable({ masterSheet = [], teamList = [] }: Props) {
     else
     {
       //figure out which team most recently beat the other
-      masterSheet.reverse().map((game: any) =>
+      masterSheet.toReversed().map((game: any) =>
       {
         if(game.home.title == teamA.name && game.visitor.title == teamB.name 
            && game.homeScore != game.visitorScore)

@@ -14,14 +14,11 @@ type Props = {
 }
 
 export function TeamResultsTable({masterSheet, teamName}: Props) {
-  const formatDate = (value: string | Date) => {
+  const formatDate = (value: string) => {
     if (!value) return "";
     const date = new Date(value);
-    return new Intl.DateTimeFormat("en-US", {
-      month: "numeric",
-      day: "numeric",
-      year: "2-digit",
-    }).format(date);
+    let dateArray = value.split("-")
+    return parseInt(dateArray[1], 10) + "/" + parseInt(dateArray[2], 10) + "/" + dateArray[0]
   };
 
   const formatTime = (value: string) => {
