@@ -64,7 +64,7 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
   };  
 
   const isTie = (game: any) => {
-    if(game.homeScore == game.visitorScore)
+    if(game.homeScore == game.visitorScore && game.homeScore + game.visitorScore > 0)
     {
       return true;
     }
@@ -79,7 +79,10 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
   const seasonRecordString: string[] = []
 
   filteredByTeam.forEach((game: any) => {
-    if (isWinner(teamName, game)) {
+    if(!game.homeScore || !game.visitorScore) {
+      return
+    }
+    else if (isWinner(teamName, game)) {
       seasonRecord.wins += 1
     } else if (isTie(game)) {
       seasonRecord.ties += 1
@@ -140,7 +143,7 @@ export function TeamResultsTable({masterSheet, teamName}: Props) {
                     <TableCell>{formatDate(item.date)}</TableCell>
                     <TableCell className="ptsl-results-card__opponent"><span className="ptsl-results-card__venue">{isHomeTeam(teamName, item) ? "vs" : "@"}</span> {isHomeTeam(teamName, item) ? item.visitor.title : item.home.title}</TableCell>
                     <TableCell><span className="ptsl-results-card__score"><span>{isHomeTeam(teamName, item) ? item.homeScore : item.visitorScore}</span><span className="ptsl-results-card__score-separator">&ndash;</span><span>{isHomeTeam(teamName, item) ? item.visitorScore : item.homeScore}</span></span></TableCell>
-                    { item.homeScore == null && item.visitorScore == null ? <TableCell><abbr className="ptsl-results-card__result" title="Tie"></abbr></TableCell>: isTie(item) ? <TableCell><abbr className="ptsl-results-card__result" title="Tie">T</abbr></TableCell>
+                    { item.homeScore == null && item.visitorScore == null ? <TableCell><abbr className="ptsl-results-card__result" title="TBD">TBD</abbr></TableCell>: isTie(item) ? <TableCell><abbr className="ptsl-results-card__result" title="Tie">T</abbr></TableCell>
                     
                     : <TableCell><abbr className={isWinner(teamName, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : "ptsl-results-card__result"} title={isWinner(teamName, item) ? "Win" : "Loss"}>{isWinner(teamName, item) ? "W" : "L"}</abbr></TableCell>}
                     
