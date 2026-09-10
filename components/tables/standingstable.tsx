@@ -31,8 +31,8 @@ export function StandingsTable({ masterSheet = [], teamList = [] }: Props) {
 
   const calculateTies = (teamName: any) => {
     return masterSheet.filter((game: any) => {
-      return (game.home.title == teamName && game.homeScore == game.visitorScore) ||
-             (game.visitor.title == teamName && game.visitorScore == game.homeScore)
+      return ((game.homeScore + game.visitorScore > 0) && ((game.home.title == teamName && game.homeScore == game.visitorScore) ||
+             (game.visitor.title == teamName && game.visitorScore == game.homeScore)))
     }).length
   }
   

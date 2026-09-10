@@ -109,6 +109,11 @@ function getSectionContent(
     }
   })
 
+  
+  masterSheet.sort((teamA: any, teamB: any) => {
+    return parseInt(teamA.title) - parseInt(teamB.title)
+  })
+
   switch (section) {
     case "home":
       return (
