@@ -52,12 +52,8 @@ const sectionTitles: Record<SectionKey, string> = {
 
 async function fetchWixData() {
   const [teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies] = await Promise.all([
-    myWixClient.items.query("TeamList").fields("title").find(),
-    myWixClient.items
-      .query("MasterSheet")
-      .ascending("title", "startTime")
-      .include("visitor", "home", "field", "umpire")
-      .find(),
+    myWixClient.items.query("TeamList").fields("title", "sendToArchive").find(),
+    myWixClient.items.query("MasterSheet").ascending("title", "startTime").include("visitor", "home", "field", "umpire").find(),
     myWixClient.items.query("SiteContents").find(),
     myWixClient.items.query("FieldList").find(),
     myWixClient.items.query("Forms").find(),
@@ -66,7 +62,7 @@ async function fetchWixData() {
   ])
 
   return {
-    teamList: teamList.items,
+    teamList: teamList.items.filter((team) => team.sendToArchive !== true),
     masterSheet: masterSheet.items,
     siteContents: siteContents.items,
     fieldList: fieldList.items,
@@ -108,7 +104,6 @@ function getSectionContent(
       item.image = media.getImageUrl(item.image).url
     }
   })
-
   
   masterSheet.sort((teamA: any, teamB: any) => {
     return parseInt(teamA.title) - parseInt(teamB.title)
