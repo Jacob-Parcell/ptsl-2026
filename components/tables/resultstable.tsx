@@ -165,7 +165,7 @@ export function ResultsTable({ masterSheet = [] }: Props) {
                       <TableCell>{item.title}</TableCell>
                       <TableCell>{formatDate(item.date)}</TableCell>
                       <TableCell>{item.visitor?.title}</TableCell>
-                      <TableCell><span className=""><span className={isWinner(item.visitor?.title, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : ""}>{item.visitorScore}</span><span className="ptsl-results-card__score-separator"> &ndash; </span><span className={isWinner(item.home?.title, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : ""}>{item.homeScore}</span></span></TableCell>
+                      <TableCell><span className="grid w-full grid-cols-[2fr_1fr_2fr] items-center"><span className={`${isWinner(item.visitor?.title, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : ""}`}>{item.visitorScore}</span><span className="ptsl-results-card__score-separator text-center ">&ndash;</span><span className={`${isWinner(item.home?.title, item) ? "ptsl-results-card__result ptsl-results-card__result--win" : ""}`}>{item.homeScore}</span></span></TableCell>
                       <TableCell>{item.home?.title}</TableCell>
                   </TableRow>
               ))}
