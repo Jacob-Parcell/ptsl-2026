@@ -156,6 +156,32 @@
     }
 }
 
+.main-content-container {
+  margin-right: auto;
+  display: flex; 
+  min-height: 0px; 
+  width: 100%; 
+  max-width: 80rem; 
+  flex: 1 1 0%; 
+  justify-content: center; 
+  overflow: hidden; 
+  padding: 2rem 1rem 2rem;
+}
+
+.site-title-container {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.navbar {
+  
+}
+
+.navbar-item {
+  
+}
+
 .rich-content {
   color: var(--foreground);
 }
@@ -177,7 +203,7 @@ h3 {
 }
 
 .site-title {
-  @apply text-3xl min-w-xl mx-auto text-left leading-tight mb-4 font-bold tracking-tight md:text-5xl lg:text-6xl;
+  @apply text-balance mx-auto text-center leading-tight mb-4 font-bold tracking-tight text-6xl;
 }
 
 .winner {
@@ -446,28 +472,42 @@ h3 {
   color: var(--ptsl-ink);
 }
 
-@media (max-width: 760px) {
-  .ptsl-results-card__header {
-    min-height: 104px;
-    padding: 20px 96px 20px 122px;
+
+
+@media (max-width: 570px) {
+  
+  .main-content-container {
+    margin-right: auto;
+    display: grid; 
+    min-height: 0px; 
+    width: 100%; 
+    max-width: 80rem; 
+    justify-content: center; 
+    overflow: scroll; 
+    padding: 2rem 1rem 2rem;
+  }
+  
+  .site-title-container {
+    container-type: inline-size;
+    width: 100%;
   }
 
-  .ptsl-results-card__logo-badge {
-    width: 76px;
-    height: 76px;
+  .site-title{
+    font-size: 10cqw;
   }
 
-  .ptsl-results-card__stitches--left {
-    display: none;
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .ptsl-results-card__stitches--right {
-    right: -28px;
-    opacity: 0.38;
+  .navbar-item {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: grey;
   }
-}
 
-@media (max-width: 500px) {
   .ptsl-results-card {
     border-radius: 14px;
   }
@@ -490,22 +530,6 @@ h3 {
 
   .ptsl-results-card__stitches--right {
     right: -66px;
-  }
-}
-
-@media (max-width: 360px) {
-  .ptsl-results-card__header {
-    padding-right: 16px;
-    padding-left: 78px;
-  }
-
-  .ptsl-results-card__logo-badge {
-    width: 56px;
-    height: 56px;
-  }
-
-  .ptsl-results-card__title {
-    white-space: normal;
   }
 }
 
@@ -641,14 +665,4 @@ hr.solid {
   border-radius: 9999px;
   background: #778399;
   transform: translateY(-50%);
-}
-
-@media (max-width: 639px) {
-  .timeline::before {
-    left: 0.75rem;
-  }
-
-  .timelineDot {
-    display: none;
-  }
 }

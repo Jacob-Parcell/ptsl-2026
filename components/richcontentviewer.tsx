@@ -35,7 +35,7 @@ const RichContentViewer: React.FC<RichContentViewerProps> = ({ content }) => {
   };
 
   return (
-    <div className="rich-content text-foreground">
+    <div className="rich-content text-foreground text-nowrap">
       <RicosViewerClient content={content} />
     </div>
   );

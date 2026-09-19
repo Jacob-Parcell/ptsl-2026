@@ -112,70 +112,70 @@ function getSectionContent(
   switch (section) {
     case "home":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <RichContentViewer content={announcementsContent?.content} />
         </div>
       )
 
     case "schedule":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <Schedule masterSheet={masterSheet} />
         </div>
       )
 
     case "standings":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <Standings masterSheet={masterSheet} teamList={teamList} />
         </div>
       )
     case "results":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <Results masterSheet={masterSheet} />
         </div>
       )
     case "fieldinfo":
       return (
-      <div className="w-full min-w-60">
+      <div className="w-full min-w-65">
           <FieldInfo fieldList={fieldList} />
       </div>
       );
     case "forms":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <Forms formList={formLinks} />
         </div>
       )
     case "rules":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <RichContentViewer content={rulesContent?.content} />
         </div>
       )
     case "leaguehistory":
       return (
-        <div className="w-full min-w-60">
+        <div className="w-full min-w-65">
           <RichContentViewer content={leagueHistoryContent?.content} />
         </div>
       )
     case "teamregistration":
       return (
-        <div className="w-full min-w-60 flex justify-center mt-5">
+        <div className="w-full min-w-65 flex justify-center mt-5">
           <TeamRegistration />
         </div>
       )
 
     case "lostandfound":
       return (
-        <div className="w-full min-w-60 flex-col justify-center">
+        <div className="w-full min-w-65 flex-col justify-center">
           <LostAndFound lostAndFound={lostAndFound} lostAndFoundReplies={lostAndFoundReplies} />
         </div>
       )
     case "contact":
       return (
-        <div className="w-full min-w-60 flex justify-center mt-5">
+        <div className="w-full min-w-65 flex justify-center mt-5">
           <Contact />
         </div>
       )
@@ -234,12 +234,12 @@ export function SpaApp() {
 
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-background text-foreground">
-      <div className="shrink-0 flex justify-center">
+      <div className="site-title-container">
         <h1 className="site-title">
            Prime Time Softball League
         </h1>
       </div>
-      <main className="mx-auto flex min-h-0 w-full max-w-7xl flex-1 justify-center overflow-hidden px-4 py-8 sm:px-6 lg:px-8">
+      <main className="main-content-container">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
         <div ref={sectionContentRef} className="mx-auto min-h-0 w-full flex-1 justify-center overflow-auto px-10">
           {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies)}
