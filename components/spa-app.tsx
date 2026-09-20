@@ -112,14 +112,14 @@ function getSectionContent(
   switch (section) {
     case "home":
       return (
-        <div className="w-full min-w-65">
+        <div className="w-full min-w-80">
           <RichContentViewer content={announcementsContent?.content} />
         </div>
       )
 
     case "schedule":
       return (
-        <div className="w-full min-w-65">
+        <div className="w-full min-w-65 mx-0">
           <Schedule masterSheet={masterSheet} />
         </div>
       )
@@ -241,7 +241,7 @@ export function SpaApp() {
       </div>
       <main className="main-content-container">
         <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
-        <div ref={sectionContentRef} className="mx-auto min-h-0 w-full flex-1 justify-center overflow-auto px-10">
+        <div ref={sectionContentRef} className="min-h-0 w-full flex-1 justify-center overflow-auto">
           {isLoading ? <div>Loading...</div> : getSectionContent(activeSection, teamList, masterSheet, siteContents, fieldList, formList, lostAndFound, lostAndFoundReplies)}
         </div>
       </main>
